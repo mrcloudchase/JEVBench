@@ -3,37 +3,59 @@
 The primitive: a provider turns state and questions into a belief.
 
 ```python
-belief = Belief(questions, provider)(state)
+belief = Belief(questions)(state)
 ```
 
-- `Provider` is any endpoint that speaks the typed-decision wire format, through the official
-  `typesafe-sdk`, selected by `base_url`, `api_key` and `model`.
-- `Belief` holds questions. Calling it with state makes one provider call and returns the
-  provider's answers, untouched, keyed by question id.
+## Configuration: `.env`
 
-## A belief as YAML
+The official `typesafe-sdk` reads these. Copy `.env.example` to `.env` (git-ignored) in `paper/`
+or the working directory; variables already in the environment win.
+
+```
+TYPESAFE_API_KEY=sk-...
+TYPESAFE_BASE_URL=https://api.typesafe.ai      # any endpoint that speaks the wire format
+TYPESAFE_DEFAULT_MODEL=jev-latest
+```
+
+## Data: YAML of states and questions
+
+One case:
 
 ```yaml
-provider:            # optional: model and base_url; the API key always comes from the environment
-  model: jev-latest
-questions:           # the wire format's questions, unchanged
-  is_urgent:
-    type: noul
-    instructions: The message conveys urgency or time-sensitivity
-state: "..."         # optional: can also be given on the command line
+questions:
+  is_urgent: {type: noul, instructions: The message conveys urgency or time-sensitivity}
+state: Our API has returned 500 errors for 20 minutes.
 ```
 
-## Run TypeSafe's quickstart example
+A dataset: shared questions, many states. Any other keys (`id`, `label`, ...) pass through to the
+output, so ground truth travels with each result. A case may bring its own `questions`.
+
+```yaml
+questions: {...}
+cases:
+  - {id: t1, label: technical, state: "..."}
+  - {id: t2, label: billing,   state: "..."}
+```
+
+## Run
 
 ```bash
-export TYPESAFE_API_KEY=sk-...
 cd paper
-python engine.py examples/ticket.yaml                       # state from the file
-python engine.py examples/ticket.yaml --state "some text"   # state on the command line
-python engine.py examples/ticket.yaml --state-file in.yaml  # state from a YAML or JSON file
+python engine.py examples/ticket.yaml                                    # TypeSafe's quickstart example
+python engine.py examples/tickets.yaml --workers 8 --out results.jsonl   # a dataset
 ```
 
-For the 500-errors ticket in the file: `department` technical, `frustration` about 0.6,
-`is_urgent` 0.99. For "could you send me pricing for the enterprise plan": sales, 0.0, 0.08.
+Output is one JSON record per case: the case's own fields plus the provider's `model`, `answers`
+and `usage`. A failed case is recorded with an `error` instead of stopping the run.
+
+On `examples/tickets.yaml` all five department labels match:
+
+| id | label | department | frustration | is_urgent |
+|---|---|---|---|---|
+| t1 | technical | technical | 0.64 | 0.99 |
+| t2 | billing | billing | 0.03 | 0.30 |
+| t3 | sales | sales | 0.00 | 0.07 |
+| t4 | billing | billing | 1.68 | 0.99 |
+| t5 | technical | technical | 0.29 | 0.50 |
 
 Next: operations on beliefs that turn them into decisions.

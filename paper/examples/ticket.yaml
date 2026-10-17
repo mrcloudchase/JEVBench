@@ -1,7 +1,4 @@
 # TypeSafe's quickstart example, verbatim: https://docs.typesafe.ai/introduction/quickstart
-provider:
-  model: jev-latest
-
 questions:
   department:
     type: choice

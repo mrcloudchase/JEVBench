@@ -8,3 +8,4 @@ build/
 .jevbench/
 jevbench.providers.yaml
 traces/
+.env
