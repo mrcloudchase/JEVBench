@@ -1,11 +1,19 @@
-"""Data: the questions file, the dataset, and the results file."""
+"""Data: the questions file, the dataset, the results file and the response cache."""
 
 from __future__ import annotations
 
 import json
+import threading
 from pathlib import Path
 
 import yaml
+
+
+def read_jsonl(path: str | Path) -> list[dict]:
+    path = Path(path)
+    if not path.exists():
+        return []
+    return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
 
 
 def load_questions(path: str | Path) -> dict:
@@ -20,8 +28,7 @@ def load_dataset(path: str | Path) -> list[dict]:
     """The data: JSONL, one record per line, or a YAML list of the same records.
     Each record has `id` and `state`; `label`, its own `questions` and any other fields are optional."""
     path = Path(path)
-    text = path.read_text(encoding="utf-8")
-    records = [json.loads(line) for line in text.splitlines() if line.strip()] if path.suffix == ".jsonl" else yaml.safe_load(text)
+    records = read_jsonl(path) if path.suffix == ".jsonl" else yaml.safe_load(path.read_text(encoding="utf-8"))
     seen = set()
     for n, record in enumerate(records, 1):
         if "id" not in record or "state" not in record:
@@ -33,15 +40,16 @@ def load_dataset(path: str | Path) -> list[dict]:
 
 
 class Results:
-    """An append-only JSONL file of results. Ids with answers are done; failed ids are dropped and retried."""
+    """An append-only JSONL file of results, one line per (id, repeat).
+    Answered (id, repeat) pairs are done; failed ones are dropped from the file and retried."""
 
     def __init__(self, path: str | Path):
         self.path = Path(path)
-        previous = [json.loads(line) for line in self.path.read_text(encoding="utf-8").splitlines() if line.strip()] if self.path.exists() else []
+        previous = read_jsonl(self.path)
         kept = [r for r in previous if "answers" in r]
         if len(kept) != len(previous):
             self.path.write_text("".join(json.dumps(r) + "\n" for r in kept), encoding="utf-8")
-        self.done = {r["id"] for r in kept}
+        self.done = {(r["id"], r.get("repeat", 0)) for r in kept}
         self.retried = len(previous) - len(kept)
 
     def __enter__(self):
@@ -54,3 +62,22 @@ class Results:
     def write(self, result: dict) -> None:
         self.file.write(json.dumps(result) + "\n")
         self.file.flush()
+
+
+class Cache:
+    """Provider responses keyed by request hash, in a JSONL file, so a repeated request costs nothing.
+    The same request with a different repeat index is a different key."""
+
+    def __init__(self, path: str | Path):
+        self.path = Path(path)
+        self.entries = {e["key"]: e["response"] for e in read_jsonl(self.path)}
+        self.lock = threading.Lock()
+
+    def get(self, key: str) -> dict | None:
+        return self.entries.get(key)
+
+    def put(self, key: str, response: dict) -> None:
+        with self.lock:
+            self.entries[key] = response
+            with self.path.open("a", encoding="utf-8") as f:
+                f.write(json.dumps({"key": key, "response": response}) + "\n")

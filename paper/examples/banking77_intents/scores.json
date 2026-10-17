@@ -1,0 +1,70 @@
+[
+  {
+    "file": "examples/banking77_intents/results.typesafe.jsonl",
+    "name": "typesafe jev-1.13.0",
+    "type": "choice",
+    "n": 300,
+    "repeats": 3,
+    "errors": 0,
+    "refusals": 0,
+    "accuracy": 0.8477777777777779,
+    "accuracy_range": [
+      0.84,
+      0.8533333333333334
+    ],
+    "macro_f1": 0.8035495859941845,
+    "macro_f1_range": [
+      0.7951316957895905,
+      0.8084188357041543
+    ],
+    "brier": 0.22609033333333337,
+    "brier_range": [
+      0.22559933333333335,
+      0.22669566666666668
+    ],
+    "ece": 0.0712,
+    "ece_range": [
+      0.06573333333333332,
+      0.07433333333333333
+    ],
+    "agree": 0.9733333333333334,
+    "usd_per_1k": 0.07079906666666666,
+    "tokens_per_item": 1685.6933333333334,
+    "latency_p50_ms": 193.3,
+    "latency_p95_ms": 275.6
+  },
+  {
+    "file": "examples/banking77_intents/results.openai.jsonl",
+    "name": "openai gpt-6-luna",
+    "type": "choice",
+    "n": 300,
+    "repeats": 3,
+    "errors": 0,
+    "refusals": 0,
+    "accuracy": 0.8533333333333334,
+    "accuracy_range": [
+      0.8533333333333334,
+      0.8533333333333334
+    ],
+    "macro_f1": 0.8071006363596392,
+    "macro_f1_range": [
+      0.8071006363596391,
+      0.8071006363596391
+    ],
+    "brier": 0.22760533333333333,
+    "brier_range": [
+      0.22760533333333333,
+      0.22760533333333333
+    ],
+    "ece": 0.06316666666666668,
+    "ece_range": [
+      0.06316666666666668,
+      0.06316666666666668
+    ],
+    "agree": 1.0,
+    "usd_per_1k": 0.09844499999999999,
+    "tokens_per_item": 984.45,
+    "latency_p50_ms": 231.8,
+    "latency_p95_ms": 283.9
+  }
+]

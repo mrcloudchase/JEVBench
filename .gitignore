@@ -9,3 +9,4 @@ build/
 jevbench.providers.yaml
 traces/
 .env
+cache*.jsonl
