@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="assets/judgejev-owl.svg"><img src="assets/judgejev-owl.svg" alt="JudgeJEV owl mascot" width="220"></a>
+</p>
+
 # JEVBench
 
 A CLI-first, API-first, file-driven workbench for composing, executing and experimenting with
