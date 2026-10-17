@@ -10,3 +10,7 @@ jevbench.providers.yaml
 traces/
 .env
 cache*.jsonl
+# Review text from Steam and the App Store is the reviewers' content: rebuilt by wrangle.py, not redistributed.
+paper/examples/steam_recommend/dataset.jsonl
+paper/examples/appstore_stars/dataset.jsonl
+paper/examples/appstore_app/dataset.jsonl

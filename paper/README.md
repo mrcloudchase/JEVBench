@@ -12,6 +12,7 @@ belief = Belief(questions, provider)(state)
 | `data.py` | the questions file, the dataset, the results file and the response cache |
 | `engine.py` | `Belief`, `run`, and the command line that forms beliefs for a dataset |
 | `score.py` | the generic scorer: beliefs against labels, one or several providers |
+| `local/openjev.py` | serves open-jev-deberta, which ships no server, in the wire format |
 
 | Input | Holds | Read by |
 |---|---|---|
@@ -34,24 +35,31 @@ class Provider(ABC):
     @abstractmethod
     def payload(self, state, questions) -> dict
     @abstractmethod
-    def parse(self, body) -> dict     # -> {"model", "answers", "usage"}, answers in the wire format's shapes
+    def parse(self, body, questions) -> dict   # -> {"model", "answers", "usage"}, answers in the wire format's shapes
 ```
 
 | Name | Class | Endpoint | Default model | Price per 1M input tokens |
 |---|---|---|---|---|
 | `typesafe` | `TypeSafe` | `api.typesafe.ai/v1/systemone` | `jev-latest` | $0.042 |
 | `openai` | `OpenAI` | `api.openai.com/v1/decisions` | `gpt-6-luna` | $0.10 |
+| `deepseek` | `DeepSeek` | `api.deepseek.com/chat/completions` | `deepseek-chat` | $0.30 |
+| `von` | `Von` | `127.0.0.1:8101/v1/systemone` (`von serve`) | `von-1.3` | local |
+| `opendecider` | `OpenDecider` | `127.0.0.1:8102/v1/systemone` (`opendecider serve`) | `opendecider-nano` | local |
+| `openjev` | `OpenJev` | `127.0.0.1:8103/v1/systemone` (`local/openjev.py`) | `open-jev-deberta-v3-large` | local |
 
 `OpenAI` translates both ways: `noul` becomes `predicate`, `criteria` become `choices` and `levels`,
-and its list-shaped answers come back as the same answer shapes TypeSafe returns. Every provider's
-results therefore score with the same code. Another provider is one subclass; select it with
+and its list-shaped answers come back as the same answer shapes TypeSafe returns. `DeepSeek` turns a
+chat model into a typed decision model: one request per question, each option gets a one-token label,
+and the belief is the next-token distribution over those labels (`top_logprobs`, so 20 options at
+most). Von and OpenDecider serve the wire format themselves, so their classes only change the URL and
+drop the key (`Local`). Every provider's results therefore score with the same code. Another provider is one subclass; select it with
 `--provider` or `PROVIDER=my_module:MyProvider`, or add `@register("name")`.
 
 ## `.env`
 
 ```
-PROVIDER=typesafe          # typesafe, openai, or "module:Class"; --provider overrides it
-PROVIDER_API_KEY=sk-...    # optional when TYPESAFE_API_KEY or OPENAI_API_KEY is set
+PROVIDER=typesafe          # a registered name or "module:Class"; --provider overrides it
+PROVIDER_API_KEY=sk-...    # optional when TYPESAFE_API_KEY, OPENAI_API_KEY or DEEPSEEK_API_KEY is set; local servers need none
 ```
 
 ## `questions.yaml` and `dataset.jsonl`

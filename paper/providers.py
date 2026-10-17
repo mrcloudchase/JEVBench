@@ -8,9 +8,10 @@ provider does.
 
 Configuration comes from the environment (usually .env):
 
-    PROVIDER           registered name (typesafe, openai) or "module:Class"; default typesafe
+    PROVIDER           registered name (typesafe, openai, deepseek, von, opendecider, openjev) or "module:Class"; default typesafe
     PROVIDER_URL       endpoint; optional when the class has a default
-    PROVIDER_API_KEY   optional when the class's own variable is set (TYPESAFE_API_KEY, OPENAI_API_KEY)
+    PROVIDER_API_KEY   optional when the class's own variable is set (TYPESAFE_API_KEY, OPENAI_API_KEY, DEEPSEEK_API_KEY);
+                       local servers (von, opendecider, openjev) need none
     PROVIDER_MODEL     optional when the class has a default
 """
 
@@ -19,6 +20,7 @@ from __future__ import annotations
 import hashlib
 import importlib
 import json
+import math
 import os
 import time
 import urllib.error
@@ -45,12 +47,13 @@ class Provider(ABC):
     model: str | None = None
     key_env: str | None = None             # the vendor's usual key variable, used when PROVIDER_API_KEY is unset
     usd_per_mtok_input: float = 0.0        # list price, for cost reporting
+    required = ("url", "api_key", "model")  # a local server needs no key
     retry_statuses = {408, 429, 500, 502, 503, 504, 529}
 
     def __init__(self, url=None, api_key=None, model=None, timeout=30.0, retries=3):
         self.url, self.api_key, self.model = url or self.url, api_key, model or self.model
         self.timeout, self.retries = timeout, retries
-        for field in ("url", "api_key", "model"):
+        for field in self.required:
             if not getattr(self, field):
                 raise RuntimeError(f"{type(self).__name__}: set PROVIDER_{field.upper()} in .env or the environment")
 
@@ -68,7 +71,7 @@ class Provider(ABC):
         """The request body for one belief."""
 
     @abstractmethod
-    def parse(self, body: dict) -> dict:
+    def parse(self, body: dict, questions: dict) -> dict:
         """The response body -> {"model", "answers", "usage"}, answers in the wire format's shapes."""
 
     # ---- what every provider shares
@@ -86,7 +89,7 @@ class Provider(ABC):
                 with urllib.request.urlopen(request, timeout=self.timeout) as response:
                     body = json.loads(response.read())
                 latency_ms = round((time.perf_counter() - started) * 1000, 1)
-                result = self.parse(body)
+                result = self.parse(body, questions)
                 tokens = (result.get("usage") or {}).get("input_tokens") or 0
                 return {"provider": self.name, **result, "latency_ms": latency_ms,
                         "cost_usd": round(tokens * self.usd_per_mtok_input / 1e6, 8)}
@@ -118,8 +121,40 @@ class TypeSafe(Provider):
     def payload(self, state, questions):
         return {"model": self.model, "state": state, "questions": questions}
 
-    def parse(self, body):
+    def parse(self, body, questions):
         return {"model": body.get("model"), "answers": body["answers"], "usage": body.get("usage", {})}
+
+
+class Local(TypeSafe):
+    """An open model served on this machine in the wire format: no key, no price."""
+
+    key_env = None
+    usd_per_mtok_input = 0.0
+    required = ("url", "model")
+
+
+@register("von")
+class Von(Local):
+    """Von 1.3 (wfzyx/von, 395M ModernBERT, Apache-2.0): `von serve --port 8101 --noul-decision raw`."""
+
+    url = "http://127.0.0.1:8101/v1/systemone"
+    model = "von-1.3"
+
+
+@register("opendecider")
+class OpenDecider(Local):
+    """OpenDecider nano (manjunathshiva/opendecider-nano, ~0.4B): `opendecider serve --port 8102`."""
+
+    url = "http://127.0.0.1:8102/v1/systemone"
+    model = "opendecider-nano"
+
+
+@register("openjev")
+class OpenJev(Local):
+    """open-jev-deberta-v3-large (com-kotobalabs, 0.4B, Apache-2.0): `python local/openjev.py --port 8103`."""
+
+    url = "http://127.0.0.1:8103/v1/systemone"
+    model = "open-jev-deberta-v3-large"
 
 
 @register("openai")
@@ -153,7 +188,7 @@ class OpenAI(Provider):
             return {"type": "score", "name": qid, "instructions": instructions, "levels": [{"label": text(level)} for level in q["criteria"]]}
         raise ValueError(f"OpenAI Decisions has no {kind!r} question type")
 
-    def parse(self, body):
+    def parse(self, body, questions):
         answers = {}
         for a in body.get("answers", []):
             name, kind = a.get("name"), a["type"]
@@ -169,6 +204,82 @@ class OpenAI(Provider):
             else:
                 answers[name] = {"type": kind}                     # refusal, or a type this parser doesn't know yet
         return {"model": body.get("model"), "answers": answers, "usage": body.get("usage", {})}
+
+
+@register("deepseek")
+class DeepSeek(Provider):
+    """A chat model read as a typed decision model. Each question is its own request: the options
+    get one-token labels (yes/no, 1..N, A..Z) and the belief is the next-token distribution over
+    them, from top_logprobs (at most 20, so at most 20 options), renormalized over the labels."""
+
+    url = "https://api.deepseek.com/chat/completions"
+    model = "deepseek-chat"
+    key_env = "DEEPSEEK_API_KEY"
+    usd_per_mtok_input = 0.30              # V4.1 Flash, cache miss, peak hours
+
+    def __call__(self, state, questions):
+        results = [super(DeepSeek, self).__call__(state, {qid: q}) for qid, q in questions.items()]
+        merged = {**results[0], "answers": {}, "usage": {"input_tokens": 0, "output_tokens": 0}}
+        for r in results:
+            merged["answers"].update(r["answers"])
+            for k in merged["usage"]:
+                merged["usage"][k] += r["usage"].get(k, 0)
+        merged["latency_ms"] = round(sum(r["latency_ms"] for r in results), 1)
+        merged["cost_usd"] = round(sum(r["cost_usd"] for r in results), 8)
+        return merged
+
+    def key(self, state, questions, repeat=0):
+        return "+".join(super(DeepSeek, self).key(state, {qid: q}, repeat) for qid, q in questions.items())
+
+    @staticmethod
+    def options(q: dict) -> list[tuple[str, str, str]]:
+        """(label, key, description) for each option, in order."""
+        kind, criteria = q["type"], q.get("criteria") or {}
+        if kind == "noul":
+            return [("yes", "true", text(criteria.get("true") or "true")), ("no", "false", text(criteria.get("false") or "false"))]
+        if kind == "score":
+            return [(str(i + 1), str(i), text(level)) for i, level in enumerate(criteria)]
+        if kind == "choice":
+            return [(chr(65 + i), k, text(d if d is not None else k)) for i, (k, d) in enumerate(criteria.items())]
+        raise ValueError(f"DeepSeek provider has no {kind!r} question type")
+
+    def payload(self, state, questions):
+        (q,) = questions.values()
+        options = self.options(q)
+        if len(options) > 20:
+            raise ValueError("top_logprobs reads at most 20 options")
+        if q["type"] == "noul":
+            ask = f"Statement: {text(q.get('instructions') or '')}\nIs the statement true of the state? Answer yes or no."
+        else:
+            lines = "\n".join(f"{label}: {description}" for label, _, description in options)
+            ask = f"Question: {text(q.get('instructions') or '')}\n{lines}\nAnswer with one label."
+        return {"model": self.model, "max_tokens": 1, "logprobs": True, "top_logprobs": 20,
+                "messages": [{"role": "system", "content": "Answer with the label only."},
+                             {"role": "user", "content": f"State:\n{text(state)}\n\n{ask}"}]}
+
+    def parse(self, body, questions):
+        ((qid, q),) = questions.items()
+        mass = {}
+        for t in body["choices"][0]["logprobs"]["content"][0]["top_logprobs"]:
+            token = t["token"].strip().lower()
+            mass[token] = mass.get(token, 0.0) + math.exp(t["logprob"])
+        options = self.options(q)
+        p = [mass.get(label.lower(), 0.0) for label, _, _ in options]
+        total = sum(p)
+        usage = {"input_tokens": body["usage"]["prompt_tokens"], "output_tokens": body["usage"]["completion_tokens"]}
+        if not total:
+            return {"model": body.get("model"), "answers": {qid: {"type": "refusal"}}, "usage": usage}
+        p = [x / total for x in p]
+        best = max(range(len(p)), key=p.__getitem__)
+        if q["type"] == "noul":
+            answer = {"type": "noul", "noul": p[0]}
+        elif q["type"] == "choice":
+            answer = {"type": "choice", "choice": options[best][1], "confidence": p[best],
+                      "probabilities": {key: x for (_, key, _), x in zip(options, p)}}
+        else:
+            answer = {"type": "score", "score": sum(i * x for i, x in enumerate(p)), "confidence": p[best],
+                      "legend": {key: d for _, key, d in options}, "probabilities": {key: x for (_, key, _), x in zip(options, p)}}
+        return {"model": body.get("model"), "answers": {qid: answer}, "usage": usage}
 
 
 def load_provider(name: str | None = None, env=os.environ) -> Provider:
