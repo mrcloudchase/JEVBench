@@ -6,65 +6,72 @@ The primitive: a provider turns state and questions into a belief.
 belief = Belief(questions, provider)(state)
 ```
 
-Three inputs, three places:
+| File | Job |
+|---|---|
+| `providers.py` | `Provider`, the generic HTTP client, and one subclass per provider API |
+| `data.py` | the questions file, the dataset, and the results file |
+| `engine.py` | `Belief`, `run`, and the command line |
 
-| File | Holds | Written by |
+| Input | Holds | Read by |
 |---|---|---|
-| `.env` | which provider: URL, key, model, handler | you, once per provider |
-| `questions.yaml` | the task: questions in the wire format, keyed by id | hand |
-| `dataset.jsonl` | the data: one record per line | a wrangling script |
+| `.env` | which provider and its key | `providers.load_provider` |
+| `questions.yaml` | the task: questions in the wire format, keyed by id | `data.load_questions` |
+| `dataset.jsonl` | the data: one record per line | `data.load_dataset` |
+
+## Providers
+
+`Provider` owns transport: configuration, the POST, retries on 408, 429, 5xx and 529 with
+`Retry-After`, and error messages. A subclass defines only the provider's shapes:
+
+```python
+class Provider(ABC):
+    url = None                      # class defaults; PROVIDER_URL / PROVIDER_MODEL override
+    model = None
+    def headers(self) -> dict        # default: Bearer token, JSON
+    @abstractmethod
+    def payload(self, state, questions) -> dict
+    @abstractmethod
+    def parse(self, body) -> dict    # -> {"model", "answers", "usage"}, answers in the wire format
+
+@register("typesafe")
+class TypeSafe(Provider):
+    url = "https://api.typesafe.ai/v1/systemone"
+    model = "jev-latest"
+    def payload(self, state, questions): return {"model": self.model, "state": state, "questions": questions}
+    def parse(self, body): return {"model": body.get("model"), "answers": body["answers"], "usage": body.get("usage", {})}
+```
+
+A provider with another API is one subclass. Override `headers`, `payload` and `parse` as needed,
+and translate the provider's results into wire-format `answers` in `parse`, so nothing downstream
+changes. Select it with `PROVIDER=my_module:MyProvider`, or add `@register("name")`.
 
 ## `.env`
 
+```
+PROVIDER=typesafe          # a registered name, or "module:Class"
+PROVIDER_API_KEY=sk-...
+# PROVIDER_URL=...         # optional when the class has a default
+# PROVIDER_MODEL=...       # optional when the class has a default
+```
+
 Copy `.env.example` to `.env` (git-ignored). Variables already in the environment win.
 
-```
-PROVIDER_URL=https://api.typesafe.ai/v1/systemone
-PROVIDER_API_KEY=sk-...
-PROVIDER_MODEL=jev-latest
-PROVIDER_HANDLER=typesafe          # optional
-```
-
-## Providers and handlers
-
-The engine speaks raw HTTP and depends only on PyYAML. A `Handler` is the only code that knows a
-provider's payloads:
-
-```python
-class Handler:
-    def headers(self, api_key) -> dict                          # default: Bearer token, JSON
-    def request(self, state, questions, model) -> dict          # default: TypeSafe wire format
-    def response(self, body) -> dict                            # must return {model, answers, usage}
-```
-
-The default handler speaks the TypeSafe wire format, so any provider that accepts it needs only a
-different `PROVIDER_URL`. For a provider with different payloads, subclass `Handler`, override what
-differs, and set `PROVIDER_HANDLER=my_module:MyHandler`. `answers` must keep the wire format's answer
-shapes so everything downstream works unchanged.
-
-## `questions.yaml`
+## `questions.yaml` and `dataset.jsonl`
 
 ```yaml
 department:
   type: choice
   instructions: Which team should handle this
   criteria: {billing: Payment or subscription issues, technical: Bugs or integration problems, sales: Pricing or account questions}
-is_urgent:
-  type: noul
-  instructions: The message conveys urgency or time-sensitivity
 ```
-
-## `dataset.jsonl`
 
 ```jsonl
 {"id": "t1", "label": "technical", "state": "Our API started returning 500 errors 20 minutes ago..."}
-{"id": "t3", "label": "sales", "state": {"subject": "Enterprise pricing", "body": "Could you send me pricing?"}}
 {"id": "t6", "state": "Do you still have the blue jacket in medium?", "questions": {"stock_question": {"type": "noul", "instructions": "Is the customer asking whether an item is in stock?"}}}
 ```
 
-`id` and `state` are required. Only `state` and the questions are sent to the provider. `label` and
-any other fields are copied to the result. A record's own `questions` replace the shared file's
-for that record. A YAML list of the same records also works.
+`id` and `state` are required. Only `state` and the questions are sent to the provider; `label` and
+other fields are copied to the result. A record's own `questions` replace the shared ones.
 
 ## Run
 
@@ -74,17 +81,6 @@ python engine.py examples/questions.yaml examples/tickets.jsonl --out results.js
 ```
 
 Each result line is the record without `state` and `questions`, plus `model`, `answers` and `usage`,
-or `error` if that record failed. Rerunning with the same `--out` skips ids already there.
-
-On the example dataset, all five labelled tickets match and `t6` answers its own question:
-
-| id | label | department | frustration | is_urgent |
-|---|---|---|---|---|
-| t1 | technical | technical | 0.67 | 0.99 |
-| t2 | billing | billing | 0.08 | 0.31 |
-| t3 | sales | sales | 0.00 | 0.08 |
-| t4 | billing | billing | 1.89 | 0.99 |
-| t5 | technical | technical | 0.35 | 0.63 |
-| t6 | | stock_question 0.97 | | |
+or `error`. Rerunning with the same `--out` skips ids already answered and retries ids that failed.
 
 Next: operations on beliefs that turn them into decisions.
