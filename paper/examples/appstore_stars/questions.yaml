@@ -1,0 +1,10 @@
+# One five-level score question. The answer is the reviewer's own star rating.
+stars:
+  type: score
+  instructions: How many stars did the reviewer give the app?
+  criteria:
+    - 1 star, very dissatisfied
+    - 2 stars, dissatisfied
+    - 3 stars, mixed
+    - 4 stars, satisfied
+    - 5 stars, very satisfied
