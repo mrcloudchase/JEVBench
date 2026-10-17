@@ -1,0 +1,93 @@
+# Three-layer composition. This file contains no judges and no policy logic of its own:
+#   judges/   safety_screen, moderation_council   (judge libraries: API calls only)
+#   policies/ majority_vote, confidence_gate       (policy libraries: no API calls)
+# It only wires them. Swap any layer by changing one `framework:` reference, or pin
+# versions from the store (`majority_vote@1.0.0`) after `jevbench save`.
+jevbench: 1
+name: layered_moderation
+version: 1.0.0
+description: Screen, then convene the council, vote, and gate the result on confidence.
+
+inputs:
+  message: {required: true}
+  rules: {required: false, default: "Be respectful. No harassment, slurs or spam."}
+
+nodes:
+  screen:
+    type: subgraph
+    framework: judges/safety_screen.yaml
+    inputs: {content: input.message}
+
+  # Hard stop: obvious spam or personal data never reaches the council (saves three calls).
+  blocked:
+    type: decide
+    cases:
+      - {when: nodes.screen.spam >= 0.8, then: spam}
+      - {when: nodes.screen.personal_data >= 0.8, then: personal_data}
+    default: null
+
+  council:
+    type: subgraph
+    when: nodes.blocked is None
+    framework: judges/moderation_council.yaml
+    inputs: {message: input.message, rules: input.rules}
+
+  vote:
+    type: subgraph
+    when: nodes.council is not None
+    framework: policies/majority_vote.yaml
+    inputs: {labels: nodes.council.verdicts, weights: nodes.council.confidences, min_share: "0.5"}
+
+  gate:
+    type: subgraph
+    when: nodes.vote is not None
+    framework: policies/confidence_gate.yaml
+    inputs:
+      decision: nodes.vote.decision
+      confidences: nodes.council.confidences
+      severities: nodes.council.severities
+      min_confidence: "0.4"
+
+  final:
+    type: decide
+    cases:
+      - {when: nodes.blocked is not None, then: remove}
+      - {when: nodes.vote.decision == 'abstain', then: human_review}
+    default: ${nodes.gate.decision}
+
+output:
+  decision: ${nodes.final}
+  reason: ${nodes.blocked if nodes.blocked else (nodes.gate.gated_by if nodes.gate else [])}
+  screen: ${nodes.screen}
+  council_verdicts: ${nodes.council.verdicts if nodes.council else None}
+
+tests:
+  - name: spam is removed without convening the council
+    input: {message: "BUY FOLLOWERS NOW www.example.com"}
+    mock:
+      screen.screen: {toxic: 0.05, spam: 0.97, personal_data: 0.01}
+    expect: ["judgment.decision == 'remove'", "judgment.reason == 'spam'", "judgment.council_verdicts is None"]
+  - name: confident unanimous council removes
+    input: {message: "you are all worthless"}
+    mock:
+      screen.screen: {toxic: 0.9, spam: 0.01, personal_data: 0.01}
+      council.strict: {verdict: remove, severity: 2}
+      council.lenient: {verdict: remove, severity: 2}
+      council.literal: {verdict: remove, severity: 2}
+    expect: ["judgment.decision == 'remove'", "judgment.council_verdicts == ['remove', 'remove', 'remove']"]
+  - name: split council goes to a human
+    input: {message: "hm, that was a bit much"}
+    mock:
+      screen.screen: {toxic: 0.3, spam: 0.01, personal_data: 0.01}
+      council.strict: {verdict: remove, severity: 1}
+      council.lenient: {verdict: allow, severity: 0}
+      council.literal: {verdict: review, severity: 1}
+    expect: ["judgment.decision == 'human_review'"]
+  - name: majority but one unsure judge is gated
+    input: {message: "..."}
+    mock:
+      screen.screen: {toxic: 0.2, spam: 0.01, personal_data: 0.01}
+      council.strict: {verdict: allow, severity: 0}
+      council.lenient: {verdict: allow, severity: 0}
+      council.literal: {verdict: {allow: 0.4, review: 0.35, remove: 0.25}, severity: 0}
+    expect: ["judgment.decision == 'human_review'", "'confident_enough' in judgment.reason"]

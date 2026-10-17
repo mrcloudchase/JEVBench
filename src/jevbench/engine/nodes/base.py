@@ -6,8 +6,11 @@ from typing import TYPE_CHECKING, Any, ClassVar
 
 from pydantic import BaseModel, ConfigDict, ValidationError
 
-from jevbench.engine.expressions import node_references, parse, template_expressions
-from jevbench.errors import SchemaError
+from jevbench.engine.expressions import is_template, node_references, parse, template_expressions
+from jevbench.errors import ExecutionError, SchemaError
+
+Numeric = float | str
+"""A number, or a string holding a bare expression / ``${template}`` that yields one at run time."""
 
 if TYPE_CHECKING:
     from jevbench.engine.context import Context
@@ -32,6 +35,7 @@ class Node:
     Config: ClassVar[type[NodeConfig]] = NodeConfig
     expression_fields: ClassVar[tuple[str, ...]] = ()
     template_fields: ClassVar[tuple[str, ...]] = ()
+    numeric_fields: ClassVar[tuple[str, ...]] = ()
     makes_api_calls: ClassVar[bool] = False
 
     def __init__(self, node_id: str, spec: "NodeSpec", framework: "Framework"):
@@ -55,7 +59,25 @@ class Node:
             found.extend(_flatten_expressions(getattr(self.config, name, None)))
         for name in self.template_fields:
             found.extend(template_expressions(getattr(self.config, name, None)))
+        for name in self.numeric_fields:
+            value = getattr(self.config, name, None)
+            if isinstance(value, str):
+                if is_template(value):
+                    found.extend(template_expressions(value))
+                else:
+                    parse(value)
+                    found.append(value)
         return found
+
+    def number(self, ctx: "Context", name: str) -> float | None:
+        """Resolve a ``Numeric`` config field: numbers pass through, strings are evaluated."""
+        value = getattr(self.config, name)
+        if value is None or isinstance(value, (int, float)):
+            return value
+        resolved = ctx.resolve_output(value)
+        if not isinstance(resolved, (int, float)) or isinstance(resolved, bool):
+            raise ExecutionError(f"{name} {value!r} is not numeric: {resolved!r}", ctx.node_path(self.id))
+        return resolved
 
     def dependencies(self) -> set[str]:
         deps = set(self.spec.depends_on)

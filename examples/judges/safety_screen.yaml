@@ -1,0 +1,35 @@
+# Judge library: a single cheap screening call with yes/no questions only.
+# Reused as the first gate by any framework that needs it.
+jevbench: 1
+name: safety_screen
+version: 1.0.0
+description: One call answering whether content is toxic, spam or contains personal data.
+
+inputs:
+  content: {required: true}
+
+nodes:
+  screen:
+    type: judge
+    model: jev-latest
+    state: ${input.content}
+    questions:
+      toxic: {type: noul, instructions: "Does the content contain insults, slurs or threats?"}
+      spam: {type: noul, instructions: "Is the content advertising or off-topic spam?"}
+      personal_data:
+        type: noul
+        instructions: Does the content expose someone's personal data?
+        criteria:
+          "true": Phone numbers, home addresses, emails, account numbers or similar
+          "false": No identifying personal details
+
+output:
+  toxic: ${nodes.screen.answers.toxic.noul}
+  spam: ${nodes.screen.answers.spam.noul}
+  personal_data: ${nodes.screen.answers.personal_data.noul}
+
+tests:
+  - name: flat probabilities out
+    input: {content: "call me on 555-0100"}
+    mock: {screen: {toxic: 0.02, spam: 0.1, personal_data: 0.9}}
+    expect: ["judgment.personal_data > 0.5", "judgment.toxic < 0.5"]

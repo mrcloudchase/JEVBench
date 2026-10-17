@@ -7,7 +7,9 @@ from jevbench.cli import main
 from jevbench.store import FrameworkStore
 
 EXAMPLE_FILES = ["single_judge", "parallel_council", "hierarchical_council", "adversarial", "escalation_cascade",
-                 "composed", "iterative_review", "image_box", "policies/majority_vote"]
+                 "composed", "iterative_review", "image_box", "layered_moderation",
+                 "policies/majority_vote", "policies/confidence_gate",
+                 "judges/moderation_council", "judges/safety_screen"]
 
 
 @pytest.mark.parametrize("name", EXAMPLE_FILES)
@@ -17,6 +19,9 @@ def test_examples_validate_and_pass_offline_tests(examples, name):
     report = api.run_tests(framework, base_dir=base_dir)
     failures = [(r.name, r.failures, r.error) for r in report.results if not r.passed]
     assert not failures, failures
+    # Only cases explicitly marked live may be skipped offline; judge-free policies never are.
+    skipped = [r.name for r in report.results if r.error and r.error.startswith("skipped")]
+    assert all("live" in name for name in skipped), skipped
 
 
 def test_examples_run_fully_mocked(examples, mock_registry):

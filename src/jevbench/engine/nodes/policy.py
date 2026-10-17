@@ -13,7 +13,7 @@ from pydantic import Field, model_validator
 
 from jevbench.engine.context import Context
 from jevbench.engine.expressions import parse
-from jevbench.engine.nodes.base import Node, NodeConfig, registry
+from jevbench.engine.nodes.base import Node, NodeConfig, Numeric, registry
 from jevbench.errors import ExecutionError
 
 
@@ -40,8 +40,8 @@ class ExprNode(Node):
 
 class ThresholdConfig(NodeConfig):
     value: str
-    min: float | str | None = Field(default=None, description="Number, or an expression yielding one.")
-    max: float | str | None = Field(default=None, description="Number, or an expression yielding one.")
+    min: Numeric | None = Field(default=None, description="Number, or an expression yielding one.")
+    max: Numeric | None = Field(default=None, description="Number, or an expression yielding one.")
     exclusive: bool = False
 
     @model_validator(mode="after")
@@ -58,43 +58,20 @@ class ThresholdNode(Node):
     type_name = "threshold"
     Config = ThresholdConfig
     expression_fields = ("value",)
+    numeric_fields = ("min", "max")
     config: ThresholdConfig
-
-    def expressions(self) -> list[str]:
-        found = super().expressions()
-        for bound in (self.config.min, self.config.max):
-            if isinstance(bound, str):
-                found.extend(_bound_expressions(bound))
-        return found
 
     def execute(self, ctx: Context) -> bool:
         value = ctx.eval(self.config.value)
         if not isinstance(value, (int, float)):
             raise ExecutionError(f"threshold value is not numeric: {value!r}", ctx.node_path(self.id))
-        low, high = (self._bound(ctx, b) for b in (self.config.min, self.config.max))
+        low, high = self.number(ctx, "min"), self.number(ctx, "max")
         exclusive = self.config.exclusive
         if low is not None and (value <= low if exclusive else value < low):
             return False
         if high is not None and (value >= high if exclusive else value > high):
             return False
         return True
-
-    def _bound(self, ctx: Context, bound: float | str | None) -> float | None:
-        if bound is None or isinstance(bound, (int, float)):
-            return bound
-        resolved = ctx.resolve_output(bound)
-        if not isinstance(resolved, (int, float)):
-            raise ExecutionError(f"threshold bound {bound!r} is not numeric: {resolved!r}", ctx.node_path(self.id))
-        return resolved
-
-
-def _bound_expressions(bound: str) -> list[str]:
-    from jevbench.engine.expressions import is_template, template_expressions
-
-    if is_template(bound):
-        return template_expressions(bound)
-    parse(bound)
-    return [bound]
 
 
 # -- decide --------------------------------------------------------------------------------------
@@ -181,7 +158,7 @@ class CollectNode(Node):
 
 class VoteConfig(CollectConfig):
     method: Literal["plurality", "majority", "unanimous"] = "plurality"
-    min_share: float | None = Field(default=None, description="Required winner share; majority defaults to > 0.5.")
+    min_share: Numeric | None = Field(default=None, description="Required winner share; majority defaults to > 0.5.")
     tie: Literal["none", "first"] = "none"
 
 
@@ -191,10 +168,12 @@ class VoteNode(CollectNode):
 
     type_name = "vote"
     Config = VoteConfig
+    numeric_fields = ("min_share",)
     config: VoteConfig
 
     def execute(self, ctx: Context) -> dict[str, Any]:
         values, weights = self.collect(ctx)
+        min_share = self.number(ctx, "min_share")
         tally: dict[Any, float] = {}
         for value, weight in zip(values, weights):
             tally[value] = tally.get(value, 0.0) + weight
@@ -208,9 +187,9 @@ class VoteNode(CollectNode):
             winner = None
         if self.config.method == "unanimous" and not unanimous:
             winner = None
-        if self.config.method == "majority" and not share > (self.config.min_share if self.config.min_share is not None else 0.5):
+        if self.config.method == "majority" and not share > (min_share if min_share is not None else 0.5):
             winner = None
-        if self.config.method == "plurality" and self.config.min_share is not None and share < self.config.min_share:
+        if self.config.method == "plurality" and min_share is not None and share < min_share:
             winner = None
         return {"winner": winner, "tally": {str(k): v for k, v in tally.items()}, "share": round(share, 4),
                 "total": total, "unanimous": unanimous, "tied": tied}
@@ -272,7 +251,7 @@ class AggregateNode(CollectNode):
 # -- consensus -----------------------------------------------------------------------------------
 
 class ConsensusConfig(CollectConfig):
-    tolerance: float = Field(default=0.0, ge=0.0, description="Max spread for numeric agreement.")
+    tolerance: Numeric = Field(default=0.0, description="Max spread for numeric agreement; number or expression.")
 
 
 @registry.register
@@ -281,15 +260,17 @@ class ConsensusNode(CollectNode):
 
     type_name = "consensus"
     Config = ConsensusConfig
+    numeric_fields = ("tolerance",)
     config: ConsensusConfig
 
     def execute(self, ctx: Context) -> dict[str, Any]:
         values, _ = self.collect(ctx)
+        tolerance = self.number(ctx, "tolerance")
         if not values:
             return {"agreed": False, "value": None, "spread": None}
         if all(isinstance(v, (int, float)) and not isinstance(v, bool) for v in values):
             spread = max(values) - min(values)
-            agreed = spread <= self.config.tolerance
+            agreed = spread <= tolerance
             return {"agreed": agreed, "value": sum(values) / len(values) if agreed else None, "spread": spread}
         counts = Counter(values)
         agreed = len(counts) == 1

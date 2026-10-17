@@ -1,0 +1,52 @@
+# Policy library: a decision is only trusted when every judge was confident enough and the
+# severity signal is consistent. Pure data in, label out; no judges.
+jevbench: 1
+name: confidence_gate
+version: 1.0.0
+description: Accept a proposed decision only when confidence and consistency clear the bar.
+
+inputs:
+  decision: {required: true, description: "proposed label"}
+  confidences: {required: true, description: "list of judge confidences"}
+  severities: {required: false, description: "optional list of severity scores"}
+  min_confidence: {required: false, default: 0.4}
+  max_severity_spread: {required: false, default: 1.5}
+
+nodes:
+  weakest:
+    type: aggregate
+    method: min
+    from: input.confidences
+  consistent:
+    type: consensus
+    from: input.severities if input.severities else [0]
+    tolerance: ${input.max_severity_spread}
+  gate:
+    type: constraint
+    rules:
+      - name: confident_enough
+        require: nodes.weakest >= input.min_confidence
+      - name: severity_consistent
+        require: nodes.consistent.agreed
+  result:
+    type: decide
+    cases:
+      - when: nodes.gate.satisfied
+        then: ${input.decision}
+    default: human_review
+
+output:
+  decision: ${nodes.result}
+  gated_by: ${nodes.gate.violations}
+  weakest_confidence: ${nodes.weakest}
+
+tests:
+  - name: passes when confident and consistent
+    input: {decision: remove, confidences: [0.9, 0.8, 0.7], severities: [2, 2.4, 1.9]}
+    expect: ["judgment.decision == 'remove'", "judgment.gated_by == []"]
+  - name: one unsure judge sends it to a human
+    input: {decision: remove, confidences: [0.9, 0.2, 0.7]}
+    expect: ["judgment.decision == 'human_review'", "'confident_enough' in judgment.gated_by"]
+  - name: inconsistent severities send it to a human
+    input: {decision: allow, confidences: [0.9, 0.9, 0.9], severities: [0, 3, 0.5]}
+    expect: ["judgment.decision == 'human_review'", "'severity_consistent' in judgment.gated_by"]

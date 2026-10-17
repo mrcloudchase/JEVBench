@@ -11,6 +11,7 @@ from jevbench.engine.expressions import evaluate
 from jevbench.errors import JevBenchError
 from jevbench.providers.config import ProviderRegistry
 from jevbench.schema.models import Framework, TestCase
+from jevbench.schema.validator import analyze
 
 
 @dataclass
@@ -55,8 +56,9 @@ def run_tests(framework: Framework, cases: list[TestCase] | None = None, *, prov
     """
     cases = framework.tests if cases is None else cases
     results: list[CaseResult] = []
+    needs_provider = analyze(framework, Path(base_dir or "."), store).api_call_bound() > 0
     for case in cases:
-        offline = mock_all or bool(case.mock)
+        offline = mock_all or bool(case.mock) or not needs_provider
         if not offline and not live:
             results.append(CaseResult(case.name, True, failures=[], error="skipped: needs a provider (use --live or add mock)"))
             continue

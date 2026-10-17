@@ -206,7 +206,26 @@ The CLI is a thin layer over `jevbench.api`; a web canvas would use the same fun
 | `examples/escalation_cascade.yaml` | Conditional routing to a second judge |
 | `examples/iterative_review.yaml` | Bounded loop until confident |
 | `examples/composed.yaml` + `policies/majority_vote.yaml` | Reusable policy subgraph |
+| `examples/layered_moderation.yaml` | Three-layer composition of judge and policy libraries (below) |
 | `examples/image_box.yaml` | Image assets and the `box` primitive |
+
+### Judges and policies in separate files
+
+A framework file can hold judges and policies together, or either on its own. Because policies
+only ever reference values through expressions, and a `subgraph` rebinds those values through
+its `inputs`, the same schema yields three kinds of files:
+
+| Layer | Contains | Examples |
+|---|---|---|
+| Judge library | `judge` nodes only; output is their rulings | `examples/judges/safety_screen.yaml`, `examples/judges/moderation_council.yaml` |
+| Policy library | policy nodes only, declared `inputs`, no API calls | `examples/policies/majority_vote.yaml`, `examples/policies/confidence_gate.yaml` |
+| Framework | `subgraph` nodes wiring libraries (or other frameworks) together | `examples/layered_moderation.yaml` |
+
+`layered_moderation.yaml` has no judges and no policy logic of its own. It screens with one
+library, convenes a council with another only when the screen passes, votes with a third and
+gates the result with a fourth. Swapping a layer is one `framework:` line; pinning one is
+`jevbench save` plus a `name@version` reference. Policy libraries need no provider, so their
+tests always run offline.
 
 ## Layout
 
