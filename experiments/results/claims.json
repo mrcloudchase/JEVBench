@@ -1,0 +1,301 @@
+{
+  "task": "claims",
+  "table": [
+    {
+      "architecture": "single",
+      "n": 300,
+      "errors": 0,
+      "accuracy": 0.603,
+      "accuracy_ci95": [
+        0.543,
+        0.657
+      ],
+      "coverage": 1.0,
+      "selective_accuracy": 0.603,
+      "selective_accuracy_ci95": [
+        0.543,
+        0.657
+      ],
+      "macro_f1_acted": 0.591,
+      "ece": 0.166,
+      "calls_per_item": 1.0,
+      "tokens_per_item": 424,
+      "usd_per_1k_items": 0.0178,
+      "latency_ms_p50": 95
+    },
+    {
+      "architecture": "gated",
+      "n": 300,
+      "errors": 0,
+      "accuracy": 0.5,
+      "accuracy_ci95": [
+        0.44,
+        0.557
+      ],
+      "coverage": 0.737,
+      "selective_accuracy": 0.679,
+      "selective_accuracy_ci95": [
+        0.611,
+        0.742
+      ],
+      "macro_f1_acted": 0.641,
+      "ece": 0.185,
+      "calls_per_item": 1.0,
+      "tokens_per_item": 424,
+      "usd_per_1k_items": 0.0178,
+      "latency_ms_p50": 100,
+      "vs_single": {
+        "delta_accuracy": -0.103,
+        "ci95": [
+          -0.14,
+          -0.07
+        ],
+        "changed_items": 31
+      }
+    },
+    {
+      "architecture": "panel",
+      "n": 300,
+      "errors": 0,
+      "accuracy": 0.583,
+      "accuracy_ci95": [
+        0.527,
+        0.637
+      ],
+      "coverage": 0.993,
+      "selective_accuracy": 0.587,
+      "selective_accuracy_ci95": [
+        0.534,
+        0.638
+      ],
+      "macro_f1_acted": 0.566,
+      "ece": 0.123,
+      "calls_per_item": 3.0,
+      "tokens_per_item": 1342,
+      "usd_per_1k_items": 0.0564,
+      "latency_ms_p50": 148,
+      "vs_single": {
+        "delta_accuracy": -0.02,
+        "ci95": [
+          -0.047,
+          0.007
+        ],
+        "changed_items": 16
+      }
+    },
+    {
+      "architecture": "panel_pool",
+      "n": 300,
+      "errors": 0,
+      "accuracy": 0.573,
+      "accuracy_ci95": [
+        0.517,
+        0.627
+      ],
+      "coverage": 1.0,
+      "selective_accuracy": 0.573,
+      "selective_accuracy_ci95": [
+        0.517,
+        0.627
+      ],
+      "macro_f1_acted": 0.544,
+      "ece": 0.148,
+      "calls_per_item": 3.0,
+      "tokens_per_item": 1342,
+      "usd_per_1k_items": 0.0564,
+      "latency_ms_p50": 148,
+      "vs_single": {
+        "delta_accuracy": -0.03,
+        "ci95": [
+          -0.06,
+          0.0
+        ],
+        "changed_items": 19
+      }
+    },
+    {
+      "architecture": "escalation",
+      "n": 300,
+      "errors": 0,
+      "accuracy": 0.527,
+      "accuracy_ci95": [
+        0.473,
+        0.583
+      ],
+      "coverage": 0.85,
+      "selective_accuracy": 0.62,
+      "selective_accuracy_ci95": [
+        0.561,
+        0.678
+      ],
+      "macro_f1_acted": 0.587,
+      "ece": 0.201,
+      "calls_per_item": 1.26,
+      "tokens_per_item": 543,
+      "usd_per_1k_items": 0.0228,
+      "latency_ms_p50": 117,
+      "vs_single": {
+        "delta_accuracy": -0.077,
+        "ci95": [
+          -0.107,
+          -0.047
+        ],
+        "changed_items": 23
+      }
+    },
+    {
+      "architecture": "chain",
+      "n": 300,
+      "errors": 0,
+      "accuracy": 0.637,
+      "accuracy_ci95": [
+        0.583,
+        0.69
+      ],
+      "coverage": 1.0,
+      "selective_accuracy": 0.637,
+      "selective_accuracy_ci95": [
+        0.583,
+        0.69
+      ],
+      "macro_f1_acted": 0.631,
+      "ece": 0.189,
+      "calls_per_item": 2.0,
+      "tokens_per_item": 937,
+      "usd_per_1k_items": 0.0393,
+      "latency_ms_p50": 210,
+      "vs_single": {
+        "delta_accuracy": 0.033,
+        "ci95": [
+          0.007,
+          0.06
+        ],
+        "changed_items": 18
+      }
+    },
+    {
+      "architecture": "contrastive",
+      "n": 300,
+      "errors": 0,
+      "accuracy": 0.593,
+      "accuracy_ci95": [
+        0.537,
+        0.647
+      ],
+      "coverage": 1.0,
+      "selective_accuracy": 0.593,
+      "selective_accuracy_ci95": [
+        0.537,
+        0.647
+      ],
+      "macro_f1_acted": 0.577,
+      "ece": 0.142,
+      "calls_per_item": 2.12,
+      "tokens_per_item": 972,
+      "usd_per_1k_items": 0.0408,
+      "latency_ms_p50": 133,
+      "vs_single": {
+        "delta_accuracy": -0.01,
+        "ci95": [
+          -0.033,
+          0.013
+        ],
+        "changed_items": 11
+      }
+    },
+    {
+      "architecture": "iterative",
+      "n": 300,
+      "errors": 0,
+      "accuracy": 0.533,
+      "accuracy_ci95": [
+        0.48,
+        0.59
+      ],
+      "coverage": 0.84,
+      "selective_accuracy": 0.635,
+      "selective_accuracy_ci95": [
+        0.575,
+        0.694
+      ],
+      "macro_f1_acted": 0.606,
+      "ece": 0.185,
+      "calls_per_item": 1.42,
+      "tokens_per_item": 675,
+      "usd_per_1k_items": 0.0284,
+      "latency_ms_p50": 107,
+      "vs_single": {
+        "delta_accuracy": -0.07,
+        "ci95": [
+          -0.1,
+          -0.043
+        ],
+        "changed_items": 21
+      }
+    }
+  ],
+  "selective_curve": [
+    {
+      "tau": 0.0,
+      "coverage": 1.0,
+      "selective_accuracy": 0.603
+    },
+    {
+      "tau": 0.2,
+      "coverage": 0.973,
+      "selective_accuracy": 0.61
+    },
+    {
+      "tau": 0.4,
+      "coverage": 0.85,
+      "selective_accuracy": 0.631
+    },
+    {
+      "tau": 0.5,
+      "coverage": 0.733,
+      "selective_accuracy": 0.677
+    },
+    {
+      "tau": 0.6,
+      "coverage": 0.65,
+      "selective_accuracy": 0.697
+    },
+    {
+      "tau": 0.7,
+      "coverage": 0.59,
+      "selective_accuracy": 0.701
+    },
+    {
+      "tau": 0.8,
+      "coverage": 0.497,
+      "selective_accuracy": 0.718
+    },
+    {
+      "tau": 0.9,
+      "coverage": 0.38,
+      "selective_accuracy": 0.781
+    },
+    {
+      "tau": 0.95,
+      "coverage": 0.31,
+      "selective_accuracy": 0.796
+    }
+  ],
+  "extras": {
+    "escalation_rate": 0.257,
+    "contested_rate": 0.12,
+    "mean_rounds": 1.42,
+    "panel_unanimous_rate": 0.8,
+    "single_replicates": {
+      "runs": 3,
+      "accuracies": [
+        0.603,
+        0.607,
+        0.603
+      ],
+      "accuracy_range": 0.004,
+      "items_agreeing_across_runs": 0.977,
+      "mean_confidence_spread": 0.041
+    }
+  }
+}

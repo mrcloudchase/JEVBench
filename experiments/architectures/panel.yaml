@@ -1,0 +1,40 @@
+# Three independent decisions with different framings and one on a different model, combined two ways:
+# a majority vote over argmaxes (abstains on no majority) and a pool that averages the probability vectors.
+jevbench: 1
+name: panel
+version: 1.0.0
+inputs: {text: {required: true}, instructions: {required: true}, criteria: {required: true}, frames: {required: true}}
+nodes:
+  a:
+    type: judge
+    model: jev-1.13.0
+    state: {text: "${input.text}", note: "${input.frames[0]}"}
+    questions:
+      q: {type: choice, instructions: "${input.instructions}", criteria: "${input.criteria}"}
+  b:
+    type: judge
+    model: jev-1.13.0
+    state: {text: "${input.text}", note: "${input.frames[1]}"}
+    questions:
+      q: {type: choice, instructions: "${input.instructions}", criteria: "${input.criteria}"}
+  c:
+    type: judge
+    model: jev-1.14.0
+    state: {text: "${input.text}", note: "${input.frames[2]}"}
+    questions:
+      q: {type: choice, instructions: "${input.instructions}", criteria: "${input.criteria}"}
+  vote:
+    type: vote
+    values: [nodes.a.answers.q.choice, nodes.b.answers.q.choice, nodes.c.answers.q.choice]
+    method: majority
+  pool:
+    type: expr
+    value: "{k: (nodes.a.answers.q.probabilities[k] + nodes.b.answers.q.probabilities[k] + nodes.c.answers.q.probabilities[k]) / 3 for k in nodes.a.answers.q.probabilities}"
+  n: {type: expr, value: len(nodes.pool)}
+output:
+  answer: ${nodes.vote.winner if nodes.vote.winner is not None else 'abstain'}
+  confidence: ${min(nodes.a.answers.q.confidence, nodes.b.answers.q.confidence, nodes.c.answers.q.confidence)}
+  pool_answer: ${argmax(nodes.pool)}
+  pool_confidence: ${(max(nodes.pool.values()) - 1 / nodes.n) / (1 - 1 / nodes.n)}
+  probabilities: ${nodes.pool}
+  unanimous: ${nodes.vote.unanimous}

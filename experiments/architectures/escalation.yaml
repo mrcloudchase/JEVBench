@@ -1,0 +1,29 @@
+# Cheap first decision; a second, differently framed decision on another model only when the first is unsure.
+jevbench: 1
+name: escalation
+version: 1.0.0
+inputs: {text: {required: true}, instructions: {required: true}, criteria: {required: true}, tau: {default: 0.5}}
+nodes:
+  first:
+    type: judge
+    model: jev-1.13.0
+    state: ${input.text}
+    questions:
+      q: {type: choice, instructions: "${input.instructions}", criteria: "${input.criteria}"}
+  unsure: {type: expr, value: nodes.first.answers.q.confidence < input.tau}
+  candidates:
+    type: expr
+    value: "[k for k, v in nodes.first.answers.q.probabilities.items() if v >= sorted(nodes.first.answers.q.probabilities.values())[-2]]"
+  second:
+    type: judge
+    when: nodes.unsure
+    model: jev-1.14.0
+    state: {text: "${input.text}", hint: "A first reading was unsure between ${nodes.candidates}. Decide between them on the strongest evidence in `text`."}
+    questions:
+      q: {type: choice, instructions: "${input.instructions}", criteria: "${input.criteria}"}
+  final: {type: expr, value: nodes.second.answers.q if nodes.second is not None else nodes.first.answers.q}
+output:
+  answer: ${nodes.final.choice if nodes.final.confidence >= input.tau else 'abstain'}
+  confidence: ${nodes.final.confidence}
+  probabilities: ${nodes.final.probabilities}
+  escalated: ${nodes.second is not None}

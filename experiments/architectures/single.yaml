@@ -1,0 +1,16 @@
+# One decision. The baseline every other architecture must beat.
+jevbench: 1
+name: single
+version: 1.0.0
+inputs: {text: {required: true}, instructions: {required: true}, criteria: {required: true}}
+nodes:
+  d:
+    type: judge
+    model: jev-1.13.0
+    state: ${input.text}
+    questions:
+      q: {type: choice, instructions: "${input.instructions}", criteria: "${input.criteria}"}
+output:
+  answer: ${nodes.d.answers.q.choice}
+  confidence: ${nodes.d.answers.q.confidence}
+  probabilities: ${nodes.d.answers.q.probabilities}

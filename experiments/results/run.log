@@ -1,0 +1,162 @@
+[offensive] single: 0 done, 300 to run
+  50/300 (2s)
+  100/300 (3s)
+  150/300 (4s)
+  200/300 (5s)
+  250/300 (6s)
+  300/300 (7s)
+[offensive] single: finished in 7s
+[offensive] gated: 0 done, 300 to run
+  50/300 (1s)
+  100/300 (2s)
+  150/300 (3s)
+  200/300 (4s)
+  250/300 (5s)
+  300/300 (6s)
+[offensive] gated: finished in 6s
+[offensive] panel: 0 done, 300 to run
+  50/300 (2s)
+  100/300 (3s)
+  150/300 (5s)
+  200/300 (6s)
+  250/300 (7s)
+  300/300 (9s)
+[offensive] panel: finished in 9s
+[offensive] escalation: 0 done, 300 to run
+  50/300 (1s)
+  100/300 (2s)
+  150/300 (3s)
+  200/300 (5s)
+  250/300 (6s)
+  300/300 (7s)
+[offensive] escalation: finished in 7s
+[offensive] chain: 0 done, 300 to run
+  50/300 (2s)
+  100/300 (4s)
+  150/300 (6s)
+  200/300 (8s)
+  250/300 (10s)
+  300/300 (12s)
+[offensive] chain: finished in 12s
+[offensive] contrastive: 0 done, 300 to run
+  50/300 (1s)
+  100/300 (2s)
+  150/300 (3s)
+  200/300 (5s)
+  250/300 (6s)
+  300/300 (7s)
+[offensive] contrastive: finished in 7s
+[offensive] iterative: 0 done, 300 to run
+  50/300 (1s)
+  100/300 (2s)
+  150/300 (3s)
+  200/300 (4s)
+  250/300 (6s)
+  300/300 (7s)
+[offensive] iterative: finished in 7s
+[claims] single: 0 done, 300 to run
+  50/300 (2s)
+  100/300 (3s)
+  150/300 (4s)
+  200/300 (5s)
+  250/300 (6s)
+  300/300 (6s)
+[claims] single: finished in 6s
+[claims] gated: 0 done, 300 to run
+  50/300 (1s)
+  100/300 (2s)
+  150/300 (3s)
+  200/300 (4s)
+  250/300 (5s)
+  300/300 (5s)
+[claims] gated: finished in 5s
+[claims] panel: 0 done, 300 to run
+  50/300 (2s)
+  100/300 (3s)
+  150/300 (4s)
+  200/300 (5s)
+  250/300 (7s)
+  300/300 (8s)
+[claims] panel: finished in 8s
+[claims] escalation: 0 done, 300 to run
+  50/300 (1s)
+  100/300 (3s)
+  150/300 (4s)
+  200/300 (5s)
+  250/300 (6s)
+  300/300 (7s)
+[claims] escalation: finished in 7s
+[claims] chain: 0 done, 300 to run
+  50/300 (2s)
+  100/300 (4s)
+  150/300 (6s)
+  200/300 (7s)
+  250/300 (9s)
+  300/300 (11s)
+[claims] chain: finished in 11s
+[claims] contrastive: 0 done, 300 to run
+  50/300 (1s)
+  100/300 (3s)
+  150/300 (4s)
+  200/300 (5s)
+  250/300 (6s)
+  300/300 (7s)
+[claims] contrastive: finished in 7s
+[claims] iterative: 0 done, 300 to run
+  50/300 (1s)
+  100/300 (3s)
+  150/300 (4s)
+  200/300 (5s)
+  250/300 (6s)
+  300/300 (8s)
+[claims] iterative: finished in 8s
+[banking] single: 0 done, 300 to run
+  50/300 (2s)
+  100/300 (3s)
+  150/300 (4s)
+  200/300 (5s)
+  250/300 (6s)
+  300/300 (7s)
+[banking] single: finished in 7s
+[banking] gated: 0 done, 300 to run
+  50/300 (1s)
+  100/300 (2s)
+  150/300 (3s)
+  200/300 (4s)
+  250/300 (5s)
+  300/300 (6s)
+[banking] gated: finished in 6s
+[banking] panel: 0 done, 300 to run
+  50/300 (2s)
+  100/300 (3s)
+  150/300 (4s)
+  200/300 (6s)
+  250/300 (7s)
+  300/300 (9s)
+[banking] panel: finished in 9s
+[banking] escalation: 0 done, 300 to run
+  50/300 (1s)
+  100/300 (2s)
+  150/300 (4s)
+  200/300 (4s)
+  250/300 (6s)
+  300/300 (7s)
+[banking] escalation: finished in 7s
+[banking] chain: 0 done, 300 to run
+  50/300 (2s)
+  100/300 (4s)
+  150/300 (6s)
+  200/300 (8s)
+  250/300 (9s)
+  300/300 (11s)
+[banking] chain: finished in 11s
+[banking] skip contrastive: task has no stances
+[banking] iterative: 0 done, 300 to run
+  50/300 (1s)
+  100/300 (2s)
+  150/300 (3s)
+  200/300 (4s)
+  250/300 (5s)
+  300/300 (6s)
+[banking] iterative: finished in 6s
+ALL_DONE

@@ -254,6 +254,10 @@ class _Evaluator:
     def visit_GeneratorExp(self, node: ast.GeneratorExp) -> list:
         return list(self._comprehension(node.elt, node.generators))
 
+    def visit_DictComp(self, node: ast.DictComp) -> dict:
+        pair = ast.Tuple(elts=[node.key, node.value], ctx=ast.Load())
+        return dict(self._comprehension(pair, node.generators))
+
     def _comprehension(self, elt: ast.AST, generators: list[ast.comprehension], index: int = 0):
         if index == len(generators):
             yield self.visit(elt)

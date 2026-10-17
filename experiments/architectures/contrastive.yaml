@@ -1,0 +1,36 @@
+# Two decisions with deliberately opposed framings; if they agree that is the answer, otherwise an arbiter
+# on another model sees both beliefs and decides.
+jevbench: 1
+name: contrastive
+version: 1.0.0
+inputs: {text: {required: true}, instructions: {required: true}, criteria: {required: true}, stance_for: {required: true}, stance_against: {required: true}}
+nodes:
+  for_:
+    type: judge
+    model: jev-1.13.0
+    state: {text: "${input.text}", stance: "${input.stance_for}"}
+    questions:
+      q: {type: choice, instructions: "${input.instructions}", criteria: "${input.criteria}"}
+  against:
+    type: judge
+    model: jev-1.13.0
+    state: {text: "${input.text}", stance: "${input.stance_against}"}
+    questions:
+      q: {type: choice, instructions: "${input.instructions}", criteria: "${input.criteria}"}
+  agree: {type: expr, value: nodes.for_.answers.q.choice == nodes.against.answers.q.choice}
+  arbiter:
+    type: judge
+    when: not nodes.agree
+    model: jev-1.14.0
+    state:
+      text: ${input.text}
+      one_reading: {stance: "${input.stance_for}", answer: "${nodes.for_.answers.q.choice}", probabilities: "${nodes.for_.answers.q.probabilities}"}
+      other_reading: {stance: "${input.stance_against}", answer: "${nodes.against.answers.q.choice}", probabilities: "${nodes.against.answers.q.probabilities}"}
+    questions:
+      q: {type: choice, instructions: "${input.instructions} Two readings of `text` disagreed; weigh both and decide.", criteria: "${input.criteria}"}
+  final: {type: expr, value: nodes.arbiter.answers.q if nodes.arbiter is not None else nodes.for_.answers.q}
+output:
+  answer: ${nodes.final.choice}
+  confidence: ${nodes.final.confidence if not nodes.agree else min(nodes.for_.answers.q.confidence, nodes.against.answers.q.confidence)}
+  probabilities: ${nodes.final.probabilities}
+  contested: ${not nodes.agree}
