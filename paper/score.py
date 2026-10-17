@@ -174,6 +174,7 @@ class Run:
             values = [m[key] for m in per_repeat if m[key] is not None]
             out[key] = statistics.fmean(values) if values else None
             out[key + "_range"] = (min(values), max(values)) if len(values) > 1 else None
+        out["agree"] = None                                 # one repeat: nothing to agree with
         if len(self.by_repeat) > 1:
             common = set.intersection(*(set(rep) for rep in self.by_repeat.values()))
             same = [len({self.prediction(rep[i]) for rep in self.by_repeat.values()}) == 1 for i in common]
