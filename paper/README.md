@@ -83,4 +83,12 @@ python engine.py examples/questions.yaml examples/tickets.jsonl --out results.js
 Each result line is the record without `state` and `questions`, plus `model`, `answers` and `usage`,
 or `error`. Rerunning with the same `--out` skips ids already answered and retries ids that failed.
 
+## Evals
+
+An eval is three steps around the engine: wrangle a source into records, run, score.
+
+| Eval | Records | Question | Result |
+|---|---|---|---|
+| [`examples/banking77`](examples/banking77) | 419 Banking77 messages | is this a refund request? | accuracy 0.759 at threshold 0.5, 0.833 at 0.7 |
+
 Next: operations on beliefs that turn them into decisions.

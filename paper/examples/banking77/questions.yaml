@@ -1,0 +1,5 @@
+# One yes/no question. TypeSafe's repo publishes the dataset but not the question they asked of it;
+# this wording is ours.
+refund:
+  type: noul
+  instructions: The customer is asking for a refund
