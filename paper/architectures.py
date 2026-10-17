@@ -1,4 +1,5 @@
-"""The canonical architectures. Questions are in the model API's own format; beliefs are its answers."""
+"""The canonical architectures. Questions are in the model API's own format; beliefs are its answers.
+Decide(rule, *beliefs, **values): the rule receives beliefs positionally and the author's values by name."""
 
 from engine import INPUT, Architecture, Believe, Decide, majority
 
@@ -13,40 +14,39 @@ HANDLE = {"handle": {"type": "choice", "instructions": "Given `triage`, who shou
 
 
 def single():
-    b = Believe(INTENT)
-    return Architecture(Decide(lambda b: b["intent"]["choice"], b))
+    return Architecture(Decide(lambda b: b["intent"]["choice"], Believe(INTENT)))
 
 
-def gated(floor=0.6):
-    b = Believe(INTENT)
-    return Architecture(Decide(lambda b: b["intent"]["choice"] if b["intent"]["confidence"] >= floor else "abstain", b))
+def gated():
+    return Architecture(Decide(lambda b, floor, abstain: b["intent"]["choice"] if b["intent"]["confidence"] >= floor else abstain,
+                               Believe(INTENT), floor=0.6, abstain="abstain"))
 
 
 def routed():                                    # TypeSafe's routing code; one call, two questions
-    b = Believe(INTENT | COMPLEXITY)
-    def rule(b):
+    def rule(b, floor, complex_above):
         intent, complexity = b["intent"], b["complexity"]
-        if intent["confidence"] < 0.5:
+        if intent["confidence"] < floor:
             return "human"
         if intent["choice"] == "complaint":
-            return "human" if complexity["score"] > 1 or complexity["confidence"] < 0.5 else "complaint_llm"
+            return "human" if complexity["score"] > complex_above or complexity["confidence"] < floor else "complaint_llm"
         return intent["choice"]
-    return Architecture(Decide(rule, b))
+    return Architecture(Decide(rule, Believe(INTENT | COMPLEXITY), floor=0.5, complex_above=1))
 
 
 def panel():
-    a = Believe(INTENT, lambda m: {"message": m, "note": "Read the message strictly and literally."})
-    b = Believe(INTENT, lambda m: {"message": m, "note": "Read the message charitably."})
+    frame = lambda m, note: {"message": m, "note": note}
+    a = Believe(INTENT, frame, note="Read the message strictly and literally.")
+    b = Believe(INTENT, frame, note="Read the message charitably.")
     c = Believe(INTENT, provider="jev-preview")
     vote = Decide(lambda a, b, c: majority(a["intent"]["choice"], b["intent"]["choice"], c["intent"]["choice"]), a, b, c)
-    return Architecture(Decide(lambda v: v or "human", vote))
+    return Architecture(Decide(lambda v, fallback: v or fallback, vote, fallback="human"))
 
 
-def escalation(floor=0.8):
+def escalation():
     first = Believe(INTENT)
-    unsure = Decide(lambda f: f["intent"]["confidence"] < floor, first)
-    second = Believe(INTENT, lambda m: {"message": m, "hint": "A first reading was unsure; weigh the customer's main goal."},
-                     INPUT, provider="jev-preview", when=unsure)
+    unsure = Decide(lambda f, floor: f["intent"]["confidence"] < floor, first, floor=0.8)
+    second = Believe(INTENT, lambda m, hint: {"message": m, "hint": hint}, INPUT, provider="jev-preview", when=unsure,
+                     hint="A first reading was unsure; weigh the customer's main goal.")
     return Architecture(Decide(lambda f, s: (s or f)["intent"]["choice"], first, second))
 
 
@@ -56,14 +56,14 @@ def chain():                                     # a belief becomes evidence
     return Architecture(Decide(lambda c: c["handle"]["choice"], chair))
 
 
-def vetoed():                                    # a gate: stakes as a constant that overrides any belief
-    b = Believe(INTENT | THREAT)
-    return Architecture(Decide(lambda b: "security_team" if b["threat"]["noul"] >= 0.5 else b["intent"]["choice"], b))
+def vetoed():                                    # a gate: a value that overrides any belief
+    return Architecture(Decide(lambda b, floor, to: to if b["threat"]["noul"] >= floor else b["intent"]["choice"],
+                               Believe(INTENT | THREAT), floor=0.5, to="security_team"))
 
 
 def nested():                                    # an architecture is callable, so it is a node's function
     council = Decide(panel())
-    return Architecture(Decide(lambda c: "human" if c == "human" else c, council))
+    return Architecture(Decide(lambda c: c, council))
 
 
 MESSAGE = ("I ordered the blue jacket three weeks ago, it arrived in the wrong size, and when I called nobody "
