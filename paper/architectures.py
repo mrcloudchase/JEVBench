@@ -1,61 +1,60 @@
-"""The canonical architectures, assembled from Believe and Decide nodes and expression objects."""
+"""The canonical architectures, assembled from Believe and Decide nodes and operations.
+Questions are in the model API's own format; beliefs are its answers."""
 
-from engine import Aggregate, Architecture, Believe, Decide, Evidence, Input, Nominal, Ordinal, Select, Use, majority
+from engine import Aggregate, Architecture, Believe, Decide, Evidence, Input, Select, Use, majority
 
-INTENT = Nominal("The primary intent of this customer message", {
+INTENT = {"intent": {"type": "choice", "instructions": "The primary intent of this customer message", "criteria": {
     "order_status": "Asking about an existing order", "product_question": "Asking about a product before buying",
-    "return_exchange": "Wants to return or exchange something", "complaint": "Unhappy with experience, wants resolution"})
-COMPLEXITY = Ordinal("How complex is this request to resolve",
-                     ["Simple lookup or standard procedure", "Requires some judgment or multi-step process", "Unusual situation, edge case, or escalation needed"])
+    "return_exchange": "Wants to return or exchange something", "complaint": "Unhappy with experience, wants resolution"}}}
+COMPLEXITY = {"complexity": {"type": "score", "instructions": "How complex is this request to resolve", "criteria": [
+    "Simple lookup or standard procedure", "Requires some judgment or multi-step process", "Unusual situation, edge case, or escalation needed"]}}
+THREAT = {"threat": {"type": "noul", "instructions": "Does the message contain a threat of violence?"}}
+HANDLE = {"handle": {"type": "choice", "instructions": "Given `triage`, who should handle `message`?", "criteria": {
+    "bot": "An automated reply is enough", "agent": "A human agent is needed", "manager": "Needs a manager"}}}
 
 
 def single():
-    intent = Believe(INTENT)
-    return Architecture(Decide(intent.top))
+    b = Believe(INTENT)
+    return Architecture(Decide(b.intent.choice))
 
 
 def gated(floor=0.6):
-    intent = Believe(INTENT)
-    return Architecture(Decide(Select((intent.confidence >= floor, intent.top), default="abstain")))
+    b = Believe(INTENT)
+    return Architecture(Decide(Select((b.intent.confidence >= floor, b.intent.choice), default="abstain")))
 
 
-def routed():                                   # TypeSafe's routing code, as objects
-    intent = Believe(INTENT)
-    complexity = Believe(COMPLEXITY)
+def routed():                                    # TypeSafe's routing code, as objects; one call, two questions
+    b = Believe(INTENT | COMPLEXITY)
     return Architecture(Decide(Select(
-        (intent.confidence < 0.5, "human"),
-        (intent.top == "complaint", Select(((complexity.expected > 1) | (complexity.confidence < 0.5), "human"), default="complaint_llm")),
-        default=intent.top)))
+        (b.intent.confidence < 0.5, "human"),
+        (b.intent.choice == "complaint", Select(((b.complexity.score > 1) | (b.complexity.confidence < 0.5), "human"), default="complaint_llm")),
+        default=b.intent.choice)))
 
 
 def panel():
     a = Believe(INTENT, Evidence(message=Input(), note="Read the message strictly and literally."))
     b = Believe(INTENT, Evidence(message=Input(), note="Read the message charitably."))
     c = Believe(INTENT, model="jev-preview")
-    vote = Aggregate(majority, a.top, b.top, c.top)
+    vote = Aggregate(majority, a.intent.choice, b.intent.choice, c.intent.choice)
     return Architecture(Decide(Select((vote.is_none(), "human"), default=vote)))
 
 
 def escalation(floor=0.8):
     first = Believe(INTENT)
     second = Believe(INTENT, Evidence(message=Input(), hint="A first reading was unsure; weigh the customer's main goal."),
-                     model="jev-preview", when=first.confidence < floor)
-    return Architecture(Decide(Select((second.is_none(), first.top), default=second.top)))
+                     model="jev-preview", when=first.intent.confidence < floor)
+    return Architecture(Decide(Select((second.is_none(), first.intent.choice), default=second.intent.choice)))
 
 
-def chain():                                     # beliefs become evidence
-    triage = Believe(INTENT)
-    complexity = Believe(COMPLEXITY)
-    handle = Nominal("Given `triage` and `complexity`, who should handle `message`?",
-                     {"bot": "An automated reply is enough", "agent": "A human agent is needed", "manager": "Needs a manager"})
-    chair = Believe(handle, Evidence(message=Input(), triage=triage.probabilities, complexity=complexity.probabilities))
-    return Architecture(Decide(chair.top))
+def chain():                                     # a belief becomes evidence
+    triage = Believe(INTENT | COMPLEXITY)
+    chair = Believe(HANDLE, Evidence(message=Input(), triage=triage))
+    return Architecture(Decide(chair.handle.choice))
 
 
 def vetoed():                                    # a gate: stakes as a constant that overrides any belief
-    intent = Believe(INTENT)
-    threat = Believe(Nominal("Does the message contain a threat of violence?", {"yes": None, "no": None}))
-    return Architecture(Decide(Select((threat.p("yes") >= 0.5, "security_team"), default=intent.top)))
+    b = Believe(INTENT | THREAT)
+    return Architecture(Decide(Select((b.threat.noul >= 0.5, "security_team"), default=b.intent.choice)))
 
 
 def nested():                                    # an architecture as a node

@@ -1,14 +1,13 @@
-"""A minimal object-oriented engine for decision architectures.
+"""A minimal engine for decision architectures on a typed decision model.
 
-    evidence + question  ->  belief      (Believe, through a Model)
-    beliefs  + values    ->  decision    (Decide, through Expressions)
-    decision             ->  evidence    (any node's value may feed another node)
+    evidence + questions  ->  belief      (Believe: one model call; the belief is the API's answers, untouched)
+    beliefs  + values     ->  decision    (Decide: operations over beliefs)
+    decision              ->  evidence    (any node's value may feed another node)
 
-A Question declares alternatives, unordered (Nominal) or ordered (Ordinal). A Belief is a calibrated
-distribution over them. An Expression is an operator object; Python's own operators build the tree.
-A node is an expression too, so `intent.confidence >= 0.6` is a rule. An Architecture is whatever
-its output node references: levels are inferred, independent beliefs run concurrently, and an
-Architecture can be a node of another (Use).
+A decision is the atomic component: a belief and the operations that turn it into a decision.
+The question types and the shape of a belief come from the model's API, not from here.
+An Architecture is whatever its output node references: levels are inferred, independent beliefs
+run concurrently, and an Architecture can be a node of another (Use).
 """
 
 from __future__ import annotations
@@ -18,72 +17,25 @@ import operator
 import os
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
-from dataclasses import dataclass
 from typing import Any, Callable
-
-
-# ====================================================================== questions and beliefs
-@dataclass(frozen=True)
-class Nominal:
-    """An unordered set of alternatives. Two alternatives is the yes/no case."""
-    instructions: str
-    alternatives: dict                                   # name -> description or None
-
-    def wire(self): return {"type": "choice", "instructions": self.instructions, "criteria": self.alternatives}
-    def belief(self, a): return Belief(dict(a["probabilities"]), a["confidence"], ordered=False)
-
-
-@dataclass(frozen=True)
-class Ordinal:
-    """An ordered set of alternatives, lowest to highest."""
-    instructions: str
-    levels: list
-
-    def wire(self): return {"type": "score", "instructions": self.instructions, "criteria": self.levels}
-    def belief(self, a): return Belief({str(k): v for k, v in a["probabilities"].items()}, a["confidence"], ordered=True)
-
-
-@dataclass(frozen=True)
-class Belief:
-    """A calibrated distribution over a question's alternatives, with a confidence."""
-    probabilities: dict
-    confidence: float
-    ordered: bool
-
-    @property
-    def top(self): return max(self.probabilities, key=self.probabilities.get)
-
-    def p(self, alternative): return self.probabilities.get(str(alternative), 0.0)
-
-    @property
-    def margin(self):
-        ps = sorted(self.probabilities.values(), reverse=True)
-        return ps[0] - (ps[1] if len(ps) > 1 else 0.0)
-
-    @property
-    def expected(self):                                  # ordinal only
-        return sum(int(k) * v for k, v in self.probabilities.items())
-
-    def at_least(self, level):                           # ordinal only
-        return sum(v for k, v in self.probabilities.items() if int(k) >= level)
 
 
 # ====================================================================== model
 class Model:
-    """The only thing that turns evidence and a question into a belief."""
+    """evidence + questions -> belief. The only thing that calls the model."""
 
     def __init__(self, name="jev-latest", key=None, url="https://api.typesafe.ai/v1/systemone"):
         self.name, self.key, self.url = name, key or os.environ["TYPESAFE_API_KEY"], url
 
-    def believe(self, evidence, question) -> Belief:
-        body = json.dumps({"model": self.name, "state": evidence, "questions": {"q": question.wire()}}).encode()
+    def believe(self, evidence, questions: dict) -> dict:
+        body = json.dumps({"model": self.name, "state": evidence, "questions": questions}).encode()
         req = urllib.request.Request(self.url, data=body, headers={"Authorization": f"Bearer {self.key}", "Content-Type": "application/json"})
-        return question.belief(json.loads(urllib.request.urlopen(req).read())["answers"]["q"])
+        return json.loads(urllib.request.urlopen(req).read())["answers"]
 
 
-# ====================================================================== expressions
+# ====================================================================== operations
 class Expr:
-    """A deterministic computation over beliefs and values. eval runs it; refs lists the nodes it reads."""
+    """An operation over beliefs and values. Python's operators build the tree; eval runs it; refs lists the nodes read."""
 
     def eval(self, ctx: dict) -> Any: raise NotImplementedError
     def refs(self) -> set: return set()
@@ -103,21 +55,18 @@ class Expr:
     def __or__(self, o): return Op(lambda a, b: bool(a) or bool(b), self, o)
     def __invert__(self): return Op(lambda a, _: not a, self, None)
     def is_none(self): return Op(operator.is_, self, None)
-
-    def __getattr__(self, name):                         # belief.confidence, belief.top, ...
+    def __getattr__(self, name):                                  # belief.q.choice, belief.q.confidence, ...
         if name.startswith("_"):
             raise AttributeError(name)
         return Op(lambda v, n: v[n] if isinstance(v, dict) else getattr(v, n), self, name)
     def __getitem__(self, key): return Op(operator.getitem, self, key)
-    def __call__(self, *args): return Aggregate(lambda v: v[0](*v[1:]), self, *args)
 
 
 def lift(x) -> Expr: return x if isinstance(x, Expr) else Const(x)
 
 
-@dataclass(frozen=True, eq=False)
 class Const(Expr):
-    value: Any
+    def __init__(self, value): self.value = value
     def eval(self, ctx): return self.value
 
 
@@ -127,7 +76,7 @@ class Input(Expr):
 
 
 class Op(Expr):
-    """A binary operator: comparison, arithmetic, boolean, or access."""
+    """One binary operation: comparison, arithmetic, boolean, or access."""
     def __init__(self, fn: Callable, left, right):
         self.fn, self.left, self.right = fn, lift(left), lift(right)
     def eval(self, ctx): return self.fn(self.left.eval(ctx), self.right.eval(ctx))
@@ -155,9 +104,8 @@ class Select(Expr):
 
 
 class Evidence(Expr):
-    """Shape evidence for a question from the input and earlier nodes."""
-    def __init__(self, **fields):
-        self.fields = {k: lift(v) for k, v in fields.items()}
+    """Shape evidence for the next belief from the input and earlier nodes."""
+    def __init__(self, **fields): self.fields = {k: lift(v) for k, v in fields.items()}
     def eval(self, ctx): return {k: v.eval(ctx) for k, v in self.fields.items()}
     def refs(self): return set().union(*[v.refs() for v in self.fields.values()])
 
@@ -170,7 +118,7 @@ def majority(xs):
 
 # ====================================================================== nodes
 class Node(Expr):
-    """A unit of an architecture. Referring to a node in an expression reads its value."""
+    """A unit of an architecture. Referring to a node in an operation reads its value."""
     when: Expr | None = None
 
     def eval(self, ctx): return ctx[self]
@@ -180,18 +128,17 @@ class Node(Expr):
 
 
 class Believe(Node):
-    """evidence + question -> belief"""
-    def __init__(self, question, evidence=None, model=None, when=None):
-        self.question, self.evidence, self.when = question, lift(evidence) if evidence is not None else Input(), when
+    """evidence + questions -> belief"""
+    def __init__(self, questions: dict, evidence=None, model=None, when=None):
+        self.questions, self.evidence, self.when = questions, lift(evidence) if evidence is not None else Input(), when
         self.model = Model(model) if isinstance(model, str) else model
     def dependencies(self): return super().dependencies() | self.evidence.refs()
-    def compute(self, ctx, model): return (self.model or model).believe(self.evidence.eval(ctx), self.question)
+    def compute(self, ctx, model): return (self.model or model).believe(self.evidence.eval(ctx), self.questions)
 
 
 class Decide(Node):
     """beliefs + values -> decision"""
-    def __init__(self, rule, when=None):
-        self.rule, self.when = lift(rule), when
+    def __init__(self, rule, when=None): self.rule, self.when = lift(rule), when
     def dependencies(self): return super().dependencies() | self.rule.refs()
     def compute(self, ctx, model): return self.rule.eval(ctx)
 
