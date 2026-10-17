@@ -1,36 +1,36 @@
 """A minimal engine for decision architectures on a typed decision model.
 
-    evidence + questions  ->  belief      (Believe: one model call; the belief is the API's answers, untouched)
+    evidence + questions  ->  belief      (Believe: one call to a Provider; the belief is the API's answers, untouched)
     beliefs  + values     ->  decision    (Decide: operations over beliefs)
     decision              ->  evidence    (any node's value may feed another node)
 
 A decision is the atomic component: a belief and the operations that turn it into a decision.
-The question types and the shape of a belief come from the model's API, not from here.
+The question types and the shape of a belief come from the wire format, not from here; a Provider is any
+endpoint that speaks it, selected by base_url, api_key and model.
 An Architecture is whatever its output node references: levels are inferred, independent beliefs
 run concurrently, and an Architecture can be a node of another (Use).
 """
 
 from __future__ import annotations
 
-import json
 import operator
-import os
-import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from typing import Any, Callable
 
 
-# ====================================================================== model
-class Model:
-    """evidence + questions -> belief. The only thing that calls the model."""
+# ====================================================================== provider
+class Provider:
+    """evidence + questions -> belief, through any endpoint that speaks the typed-decision wire format.
 
-    def __init__(self, name="jev-latest", key=None, url="https://api.typesafe.ai/v1/systemone"):
-        self.name, self.key, self.url = name, key or os.environ["TYPESAFE_API_KEY"], url
+    Uses the official typesafe-sdk; base_url, api_key and model select the endpoint. Defaults come from
+    TYPESAFE_BASE_URL, TYPESAFE_API_KEY and TYPESAFE_DEFAULT_MODEL."""
+
+    def __init__(self, model: str | None = None, api_key: str | None = None, base_url: str | None = None, **options):
+        from typesafe_sdk import TypeSafeClient
+        self.client = TypeSafeClient(api_key=api_key, base_url=base_url, model=model, **options)
 
     def believe(self, evidence, questions: dict) -> dict:
-        body = json.dumps({"model": self.name, "state": evidence, "questions": questions}).encode()
-        req = urllib.request.Request(self.url, data=body, headers={"Authorization": f"Bearer {self.key}", "Content-Type": "application/json"})
-        return json.loads(urllib.request.urlopen(req).read())["answers"]
+        return self.client.system_one(evidence, questions).model_dump(mode="json")["answers"]
 
 
 # ====================================================================== operations
@@ -124,23 +124,23 @@ class Node(Expr):
     def eval(self, ctx): return ctx[self]
     def refs(self): return {self}
     def dependencies(self) -> set: return self.when.refs() if self.when is not None else set()
-    def compute(self, ctx, model): raise NotImplementedError
+    def compute(self, ctx, provider): raise NotImplementedError
 
 
 class Believe(Node):
     """evidence + questions -> belief"""
-    def __init__(self, questions: dict, evidence=None, model=None, when=None):
+    def __init__(self, questions: dict, evidence=None, provider=None, when=None):
         self.questions, self.evidence, self.when = questions, lift(evidence) if evidence is not None else Input(), when
-        self.model = Model(model) if isinstance(model, str) else model
+        self.provider = Provider(provider) if isinstance(provider, str) else provider   # a model name selects a model at the default endpoint
     def dependencies(self): return super().dependencies() | self.evidence.refs()
-    def compute(self, ctx, model): return (self.model or model).believe(self.evidence.eval(ctx), self.questions)
+    def compute(self, ctx, provider): return (self.provider or provider).believe(self.evidence.eval(ctx), self.questions)
 
 
 class Decide(Node):
     """beliefs + values -> decision"""
     def __init__(self, rule, when=None): self.rule, self.when = lift(rule), when
     def dependencies(self): return super().dependencies() | self.rule.refs()
-    def compute(self, ctx, model): return self.rule.eval(ctx)
+    def compute(self, ctx, provider): return self.rule.eval(ctx)
 
 
 class Use(Node):
@@ -148,15 +148,15 @@ class Use(Node):
     def __init__(self, architecture, evidence=None, when=None):
         self.architecture, self.evidence, self.when = architecture, lift(evidence) if evidence is not None else Input(), when
     def dependencies(self): return super().dependencies() | self.evidence.refs()
-    def compute(self, ctx, model): return self.architecture(self.evidence.eval(ctx))
+    def compute(self, ctx, provider): return self.architecture(self.evidence.eval(ctx))
 
 
 # ====================================================================== architecture
 class Architecture:
     """Everything reachable from its output node. Levels are inferred; beliefs in a level run concurrently."""
 
-    def __init__(self, output: Node, model: Model | None = None, workers: int = 8):
-        self.output, self.model, self.workers = output, model or Model(), workers
+    def __init__(self, output: Node, provider: Provider | None = None, workers: int = 8):
+        self.output, self.provider, self.workers = output, provider or Provider(), workers
         self.levels = self._levels()
 
     def _levels(self):
@@ -178,7 +178,7 @@ class Architecture:
     def run(self, input) -> dict:
         ctx = {"input": input}
         def step(n):
-            return n, (n.compute(ctx, self.model) if n.when is None or n.when.eval(ctx) else None)
+            return n, (n.compute(ctx, self.provider) if n.when is None or n.when.eval(ctx) else None)
         for level in self.levels:
             with ThreadPoolExecutor(max_workers=self.workers) as pool:
                 for n, v in pool.map(step, level):

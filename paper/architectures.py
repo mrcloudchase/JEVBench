@@ -34,7 +34,7 @@ def routed():                                    # TypeSafe's routing code, as o
 def panel():
     a = Believe(INTENT, Evidence(message=Input(), note="Read the message strictly and literally."))
     b = Believe(INTENT, Evidence(message=Input(), note="Read the message charitably."))
-    c = Believe(INTENT, model="jev-preview")
+    c = Believe(INTENT, provider="jev-preview")
     vote = Aggregate(majority, a.intent.choice, b.intent.choice, c.intent.choice)
     return Architecture(Decide(Select((vote.is_none(), "human"), default=vote)))
 
@@ -42,7 +42,7 @@ def panel():
 def escalation(floor=0.8):
     first = Believe(INTENT)
     second = Believe(INTENT, Evidence(message=Input(), hint="A first reading was unsure; weigh the customer's main goal."),
-                     model="jev-preview", when=first.intent.confidence < floor)
+                     provider="jev-preview", when=first.intent.confidence < floor)
     return Architecture(Decide(Select((second.is_none(), first.intent.choice), default=second.intent.choice)))
 
 
