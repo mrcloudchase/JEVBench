@@ -6,9 +6,23 @@ A Provider is any endpoint that speaks the typed-decision wire format, reached t
 typesafe-sdk and selected by base_url, api_key and model (defaults: TYPESAFE_BASE_URL, TYPESAFE_API_KEY,
 TYPESAFE_DEFAULT_MODEL). A Belief holds a set of questions; calling it with state makes one provider
 call and returns the provider's answers, untouched, keyed by question id.
+
+A belief can be written as YAML:
+
+    provider:            # optional; model and base_url. The API key always comes from the environment.
+      model: jev-latest
+    questions:           # the wire format's questions, unchanged
+      is_urgent: {type: noul, instructions: "The message conveys urgency"}
+    state: "..."         # optional; can also be given on the command line
+
+    python engine.py belief.yaml [--state TEXT | --state-file FILE]
 """
 
 from __future__ import annotations
+
+from pathlib import Path
+
+import yaml
 
 
 class Provider:
@@ -25,39 +39,35 @@ class Provider:
 class Belief:
     """A set of questions. Calling it with state returns the provider's answers to them."""
 
-    def __init__(self, questions: dict, provider: Provider | None = None):
-        self.questions, self.provider = questions, provider or Provider()
+    def __init__(self, questions: dict, provider: Provider | None = None, state=None):
+        self.questions, self.provider, self.state = questions, provider or Provider(), state
 
-    def __call__(self, state) -> dict:
+    def __call__(self, state=None) -> dict:
+        state = self.state if state is None else state
+        if state is None:
+            raise ValueError("no state: put `state:` in the YAML or pass it in")
         return self.provider(state, self.questions)
+
+    @classmethod
+    def from_yaml(cls, path: str | Path) -> "Belief":
+        spec = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or {}
+        provider = spec.get("provider") or {}
+        if "api_key" in provider:
+            raise ValueError("keep api_key out of YAML; set TYPESAFE_API_KEY in the environment")
+        return cls(spec["questions"], Provider(**provider), spec.get("state"))
 
 
 if __name__ == "__main__":
-    # TypeSafe's quickstart example, verbatim: https://docs.typesafe.ai/introduction/quickstart
+    import argparse
     import json
 
-    ticket = Belief({
-        "department": {
-            "type": "choice",
-            "instructions": "Which team should handle this",
-            "criteria": {
-                "billing": "Payment or subscription issues",
-                "technical": "Bugs or integration problems",
-                "sales": "Pricing or account questions",
-            },
-        },
-        "frustration": {
-            "type": "score",
-            "instructions": "How frustrated the customer appears",
-            "criteria": ["Calm, just stating facts", "Frustrated but civil", "Very angry, strong language"],
-        },
-        "is_urgent": {
-            "type": "noul",
-            "instructions": "The message conveys urgency or time-sensitivity",
-        },
-    })
+    parser = argparse.ArgumentParser(description="Form a belief from a YAML file of questions and state.")
+    parser.add_argument("belief", help="YAML file with `questions`, optional `provider` and `state`")
+    parser.add_argument("--state", help="state as text, overriding the file's `state`")
+    parser.add_argument("--state-file", help="state from a YAML or JSON file, overriding the file's `state`")
+    args = parser.parse_args()
 
-    state = ("Our API integration started returning 500 errors on every request about 20 minutes ago, "
-             "and we can't process any customer orders until this is fixed.")
-
-    print(json.dumps(ticket(state), indent=2))
+    state = args.state
+    if args.state_file:
+        state = yaml.safe_load(Path(args.state_file).read_text(encoding="utf-8"))
+    print(json.dumps(Belief.from_yaml(args.belief)(state), indent=2))
