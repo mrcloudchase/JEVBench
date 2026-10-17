@@ -1,0 +1,37 @@
+# A reusable policy framework with no judges at all: it takes labels in and returns a decision.
+# Use it from any framework via a `subgraph` node (by path or as name@version from the store).
+jevbench: 1
+name: majority_vote
+version: 1.0.0
+description: Majority vote over labels with a minimum share; abstains otherwise.
+
+inputs:
+  labels: {required: true, description: "list of labels"}
+  weights: {required: false, description: "optional list of weights"}
+  min_share: {required: false, default: 0.5}
+
+nodes:
+  tally:
+    type: vote
+    from: input.labels
+    weights: input.weights if input.weights else [1] * len(input.labels)
+    method: plurality
+  decision:
+    type: decide
+    cases:
+      - when: nodes.tally.winner is not None and nodes.tally.share > input.min_share
+        then: ${nodes.tally.winner}
+    default: abstain
+
+output:
+  decision: ${nodes.decision}
+  share: ${nodes.tally.share}
+  tally: ${nodes.tally.tally}
+
+tests:
+  - name: clear majority
+    input: {labels: [a, a, b]}
+    expect: ["judgment.decision == 'a'"]
+  - name: no majority abstains
+    input: {labels: [a, b, c]}
+    expect: ["judgment.decision == 'abstain'"]

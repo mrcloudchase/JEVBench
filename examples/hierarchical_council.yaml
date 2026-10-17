@@ -1,0 +1,104 @@
+# Hierarchical council: specialists rule first (in parallel); a chair judge then reads their
+# rulings as part of its own state (sequential evaluation) and issues the final call.
+jevbench: 1
+name: hierarchical_council
+version: 1.0.0
+description: Specialist judges feed a chair judge that weighs their rulings.
+
+inputs:
+  pull_request: {required: true, description: "{title, description, diff}"}
+
+defaults:
+  model: jev-latest
+
+nodes:
+  security:
+    type: judge
+    state: {pr: "${input.pull_request}", role: "security reviewer"}
+    questions:
+      risk:
+        type: score
+        instructions: Security risk introduced by the diff
+        criteria: [None, Low, Medium, High, Critical]
+      secrets_leaked:
+        type: noul
+        instructions: Does the diff add credentials, tokens or private keys?
+  correctness:
+    type: judge
+    state: {pr: "${input.pull_request}", role: "correctness reviewer"}
+    questions:
+      bug_likely:
+        type: noul
+        instructions: Does the change likely introduce a functional bug?
+      tests_adequate:
+        type: noul
+        instructions: Are the tests adequate for the change?
+  style:
+    type: judge
+    state: {pr: "${input.pull_request}", role: "style reviewer"}
+    questions:
+      quality:
+        type: score
+        instructions: Code quality and readability of the diff
+        criteria: [Poor, Acceptable, Good, Excellent]
+
+  # The chair sees the evidence AND the specialists' rulings.
+  chair:
+    type: judge
+    state:
+      pr: ${input.pull_request}
+      specialist_rulings:
+        security: ${nodes.security.answers}
+        correctness: ${nodes.correctness.answers}
+        style: ${nodes.style.answers}
+    questions:
+      verdict:
+        type: choice
+        instructions: Considering `specialist_rulings` and `pr`, what should happen?
+        criteria:
+          approve: Safe to merge as is
+          request_changes: Needs work before merging
+          reject: Should not be merged in this form
+
+  # Hard constraints override the chair.
+  veto:
+    type: constraint
+    rules:
+      - name: no_secrets
+        require: nodes.security.answers.secrets_leaked.noul < 0.5
+      - name: no_critical_risk
+        require: nodes.security.answers.risk.score < 3.5
+
+  final:
+    type: decide
+    cases:
+      - when: not nodes.veto.satisfied
+        then: reject
+    default: ${nodes.chair.answers.verdict.choice}
+
+output:
+  verdict: ${nodes.final}
+  vetoed_by: ${nodes.veto.violations}
+  chair_confidence: ${nodes.chair.answers.verdict.confidence}
+
+tests:
+  - name: security veto beats chair approval
+    input: {pull_request: {title: "add config", diff: "+AWS_SECRET=abc123"}}
+    mock:
+      security: {risk: 4, secrets_leaked: 0.98}
+      correctness: {bug_likely: 0.1, tests_adequate: 0.8}
+      style: {quality: 2}
+      chair: {verdict: approve}
+    expect:
+      - judgment.verdict == 'reject'
+      - "'no_secrets' in judgment.vetoed_by"
+  - name: clean PR follows the chair
+    input: {pull_request: {title: "fix typo", diff: "-teh\n+the"}}
+    mock:
+      security: {risk: 0, secrets_leaked: 0.01}
+      correctness: {bug_likely: 0.05, tests_adequate: 0.9}
+      style: {quality: 3}
+      chair: {verdict: approve}
+    expect:
+      - judgment.verdict == 'approve'
+      - len(judgment.vetoed_by) == 0
