@@ -1,0 +1,47 @@
+{
+  "model": "jev-1.14.0",
+  "answers": {
+    "department": {
+      "type": "choice",
+      "choice": "billing",
+      "confidence": 1.0,
+      "probabilities": {
+        "billing": 1.0,
+        "technical": 0.0,
+        "sales": 0.0,
+        "other": 0.0
+      }
+    },
+    "frustration": {
+      "type": "score",
+      "score": 1.99,
+      "confidence": 0.98,
+      "legend": {
+        "0": "Calm, just stating facts",
+        "1": "Frustrated but civil",
+        "2": "Very angry, threatening or strong language"
+      },
+      "probabilities": {
+        "0": 0.0,
+        "1": 0.01,
+        "2": 0.99
+      }
+    },
+    "refund_requested": {
+      "type": "noul",
+      "noul": 0.98
+    },
+    "repeat_contact": {
+      "type": "noul",
+      "noul": 0.97
+    },
+    "policy_covers": {
+      "type": "noul",
+      "noul": 0.94
+    }
+  },
+  "usage": {
+    "input_tokens": 654,
+    "output_tokens": 113
+  }
+}

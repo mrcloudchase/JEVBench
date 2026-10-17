@@ -1,0 +1,43 @@
+{
+  "model": "jev-latest",
+  "state": {
+    "ticket": {
+      "subject": "Charged twice for order A-104",
+      "messages": [
+        {"from": "customer", "text": "This is the THIRD time I've written in. I was charged twice for order A-104 and nobody has replied. Refund the duplicate charge now or I'm disputing it with my bank."}
+      ]
+    },
+    "order": {"id": "A-104", "charges": [{"amount_usd": 49, "status": "captured"}, {"amount_usd": 49, "status": "captured"}]},
+    "refund_policy": "Duplicate charges are eligible for a full refund within 90 days."
+  },
+  "questions": {
+    "department": {
+      "type": "choice",
+      "instructions": "Which team should handle this ticket?",
+      "criteria": {
+        "billing": "Charges, invoices, refunds, payment problems",
+        "technical": "Bugs, errors, integration problems",
+        "sales": "Pricing, plans, account upgrades",
+        "other": null
+      }
+    },
+    "frustration": {
+      "type": "score",
+      "instructions": "How frustrated does the customer appear?",
+      "criteria": ["Calm, just stating facts", "Frustrated but civil", "Very angry, threatening or strong language"]
+    },
+    "refund_requested": {
+      "type": "noul",
+      "instructions": "Is the customer explicitly asking for a refund?"
+    },
+    "repeat_contact": {
+      "type": "noul",
+      "instructions": "Has the customer contacted support about this before?",
+      "criteria": {"true": "Mentions a prior attempt, ticket, or having asked before", "false": "No sign of any previous contact"}
+    },
+    "policy_covers": {
+      "type": "noul",
+      "instructions": "Does the stated refund policy cover this situation?"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "model": "jev-1.14.0",
+  "answers": {
+    "red_box": {
+      "type": "box",
+      "box": {
+        "top": 0.18,
+        "bottom": 0.67,
+        "left": 0.25,
+        "right": 0.64
+      },
+      "confidence": 0.86
+    },
+    "blue_box": {
+      "type": "box",
+      "box": {
+        "top": 0.73,
+        "bottom": 0.92,
+        "left": 0.26,
+        "right": 0.89
+      },
+      "confidence": 0.26
+    },
+    "dominant_color": {
+      "type": "choice",
+      "choice": "red",
+      "confidence": 1.0,
+      "probabilities": {
+        "red": 1.0,
+        "blue": 0.0,
+        "green": 0.0
+      }
+    },
+    "has_circle": {
+      "type": "noul",
+      "noul": 0.0
+    }
+  },
+  "usage": {
+    "input_tokens": 687,
+    "output_tokens": 93
+  }
+}

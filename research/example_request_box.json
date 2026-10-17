@@ -1,0 +1,11 @@
+{
+  "model": "jev-preview",
+  "state": {"photo": "img-shapes-001"},
+  "assets": {"img-shapes-001": {"type": "image", "part": "shapes"}},
+  "questions": {
+    "red_box": {"type": "box", "instructions": "the red rectangle in `photo`"},
+    "blue_box": {"type": "box", "instructions": "the blue square in `photo`"},
+    "dominant_color": {"type": "choice", "instructions": "Which non-white colored shape is largest in `photo`?", "criteria": {"red": null, "blue": null, "green": null}},
+    "has_circle": {"type": "noul", "instructions": "`photo` contains a circle"}
+  }
+}
