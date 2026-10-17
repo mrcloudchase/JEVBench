@@ -1,0 +1,18 @@
+# TypeSafe's quickstart questions, verbatim: https://docs.typesafe.ai/introduction/quickstart
+department:
+  type: choice
+  instructions: Which team should handle this
+  criteria:
+    billing: Payment or subscription issues
+    technical: Bugs or integration problems
+    sales: Pricing or account questions
+frustration:
+  type: score
+  instructions: How frustrated the customer appears
+  criteria:
+    - Calm, just stating facts
+    - Frustrated but civil
+    - Very angry, strong language
+is_urgent:
+  type: noul
+  instructions: The message conveys urgency or time-sensitivity
