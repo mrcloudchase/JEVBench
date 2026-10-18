@@ -1,6 +1,6 @@
 """Stage 3, score: runs -> scores. Beliefs against labels, for any question type, compared across models.
 
-    score_experiment(project, "fresh-reviews")      # -> scores/fresh-reviews.json; no model is called
+    score_experiment(project, "public-fresh")       # -> scores/public-fresh.json; no model is called
 
 The answer's type picks the scorer:
 

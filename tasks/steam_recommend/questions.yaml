@@ -1,4 +1,0 @@
-# One yes/no question. The answer is the reviewer's own Recommended / Not Recommended verdict.
-recommends:
-  type: noul
-  instructions: The reviewer recommends the game

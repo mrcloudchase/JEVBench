@@ -1,4 +1,0 @@
-# Six typed decision models on three tasks built from reviews written after every model was published.
-# The first model is the base for paired comparisons.
-tasks: [steam_recommend, appstore_stars, appstore_app]
-models: [typesafe, openai, deepseek, von, opendecider, openjev]

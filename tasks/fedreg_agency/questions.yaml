@@ -1,0 +1,15 @@
+# One 10-way choice question. The label is the issuing agency in the document's header; agency names are masked.
+agency:
+  type: choice
+  instructions: Which department or agency issued this Federal Register document?
+  criteria:
+    transportation: Department of Transportation (aviation, highways, rail, pipelines, vehicles, shipping)
+    commerce: Department of Commerce (trade, fisheries and oceans, patents, standards, census, export controls)
+    health: Department of Health and Human Services (drugs, medical devices, Medicare and Medicaid, public health)
+    homeland_security: Department of Homeland Security (immigration, borders, Coast Guard, emergencies, transportation security)
+    interior: Department of the Interior (public lands, parks, wildlife, tribes, energy and minerals on federal land)
+    treasury: Department of the Treasury (taxes, banking, sanctions, financial crimes)
+    defense: Department of Defense (military, defense acquisition, Army Corps of Engineers)
+    justice: Department of Justice (law enforcement, drugs, firearms, prisons, courts)
+    environment: Environmental Protection Agency (air and water quality, chemicals, pesticides, waste)
+    labor: Department of Labor (workplace safety, wages, pensions and benefits, employment and training)

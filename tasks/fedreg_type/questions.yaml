@@ -1,0 +1,8 @@
+# One 3-way choice question. The label is the section the Federal Register published the document in.
+type:
+  type: choice
+  instructions: What kind of Federal Register document is this?
+  criteria:
+    rule: A final rule, which changes regulations and has legal effect
+    proposed_rule: A proposed rule, which asks for public comment on a planned regulatory change
+    notice: A notice, which announces information such as meetings, applications, decisions or requests for comment

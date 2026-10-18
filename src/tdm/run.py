@@ -1,7 +1,7 @@
 """Stage 2, run: a task and a model make a run. A provider turns evidence and questions into beliefs.
 
     belief = Belief(questions, provider)(state)          # one belief
-    execute(project, "steam_recommend", "typesafe")      # every record of a task -> runs/<id>/
+    execute(project, "arxiv_category", "typesafe")       # every record of a task -> runs/<id>/
 
 A run folder holds run.json (what ran: task version, model config, the model versions the API served,
 git commit, times, counts) and beliefs.jsonl (one line per record and repeat). An incomplete run

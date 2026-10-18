@@ -12,10 +12,15 @@ have seen in training?
 
 ## Tasks
 
-Built by `tasks/<task>/build.py` and frozen by `manifest.jsonl`. Each label is an action of the text's
-own author (a button, a rating, the app reviewed), not a judgment by an annotator or a model. All
-text is dated after the release of every evaluated model. A task's version is a hash of its questions
-and manifest; results are always reported with the version.
+Built by `tasks/<task>/build.py` and frozen by `manifest.jsonl`.
+- **Labels** come from the source itself: an agency's designation, or the authors' own choice. They are never an annotator's or a model's judgment.
+- **Dates:** all text is dated after the release of every evaluated model, by filing date where a source has one.
+- **Inclusion:** a source is used only if a primary source grants reuse of its text in writing, and we have read that grant.
+- **Masking:** where the evidence would state the label outright (an agency's name, a document's type), those words are masked identically in every record.
+- **Versioning:** a task's version is a hash of its questions and manifest, and results are always reported with the version.
+
+*Amended October 18, 2026: the review tasks were replaced by Federal Register and arXiv tasks under the
+inclusion rule; no runs of the new tasks existed when this was written.*
 
 ## Models
 

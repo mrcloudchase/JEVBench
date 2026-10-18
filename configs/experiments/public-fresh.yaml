@@ -1,0 +1,4 @@
+# Six typed decision models on three tasks built from public-domain or CC0 text written after every model was published.
+# The first model is the base for paired comparisons.
+tasks: [fedreg_type, fedreg_agency, arxiv_category]
+models: [typesafe, openai, deepseek, von, opendecider, openjev]

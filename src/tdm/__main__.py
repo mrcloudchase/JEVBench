@@ -31,7 +31,10 @@ def main(argv=None):
     project = Project()
 
     if args.stage == "build":
-        runpy.run_path(str(project.task(args.task).dir / "build.py"), run_name="__main__")
+        build = project.root / "tasks" / args.task / "build.py"
+        if not build.exists():
+            sys.exit(f"no build script tasks/{args.task}/build.py")
+        runpy.run_path(str(build), run_name="__main__")
     elif args.stage == "run":
         load_env(project.root / ".env")
         exp = project.experiment(args.experiment)

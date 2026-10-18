@@ -1,0 +1,17 @@
+# One 12-way choice question. The label is the primary category the authors chose.
+category:
+  type: choice
+  instructions: Which arXiv category is this paper's primary category?
+  criteria:
+    cs.CL: "Computation and Language: natural language processing, speech, language models"
+    cs.CV: "Computer Vision and Pattern Recognition: images, video, visual recognition"
+    cs.CR: "Cryptography and Security: security, privacy, attacks and defenses, cryptography"
+    cs.RO: "Robotics: robot control, manipulation, navigation, planning"
+    math.NT: "Number Theory: primes, modular forms, Diophantine equations, arithmetic geometry"
+    math.PR: "Probability: stochastic processes, random structures, limit theorems"
+    stat.ME: "Statistics Methodology: statistical methods, inference, design, causal inference"
+    quant-ph: "Quantum Physics: quantum information, quantum computing, quantum optics, foundations"
+    astro-ph.GA: "Astrophysics of Galaxies: galaxies, the interstellar medium, star formation, galactic structure"
+    cond-mat.mtrl-sci: "Materials Science: properties, synthesis and computation of materials"
+    q-bio.NC: "Neurons and Cognition: neuroscience, neural coding, cognition, brain imaging"
+    econ.GN: "General Economics: economic analysis, policy, labor, development, markets"

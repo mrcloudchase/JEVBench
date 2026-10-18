@@ -87,7 +87,7 @@ other fields are copied to the result. A record's own `questions` replace the sh
 ## Run
 
 ```bash
-python -m tdm run fresh-reviews [--model openai] [--task appstore_app] [--date 2026-10-17]
+python -m tdm run public-fresh [--model openai] [--task arxiv_category] [--date 2026-10-17]
 ```
 
 Each (task, model) pair becomes `runs/<date>_<model>_<task>_<version>/`:
@@ -101,8 +101,8 @@ complete run is never touched again. A run on another day is a new folder.
 ## Score and report
 
 ```bash
-python -m tdm score fresh-reviews       # -> scores/fresh-reviews.json
-python -m tdm report fresh-reviews      # -> reports/fresh-reviews.md and reports/fresh-reviews.<task>.csv
+python -m tdm score public-fresh       # -> scores/public-fresh.json
+python -m tdm report public-fresh      # -> reports/public-fresh.md and reports/public-fresh.<task>.csv
 ```
 
 Scoring takes the latest complete run of each model on each task's current version. The answer type

@@ -5,5 +5,4 @@ __pycache__/
 .pytest_cache/
 .env
 cache*.jsonl
-# A task's text may belong to its authors (Steam and App Store reviews do): build.py rebuilds it, manifest.jsonl records the sample.
-tasks/*/data.jsonl
+tasks/.sources/
