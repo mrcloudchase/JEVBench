@@ -1,1 +1,0 @@
-{"document": "Invoice #4471. Issued Feb 1. Payment terms: net 30. Late fees apply after the due date.", "question": "When is the invoice due?", "options": {"feb_1": "February 1", "mar_3": "March 3 (Feb 1 + 30 days)", "not_stated": "The due date is not stated"}}

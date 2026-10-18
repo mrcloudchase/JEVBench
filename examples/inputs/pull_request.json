@@ -1,1 +1,0 @@
-{"pull_request": {"title": "Add S3 upload helper", "description": "Adds a helper to push build artifacts to S3.", "diff": "+import boto3\n+AWS_SECRET_ACCESS_KEY = 'AKIA...REDACTED'\n+def upload(path):\n+    s3 = boto3.client('s3')\n+    s3.upload_file(path, 'builds', path)\n"}}

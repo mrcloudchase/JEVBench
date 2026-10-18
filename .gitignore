@@ -2,15 +2,9 @@
 __pycache__/
 *.pyc
 *.egg-info/
-dist/
-build/
 .pytest_cache/
-.jevbench/
-jevbench.providers.yaml
-traces/
 .env
+# Response caches: rerunning is free with them, and they hold model responses only.
 cache*.jsonl
-# Review text from Steam and the App Store is the reviewers' content: rebuilt by wrangle.py, not redistributed.
-paper/examples/steam_recommend/dataset.jsonl
-paper/examples/appstore_stars/dataset.jsonl
-paper/examples/appstore_app/dataset.jsonl
+# Review text from Steam and the App Store belongs to the reviewers: wrangle.py rebuilds it; manifest.jsonl records the sample.
+datasets/*/dataset.jsonl

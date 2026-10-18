@@ -1,6 +1,0 @@
-{"id": "t1", "label": "technical", "state": "Our API integration started returning 500 errors on every request about 20 minutes ago, and we can't process any customer orders until this is fixed."}
-{"id": "t2", "label": "billing", "state": "I was charged twice for my subscription this month. Please refund the duplicate."}
-{"id": "t3", "label": "sales", "state": {"subject": "Enterprise pricing", "body": "Could you send me pricing for the enterprise plan when you get a chance?"}}
-{"id": "t4", "label": "billing", "state": "This is the THIRD time I'm asking. Cancel my plan and stop charging my card, NOW."}
-{"id": "t5", "label": "technical", "state": "The webhook docs say retries happen every 5 minutes but we're seeing them every 30 seconds."}
-{"id": "t6", "state": "Do you still have the blue jacket in medium?", "questions": {"stock_question": {"type": "noul", "instructions": "Is the customer asking whether an item is in stock?"}}}

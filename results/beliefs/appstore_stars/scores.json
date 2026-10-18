@@ -1,0 +1,170 @@
+[
+  {
+    "file": "results/beliefs/appstore_stars/typesafe.jsonl",
+    "name": "typesafe jev-1.13.0",
+    "type": "score",
+    "n": 300,
+    "repeats": 3,
+    "errors": 0,
+    "refusals": 0,
+    "accuracy": 0.4677777777777778,
+    "accuracy_range": [
+      0.4666666666666667,
+      0.47
+    ],
+    "within_one": 0.8022222222222223,
+    "within_one_range": [
+      0.8,
+      0.8033333333333333
+    ],
+    "mae": 0.7854000000000001,
+    "mae_range": [
+      0.7847666666666667,
+      0.7864333333333333
+    ],
+    "ece": 0.32132222222222223,
+    "ece_range": [
+      0.3192666666666667,
+      0.3237333333333333
+    ],
+    "agree": 0.97,
+    "usd_per_1k": 0.017197100000000003,
+    "tokens_per_item": 409.4533333333333,
+    "latency_p50_ms": 184.7,
+    "latency_p95_ms": 280.9
+  },
+  {
+    "file": "results/beliefs/appstore_stars/openai.jsonl",
+    "name": "openai gpt-6-luna",
+    "type": "score",
+    "n": 300,
+    "repeats": 3,
+    "errors": 0,
+    "refusals": 159,
+    "accuracy": 0.37333333333333335,
+    "accuracy_range": [
+      0.37333333333333335,
+      0.37333333333333335
+    ],
+    "within_one": 0.7408906882591092,
+    "within_one_range": [
+      0.7408906882591093,
+      0.7408906882591093
+    ],
+    "mae": 0.8068016194331985,
+    "mae_range": [
+      0.8068016194331984,
+      0.8068016194331984
+    ],
+    "ece": 0.1723076923076923,
+    "ece_range": [
+      0.1723076923076923,
+      0.1723076923076923
+    ],
+    "agree": 1.0,
+    "usd_per_1k": 0.018919333333333333,
+    "tokens_per_item": 189.19333333333333,
+    "latency_p50_ms": 221.1,
+    "latency_p95_ms": 330.6
+  },
+  {
+    "file": "results/beliefs/appstore_stars/deepseek.jsonl",
+    "name": "deepseek deepseek-flash",
+    "type": "score",
+    "n": 300,
+    "repeats": 3,
+    "errors": 0,
+    "refusals": 0,
+    "accuracy": 0.47,
+    "accuracy_range": [
+      0.47,
+      0.47
+    ],
+    "within_one": 0.7799999999999999,
+    "within_one_range": [
+      0.7766666666666666,
+      0.7833333333333333
+    ],
+    "mae": 0.8184548557550876,
+    "mae_range": [
+      0.8150262989764624,
+      0.8207797670855159
+    ],
+    "ece": 0.46628497298198696,
+    "ece_range": [
+      0.46284871288306006,
+      0.4681104611634805
+    ],
+    "agree": 0.9866666666666667,
+    "usd_per_1k": 0.043192999999999995,
+    "tokens_per_item": 143.97666666666666,
+    "latency_p50_ms": 887.5,
+    "latency_p95_ms": 1141.0
+  },
+  {
+    "file": "results/beliefs/appstore_stars/von.jsonl",
+    "name": "von von-1.3.0",
+    "type": "score",
+    "n": 300,
+    "repeats": 1,
+    "errors": 0,
+    "refusals": 0,
+    "accuracy": 0.3,
+    "accuracy_range": null,
+    "within_one": 0.7366666666666667,
+    "within_one_range": null,
+    "mae": 0.9074666666666666,
+    "mae_range": null,
+    "ece": 0.13534566666666664,
+    "ece_range": null,
+    "agree": null,
+    "usd_per_1k": 0.0,
+    "tokens_per_item": 109.18666666666667,
+    "latency_p50_ms": 753.3,
+    "latency_p95_ms": 1186.6
+  },
+  {
+    "file": "results/beliefs/appstore_stars/opendecider.jsonl",
+    "name": "opendecider opendecider-nano",
+    "type": "score",
+    "n": 300,
+    "repeats": 1,
+    "errors": 0,
+    "refusals": 0,
+    "accuracy": 0.45,
+    "accuracy_range": null,
+    "within_one": 0.8066666666666666,
+    "within_one_range": null,
+    "mae": 0.7861652374515931,
+    "mae_range": null,
+    "ece": 0.2887322560946146,
+    "ece_range": null,
+    "agree": null,
+    "usd_per_1k": 0.0,
+    "tokens_per_item": 130.47333333333333,
+    "latency_p50_ms": 668.2,
+    "latency_p95_ms": 1256.9
+  },
+  {
+    "file": "results/beliefs/appstore_stars/openjev.jsonl",
+    "name": "openjev open-jev-deberta-v3-large",
+    "type": "score",
+    "n": 300,
+    "repeats": 1,
+    "errors": 0,
+    "refusals": 0,
+    "accuracy": 0.41,
+    "accuracy_range": null,
+    "within_one": 0.8366666666666667,
+    "within_one_range": null,
+    "mae": 0.8013277030875906,
+    "mae_range": null,
+    "ece": 0.18957361310720447,
+    "ece_range": null,
+    "agree": null,
+    "usd_per_1k": 0.0,
+    "tokens_per_item": 0.0,
+    "latency_p50_ms": 1116.6,
+    "latency_p95_ms": 1538.7
+  }
+]
