@@ -12,5 +12,13 @@
   },
   "git_commit": "01d5fde1293187a905d61c5f93f8acd1241579ec",
   "started": "2026-10-18T23:17:31+00:00",
-  "status": "running"
+  "status": "complete",
+  "finished": "2026-10-18T23:21:03+00:00",
+  "records": 300,
+  "rows": 300,
+  "expected_rows": 300,
+  "served": [
+    "von-1.3.0"
+  ],
+  "cost_usd": 0
 }

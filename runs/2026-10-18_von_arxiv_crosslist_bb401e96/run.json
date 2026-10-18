@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-18_von_arxiv_crosslist_bb401e96",
+  "task": "arxiv_crosslist",
+  "task_version": "bb401e965180",
+  "model": {
+    "name": "von",
+    "provider": "von",
+    "model": "von-1.3",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "af7fdc38a6f7f2aecbdc5fae9778bfada28eba4c",
+  "started": "2026-10-18T23:21:03+00:00",
+  "status": "running"
+}
