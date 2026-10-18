@@ -1,26 +1,28 @@
 # The engine: `tdm`
 
-Two primitives. A provider turns evidence and questions into a belief; a decision rule turns beliefs
-and values into an action.
+A provider turns evidence and questions into a belief:
 
 ```python
 belief = Belief(questions, provider)(state)
-action = Decision(rule, **values)(belief)
 ```
 
 | Module | Job |
 |---|---|
 | `tdm.providers` | `Provider`, the generic HTTP client, and one subclass per provider API |
 | `tdm.data` | the questions file, the dataset, the results file and the response cache |
-| `tdm.belief` | `Belief`, `run`, `evaluate`, and the command line that forms beliefs for a dataset |
-| `tdm.score` | the generic scorer: beliefs against labels, one or several providers |
-| `tdm.decision` | `Decision`, live and recorded belief sources, the five structures, and decision scoring |
+| `tdm.project` | the layout on disk: configs, tasks (with versions), run folders |
+| `tdm.run` | `Belief`, `run`, and `execute`, which makes a run folder for a task and a model |
+| `tdm.score` | the generic scorer: beliefs against labels, per question type, compared across models |
+| `tdm.report` | tables from scores |
+| `python -m tdm` | `build`, `run`, `score`, `report` |
 
 | Input | Holds | Read by |
 |---|---|---|
-| `.env` | which provider and its key | `providers.load_provider` |
-| `questions.yaml` | the task: questions in the wire format, keyed by id | `data.load_questions` |
-| `dataset.jsonl` | the data: one record per line | `data.load_dataset` |
+| `.env` | provider keys | `run.load_env` |
+| `configs/models/<model>.yaml` | provider, pinned model, repeats, workers, optional `url` | `Project.model`, `Project.provider` |
+| `configs/experiments/<experiment>.yaml` | `tasks` and `models`; the first model is the comparison base | `Project.experiment` |
+| `tasks/<task>/questions.yaml` | the task: questions in the wire format, keyed by id | `Task.questions` |
+| `tasks/<task>/data.jsonl` | the data: one record per line, checked against `manifest.jsonl` | `Task.records` |
 
 ## Providers
 
@@ -55,16 +57,17 @@ chat model into a typed decision model: one request per question, each option ge
 and the belief is the next-token distribution over those labels (`top_logprobs`, so 20 options at
 most). Von and OpenDecider serve the wire format themselves, so their classes only change the URL and
 drop the key (`Local`). Every provider's results therefore score with the same code. Another provider is one subclass; select it with
-`--provider` or `PROVIDER=my_module:MyProvider`, or add `@register("name")`.
+`@register("name")` and a model config that names it.
 
 ## `.env`
 
 ```
-PROVIDER=typesafe          # a registered name or "module:Class"; --provider overrides it
-PROVIDER_API_KEY=sk-...    # optional when TYPESAFE_API_KEY, OPENAI_API_KEY or DEEPSEEK_API_KEY is set; local servers need none
+TYPESAFE_API_KEY=...
+OPENAI_API_KEY=...
+DEEPSEEK_API_KEY=...       # local servers need no key
 ```
 
-## `questions.yaml` and `dataset.jsonl`
+## `questions.yaml` and `data.jsonl`
 
 ```yaml
 department:
@@ -84,52 +87,34 @@ other fields are copied to the result. A record's own `questions` replace the sh
 ## Run
 
 ```bash
-python -m tdm.belief datasets/steam_recommend/questions.yaml datasets/steam_recommend/dataset.jsonl --out results.jsonl \
-    [--provider openai] [--repeats 3] [--cache cache.jsonl] [--workers 8]
+python -m tdm run fresh-reviews [--model openai] [--task appstore_app] [--date 2026-10-17]
 ```
 
-Each result line is the record without `state` and `questions`, plus `repeat`, `provider`, `model`,
-`answers`, `usage`, `latency_ms` and `cost_usd`, or `error`. Rerunning with the same `--out` skips
-answered (id, repeat) pairs and retries failed ones. With `--cache`, a request seen before is answered
-from the cache at no cost; each repeat is a distinct request.
+Each (task, model) pair becomes `runs/<date>_<model>_<task>_<version>/`:
 
-## Score
+- `run.json`: the task version, the model config, the model versions the API served, the git commit, times, row counts, cost and status.
+- `beliefs.jsonl`: one line per record and repeat. Each line is the record without `state` and `questions`, plus `repeat`, `provider`, `model`, `answers`, `usage`, `latency_ms` and `cost_usd`, or `error`.
+
+An incomplete run resumes: answered (id, repeat) pairs are skipped and failed ones are retried. A
+complete run is never touched again. A run on another day is a new folder.
+
+## Score and report
 
 ```bash
-python -m tdm.score results/beliefs/steam_recommend/typesafe.jsonl results/beliefs/steam_recommend/openai.jsonl [--question ID] [--threshold 0.5]
+python -m tdm score fresh-reviews       # -> scores/fresh-reviews.json
+python -m tdm report fresh-reviews      # -> reports/fresh-reviews.md and reports/fresh-reviews.<task>.csv
 ```
 
-The answer type picks the scorer: `noul` (accuracy, precision, recall, F1 at a threshold; AUROC,
-Brier and calibration error from the probability), `choice` (accuracy, macro-F1, Brier, calibration
-error) and `score` (accuracy, within-one accuracy, mean absolute error, calibration error). Repeats
-are averaged with their range, and `agree` is the share of records predicted the same on every
-repeat. Cost and latency come from the results. With several files, each is compared with the first
-on the same records, with a 95% bootstrap interval.
+Scoring takes the latest complete run of each model on each task's current version. The answer type
+picks the scorer:
+- `noul`: accuracy, precision, recall and F1 at a threshold; AUROC, Brier score and calibration error from the probability.
+- `choice`: accuracy, macro-F1, Brier score and calibration error.
+- `score`: accuracy, within-one accuracy, mean absolute error and calibration error.
+
+Repeats are averaged with their range, and `agree` is the share of records predicted the same on
+every repeat. Cost and latency come from the run. Each model is compared with the experiment's first
+model on the same records, with a 95% paired bootstrap interval. See `PROTOCOL.md`.
 
 ## Local servers
 
 Von, OpenDecider and open-jev run on this machine; see [`servers/README.md`](../servers/README.md).
-
-## Decisions
-
-A rule is a pure expression over beliefs and named values that returns an action or `ABSTAIN`;
-acting on the action is ordinary code. A unit is a belief and a decision, and an architecture wires
-units one of five ways. The architecture sets which edges exist; the rules decide which ones fire.
-
-```python
-gate = Decision(lambda b, tau: top(b["app"]) if confidence(b["app"]) >= tau else "escalate", tau=0.8)
-
-Single(belief, decision)                           # one unit
-Chained([b1, b2], decision)                        # b1's belief is evidence for b2
-Parallel([b1, b2, b3], decision)                   # one decision over independent beliefs
-OrchestratorWorker(Single(local, gate), {"escalate": Single(hosted, decision)})
-EvaluatorOptimizer(belief, done, decision, rounds=3)
-```
-
-A belief comes from `Live(questions, provider, evidence)` or from `Recorded("results/beliefs/<dataset>/<provider>.jsonl")`, a
-results file read back by record id. The same architecture therefore runs live or over recorded
-beliefs, and re-deciding with new values (`decision.given(tau=0.6)`) costs no model calls.
-`score_decisions` reports accuracy (an abstention counts as wrong), coverage, selective accuracy,
-calls, cost and, given a loss, the expected loss per decision. `compare` gives paired intervals.
-
-The decision experiments and their results are in [`results/decisions`](../results/decisions).

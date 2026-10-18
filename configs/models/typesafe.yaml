@@ -1,0 +1,5 @@
+# TypeSafe System One API. Key: TYPESAFE_API_KEY. List price $0.042 per 1M input tokens.
+provider: typesafe
+model: jev-1.13.0          # pinned: jev-latest moves when TypeSafe ships
+repeats: 3                 # hosted models need not be deterministic
+workers: 8

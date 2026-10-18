@@ -1,0 +1,5 @@
+# OpenAI Decisions API (public beta), translated to and from System One. Key: OPENAI_API_KEY. $0.10 per 1M input tokens.
+provider: openai
+model: gpt-6-luna
+repeats: 3
+workers: 8

@@ -1,75 +1,59 @@
-# Beliefs, Values, Actions
+# Typed decision model beliefs, across models
 
-Code, data and results for a paper on typed decision models: models that answer typed questions about
-evidence with a probability distribution instead of generated text.
-
-**The idea.** A typed decision model produces a *belief*. A *decision rule*, a pure expression over
-beliefs and explicit values, turns that belief into an action. Decision systems are decision units
-wired one of five ways, and their behavior lives in the rules, not in the wiring.
-
-```python
-from tdm import Belief, Decision, load_provider, top, confidence, ABSTAIN
-
-belief = Belief(questions, load_provider("typesafe"))(state)                       # evidence + questions -> belief
-route = Decision(lambda b, tau: top(b["app"]) if confidence(b["app"]) >= tau else ABSTAIN, tau=0.7)
-action = route(belief)                                                             # belief + values -> action
-```
-
-## Repository
+An evaluation of typed decision models: models that answer typed questions about evidence (yes/no,
+one of several options, or a level on a scale) with a probability distribution instead of text. The
+repository measures how good those beliefs are, model against model, on tasks built from text written
+after every model was published.
 
 ```
-src/tdm/          the engine: providers, belief runs, scoring, decisions          docs/engine.md
-datasets/         three fresh datasets, one per question type, with data cards    datasets/README.md
-experiments/      the three scripts that produce every result                     experiments/README.md
-results/          committed results: beliefs per provider, decision experiments   results/README.md
-servers/          local servers for the three open models                         servers/README.md
-related_work/     literature sweep and notes                                      related_work/README.md
-manuscript/       abstract and outline                                            manuscript/README.md
-docs/             engine reference, TypeSafe API notes
-tests/            unit tests, offline
+build (source → task)  →  run (task × model → beliefs)  →  score (beliefs → metrics)  →  report (metrics → tables)
 ```
 
-## Models and data
+Each stage reads only the previous stage's files. Runs are immutable, and scores and reports are
+regenerated from them, so every number traces to a run.
 
-| Provider | Model | Kind | How it is reached |
-|---|---|---|---|
-| `typesafe` | jev-1.13.0 | hosted | System One API, native |
-| `openai` | gpt-6-luna | hosted | Decisions API, translated to System One |
-| `deepseek` | V4.1 Flash | hosted chat model | one request per question, belief from next-token probabilities |
-| `von` | Von 1.3 | open, local | `von serve`, native |
-| `opendecider` | OpenDecider nano | open, local | `opendecider serve`, native |
-| `openjev` | open-jev-deberta-v3-large | open, local | `servers/openjev.py` |
+## Layout
 
-| Dataset | Question | Label |
-|---|---|---|
-| `steam_recommend` | does the reviewer recommend the game? (yes/no) | the reviewer's Recommended button |
-| `appstore_stars` | how many stars? (five levels) | the reviewer's star rating |
-| `appstore_app` | which of 12 apps? (choice, names masked) | the app reviewed |
+```
+PROTOCOL.md         what is measured and how, fixed before results
+configs/
+  models/           one YAML per model: provider, pinned version, repeats, concurrency
+  experiments/      one YAML per experiment: tasks × models
+tasks/<task>/       card.md, build.py, questions.yaml, manifest.jsonl (committed), data.jsonl (git-ignored text)
+runs/<run>/         run.json (task version, model config, models served, commit, times, cost) and beliefs.jsonl
+scores/             <experiment>.json, from runs
+reports/            <experiment>.md and CSVs, from scores; never edited by hand
+src/tdm/            the engine: providers, run, score, report, project layout
+servers/            local servers for the open models
+docs/               engine reference, TypeSafe API notes
+related_work/       literature sweep
+manuscript/         the paper's outline
+tests/              offline unit and pipeline tests
+```
 
-All 900 records were written October 10–17, 2026, after every model was published.
-
-## Reproduce
+## Use
 
 ```bash
 python -m venv .venv && .venv/bin/pip install -e ".[dev]"
-cp .env.example .env                  # TYPESAFE_API_KEY, OPENAI_API_KEY, DEEPSEEK_API_KEY
-make test                             # offline unit tests
-make scores decisions-offline         # every committed number, from committed results, no API calls
-make data beliefs decisions-live      # the full run: new data, new calls (servers/README.md for local models)
+cp .env.example .env                 # TYPESAFE_API_KEY, OPENAI_API_KEY, DEEPSEEK_API_KEY
+
+make test                            # offline
+make score report                    # regenerate scores/ and reports/ from the committed runs: no keys, no calls
+make run                             # new runs (local models need servers/README.md)
+python -m tdm run fresh-reviews --model openai --task appstore_app
 ```
 
-## Headline results
+Adding a model is one file in `configs/models/` (and a provider class if its API is new; see
+`docs/engine.md`). Adding a task is one folder in `tasks/`. Adding an experiment is one file in
+`configs/experiments/`.
 
-- **Beliefs:**
-  - The three hosted models are statistically tied on yes/no and choice.
-  - The open models trail by 15–26 points where world knowledge matters.
-  - Calibration does not track accuracy.
-- **Decisions:**
-  - The best model depends on what errors cost.
-  - Abstaining is the largest free lever: 0.600 → 0.861 on the app question.
-  - Values do not transfer between models.
-  - Panels of providers do not beat the best single one.
-  - A confidence-gated cascade from a free local model matches a hosted model at 17–78% of its cost.
-  - Re-asking until confident inflates confidence, not accuracy.
+## Current experiment: `fresh-reviews`
 
-Details: [`results/README.md`](results/README.md).
+Six models (TypeSafe jev-1.13.0, OpenAI gpt-6-luna, DeepSeek V4.1 Flash read through next-token
+probabilities, Von 1.3, OpenDecider nano, open-jev-deberta-v3-large) on three tasks of 300 reviews
+each, written October 10–17, 2026. Tables: [`reports/fresh-reviews.md`](reports/fresh-reviews.md).
+
+- **Hosted models:** statistically tied on the yes/no and choice tasks.
+- **Open models:** close on sentiment, but 15–26 points behind on the task that needs world knowledge (which app a review is about).
+- **Calibration** does not follow accuracy.
+- **OpenAI** refuses 18% of star-rating reviews and 6% of app reviews.

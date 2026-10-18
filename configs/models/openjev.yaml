@@ -1,0 +1,5 @@
+# open-jev-deberta-v3-large (com-kotobalabs), local: python servers/openjev.py --port 8103. See servers/README.md.
+provider: openjev
+model: open-jev-deberta-v3-large
+repeats: 1
+workers: 2

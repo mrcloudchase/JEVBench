@@ -1,6 +1,6 @@
-"""Score beliefs against labels, for any results file and any question type, and compare providers.
+"""Stage 3, score: runs -> scores. Beliefs against labels, for any question type, compared across models.
 
-    python -m tdm.score results_a.jsonl [results_b.jsonl ...] [--question ID] [--label FIELD] [--threshold 0.5]
+    score_experiment(project, "fresh-reviews")      # -> scores/fresh-reviews.json; no model is called
 
 The answer's type picks the scorer:
 
@@ -12,13 +12,12 @@ The answer's type picks the scorer:
              accuracy, within-one accuracy, mean absolute error of the expected score; ECE of the top probability
 
 With several repeats, metrics are averaged over repeats (with their range) and `agree` is the share
-of records whose prediction was the same on every repeat. Cost and latency come from the results.
-With two or more files, each is compared with the first on the records both answered.
+of records whose prediction was the same on every repeat. A refusal counts as wrong. Cost and latency
+come from the run. Each model is compared with the experiment's first model on the same records.
 """
 
 from __future__ import annotations
 
-import argparse
 import json
 import random
 import statistics
@@ -136,8 +135,8 @@ SCORERS = {"noul": NoulScorer, "choice": ChoiceScorer, "score": ScoreScorer}
 
 
 # ====================================================================== one results file
-class Run:
-    """One results file: its rows grouped by repeat, scored for one question against one label field."""
+class ScoredRun:
+    """One run's beliefs file: its rows grouped by repeat, scored for one question against one label field."""
 
     def __init__(self, path: str | Path, question: str | None, label: str, threshold: float):
         self.path = Path(path)
@@ -206,53 +205,28 @@ def paired(a: dict, b: dict, iters: int = 2000, seed: int = 1) -> dict:
             "only_base_right": diffs.count(-1), "only_other_right": diffs.count(1)}
 
 
-def paired_delta(base: Run, other: Run, iters: int = 2000, seed: int = 1) -> dict:
+def paired_delta(base: "ScoredRun", other: "ScoredRun", iters: int = 2000, seed: int = 1) -> dict:
     """Accuracy of `other` minus `base` on records both answered (first repeat), with a 95% bootstrap interval."""
     return paired(base.correct_by_id(), other.correct_by_id(), iters, seed)
 
 
-# ====================================================================== report
-def fmt(value, digits=3):
-    if value is None:
-        return "-"
-    if isinstance(value, tuple):
-        return f"{value[0]:.{digits}f}–{value[1]:.{digits}f}"
-    return f"{value:.{digits}f}" if isinstance(value, float) else str(value)
-
-
-def report(runs: list[Run]) -> str:
-    summaries = [run.summary() for run in runs]
-    metric_keys = [k for k in summaries[0] if k in ("accuracy", "precision", "recall", "f1", "auroc", "macro_f1",
-                                                     "within_one", "mae", "brier", "ece", "agree")]
-    head = ["provider / model", "n", "repeats"] + metric_keys + ["$ per 1k", "tokens", "p50 ms", "p95 ms", "errors", "refusals"]
-    lines = [f"question `{runs[0].question}`, label `{runs[0].label}`, scorer {summaries[0]['type']}"
-             + (f", threshold {runs[0].scorer.threshold}" if summaries[0]["type"] == "noul" else ""), "",
-             "| " + " | ".join(head) + " |", "|" + "---|" * len(head)]
-    for s in summaries:
-        cells = [s["name"], s["n"], s["repeats"]]
-        for k in metric_keys:
-            cells.append(fmt(s[k]) + (f" ({fmt(s[k + '_range'])})" if s.get(k + "_range") else ""))
-        cells += [fmt(s["usd_per_1k"], 4), f"{s['tokens_per_item']:.0f}", fmt(s["latency_p50_ms"], 0),
-                  fmt(s["latency_p95_ms"], 0), s["errors"], s["refusals"]]
-        lines.append("| " + " | ".join(str(c) for c in cells) + " |")
-    if len(runs) > 1:
-        lines += ["", f"Accuracy versus {runs[0].name()} on the same records (first repeat; 95% bootstrap interval):", "",
-                  "| provider / model | n | delta | ci95 | only base right | only other right |", "|---|---|---|---|---|---|"]
-        for run in runs[1:]:
-            d = paired_delta(runs[0], run)
-            lines.append(f"| {run.name()} | {d['n']} | {d['delta']:+.3f} | {fmt(d['ci95'])} | {d['only_base_right']} | {d['only_other_right']} |")
-    return "\n".join(lines)
-
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Score beliefs against labels and compare results files.")
-    parser.add_argument("results", nargs="+", help="results JSONL files from tdm.belief")
-    parser.add_argument("--question", help="question id to score (default: the only one)")
-    parser.add_argument("--label", default="label", help="record field holding the ground truth")
-    parser.add_argument("--threshold", type=float, default=0.5, help="noul: predict yes at or above this")
-    parser.add_argument("--json", help="also write the summaries as JSON to this file")
-    args = parser.parse_args()
-    runs = [Run(path, args.question, args.label, args.threshold) for path in args.results]
-    print(report(runs))
-    if args.json:
-        Path(args.json).write_text(json.dumps([r.summary() for r in runs], indent=2), encoding="utf-8")
+# ====================================================================== an experiment
+def score_experiment(project, name: str, threshold: float = 0.5) -> dict:
+    """Score the latest complete run of each model on each task, and write scores/<name>.json."""
+    exp = project.experiment(name)
+    out = {"experiment": name, "tasks": {}}
+    for task in exp["tasks"]:
+        found = [(m, project.latest(task, m)) for m in exp["models"]]
+        scored = [(m, r, ScoredRun(r.beliefs, None, "label", threshold)) for m, r in found if r]
+        entry = {"task_version": project.task(task).version, "missing": [m for m, r in found if not r], "runs": [], "paired": []}
+        for model, run_dir, s in scored:
+            entry["runs"].append({"model": model, "run": run_dir.dir.name, **s.summary(), "file": str(run_dir.beliefs.relative_to(project.root))})
+        if scored:
+            entry.update(question=scored[0][2].question, type=entry["runs"][0]["type"], threshold=threshold, base=scored[0][0])
+            for model, _, s in scored[1:]:
+                entry["paired"].append({"model": model, **paired_delta(scored[0][2], s)})
+        out["tasks"][task] = entry
+    path = project.root / "scores" / f"{name}.json"
+    path.parent.mkdir(exist_ok=True)
+    path.write_text(json.dumps(out, indent=2) + "\n", encoding="utf-8")
+    return out

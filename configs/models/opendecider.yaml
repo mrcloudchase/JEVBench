@@ -1,0 +1,5 @@
+# OpenDecider nano (manjunathshiva/opendecider-nano), local: opendecider serve --port 8102. See servers/README.md.
+provider: opendecider
+model: opendecider-nano
+repeats: 1
+workers: 2

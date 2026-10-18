@@ -1,21 +1,19 @@
-PY ?= python
+PY ?= $(shell test -x .venv/bin/python && echo .venv/bin/python || echo python)
+EXP ?= fresh-reviews
 
-.PHONY: test data beliefs scores decisions-offline decisions-live
+.PHONY: test build run score report
 
-test:              ## unit tests, offline
+test:     ## unit tests, offline
 	$(PY) -m pytest -q
 
-data:              ## rebuild datasets/*/dataset.jsonl and manifest.jsonl from the live sources (a new sample)
-	for d in steam_recommend appstore_stars appstore_app; do $(PY) datasets/$$d/wrangle.py; done
+build:    ## rebuild every task from its source (draws a new sample: a new task version)
+	for t in steam_recommend appstore_stars appstore_app; do $(PY) -m tdm build $$t; done
 
-beliefs:           ## every provider on every dataset, then scores (resumes; cached)
-	$(PY) experiments/beliefs.py
+run:      ## run the experiment: new runs for anything not yet run today
+	$(PY) -m tdm run $(EXP)
 
-scores:            ## re-score the committed belief results, no calls
-	$(PY) experiments/beliefs.py --score
+score:    ## runs -> scores/$(EXP).json, no API calls
+	$(PY) -m tdm score $(EXP)
 
-decisions-offline: ## E1-E5 over the recorded beliefs, no calls
-	$(PY) experiments/decisions_offline.py
-
-decisions-live:    ## E6-E7 on TypeSafe and OpenAI, then score
-	$(PY) experiments/decisions_live.py && $(PY) experiments/decisions_live.py --score
+report:   ## scores -> reports/$(EXP).md and CSVs, no API calls
+	$(PY) -m tdm report $(EXP) > /dev/null

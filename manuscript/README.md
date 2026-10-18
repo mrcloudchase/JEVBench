@@ -1,48 +1,26 @@
 # Manuscript
 
-**Working title:** *Beliefs, Values, Actions: Building Decisions on Typed Decision Models*
+**Scope:** the quality of typed decision models' beliefs, compared across models, on data none of them
+can have seen in training. (The decision-rule experiments are in the repository's history, at commit
+`a38ae5f`, and are not part of this paper.)
 
-## Abstract (draft)
-
-Typed decision models answer typed questions about evidence (yes/no, one of several options, or a
-level on an ordered scale) with a probability distribution instead of generated text. We argue that
-this output is best treated as a *belief*, and that decisions should be made outside the model. A
-decision rule, written as a pure expression over beliefs and explicit values such as thresholds and
-costs, maps a belief to an action, which can then invoke ordinary function code. This separates what
-the model thinks from what the stakeholder wants and makes every decision inspectable. It also lets
-values change without calling the model again.
-
-We formalize the *decision unit* (evidence and questions to belief; belief and values to action) and
-show that five structures of decision units cover the common decision architectures: single, chained,
-parallel, orchestrator-worker and evaluator-optimizer. The structure sets which edges exist; the rules
-decide which ones fire.
-
-We evaluate six typed decision models, three hosted and three open, on three tasks built from reviews
-written after every model was published. All six return beliefs of the same form. The hosted models
-are statistically tied, the open models trail on the task that needs world knowledge, and calibration
-does not track accuracy. Re-deciding over the recorded beliefs then shows the following. The choice of
-values changes which model is best. Values fitted on one model do not transfer to another. Panels of
-providers do not beat the best single provider, because their errors are shared. A confidence-gated
-cascade from a free local model matches a hosted model at 17–78% of its cost. Re-asking a model until
-it is confident inflates its confidence rather than its accuracy.
+**Working title:** *Fresh Beliefs: Typed Decision Models Across Providers on Post-Release Data*
 
 ## Outline
 
 | Section | Content | Evidence |
 |---|---|---|
-| 1 Introduction | typed decision models; the belief/decision split; contributions | — |
-| 2 Related work | decision theory and the reject option; calibration; cascades and compound AI systems; the 2026 typed-decision-model literature | [`related_work/`](../related_work) |
-| 3 The decision unit | evidence, questions, belief; rule, values, action; the wire format | [`docs/engine.md`](../docs/engine.md) |
-| 4 Five structures | single, chained, parallel, orchestrator-worker, evaluator-optimizer; structure versus behavior | `src/tdm/decision.py` |
-| 5 Setup | six providers; three fresh datasets; contamination control; protocol | [`datasets/`](../datasets), [`experiments/`](../experiments) |
-| 6 Beliefs | accuracy, ranking, calibration, cost, latency across providers | [`results/beliefs`](../results/beliefs) |
-| 7 Decisions | E1–E7 | [`results/decisions`](../results/decisions) |
-| 8 Limitations | 300 records per task; one domain (reviews); single fits without risk control; replay of one recorded run; hosted models not deterministic | — |
-| 9 Conclusion | behavior lives in rules; wiring buys cost and coverage, not accuracy | — |
+| 1 Introduction | typed decision models; why belief quality and calibration matter; why fresh data | — |
+| 2 Related work | the 2026 typed-decision-model literature and leaderboards; calibration; contamination and fresh-data evaluation | [`related_work/`](../related_work) |
+| 3 Beliefs and the wire format | System One question and answer types; translating other APIs into them | [`docs/engine.md`](../docs/engine.md) |
+| 4 Tasks | post-release collection; labels from the authors' own actions; data cards; contamination table | [`tasks/`](../tasks) |
+| 5 Protocol | models, repeats, metrics, paired comparisons | [`PROTOCOL.md`](../PROTOCOL.md) |
+| 6 Results | accuracy, ranking, calibration, consistency, refusals, cost and latency | [`reports/`](../reports) |
+| 7 Limitations | sample size; review domains only; one collection window; non-deterministic hosted models | — |
 
-## Before submission
+## Open before submission
 
-- Rename: "JevBench" is taken by three other projects, and "Jev" is TypeSafe's product name.
-- Strengthen the evidence: more records, a second domain, values certified with a risk-control
-  method (Learn-then-Test), and repeats in the decision experiments.
-- Verify every reference marked unverified in `related_work/`.
+- **The name.** "JevBench" is taken three times, and "Jev" is TypeSafe's product name.
+- **More and broader data.** More tasks, more records and more domains, collected under licenses that allow redistribution. Most belief papers stop at accuracy; ours needs enough data for calibration and consistency claims.
+- **Consistency tests.** Option order, label renaming and wording perturbations: the audit's least-covered checklist items.
+- **References.** Verify every one marked unverified in `related_work/`.

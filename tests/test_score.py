@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from tdm.score import ChoiceScorer, NoulScorer, Run, ScoreScorer, paired
+from tdm.score import ChoiceScorer, NoulScorer, ScoreScorer, ScoredRun, paired
 
 
 def noul(p):
@@ -29,7 +29,7 @@ def test_refusal_is_wrong_not_an_error(tmp_path):
     rows = [{"id": "a", "repeat": 0, "label": "x", "answers": {"q": {"type": "refusal"}}},
             {"id": "b", "repeat": 0, "label": "x", "answers": {"q": {"type": "choice", "choice": "x", "probabilities": {"x": 1.0}}}}]
     (tmp_path / "r.jsonl").write_text("".join(json.dumps(r) + "\n" for r in rows))
-    s = Run(tmp_path / "r.jsonl", None, "label", 0.5).summary()
+    s = ScoredRun(tmp_path / "r.jsonl", None, "label", 0.5).summary()
     assert s["accuracy"] == 0.5 and s["refusals"] == 1 and s["errors"] == 0
 
 

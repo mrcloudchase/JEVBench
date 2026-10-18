@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "tdm"
 version = "0.1.0"
-description = "Typed decision models read as beliefs and decided by rules: an evaluation engine across providers and datasets."
+description = "Evaluate typed decision models' beliefs across models and tasks."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["pyyaml>=6.0"]

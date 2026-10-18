@@ -1,0 +1,6 @@
+# A chat model read as a typed decision model: one request per question, belief from next-token probabilities.
+# Key: DEEPSEEK_API_KEY. $0.30 per 1M input tokens (V4.1 Flash, cache miss, peak). The alias is served by deepseek-flash.
+provider: deepseek
+model: deepseek-chat
+repeats: 3
+workers: 8
