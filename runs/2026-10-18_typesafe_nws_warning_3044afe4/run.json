@@ -1,0 +1,15 @@
+{
+  "id": "2026-10-18_typesafe_nws_warning_3044afe4",
+  "task": "nws_warning",
+  "task_version": "3044afe41c8e",
+  "model": {
+    "name": "typesafe",
+    "provider": "typesafe",
+    "model": "jev-1.13.0",
+    "repeats": 3,
+    "workers": 8
+  },
+  "git_commit": "fed4b2ab8d10aa606d1e93b4ba7a089eb8423867",
+  "started": "2026-10-18T21:52:41+00:00",
+  "status": "running"
+}
