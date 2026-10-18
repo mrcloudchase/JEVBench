@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-18_openjev_nws_certainty_40ad7d8d",
+  "task": "nws_certainty",
+  "task_version": "40ad7d8dd1aa",
+  "model": {
+    "name": "openjev",
+    "provider": "openjev",
+    "model": "open-jev-deberta-v3-large",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "d1a3a3b033a7e402062776fad770384e14804555",
+  "started": "2026-10-18T22:44:50+00:00",
+  "status": "running"
+}
