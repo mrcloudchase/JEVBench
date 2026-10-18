@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-18_openjev_arxiv_category_602ce96e",
+  "task": "arxiv_category",
+  "task_version": "602ce96e16d6",
+  "model": {
+    "name": "openjev",
+    "provider": "openjev",
+    "model": "open-jev-deberta-v3-large",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "b16d8f3f47c680cb6ef39b28784036a465339413",
+  "started": "2026-10-18T22:59:36+00:00",
+  "status": "running"
+}
