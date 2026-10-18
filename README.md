@@ -49,14 +49,18 @@ Adding a model is one file in `configs/models/` (and a provider class if its API
 
 ## Current experiment: `public-fresh`
 
-Six models on three tasks built from text written after every model was published, from sources whose
-reuse is granted in writing:
+Six models on seven tasks covering every text question type, built from text written after every model
+was published, from sources whose reuse is granted in writing:
 
-| Task | Question | Records |
-|---|---|---|
-| `fedreg_type` | is a Federal Register document a rule, a proposed rule or a notice? | 270 |
-| `fedreg_agency` | which of ten agencies issued it? (agency names masked) | 296 |
-| `arxiv_category` | which of twelve arXiv categories is a new paper's primary one? | 600 |
+| Task | Type | Question | Records |
+|---|---|---|---|
+| `nws_warning` | yes/no | is this weather alert a warning? | 300 |
+| `arxiv_crosslist` | yes/no | is this paper also listed in cs.LG? | 300 |
+| `nws_severity` | score (4) | how severe is the threat the alert describes? | 316 |
+| `nws_certainty` | score (3) | how certain is the hazard? | 300 |
+| `fedreg_type` | choice (3) | is a Federal Register document a rule, a proposed rule or a notice? | 270 |
+| `fedreg_agency` | choice (10) | which agency issued it? (agency names masked) | 296 |
+| `arxiv_category` | choice (12) | which arXiv category is a new paper's primary one? | 600 |
 
 The six models:
 - TypeSafe jev-1.13.0
@@ -66,7 +70,7 @@ The six models:
 - OpenDecider nano
 - open-jev-deberta-v3-large
 
-The task text is committed, because the Federal Register is public domain and arXiv metadata is CC0;
+The task text is committed: Federal Register and National Weather Service text is public domain, and arXiv metadata is CC0;
 see [`tasks/README.md`](tasks/README.md). No runs have been made yet: `make run` produces them, then
 `make score report` writes [`reports/public-fresh.md`](reports/).
 

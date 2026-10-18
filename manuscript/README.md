@@ -13,10 +13,10 @@ can have seen in training. (The decision-rule experiments are in the repository'
 | 1 Introduction | typed decision models; why belief quality and calibration matter; why fresh data | — |
 | 2 Related work | the 2026 typed-decision-model literature and leaderboards; calibration; contamination and fresh-data evaluation | [`related_work/`](../related_work) |
 | 3 Beliefs and the wire format | System One question and answer types; translating other APIs into them | [`docs/engine.md`](../docs/engine.md) |
-| 4 Tasks | post-release collection under written reuse grants; labels from the sources themselves (agency designations, authors' categories); masking; data cards; contamination table | [`tasks/`](../tasks) |
+| 4 Tasks | post-release collection under written reuse grants; labels from the sources themselves (agency designations, authors' categories, Weather Service classifications); masking; data cards; contamination table | [`tasks/`](../tasks) |
 | 5 Protocol | models, repeats, metrics, paired comparisons | [`PROTOCOL.md`](../PROTOCOL.md) |
 | 6 Results | accuracy, ranking, calibration, consistency, refusals, cost and latency | [`reports/`](../reports) |
-| 7 Limitations | sample size; choice questions only so far (no yes/no or score task yet); one collection window; non-deterministic hosted models | — |
+| 7 Limitations | sample size; no box (image) questions; two tasks per text type except choice; one collection window; non-deterministic hosted models | — |
 
 ## Open before submission
 

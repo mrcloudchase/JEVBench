@@ -1,0 +1,316 @@
+{"id": "nws-ec4adb2257ff", "label": 0, "event": "Flood Advisory", "sent": "2026-10-14T08:22:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.9f05d8168458c39e3865ec8c25fe1d8dc605290a.001.1"}
+{"id": "nws-01ce6ec015fe", "label": 0, "event": "Flood Advisory", "sent": "2026-10-13T20:36:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.87020e05a68599f878162dfe0813acbf142321fc.001.1"}
+{"id": "nws-86793fd27a9c", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-14T16:49:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.cc3798bdd045cc1548eb25fec259701d2a86e50b.001.1"}
+{"id": "nws-8be8d77a832e", "label": 2, "event": "Flood Watch", "sent": "2026-10-13T12:26:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.06ee7dc1ce210286912573178c40ec10327d6b70.001.1"}
+{"id": "nws-c608043904db", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-13T13:42:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.3d37e9c00152cb799eb3257f042f08d4dc600506.001.1"}
+{"id": "nws-6adfc9f70835", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-17T03:32:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.5f8d2c870247ee78b66cc103a7663383325916fc.037.1"}
+{"id": "nws-e65de869d6ef", "label": 3, "event": "Tornado Warning", "sent": "2026-10-14T17:06:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.f79d112b9a7356d930fc4870648d392fed336e08.001.1"}
+{"id": "nws-baa9269d602e", "label": 2, "event": "Freeze Warning", "sent": "2026-10-16T01:18:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.57222cbd6cd539863c92fde90de7b0a9532ba002.001.2"}
+{"id": "nws-a66ef2b371ed", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-14T20:37:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.8f5c17baeafdffeaefc40d52a22cb01f4d5fc837.001.1"}
+{"id": "nws-24cde96ac461", "label": 2, "event": "Freeze Warning", "sent": "2026-10-16T00:51:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.81dc82c1220dafa523d18c5fb1a2a03c26d84570.001.2"}
+{"id": "nws-b5c9090f9b4c", "label": 2, "event": "Special Marine Warning", "sent": "2026-10-16T22:18:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.32b79a9d5ad12a002da0814c7d9ecb6c8da6eaad.001.1"}
+{"id": "nws-09df10fef74d", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-11T15:23:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.d588f0e4077af804bc12277658a8b422b11513b4.016.1"}
+{"id": "nws-c8fcb39538a1", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T21:26:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.07b3e55d69bd5f69da67ec2be1ed2b46d91055ed.001.1"}
+{"id": "nws-2f3986752e72", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-13T18:10:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.cbff3212db3a964416a6902a7cd02d183701d93c.001.1"}
+{"id": "nws-3ef6d91f8699", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-16T09:34:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.64cbfa66c4075fef3e397eee06ae8c3962d49375.001.1"}
+{"id": "nws-1f7a9e2b33b6", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-13T19:38:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.7d363932991fb22060f9d36672b09208cccdd70b.001.1"}
+{"id": "nws-ab933d5ba208", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T14:39:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.a82520044961ec592a0b1b05a598beebad7b48b3.024.1"}
+{"id": "nws-1ebfa48df5a4", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-14T15:08:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.56a021404f50263bd5960cb7c906128b2f6a10c8.001.1"}
+{"id": "nws-98649298be27", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T03:54:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.ae85f82773db76d341ef97dd68940c87d5a35f60.032.1"}
+{"id": "nws-93535b6c5961", "label": 2, "event": "Freeze Warning", "sent": "2026-10-15T01:46:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.be6d4c86dfac89fc28a2321898919c3efd8f78dc.001.2"}
+{"id": "nws-80d062afda0f", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-13T03:58:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.c7bc4714afe5a2c8531117f5d682794eddf9445c.031.1"}
+{"id": "nws-0a6990c034c3", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-15T12:03:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.18d2e40a3de0381e0ed65b6fa0347d9a7505b4a2.001.1"}
+{"id": "nws-a40a8e0b04ff", "label": 1, "event": "Wind Advisory", "sent": "2026-10-15T12:27:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.3416a888b37bf136d85810096239b0c1413f6b46.001.1"}
+{"id": "nws-1b2b4be431ca", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-14T16:03:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.d2be1612c392d7bc1f1ebb946f47c2c988979662.001.1"}
+{"id": "nws-4b5bf289602d", "label": 1, "event": "Dense Fog Advisory", "sent": "2026-10-12T00:50:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.bd57aa4fa3d88106790d4e9b2c2059515b7e1335.001.1"}
+{"id": "nws-5c105c7891d1", "label": 1, "event": "Wind Advisory", "sent": "2026-10-15T11:03:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.7d8ee461804034f0518ad045d721891c55b25ffd.002.1"}
+{"id": "nws-4f523cc64dda", "label": 2, "event": "Freeze Warning", "sent": "2026-10-11T15:00:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.33c3597129b2b686e8dcbace9ce5d712066702c3.001.1"}
+{"id": "nws-4bf9e0bb4d63", "label": 2, "event": "Freeze Warning", "sent": "2026-10-17T02:10:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.08536c72321288eb5a5a206437447cd63dd7013b.002.2"}
+{"id": "nws-b5ce2cabcc0a", "label": 1, "event": "Gale Warning", "sent": "2026-10-16T02:08:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.af0e481a1a8c7b278746d7562d05451dec10407d.001.3"}
+{"id": "nws-ff0d2bbec56e", "label": 2, "event": "Freeze Watch", "sent": "2026-10-15T12:51:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.0966df755daf2ac22a203583910efc83baad945d.001.1"}
+{"id": "nws-9123a9574963", "label": 1, "event": "Gale Warning", "sent": "2026-10-15T02:24:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.e92471388d11c6a9ab7bf86b4dcfb479d87edd21.001.2"}
+{"id": "nws-1affc6a40d03", "label": 1, "event": "Gale Warning", "sent": "2026-10-16T02:48:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.ad2e110385a3453557c41453205b7590d0f80add.003.2"}
+{"id": "nws-a148bf3c961a", "label": 1, "event": "Gale Watch", "sent": "2026-10-14T03:09:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.b526daad78727e0b75580cef7b750d0352b5924b.002.1"}
+{"id": "nws-400d95ea9973", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-13T15:09:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.648e8eb2cc482f68ba332c9ff15627134b66816c.007.1"}
+{"id": "nws-d99d0fa18ae5", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T14:39:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.a82520044961ec592a0b1b05a598beebad7b48b3.005.1"}
+{"id": "nws-6ffab0f45530", "label": 1, "event": "Wind Advisory", "sent": "2026-10-15T11:10:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.f3ac143c6bd275d39bf37402bab7595846a1461f.001.1"}
+{"id": "nws-50efbd04f387", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-12T03:29:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.f32165b72d64f88623791eed7c86467f1750564f.001.1"}
+{"id": "nws-89e4c6eb11b8", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-15T15:10:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.fa2572f1cd8443335bba40feb72f9aa5872170d3.007.1"}
+{"id": "nws-e16e8a4a5e4b", "label": 1, "event": "Winter Weather Advisory", "sent": "2026-10-13T13:09:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.cd4fcc2e324c1ea02757f8b08d9168ece24dc4ea.002.1"}
+{"id": "nws-1cb3964b459d", "label": 2, "event": "Flood Watch", "sent": "2026-10-13T11:58:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.1cc682bf69443d001657392fb9f23d1b2a46bd3b.001.1"}
+{"id": "nws-8e86b20f3e8e", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-14T02:06:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.e83b60a5dfde51843ceba3ffb6d8a04384cb893a.001.1"}
+{"id": "nws-8ff1f8c62461", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-15T16:46:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.41b8d6def1bfee283ab7d0002611b78101dd32aa.001.1"}
+{"id": "nws-36bf84f376d5", "label": 2, "event": "Special Marine Warning", "sent": "2026-10-17T15:37:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.b076fb5a08aabe79189b3c1e4cc2a7789c83451a.001.1"}
+{"id": "nws-2405e09e4d60", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-15T04:02:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.63be0e32e6343483679b8c8449467a5c6109962e.003.1"}
+{"id": "nws-9599dc58ea11", "label": 2, "event": "Fire Weather Watch", "sent": "2026-10-13T09:37:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.ea524456ab0c17493d13726a94ad9acc273be4e8.002.1"}
+{"id": "nws-d838ead0074c", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-15T03:46:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.b6dafad434176dc0364881055426da5409f39d01.014.1"}
+{"id": "nws-1f86fb431920", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-14T12:23:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.e655f7cb8d776266157c2a3b7b0a3b5237cd48ed.002.1"}
+{"id": "nws-953179907bd9", "label": 2, "event": "Freeze Warning", "sent": "2026-10-16T00:29:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.1d3c3224a201b1f004a8d1f489eea913673eb56c.001.2"}
+{"id": "nws-9e2642a47c2a", "label": 2, "event": "Red Flag Warning", "sent": "2026-10-16T06:41:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.55add7036c0e5a897e22e2844eaef0902d65f91b.001.1"}
+{"id": "nws-a30b778b77cb", "label": 2, "event": "Flood Warning", "sent": "2026-10-11T18:40:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.bee94817a6162a9b292281f9a901b71c445d9170.001.1"}
+{"id": "nws-cae2be118f54", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-15T13:39:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.83a4b095ba5cd36651be4ca71c0398003946cf70.037.1"}
+{"id": "nws-728f354c498b", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-14T20:26:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.9a28a78cd6cb7cbca8e7b86314b8a13b89164510.001.1"}
+{"id": "nws-0f657982b5ab", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-14T14:33:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.b484a227e828b9aad6aead016652861add827ffc.034.1"}
+{"id": "nws-5a2f14f71198", "label": 1, "event": "Gale Warning", "sent": "2026-10-15T15:48:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.0f220e54326fcc97941e9cb47ada4a00be4c9302.007.1"}
+{"id": "nws-3afc439cfaee", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T03:56:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.80fb224ecd81ffd7b435476adf11f1d737cd4159.008.3"}
+{"id": "nws-264066e052a4", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-11T15:23:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.d588f0e4077af804bc12277658a8b422b11513b4.035.1"}
+{"id": "nws-2af32afc122d", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-16T09:44:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.5b7e1cccae0339fe2d7eee248463dcfdbf47712d.001.1"}
+{"id": "nws-1bf04e17e06d", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T14:39:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.a82520044961ec592a0b1b05a598beebad7b48b3.016.1"}
+{"id": "nws-2c6fcf5a0365", "label": 2, "event": "High Wind Warning", "sent": "2026-10-16T05:10:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.1b02d92e569e9016a6d47c63b60c7b867a73a5ee.004.1"}
+{"id": "nws-6cb8515b05c4", "label": 0, "event": "Coastal Flood Advisory", "sent": "2026-10-18T15:01:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.1f34613c06ad767cf3859766ae8bbc2715014344.001.2"}
+{"id": "nws-d4fc702c8df2", "label": 1, "event": "Wind Advisory", "sent": "2026-10-15T11:03:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.7d8ee461804034f0518ad045d721891c55b25ffd.001.1"}
+{"id": "nws-b79657a2f6a8", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-17T03:46:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.f80c1a6f6ca716ed8d6b2df7351e0b90b661a4c8.001.1"}
+{"id": "nws-335ec2f9ad0a", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-14T15:22:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.d669173a6a534630a3589fa4bd5b141076740692.001.1"}
+{"id": "nws-e4d5c264b2c3", "label": 0, "event": "Frost Advisory", "sent": "2026-10-13T03:58:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.0c095382af5031235c75ed081905e51bfd0588eb.001.2"}
+{"id": "nws-1b7b0088bd0e", "label": 1, "event": "Winter Weather Advisory", "sent": "2026-10-12T13:51:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.ba6f6430767f1a61105fb257d574433839be8fde.002.1"}
+{"id": "nws-9ffa1561dc3d", "label": 3, "event": "Tornado Warning", "sent": "2026-10-14T20:28:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.4e8a0c5ee8f038dee38e8b0d1f167f0bc30c5170.001.1"}
+{"id": "nws-bbd67dbdaae1", "label": 1, "event": "Gale Watch", "sent": "2026-10-18T14:04:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.34572ab5059706f24186052030f72dd7e99c3ed2.005.2"}
+{"id": "nws-07c9be1f45ff", "label": 1, "event": "Gale Watch", "sent": "2026-10-14T14:58:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.85e493f8add141d00b8d555f82cc45859ddfc96a.004.1"}
+{"id": "nws-69de341f8674", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-18T04:10:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.94d58e77ec6606f234f2a99184b1af7fb04c4805.019.1"}
+{"id": "nws-420c6cad57d5", "label": 2, "event": "Freeze Warning", "sent": "2026-10-13T12:25:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.413e98ff71354a2dea32b30c7d8745d8648d4e90.001.2"}
+{"id": "nws-6cc15356af53", "label": 3, "event": "Tornado Warning", "sent": "2026-10-14T20:16:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.f4642bfef741ee5a737e80ab1ba76fa7b9782918.001.1"}
+{"id": "nws-e6679ff3413b", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-12T15:48:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.6e14c735b7d5025cf99c4a9f79adb554a1ae1a03.006.1"}
+{"id": "nws-e2c843305166", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-13T16:53:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.58b6c7eb96fa347a6fb07e484253b10348a0da44.001.1"}
+{"id": "nws-b4c9da249136", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-13T02:42:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.a6a94330e68403876cacf9a9d67d18686a5d55b7.003.1"}
+{"id": "nws-a5143b6e5b07", "label": 1, "event": "Gale Warning", "sent": "2026-10-18T04:10:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.94d58e77ec6606f234f2a99184b1af7fb04c4805.002.1"}
+{"id": "nws-df1341701afe", "label": 2, "event": "Storm Warning", "sent": "2026-10-14T21:47:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.9786b25e4f7f00a62a61dba10f3c86e55919c68e.011.1"}
+{"id": "nws-7d04e215b503", "label": 1, "event": "Gale Warning", "sent": "2026-10-14T21:47:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.9786b25e4f7f00a62a61dba10f3c86e55919c68e.010.1"}
+{"id": "nws-0a927fc1dbe7", "label": 1, "event": "Gale Warning", "sent": "2026-10-13T04:15:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.6977c3c617e626ae29ac52f644e1d60bb4e42b3d.004.2"}
+{"id": "nws-f0b3ac61fdd2", "label": 2, "event": "Flash Flood Warning", "sent": "2026-10-15T01:56:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.9069420ef3b315e86a0ce35bb53540eb57b943ff.001.1"}
+{"id": "nws-61b7fbc77c4c", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-14T19:15:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.0927eca5a4429b139d75fcb2236361d17589fbf4.001.1"}
+{"id": "nws-f8a4098b8cf9", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T15:04:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.4370ffc96dedcc6ad15ff7db57c71030a8b74048.007.1"}
+{"id": "nws-a64176ce0f8f", "label": 2, "event": "Flash Flood Warning", "sent": "2026-10-15T06:07:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.887cf50ea5d6d33f999653ee08a9387e3199f21b.001.1"}
+{"id": "nws-5bbd9f01a571", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-14T15:49:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.fe3340055c59bab1bb2343eaab9660fdc409ade6.012.1"}
+{"id": "nws-c573e82a7338", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-15T13:49:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.bc9c8c1ab231df4f9e6d61cf167c5c43627c5a64.004.2"}
+{"id": "nws-9cae6c36c1fc", "label": 1, "event": "Wind Advisory", "sent": "2026-10-18T01:47:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.5d4ecb431be55e1732435aad4d2cbe75e2ebebbf.001.1"}
+{"id": "nws-7c1c28be3284", "label": 2, "event": "Flood Warning", "sent": "2026-10-14T06:07:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.0c44d0c6e03d793b90e891f35f62fb1bcbc2dfee.001.1"}
+{"id": "nws-130363ae2c29", "label": 2, "event": "Freeze Watch", "sent": "2026-10-12T09:54:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.768cc333dd1fdefd8aaade03819432e039b9bc27.004.1"}
+{"id": "nws-a9a470109f53", "label": 2, "event": "Freeze Warning", "sent": "2026-10-13T10:22:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.c15fc8e96c6fd84f9d60dd6545f64b6b61c044e8.001.2"}
+{"id": "nws-7b25a8d11f9c", "label": 2, "event": "Special Marine Warning", "sent": "2026-10-17T14:16:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.ffb26b5f9c80d8c2058c57797e619da1e812d1bb.001.1"}
+{"id": "nws-82b4c3248a6b", "label": 1, "event": "Gale Watch", "sent": "2026-10-14T12:57:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.565f02a726d65416f4cfe813fcb99d065974a05b.005.2"}
+{"id": "nws-b282290af100", "label": 2, "event": "High Wind Watch", "sent": "2026-10-14T22:45:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.0e2a0ed177bbbc4f83103aaa8f4c58141abd691a.001.1"}
+{"id": "nws-6587856f85ab", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-16T08:53:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.ad33c37d24d3728a8f63a6fdfa60944cd475cd0c.001.1"}
+{"id": "nws-597a388b0b49", "label": 1, "event": "Gale Warning", "sent": "2026-10-16T15:20:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.611f9b99150ccbe81877e399433e0a3b159e9131.002.1"}
+{"id": "nws-0e4cf687b2fa", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-14T04:50:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.b33fe173f32933d545dcd2b80348114da3df418d.001.1"}
+{"id": "nws-75d644f98c11", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-17T03:43:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.b8ea3debb2b432ebbe47808092265c79a522ed23.002.1"}
+{"id": "nws-780b4311f963", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-13T18:44:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.3aa63f572076c60b43ec30f924109687a891f86f.001.1"}
+{"id": "nws-d3cae8c565c2", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-13T18:15:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.d4184b6dc1493ad073c7e6207123a923e9959c55.001.1"}
+{"id": "nws-bda11f6fbabd", "label": 2, "event": "Flash Flood Warning", "sent": "2026-10-14T03:22:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.074f15d2a28bdd8b08cc035e387d8daa47ae9464.001.1"}
+{"id": "nws-76892ecd868b", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-16T06:03:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.f6c71e5fae33454014f991e98fd7b24cdc1015e2.001.1"}
+{"id": "nws-da6173dfd747", "label": 2, "event": "Freeze Watch", "sent": "2026-10-14T13:02:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.341db2396e5b5bbd79187c9b9376d0caad76d2f4.001.1"}
+{"id": "nws-0bce0d829106", "label": 1, "event": "Gale Warning", "sent": "2026-10-14T03:51:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.911648bddab45ed98bdbe3ce9ac4ac20c0164786.025.1"}
+{"id": "nws-a6b363faa286", "label": 0, "event": "Flood Advisory", "sent": "2026-10-15T17:35:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.cf43449de9868d321636a16800399bf20c4ad920.001.1"}
+{"id": "nws-baa0c08f9d7e", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-13T01:47:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.1534e28e3f4f55e4aabef40a1d31825b01753322.001.1"}
+{"id": "nws-8d230f71ac1f", "label": 2, "event": "Freeze Warning", "sent": "2026-10-15T00:50:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.b72bb466d0124f8f08808f31de4cdc50ca3caed9.001.2"}
+{"id": "nws-cbfccfcfff61", "label": 2, "event": "Flood Warning", "sent": "2026-10-11T23:54:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.ee026bf6cc72f8476a75e6932a6ae6e3298445cb.001.1"}
+{"id": "nws-6d9a7596a539", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-17T03:32:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.5f8d2c870247ee78b66cc103a7663383325916fc.025.1"}
+{"id": "nws-c18ab28beb41", "label": 2, "event": "Red Flag Warning", "sent": "2026-10-15T12:25:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.951a55c082ddfb80d700c8a1949f30d2336651f2.001.2"}
+{"id": "nws-7f27a9cab4ef", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-13T03:58:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.c7bc4714afe5a2c8531117f5d682794eddf9445c.014.1"}
+{"id": "nws-a53853f90597", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-14T21:46:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.74735d530ec119510073f20a6d28d1f91a366f3e.001.1"}
+{"id": "nws-0a68e5602298", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T15:16:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.e45a5f4943f1700d55e3573b8e590df65ef8ddc1.003.1"}
+{"id": "nws-195f756a1a15", "label": 1, "event": "Dense Fog Advisory", "sent": "2026-10-11T21:47:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.f77de810fc8fde86cb34ed4b51e4ac2d2a4fc7e8.001.1"}
+{"id": "nws-50bd3b58b0d4", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T23:19:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.284b7341a7227a09832353fd386e1b63fb036ae6.003.2"}
+{"id": "nws-7cb8bc37b5f6", "label": 2, "event": "Flood Warning", "sent": "2026-10-14T22:29:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.80d2c57a8cf0da03fe422343b6e258b60ced5912.001.1"}
+{"id": "nws-e300ea3929c7", "label": 2, "event": "Fire Weather Watch", "sent": "2026-10-15T12:07:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.98ddaed3d34dfdbb52e349a9a4cf0bfc510ab92c.001.2"}
+{"id": "nws-7ba4a562ba6c", "label": 1, "event": "Gale Watch", "sent": "2026-10-14T13:55:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.655c6f5c9f835675d848a0e0e4b6ae86845b223d.003.1"}
+{"id": "nws-39a843ed6d0d", "label": 3, "event": "Tornado Warning", "sent": "2026-10-14T17:28:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.290b3db37b5356649498bec60d612620f989038a.001.1"}
+{"id": "nws-f0afaea5ffe4", "label": 3, "event": "Child Abduction Emergency", "sent": "2026-10-14T17:43:40-07:00", "urn": "2791695993276142"}
+{"id": "nws-e0b2c3665362", "label": 2, "event": "Freeze Warning", "sent": "2026-10-17T01:07:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.4f5cd9897a03a6aaa09fd5355571dfa22f39e08d.001.2"}
+{"id": "nws-6cd792a0f5a5", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-14T14:20:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.464f679e2cf00b060a40cdf474a002b98fe67ec2.001.1"}
+{"id": "nws-f5ffd6782994", "label": 2, "event": "Fire Weather Watch", "sent": "2026-10-13T09:50:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.7f08d3fa3959319a9f023ef0ad1d7625ca506071.001.1"}
+{"id": "nws-bb9f09b7a922", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-14T20:33:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.136e774c70deac380607fb752612c643872a095d.001.1"}
+{"id": "nws-22ca6165e56d", "label": 2, "event": "Severe Thunderstorm Watch", "sent": "2026-10-16T13:23:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.1f003e29c14c14251ad62fe68afbf9f92e99775d.001.1"}
+{"id": "nws-065a53b09c79", "label": 1, "event": "Gale Warning", "sent": "2026-10-15T11:54:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.045d3d6465968e719d90a580c3bf60b40aac375c.001.2"}
+{"id": "nws-22e6cdba392a", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-14T14:20:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.8bd68c9479a5c4cbb09a3f7f2d24bdf783ac9d79.001.1"}
+{"id": "nws-3dba723362bf", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-14T03:46:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.940557107bcddd8bab4d53a68099fdc44a4c5071.015.1"}
+{"id": "nws-0fb7644cfb4b", "label": 2, "event": "Dust Storm Warning", "sent": "2026-10-16T09:25:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.18244cb33f4b8f387cf3cd0dc3f202828dbebf33.001.1"}
+{"id": "nws-521f8950fb30", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-17T03:32:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.5f8d2c870247ee78b66cc103a7663383325916fc.019.1"}
+{"id": "nws-18dc1bfd5458", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-18T04:28:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.e91d2937b168acabe538509f9e5a8956f2fcd592.035.1"}
+{"id": "nws-0df1f9643389", "label": 2, "event": "Flash Flood Warning", "sent": "2026-10-14T00:34:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.9268f1ea96beefda7ef5b30d40af9ef23d0d6bbb.001.1"}
+{"id": "nws-a54eabefa51d", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-14T03:01:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.e083dfcd467037ef090649295965260d599c0520.001.1"}
+{"id": "nws-9ecd59cf90b5", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T03:56:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.80fb224ecd81ffd7b435476adf11f1d737cd4159.009.3"}
+{"id": "nws-df5d5b69006f", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-14T17:05:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.f8af6fda8d26af90a40d73f16df9a81ce40d1498.001.1"}
+{"id": "nws-cabecb6bc66b", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-13T13:49:00+10:00", "urn": "urn:oid:2.49.0.1.840.0.4d9a2a31085c2f4628dbe0520ffa5d55145b4e8f.001.1"}
+{"id": "nws-a46eb66fa14e", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-13T21:12:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.43edb3819e34f5759fe03317e79d5b00de0ca111.001.1"}
+{"id": "nws-f5e89d1ff0c8", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-11T15:23:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.d588f0e4077af804bc12277658a8b422b11513b4.010.1"}
+{"id": "nws-9e146abbe3f0", "label": 3, "event": "Typhoon Warning", "sent": "2026-10-17T11:12:00+10:00", "urn": "urn:oid:2.49.0.1.840.0.f99702882a0d777b34053b53227abd132c15cfbd.001.1"}
+{"id": "nws-e1f88089e7bb", "label": 1, "event": "Gale Warning", "sent": "2026-10-14T14:12:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.f20739a590513b87b33e0209f3b6b45c27b73c6f.012.1"}
+{"id": "nws-43b370bc3cf2", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T03:05:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.205b5ccb2fc8ef3b90a32b49ab5419b72bc21e16.006.1"}
+{"id": "nws-95c110b387ee", "label": 3, "event": "Tornado Warning", "sent": "2026-10-14T14:30:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.d63c225748743b7ffcd29699adf64c9d1c6d5831.001.1"}
+{"id": "nws-ebc2df23b9a8", "label": 3, "event": "Extreme Wind Warning", "sent": "2026-10-18T03:52:00+10:00", "urn": "urn:oid:2.49.0.1.840.0.8468c9e23c65373970e3f8d8cf2cb7ea132e662b.001.1"}
+{"id": "nws-788d7c423a45", "label": 1, "event": "Dense Fog Advisory", "sent": "2026-10-14T01:17:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.600a276249859a1c1adf4dd6e7942f78a6bd39ce.001.1"}
+{"id": "nws-2e00990c8050", "label": 1, "event": "Gale Watch", "sent": "2026-10-17T14:40:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.d73594b67ddd350d061f9f7c032ef40b7549d4f9.003.2"}
+{"id": "nws-4397e58653a8", "label": 3, "event": "Tornado Warning", "sent": "2026-10-13T18:02:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.fdf8772fe672315856975c5db3814ddb54b49d7a.001.1"}
+{"id": "nws-a729a9cd845d", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T03:04:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.c1568cff19b44e074e21e6a6163710e9045a17bd.008.1"}
+{"id": "nws-7cd625853f64", "label": 2, "event": "Flood Watch", "sent": "2026-10-16T03:00:00+10:00", "urn": "urn:oid:2.49.0.1.840.0.48dfd579bb5899f7e1c5aa217295bfb3df2d527f.001.1"}
+{"id": "nws-efbb57c8fa34", "label": 1, "event": "Gale Warning", "sent": "2026-10-13T02:42:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.a6a94330e68403876cacf9a9d67d18686a5d55b7.019.1"}
+{"id": "nws-a538850cb96d", "label": 1, "event": "Wind Advisory", "sent": "2026-10-15T11:03:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.3546cff8987ef1855727b74989d5223d2d07d7d5.002.1"}
+{"id": "nws-f77deb8e0568", "label": 2, "event": "Red Flag Warning", "sent": "2026-10-16T20:07:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.51f2eaa5b81c07b9a32c8c8f98d4afcb5cfddc5d.001.1"}
+{"id": "nws-659eb3006a64", "label": 1, "event": "Wind Advisory", "sent": "2026-10-14T11:27:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.fd354fb0aceaf5c2a3e1ba13a5634746be792bad.001.1"}
+{"id": "nws-f93497f2229b", "label": 2, "event": "Flood Warning", "sent": "2026-10-12T10:35:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.f1538ea86fecb1810e6746fdff8521e0ac6e09e1.001.1"}
+{"id": "nws-610995ca5b13", "label": 0, "event": "Flood Advisory", "sent": "2026-10-15T06:04:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.36dba9ca764dc4e4d6c706f0120d2da56feaf598.001.1"}
+{"id": "nws-730bd57c68fb", "label": 2, "event": "High Wind Warning", "sent": "2026-10-16T05:10:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.1b02d92e569e9016a6d47c63b60c7b867a73a5ee.003.1"}
+{"id": "nws-72fe0526cc33", "label": 2, "event": "Flash Flood Warning", "sent": "2026-10-14T16:24:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.f22aaf7f139adcd21bbae75f81b7463ddc5984d9.001.1"}
+{"id": "nws-2101c5a9f6bb", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-12T03:22:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.44cab1376e019a54df19b623954277d11381c4f8.018.1"}
+{"id": "nws-82ebfdfa9499", "label": 1, "event": "Gale Warning", "sent": "2026-10-14T14:13:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.03448ed57f92fdc7ad45f71010cb96cda8d2e897.010.2"}
+{"id": "nws-bb6fe238acd6", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-15T15:39:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.b0edb2869c191f844d930acef0d501e75f36bfcb.002.1"}
+{"id": "nws-4caedf8ec3cf", "label": 1, "event": "Gale Watch", "sent": "2026-10-14T02:58:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.6f5d3e0ddac00a93dcb82c5ef53255b1c62e8ed8.005.1"}
+{"id": "nws-12a02304507b", "label": 2, "event": "Storm Warning", "sent": "2026-10-14T15:36:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.285448d49c8bcd0ef5f1a25a1507491d9d3cfcdd.002.1"}
+{"id": "nws-4a883011daca", "label": 3, "event": "Typhoon Warning", "sent": "2026-10-16T16:51:00+10:00", "urn": "urn:oid:2.49.0.1.840.0.b97b0d01856d55ff43e9b9c195116bedd6cb2b0e.001.2"}
+{"id": "nws-c88979b39837", "label": 0, "event": "Coastal Flood Advisory", "sent": "2026-10-18T15:01:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.1f34613c06ad767cf3859766ae8bbc2715014344.002.2"}
+{"id": "nws-78ae8e89cb09", "label": 2, "event": "Flood Warning", "sent": "2026-10-14T14:29:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.1a9580c33c267f530b36b186a38a6351b949ab02.001.1"}
+{"id": "nws-96819b75ed71", "label": 0, "event": "Marine Weather Statement", "sent": "2026-10-12T16:38:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.e832ddd0aeb10df31c99723c4bd0c3fe7ab13785.001.1"}
+{"id": "nws-12a84c947f35", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-14T17:08:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.1f9b9a75557a2d0c4cf0f9a34ed85c77befc5bc4.001.1"}
+{"id": "nws-cb48447ee7a6", "label": 1, "event": "Beach Hazards Statement", "sent": "2026-10-17T19:40:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.1c2331befea2bbe6962538ac28872fa4c0a0a9d8.002.2"}
+{"id": "nws-f72908c0ed9d", "label": 2, "event": "Flood Watch", "sent": "2026-10-13T23:12:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.2a8193d5f0b678b05058a304fe4fa7a88254ffc2.001.1"}
+{"id": "nws-8e1a9e1dac78", "label": 0, "event": "Marine Weather Statement", "sent": "2026-10-15T11:16:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.84ef3eb8b921651fa3211a73d922d667bd16ea36.001.1"}
+{"id": "nws-0d312df89ae4", "label": 1, "event": "Heat Advisory", "sent": "2026-10-13T10:17:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.da3e3a35861c5a51e1591a1419e8436ddcd1b7f7.001.1"}
+{"id": "nws-f8677ce8678e", "label": 1, "event": "Dense Fog Advisory", "sent": "2026-10-15T05:57:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.89f7188deb72892d4e638bfc439b873452aba0d0.001.1"}
+{"id": "nws-0510bb75ad10", "label": 2, "event": "Freeze Watch", "sent": "2026-10-15T23:56:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.cc0157370501feefe619dc02dc99f9f945356a53.001.1"}
+{"id": "nws-ab21e2ce61b3", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-15T03:45:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.78879b7ef4b645f241635a77792f084d5f74efc7.003.1"}
+{"id": "nws-96c8709ea85a", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-17T15:48:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.8866688fdf7f2ef38ad38eeb0b5ac4ad1a5d3b35.009.1"}
+{"id": "nws-2b4bf6c11385", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-16T16:19:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.9d412ee96aa182d1039d939cc13a63667bdecf8d.001.1"}
+{"id": "nws-c2659635961f", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-15T14:41:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.2bd5a6de4eca4ba4447d33aeece2fb636adda52c.001.1"}
+{"id": "nws-83b01486e7a8", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-15T04:02:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.63be0e32e6343483679b8c8449467a5c6109962e.004.1"}
+{"id": "nws-5a77d2e0bd4a", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T14:39:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.a82520044961ec592a0b1b05a598beebad7b48b3.035.1"}
+{"id": "nws-9280783e6ad0", "label": 1, "event": "Gale Watch", "sent": "2026-10-18T14:16:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.8c9f4812a1b7bd9374739d6e15968c44d7811c9f.002.1"}
+{"id": "nws-aa7c8c85615a", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-11T19:22:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.ec59d8e4d019c2ad47ecee01c903a48f5b109eef.001.1"}
+{"id": "nws-15bdddc7b0b6", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-11T16:14:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.47a41453390397c7b57bd4ee5e8653076fb712a6.001.1"}
+{"id": "nws-aa32340a1d50", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-13T19:58:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.346e86ac1f749be65f907cf210985e33957dd3ed.001.1"}
+{"id": "nws-f4a318fbd1d9", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-13T20:06:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.795b473230efa02e8bd0dec67d9cdf565bbec917.001.1"}
+{"id": "nws-d4daf3b9ae3b", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T18:38:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.0648f127d02f62e6dd2b08a2adef369353cb9aea.004.1"}
+{"id": "nws-eb1a3fa00038", "label": 1, "event": "Gale Watch", "sent": "2026-10-16T00:38:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.7cbed5e85256bc60e9430e68f08461a42ca03cf2.002.1"}
+{"id": "nws-c3cf8af5770a", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-13T18:14:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.d53ed5593f491821be978dbccfb4a4c1ceab3fdc.001.1"}
+{"id": "nws-e5abff7ea4b0", "label": 2, "event": "Special Marine Warning", "sent": "2026-10-14T14:41:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.a45461778cc72f3f5dc7d47ffb4722e638b87bb1.001.1"}
+{"id": "nws-92eb3e96d12d", "label": 2, "event": "Flood Watch", "sent": "2026-10-14T13:47:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.fe16a889c984f1ef62da223a3b83cd2b5e1cbf20.001.1"}
+{"id": "nws-45e94c4474e6", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T03:30:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.cd7f3adc2c145995f7b3261d4a825eb9f596771c.001.2"}
+{"id": "nws-a7afafb7e08d", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-14T18:59:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.8b64a7c9cbbba247844c73d56a40878e2204bec8.001.1"}
+{"id": "nws-c211130f4256", "label": 1, "event": "Gale Warning", "sent": "2026-10-12T11:00:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.c2f3464fac9cd0a15c088254b422fc971b4a1cf9.001.2"}
+{"id": "nws-07ab556ffb84", "label": 1, "event": "Gale Warning", "sent": "2026-10-15T03:40:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.02340dbcacb5e9eed65b0c1730a1d96652e87c63.002.2"}
+{"id": "nws-b05312300b4d", "label": 2, "event": "Freeze Warning", "sent": "2026-10-15T09:44:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.4921cf80792b8ed73a30525802f9857a9224eb4c.001.2"}
+{"id": "nws-ce2c86e495e8", "label": 1, "event": "Wind Advisory", "sent": "2026-10-14T13:18:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.13d1175a09a3f9effd32d73cf7dda4b3f20cea32.003.1"}
+{"id": "nws-0bdabf0f6a87", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T15:04:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.4370ffc96dedcc6ad15ff7db57c71030a8b74048.006.1"}
+{"id": "nws-a484cc5550a3", "label": 2, "event": "Flood Warning", "sent": "2026-10-14T21:23:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.95f8d36e61bf9592fdf46dcc5e398291bec2ff91.001.1"}
+{"id": "nws-1e34d30ae2ab", "label": 0, "event": "Brisk Wind Advisory", "sent": "2026-10-16T15:48:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.d88bc2824b27ade32645a86cde906a37b30f7519.008.1"}
+{"id": "nws-3751a76f4fd4", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-13T16:48:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.90283dd40f0dedc8083c68fd96ad74c997fbdd26.001.1"}
+{"id": "nws-991cb56b94cf", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-16T18:26:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.c2c1a34f8e9629c77a99d64235b81d208ba00484.001.1"}
+{"id": "nws-0965459bec91", "label": 3, "event": "Civil Emergency Message", "sent": "2026-10-16T02:23:59+01:00", "urn": "v2-3.13.8-1556392-1792113838542"}
+{"id": "nws-e0a01d445e11", "label": 1, "event": "Gale Warning", "sent": "2026-10-14T14:12:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.f20739a590513b87b33e0209f3b6b45c27b73c6f.005.1"}
+{"id": "nws-db51840b375c", "label": 0, "event": "Flood Advisory", "sent": "2026-10-14T07:58:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.052ed4b3a51c15079caf6e8eec4ed7588202d555.001.1"}
+{"id": "nws-0e68ba295ee3", "label": 0, "event": "Frost Advisory", "sent": "2026-10-14T06:09:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.e858be4364104563f69e97d4f765d6ced374858f.001.1"}
+{"id": "nws-5633cdb391c8", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-15T18:31:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.8ec7db9f5699fdadecaf333b34d0dd2fce705a91.001.1"}
+{"id": "nws-412486e21b6c", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-13T04:15:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.6977c3c617e626ae29ac52f644e1d60bb4e42b3d.006.3"}
+{"id": "nws-833d6c1f333e", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-18T04:28:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.e91d2937b168acabe538509f9e5a8956f2fcd592.034.1"}
+{"id": "nws-9a32c5a105e2", "label": 2, "event": "Special Marine Warning", "sent": "2026-10-17T14:44:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.fc7be9eb06247a4202e557e73326af0d14f57c48.001.1"}
+{"id": "nws-4623f5afca55", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T03:04:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.c1568cff19b44e074e21e6a6163710e9045a17bd.009.1"}
+{"id": "nws-7bbcabd521b6", "label": 1, "event": "Gale Warning", "sent": "2026-10-16T06:06:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.7367f9f54d47df86e7b0859df5d14b2e0efd89d6.001.1"}
+{"id": "nws-4014d800c643", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-18T04:28:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.e91d2937b168acabe538509f9e5a8956f2fcd592.029.1"}
+{"id": "nws-0f673310c892", "label": 2, "event": "Special Marine Warning", "sent": "2026-10-18T18:35:00+10:00", "urn": "urn:oid:2.49.0.1.840.0.f8ebb5a29eeafe1566f568c74668148d8ccf2f6d.001.1"}
+{"id": "nws-191c9bada3ac", "label": 1, "event": "Gale Warning", "sent": "2026-10-14T14:33:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.b484a227e828b9aad6aead016652861add827ffc.006.1"}
+{"id": "nws-c872afc5ac7a", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-14T10:33:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.469780d12169ee108e72efbde0651e22370c0b7c.001.1"}
+{"id": "nws-6dc2147c176e", "label": 3, "event": "Tornado Warning", "sent": "2026-10-15T19:41:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.09deb3571047938d34852493cfd7deef89b87bf1.001.1"}
+{"id": "nws-15fba7f894d0", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-17T00:49:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.3186d75289f504aef883e728d23157916cb0856b.002.1"}
+{"id": "nws-097592d83b08", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-12T08:51:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.9ee1a3b6200fe6aa9b69f022598f7bc0b89e2f9e.001.1"}
+{"id": "nws-b92ddace7f56", "label": 3, "event": "Tornado Warning", "sent": "2026-10-14T18:07:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.1412e4b433fc6a5e28aeb9df6c96f78fff3ea9d7.001.1"}
+{"id": "nws-4f5a501bc840", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T16:47:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.8869763d821954db1bcc919820c0e1f096628bbd.003.1"}
+{"id": "nws-098d271c5b31", "label": 0, "event": "Frost Advisory", "sent": "2026-10-16T09:51:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.43db49b80fa5a80ee4ec99abf33cfc1fc5abda46.003.1"}
+{"id": "nws-9a6a24b67e0f", "label": 1, "event": "Gale Warning", "sent": "2026-10-15T13:39:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.83a4b095ba5cd36651be4ca71c0398003946cf70.007.1"}
+{"id": "nws-5752faceda21", "label": 1, "event": "Gale Warning", "sent": "2026-10-15T13:09:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.652677ecc2879fcbd88ad5ac80460578157e904a.001.3"}
+{"id": "nws-630f26e5e836", "label": 1, "event": "Gale Warning", "sent": "2026-10-13T15:36:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.372aca759990fe9541fdc8eb60f23c3f100255e2.006.1"}
+{"id": "nws-bbe647de7b54", "label": 0, "event": "Coastal Flood Advisory", "sent": "2026-10-18T05:36:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.f52645bc1c9b03513c4cdc7e133cdb9ec038ade9.005.1"}
+{"id": "nws-d0d1c4e7b098", "label": 2, "event": "Flash Flood Warning", "sent": "2026-10-14T11:59:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.29cd889770d7bd85d4bee1225043df17c5349934.001.1"}
+{"id": "nws-b4c4891b039d", "label": 2, "event": "Flash Flood Warning", "sent": "2026-10-15T15:59:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.a002ea6fcbe0438402cc08621cf77b717f5856a7.001.1"}
+{"id": "nws-ff88261239ac", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-12T15:03:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.cbef9c3026a986f547de13fa1d0e9490f56eee77.025.1"}
+{"id": "nws-237d96d1550a", "label": 1, "event": "Blowing Dust Advisory", "sent": "2026-10-16T09:17:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.afcb34aa5f91fbef89e20563ce7aeebef9b10ff1.001.1"}
+{"id": "nws-041bad8ae203", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-13T18:21:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.aa5300a6627834782fa613d6b581d03b8117c697.001.1"}
+{"id": "nws-e05629f232b5", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-13T18:22:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.889803866efae57aeec8dc433703f13a972cf31e.001.1"}
+{"id": "nws-29e9866ef72e", "label": 2, "event": "Freeze Watch", "sent": "2026-10-16T16:42:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.ae9ad2297219252f7a7db83004932eff2578290a.001.1"}
+{"id": "nws-5e03cfc8dee4", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-13T16:54:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.ec135b4245d57a4eecc850f5ee11d2df08593d63.001.1"}
+{"id": "nws-5407ae848ec1", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T17:17:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.bc42a9fdf4065b5d575cfcf248174acd3e42f6de.002.1"}
+{"id": "nws-825e1ee4f2cb", "label": 1, "event": "Gale Warning", "sent": "2026-10-15T04:02:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.63be0e32e6343483679b8c8449467a5c6109962e.010.1"}
+{"id": "nws-04ab4199338d", "label": 2, "event": "Flash Flood Warning", "sent": "2026-10-15T22:27:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.6a908c03a1a3e12794de6cfa367d851205fa148d.001.1"}
+{"id": "nws-0687f64badb5", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-12T01:03:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.ee28c52ae693c8f6991ff7cc291f2239064b044f.003.1"}
+{"id": "nws-eb964ea17b05", "label": 2, "event": "Freeze Watch", "sent": "2026-10-12T09:54:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.768cc333dd1fdefd8aaade03819432e039b9bc27.001.1"}
+{"id": "nws-aa42a4f01961", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-13T18:21:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.63680eeb9fe62325d460ff513160b2573ff28b93.001.1"}
+{"id": "nws-37a096fb4e25", "label": 3, "event": "Tornado Warning", "sent": "2026-10-14T18:04:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.ef1c1ad9c97faf45392773936ed6c32b398acf11.001.1"}
+{"id": "nws-a88e265e33dd", "label": 1, "event": "Gale Warning", "sent": "2026-10-14T21:50:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.3971ef024d7cfe375d470f361f81063e6dd90f4d.007.1"}
+{"id": "nws-4d836c881a3a", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-12T09:13:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.6b2e8c507875619d82728c9efd908e8295bf39a3.001.1"}
+{"id": "nws-132cda9c1aa3", "label": 1, "event": "Gale Warning", "sent": "2026-10-16T03:23:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.aea49a23ee3a6fb7dd837262165ebb205831b071.004.3"}
+{"id": "nws-c992e49fddd0", "label": 3, "event": "Tornado Warning", "sent": "2026-10-13T19:27:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.f16f3ecbc94d6df9be6c11f98953572edf8318f5.001.1"}
+{"id": "nws-18b5e4ddf3db", "label": 1, "event": "Gale Watch", "sent": "2026-10-14T15:24:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.3e8c20ff6ecf3490175fe5c1b8844e3797b375fe.003.2"}
+{"id": "nws-9fd5708aef7b", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-17T02:26:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.f71fde424ee55533d9681120c154e40a6e87d868.009.1"}
+{"id": "nws-5b843bdec1cf", "label": 2, "event": "High Wind Warning", "sent": "2026-10-14T11:16:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.7d9a4c908a3292a686b4eea8f4447ed2b98d1881.004.2"}
+{"id": "nws-24d1c1022949", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-16T02:33:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.18a5b007ca93b475b4d345d449163b0d6cbf1470.001.1"}
+{"id": "nws-6522bf3527ca", "label": 2, "event": "Freeze Watch", "sent": "2026-10-15T13:17:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.e6d6700cbed2cd90655573205bb246a20065271f.001.1"}
+{"id": "nws-54d6c8f21e24", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T03:54:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.ae85f82773db76d341ef97dd68940c87d5a35f60.021.1"}
+{"id": "nws-1c38fd335e90", "label": 0, "event": "Flood Advisory", "sent": "2026-10-15T14:34:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.09f86165f4d2e9d73d764fa1365faaa735506ad0.001.1"}
+{"id": "nws-b7d4d0c86124", "label": 1, "event": "Gale Warning", "sent": "2026-10-14T04:03:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.c5b076b79b48962ba5098265e9cb57dc9e21312c.003.1"}
+{"id": "nws-60c6568c265c", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-11T16:13:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.d5fccd5c4a62e148640afe93a808beed92c55433.004.2"}
+{"id": "nws-229a2b02c507", "label": 1, "event": "Gale Warning", "sent": "2026-10-17T12:17:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.433f4f9edc865238a088e4d3da9639a3c8d1abe7.002.3"}
+{"id": "nws-11164dbd6b69", "label": 1, "event": "Rip Current Statement", "sent": "2026-10-16T15:00:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.6d6b33372e9f32d553ed800502929a267cadc449.001.1"}
+{"id": "nws-b9f20d446df2", "label": 2, "event": "Freeze Warning", "sent": "2026-10-17T01:34:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.1a1122dea573fe8c61731805a6947c875ff72916.001.2"}
+{"id": "nws-6a756ed393b5", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-15T03:46:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.b6dafad434176dc0364881055426da5409f39d01.003.1"}
+{"id": "nws-d14b37734987", "label": 2, "event": "Freeze Warning", "sent": "2026-10-17T01:29:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.d6189b11376b2ac3bf9e633abeecd59c5aa6454c.001.2"}
+{"id": "nws-1ccfa2b9af11", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-14T17:43:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.88b02038287bee5f715a004720728b54c980419b.001.1"}
+{"id": "nws-7af716b799a5", "label": 2, "event": "Flood Warning", "sent": "2026-10-15T21:27:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.168d85f4b9d6f8cbfdc50387f271546c5d52484c.001.1"}
+{"id": "nws-aff3752d8fab", "label": 2, "event": "Flood Watch", "sent": "2026-10-11T22:35:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.6adcad4a51bc9405d726d99e6b4631ad7b3149fb.001.1"}
+{"id": "nws-8a53c4ecb620", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-17T13:00:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.1fb35e7da526eea0fae8ebead8452d398ebe90df.001.1"}
+{"id": "nws-45731e4ac4a1", "label": 2, "event": "Fire Weather Watch", "sent": "2026-10-15T10:51:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.fbeb02ef6474b9d5274015c5a967171a06b81b9b.001.1"}
+{"id": "nws-be9a0c2f7e97", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-14T17:30:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.1896ec2bd8b2b8cacc9c39259e86c35beba19273.001.1"}
+{"id": "nws-b0480cf8e696", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-15T15:34:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.2e09109b119ee22df4ee4ca1182cfb5493fb3de8.006.3"}
+{"id": "nws-39c1b7bb1c8d", "label": 1, "event": "Gale Warning", "sent": "2026-10-14T21:47:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.9786b25e4f7f00a62a61dba10f3c86e55919c68e.002.1"}
+{"id": "nws-4c097d76fd5c", "label": 2, "event": "Severe Thunderstorm Watch", "sent": "2026-10-16T16:02:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.e769676467988006b8678da52a76d35932f86e0f.001.1"}
+{"id": "nws-53776bec1f82", "label": 1, "event": "Dense Fog Advisory", "sent": "2026-10-12T05:05:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.3a751f2099faa8b6447e1f6346acfd63cb2fff7f.001.1"}
+{"id": "nws-d73a27e5f747", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-13T17:23:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.3bb557466665797b449dcccdd18bb1cfedccf47e.001.1"}
+{"id": "nws-de19af3681e2", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-14T22:18:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.eeaa8531febe9999c61ef24bc4e8481592e3a137.001.1"}
+{"id": "nws-fefd9ba9927a", "label": 2, "event": "Freeze Warning", "sent": "2026-10-16T10:56:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.0923c780d7100569398b06c84f8a1a94f6a2d347.001.2"}
+{"id": "nws-47d93a290ed4", "label": 2, "event": "Flash Flood Warning", "sent": "2026-10-17T19:28:00+10:00", "urn": "urn:oid:2.49.0.1.840.0.186b246c6f9ab08c17bb9c37c0282eaa81a8a198.001.1"}
+{"id": "nws-c772e12074b6", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-14T04:54:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.3929f8514164500e111da58fd94e9c6f20da5174.001.1"}
+{"id": "nws-5d802a01b3ed", "label": 2, "event": "Special Marine Warning", "sent": "2026-10-16T18:39:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.dee8336ee5ac7d212137f3807476ef479d2ea70e.001.1"}
+{"id": "nws-348466a62caa", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-16T15:04:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.910a3215174002f3b01b027ce1da3571f0195065.001.1"}
+{"id": "nws-307c3e0b048b", "label": 1, "event": "Beach Hazards Statement", "sent": "2026-10-17T12:05:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.39187f9c0a05df292cf2ff38729db4ea4631dde8.001.1"}
+{"id": "nws-f5c12e668bf2", "label": 2, "event": "Flood Warning", "sent": "2026-10-15T08:58:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.ba5122088fde19c7f248a961f4841c627cbee1eb.001.1"}
+{"id": "nws-46973b0ac506", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-15T03:46:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.b6dafad434176dc0364881055426da5409f39d01.002.1"}
+{"id": "nws-5cbcd0a2018d", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-11T16:13:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.d5fccd5c4a62e148640afe93a808beed92c55433.007.1"}
+{"id": "nws-973b043edfba", "label": 1, "event": "Dense Fog Advisory", "sent": "2026-10-12T06:12:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.fd6c92262f36240e35832e61104187b1ab2e8d3c.001.1"}
+{"id": "nws-d2e7522705bb", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-17T15:49:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.95f43faad013e64f160f9bcd9c214eaa36901f15.001.1"}
+{"id": "nws-d5ab726e12c7", "label": 0, "event": "Flood Advisory", "sent": "2026-10-14T07:58:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.800582c699107a4a16a369c00814a301d896c920.001.1"}
+{"id": "nws-83b224b2d7f8", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-14T04:03:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.c5b076b79b48962ba5098265e9cb57dc9e21312c.034.1"}
+{"id": "nws-eadf04b0c923", "label": 1, "event": "Gale Watch", "sent": "2026-10-15T14:55:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.b12b8d008b5a9050e6bcdc59419da509e57b709b.009.1"}
+{"id": "nws-78a3dd7f2b25", "label": 0, "event": "Flood Advisory", "sent": "2026-10-14T17:00:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.08fd744e5d100b49b7d7ac4758b35d77a7f9c17a.001.1"}
+{"id": "nws-5932d1a72790", "label": 2, "event": "Freeze Warning", "sent": "2026-10-16T10:07:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.f1f338366d1a86b2386cd277e4b43ba2843f5807.002.2"}
+{"id": "nws-907cf3375b3b", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-17T14:50:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.4c012b3ca63a3e05a618fab9411732094fda1fb0.004.1"}
+{"id": "nws-d147d4fa24f0", "label": 3, "event": "Tornado Warning", "sent": "2026-10-15T19:07:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.f7e70634e69da95fa1a8da95d3eb65b673c2b34e.001.1"}
+{"id": "nws-b773918f768e", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-15T20:39:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.f5a27cc82b8333995afbc286dc84d74400f1663b.001.1"}
+{"id": "nws-76f6603bcb7a", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-14T22:31:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.1f4be926ac2d5dd1bae70f61cbb89d3bdd080a93.002.1"}
+{"id": "nws-afb0e30353bb", "label": 2, "event": "Flood Warning", "sent": "2026-10-12T00:17:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.bb75f0e618bd32cea3199fca52fe884c5966045c.001.1"}
+{"id": "nws-972f2729f866", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T14:54:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.bda715de439451c46a1f846237fb2d1a447239a9.012.1"}
+{"id": "nws-aca2ff027d72", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-16T17:46:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.672974efbbe49235e715861045292adeda2ad9ee.001.1"}
+{"id": "nws-3647158dbf4c", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-16T03:54:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.ae85f82773db76d341ef97dd68940c87d5a35f60.012.1"}
+{"id": "nws-60282fa1bb7a", "label": 2, "event": "High Wind Warning", "sent": "2026-10-16T05:10:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.1b02d92e569e9016a6d47c63b60c7b867a73a5ee.001.1"}
+{"id": "nws-e657554d36a9", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-12T15:03:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.cbef9c3026a986f547de13fa1d0e9490f56eee77.037.1"}
+{"id": "nws-5432e9ea6a43", "label": 1, "event": "Gale Warning", "sent": "2026-10-15T03:32:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.a0b22cc8c8bf6cfb56fe51eedfeea9bca6d1cad1.007.2"}
+{"id": "nws-3505f5d1111c", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-18T14:04:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.34572ab5059706f24186052030f72dd7e99c3ed2.004.1"}
+{"id": "nws-9d349b70ebbf", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-14T14:43:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.0bd47ef10a373b97a52b1082b7b27ba8fdff72cf.001.1"}
+{"id": "nws-33fbecdaccc0", "label": 0, "event": "Flood Advisory", "sent": "2026-10-15T14:42:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.d47f5fff5d7a5d2b0fbef85788ecec48022565dd.001.1"}
+{"id": "nws-8bf2fc8261dd", "label": 2, "event": "Dust Storm Warning", "sent": "2026-10-16T13:29:00-07:00", "urn": "urn:oid:2.49.0.1.840.0.f3844b83be88dda495a20297a890ce90ade734bf.001.1"}
+{"id": "nws-2ab022df6259", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-16T15:16:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.ff1b30b787d5e703f60fd0c141595438a5e60c83.001.1"}
+{"id": "nws-09bb03ffd328", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-13T14:49:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.a765d3398509331f953d27f49d7d499407ca1c98.001.1"}
+{"id": "nws-a595ad86ee1e", "label": 1, "event": "Special Weather Statement", "sent": "2026-10-13T23:36:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.946a3f09858fe14dbf1be28bf706fdb99931b1f9.001.1"}
+{"id": "nws-e41ff0589c00", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-17T14:46:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.4769914c71239b88a7e2a1515836df7df70b6811.006.1"}
+{"id": "nws-aeb6eb30718a", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-14T22:16:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.867f7ca9ed5e69d25ebd16c21d65476e4156b3c8.001.1"}
+{"id": "nws-791354491c78", "label": 2, "event": "High Wind Watch", "sent": "2026-10-13T12:05:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.69f2a38383896eb700a42a2eb620778f49331d76.001.1"}
+{"id": "nws-394b91ebb93f", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-15T15:11:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.f3bd6afc016d38146374f9021013ba999de5589d.004.1"}
+{"id": "nws-7efe9dac5688", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-17T03:32:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.5f8d2c870247ee78b66cc103a7663383325916fc.016.1"}
+{"id": "nws-936aa221ad1f", "label": 1, "event": "Wind Advisory", "sent": "2026-10-15T12:27:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.3416a888b37bf136d85810096239b0c1413f6b46.002.1"}
+{"id": "nws-7b84e5b53113", "label": 2, "event": "Special Marine Warning", "sent": "2026-10-17T15:46:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.7fb70849bc6c7b0eacf99c7d185fe860408bc695.001.1"}
+{"id": "nws-d448e6e80411", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-18T04:10:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.94d58e77ec6606f234f2a99184b1af7fb04c4805.018.1"}
+{"id": "nws-5a2bcbe82fcc", "label": 2, "event": "Freeze Watch", "sent": "2026-10-14T12:16:00-06:00", "urn": "urn:oid:2.49.0.1.840.0.4d90a06fc054204c9e2f7a659c9019dbf95b5653.002.2"}
+{"id": "nws-abe10a274644", "label": 1, "event": "Gale Warning", "sent": "2026-10-16T00:38:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.7cbed5e85256bc60e9430e68f08461a42ca03cf2.002.3"}
+{"id": "nws-77ea26e8f00e", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-12T03:46:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.cced08b8cc2e28015845a5a945b64e415a4b95c5.007.1"}
+{"id": "nws-7b00074fcf79", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-14T14:13:00-05:00", "urn": "urn:oid:2.49.0.1.840.0.b15d35b91f5745a0358f7bef84f089c76210c44a.001.1"}
+{"id": "nws-069269ba1aa0", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-15T04:01:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.0126a194e3b77b8416bf7bcb96dc243f1b43ee57.018.1"}
+{"id": "nws-1415ced54e9d", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-11T21:43:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.88f3ac019ecdb4b4f40505e3f9860a77ee55455d.003.1"}
+{"id": "nws-bc9d2ccfb274", "label": 2, "event": "Severe Thunderstorm Warning", "sent": "2026-10-16T18:11:00-04:00", "urn": "urn:oid:2.49.0.1.840.0.8857a909f791de6c814d8cb20b4f5434540c3235.001.1"}
+{"id": "nws-cc2440bbc025", "label": 0, "event": "Small Craft Advisory", "sent": "2026-10-14T15:04:00+10:00", "urn": "urn:oid:2.49.0.1.840.0.428dcb0cb66bc10da8b40d747dfe0e14c1d232a5.001.1"}
+{"id": "nws-178d444804c4", "label": 1, "event": "Gale Warning", "sent": "2026-10-13T15:56:00-08:00", "urn": "urn:oid:2.49.0.1.840.0.8e467ef3f2d5f673091e5d9123eed185db8a27b6.010.1"}

@@ -1,0 +1,7 @@
+# One yes/no question. The label is whether the authors cross-listed the paper to Machine Learning (cs.LG).
+crosslisted_lg:
+  type: noul
+  instructions: The authors also listed this paper in arXiv's Machine Learning category (cs.LG)
+  criteria:
+    "true": The paper is cross-listed to cs.LG, Machine Learning
+    "false": The paper is not listed in cs.LG

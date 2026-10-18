@@ -1,0 +1,8 @@
+# One three-level score question. The label is the alert's CAP certainty as issued by the National Weather Service.
+certainty:
+  type: score
+  instructions: How certain is it that the hazard described in this weather alert occurs?
+  criteria:
+    - "Possible: it may occur, but is not likely (probability about 50% or less)"
+    - "Likely: it is likely to occur (probability above about 50%)"
+    - "Observed: it is occurring or has occurred"

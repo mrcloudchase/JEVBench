@@ -1,4 +1,4 @@
-# Six typed decision models on three tasks built from public-domain or CC0 text written after every model was published.
-# The first model is the base for paired comparisons.
-tasks: [fedreg_type, fedreg_agency, arxiv_category]
+# Six typed decision models on seven tasks, covering yes/no, score and choice questions, built from
+# public-domain or CC0 text written after every model was published. The first model is the base for paired comparisons.
+tasks: [nws_warning, arxiv_crosslist, nws_severity, nws_certainty, fedreg_type, fedreg_agency, arxiv_category]
 models: [typesafe, openai, deepseek, von, opendecider, openjev]

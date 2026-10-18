@@ -1,0 +1,7 @@
+# One yes/no question. The label is whether the National Weather Service issued the alert as a Warning.
+warning:
+  type: noul
+  instructions: This weather alert is a warning, meaning a hazard is occurring or imminent and calls for protective action now
+  criteria:
+    "true": A warning, issued when a hazardous weather event is occurring, imminent or highly likely
+    "false": An advisory, watch or statement, issued for less serious conditions or for hazards that are possible but not yet imminent

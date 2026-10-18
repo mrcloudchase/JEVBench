@@ -1,14 +1,25 @@
 # Tasks
 
-Three tasks, built from text written after every evaluated model was published, from sources whose reuse
-is granted in writing by a primary source. Each label is the source's own designation (the agency's
-document type, the issuing agency, the authors' arXiv category), not a judgment by an annotator or a model.
+Seven tasks, covering every text question type, built from text written after every evaluated model was
+published, from sources whose reuse is granted in writing by a primary source. Each label is the source's
+own designation (the agency's document type, the issuing agency, the authors' arXiv categories, the
+Weather Service's alert classification), never a judgment by an annotator or a model.
 
-| Task | Question type | Records | Label | Source | Legal basis |
+| Task | Type | Records | Label | Source | Legal basis |
 |---|---|---|---|---|---|
-| [`fedreg_type`](fedreg_type/card.md) | choice (3) | 270, 90 per type | rule, proposed rule or notice | Federal Register (GovInfo bulk XML) | 1 CFR 2.6; 17 U.S.C. 105 |
-| [`fedreg_agency`](fedreg_agency/card.md) | choice (10) | 296, 30 per agency (Defense 26) | issuing department or agency; names masked | Federal Register (GovInfo bulk XML) | 1 CFR 2.6; 17 U.S.C. 105 |
-| [`arxiv_category`](arxiv_category/card.md) | choice (12) | 600, 50 per category | the authors' primary category | arXiv API, titles and abstracts | CC0 1.0 (arXiv API terms) |
+| [`nws_warning`](nws_warning/card.md) | noul | 300 (150/150) | is the alert a Warning | NWS alerts API | NWS: public domain, open data |
+| [`arxiv_crosslist`](arxiv_crosslist/card.md) | noul | 300 (150/150) | did the authors cross-list to cs.LG | arXiv API | CC0 1.0 |
+| [`nws_severity`](nws_severity/card.md) | score (4) | 316 | CAP severity: Minor to Extreme | NWS alerts API | NWS: public domain, open data |
+| [`nws_certainty`](nws_certainty/card.md) | score (3) | 300 | CAP certainty: Possible to Observed | NWS alerts API | NWS: public domain, open data |
+| [`fedreg_type`](fedreg_type/card.md) | choice (3) | 270 | rule, proposed rule or notice | Federal Register (GovInfo) | 1 CFR 2.6; 17 U.S.C. 105 |
+| [`fedreg_agency`](fedreg_agency/card.md) | choice (10) | 296 | issuing agency; names masked | Federal Register (GovInfo) | 1 CFR 2.6; 17 U.S.C. 105 |
+| [`arxiv_category`](arxiv_category/card.md) | choice (12) | 600 | the authors' primary category | arXiv API | CC0 1.0 |
+
+2,382 records in all.
+
+**Box questions** (locating a region in an image) are not covered. Only TypeSafe jev-1.14 answers them, so
+they cannot be compared across models, and no source found so far pairs post-release images with true
+regions under a written reuse grant. Images we generate ourselves would satisfy the legal rule.
 
 Each folder holds:
 
@@ -20,7 +31,7 @@ Each folder holds:
 | `manifest.jsonl` | the sample: every record's `id`, `label` and dates, without the text |
 | `data.jsonl` | the records with their text (`state`). Committed: every source permits redistribution. |
 
-`federal_register.py` is the Federal Register reader shared by the two `fedreg_*` tasks. Raw downloads
+`federal_register.py`, `arxiv.py` and `nws.py` are the shared readers for each source, with the legal basis and fetching rules in their headers. Raw downloads
 are cached in `tasks/.sources/`, which is git-ignored.
 
 A task's version is a hash of `questions.yaml` and `manifest.jsonl`, and every run records the version it
@@ -38,6 +49,7 @@ grant. On October 18, 2026 this excluded the following:
 | Stack Exchange | its API terms were not reviewed |
 | CFPB complaints | narratives are no longer published |
 | Steam and App Store reviews | no reuse grant (the first experiment used them; they are in the repository's history) |
+| Wikipedia | allowed (CC BY-SA 4.0), but its labels are editor-made and changing, and share-alike would bind the dataset's license; not needed while natural labels cover every type |
 
 ## Contamination
 
