@@ -1,9 +1,11 @@
 # The paper's engine
 
-The primitive: a provider turns state and questions into a belief.
+Two primitives. A provider turns evidence and questions into a belief; a decision rule turns beliefs
+and values into an action.
 
 ```python
 belief = Belief(questions, provider)(state)
+action = Decision(rule, **values)(belief)
 ```
 
 | File | Job |
@@ -12,6 +14,7 @@ belief = Belief(questions, provider)(state)
 | `data.py` | the questions file, the dataset, the results file and the response cache |
 | `engine.py` | `Belief`, `run`, and the command line that forms beliefs for a dataset |
 | `score.py` | the generic scorer: beliefs against labels, one or several providers |
+| `decide.py` | `Decision`, live and recorded belief sources, the five structures, and decision scoring |
 | `local/openjev.py` | serves open-jev-deberta, which ships no server, in the wire format |
 
 | Input | Holds | Read by |
@@ -165,28 +168,36 @@ trails only because of its refusals. The local models stay close on sentiment, w
 does not follow accuracy: OpenDecider nano is the best calibrated model on the app question, and Von
 on stars.
 
-## Next: decisions
+## Decisions
 
-Beliefs are scored. The next layer is the paper's other half: a decision is a rule applied to
-beliefs and values, `decide = rule(beliefs, values)`, and every decision architecture is built from
-those decisions.
+A rule is a pure expression over beliefs and named values that returns an action or `ABSTAIN`;
+acting on the action is ordinary code. A unit is a belief and a decision, and an architecture wires
+units one of five ways. The architecture sets which edges exist; the rules decide which ones fire.
 
-1. **`Decision`.** A rule is a Python callable over a record's answers and a values mapping,
-   returning an action. A threshold, an argmax, an abstain-below-confidence rule and a lookup
-   table are each a few lines.
-2. **A decisions file.** `decisions.yaml` names rules and their values beside `questions.yaml`.
-   Values are what a stakeholder sets (thresholds, costs, a fallback action), kept apart from the
-   questions.
-3. **Offline decisions.** Rules run over the results files we already have, so every rule and value
-   is tried on recorded beliefs without another API call. A threshold sweep is a loop.
-4. **Scoring decisions.** Labels become correct actions, plus a cost matrix from the values file.
-   The scorer reports accuracy, coverage (the share not abstained) and expected cost per decision,
-   compared across providers with the same paired bootstrap.
-5. **Composition.** A decision's output can be the next belief's state, or choose which question
-   to ask next. Routing, gating and cascades (a cheap local model first, a hosted one when it
-   isn't confident) are then compositions of one primitive, scored the same way.
+```python
+gate = Decision(lambda b, tau: top(b["app"]) if confidence(b["app"]) >= tau else "escalate", tau=0.8)
 
-The fresh evals already show why this layer matters: the local models' Steam probabilities rank as
-well as TypeSafe's but sit low, so the best threshold differs by provider; OpenAI's refusals are a
-built-in abstention; and OpenDecider's calibration makes a confidence gate work despite its lower
-accuracy. Which provider is best depends on the rule.
+Single(belief, decision)                           # one unit
+Chained([b1, b2], decision)                        # b1's belief is evidence for b2
+Parallel([b1, b2, b3], decision)                   # one decision over independent beliefs
+OrchestratorWorker(Single(local, gate), {"escalate": Single(hosted, decision)})
+EvaluatorOptimizer(belief, done, decision, rounds=3)
+```
+
+A belief comes from `Live(questions, provider, evidence)` or from `Recorded("results.x.jsonl")`, a
+results file read back by record id. The same architecture therefore runs live or over recorded
+beliefs, and re-deciding with new values (`decision.given(tau=0.6)`) costs no model calls.
+`score_decisions` reports accuracy (an abstention counts as wrong), coverage, selective accuracy,
+calls, cost and, given a loss, the expected loss per decision. `compare` gives paired intervals.
+
+The decision experiments are in [`examples/decisions`](examples/decisions):
+
+| Experiment | Structure | Finding |
+|---|---|---|
+| E1 threshold and costs | single | The best threshold differs by provider (0.05 to 0.45), and the best provider changes with the cost of errors: DeepSeek is best at equal costs and worst when a miss costs nine times more |
+| E2 reject option | single | Abstaining on half the records raises TypeSafe from 0.600 to 0.861 on the app question at no cost |
+| E3 value transfer | single | A threshold fitted on one provider misses its target on others, and misses on held-out data 9 times out of 17 on its own |
+| E4 panels | parallel | No panel of providers beats the best single one; when one hosted model is wrong, another is wrong 55–92% of the time |
+| E5 cascades | orchestrator-worker | A free local model escalating only when unsure matches the hosted model at 17–78% of its cost; confidence beats random escalation in every row |
+| E6 decomposition | chained | Helps only when the subquestions add information (stars +2.7 points on TypeSafe, nearly significant) |
+| E7 re-asking | evaluator-optimizer | Re-asking with earlier readings inflates confidence: for TypeSafe the loop equals lowering the threshold, at 1.5× the calls |

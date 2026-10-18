@@ -196,15 +196,19 @@ class Run:
         return {i: self.scorer.correct(self.answer(r), r[self.label]) for i, r in rep.items()}
 
 
-def paired_delta(base: Run, other: Run, iters: int = 2000, seed: int = 1) -> dict:
-    """Accuracy of `other` minus `base` on records both answered (first repeat), with a 95% bootstrap interval."""
-    a, b = base.correct_by_id(), other.correct_by_id()
+def paired(a: dict, b: dict, iters: int = 2000, seed: int = 1) -> dict:
+    """Mean of b minus a over the keys both have (bools or numbers), with a 95% bootstrap interval."""
     ids = sorted(set(a) & set(b), key=str)
-    diffs = [int(b[i]) - int(a[i]) for i in ids]
+    diffs = [float(b[i]) - float(a[i]) for i in ids]
     rng = random.Random(seed)
     boots = sorted(statistics.fmean(rng.choices(diffs, k=len(diffs))) for _ in range(iters))
     return {"n": len(ids), "delta": statistics.fmean(diffs), "ci95": (boots[int(0.025 * iters)], boots[int(0.975 * iters)]),
             "only_base_right": diffs.count(-1), "only_other_right": diffs.count(1)}
+
+
+def paired_delta(base: Run, other: Run, iters: int = 2000, seed: int = 1) -> dict:
+    """Accuracy of `other` minus `base` on records both answered (first repeat), with a 95% bootstrap interval."""
+    return paired(base.correct_by_id(), other.correct_by_id(), iters, seed)
 
 
 # ====================================================================== report
