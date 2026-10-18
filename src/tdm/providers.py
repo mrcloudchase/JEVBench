@@ -98,7 +98,7 @@ class Provider(ABC):
                 if err.code not in self.retry_statuses or attempt == self.retries:
                     raise RuntimeError(f"HTTP {err.code} from {self.url}: {detail}") from None
                 time.sleep(float(err.headers.get("Retry-After") or 2 ** attempt))
-            except (urllib.error.URLError, TimeoutError) as err:
+            except (urllib.error.URLError, TimeoutError, ConnectionError) as err:   # resets and refusals are transient too
                 if attempt == self.retries:
                     raise RuntimeError(f"{self.url}: {err}") from None
                 time.sleep(2 ** attempt)
