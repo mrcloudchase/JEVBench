@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-18_openjev_fedreg_agency_a7c1ede7",
+  "task": "fedreg_agency",
+  "task_version": "a7c1ede7e3f3",
+  "model": {
+    "name": "openjev",
+    "provider": "openjev",
+    "model": "open-jev-deberta-v3-large",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "72398183574b1beaa1259f231aa748311be19739",
+  "started": "2026-10-18T22:53:00+00:00",
+  "status": "running"
+}
