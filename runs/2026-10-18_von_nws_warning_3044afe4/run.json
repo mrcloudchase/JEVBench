@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-18_von_nws_warning_3044afe4",
+  "task": "nws_warning",
+  "task_version": "3044afe41c8e",
+  "model": {
+    "name": "von",
+    "provider": "von",
+    "model": "von-1.3",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "01d5fde1293187a905d61c5f93f8acd1241579ec",
+  "started": "2026-10-18T23:17:31+00:00",
+  "status": "running"
+}
