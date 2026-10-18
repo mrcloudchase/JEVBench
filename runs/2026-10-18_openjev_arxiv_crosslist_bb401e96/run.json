@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-18_openjev_arxiv_crosslist_bb401e96",
+  "task": "arxiv_crosslist",
+  "task_version": "bb401e965180",
+  "model": {
+    "name": "openjev",
+    "provider": "openjev",
+    "model": "open-jev-deberta-v3-large",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "799bf636a2087aabe1a51899fe7ae9a0cb29bf51",
+  "started": "2026-10-18T22:34:41+00:00",
+  "status": "running"
+}
