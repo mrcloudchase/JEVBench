@@ -3,3 +3,4 @@ provider: opendecider
 model: opendecider-nano
 repeats: 1
 workers: 2
+timeout: 120             # CPU inference: the first request loads the weights

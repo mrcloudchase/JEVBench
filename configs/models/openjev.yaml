@@ -3,3 +3,4 @@ provider: openjev
 model: open-jev-deberta-v3-large
 repeats: 1
 workers: 2
+timeout: 120             # CPU inference: the first request loads the weights

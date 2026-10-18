@@ -94,9 +94,11 @@ class Project:
         return task
 
     def provider(self, model: dict, env=os.environ) -> Provider:
-        """A provider from a model config. The key comes from the provider's own variable (TYPESAFE_API_KEY, ...)."""
+        """A provider from a model config. The key comes from the provider's own variable (TYPESAFE_API_KEY, ...);
+        `timeout` (seconds per call, default 30) can be raised for slow local models."""
         cls = PROVIDERS[model["provider"]]
-        return cls(url=model.get("url"), api_key=env.get(cls.key_env) if cls.key_env else None, model=model["model"])
+        return cls(url=model.get("url"), api_key=env.get(cls.key_env) if cls.key_env else None, model=model["model"],
+                   timeout=model.get("timeout", 30.0))
 
     def run_dir(self, date: str, model: str, task: Task) -> RunDir:
         return RunDir(self.root / "runs" / f"{date}_{model}_{task.name}_{task.version[:8]}")
