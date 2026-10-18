@@ -12,5 +12,13 @@
   },
   "git_commit": "96d7b4fc78a2ee85d56ab8402ea623e9d503f1b6",
   "started": "2026-10-18T22:10:00+00:00",
-  "status": "running"
+  "status": "complete",
+  "finished": "2026-10-18T22:12:32+00:00",
+  "records": 270,
+  "rows": 270,
+  "expected_rows": 270,
+  "served": [
+    "opendecider-nano"
+  ],
+  "cost_usd": 0
 }
