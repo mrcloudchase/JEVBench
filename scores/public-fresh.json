@@ -1,0 +1,1197 @@
+{
+  "experiment": "public-fresh",
+  "tasks": {
+    "nws_warning": {
+      "task_version": "3044afe41c8e",
+      "missing": [
+        "von",
+        "openjev"
+      ],
+      "runs": [
+        {
+          "model": "typesafe",
+          "run": "2026-10-18_typesafe_nws_warning_3044afe4",
+          "file": "runs/2026-10-18_typesafe_nws_warning_3044afe4/beliefs.jsonl",
+          "name": "typesafe jev-1.13.0",
+          "type": "noul",
+          "n": 300,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.6255555555555555,
+          "accuracy_range": [
+            0.62,
+            0.63
+          ],
+          "precision": 0.6396141229127328,
+          "precision_range": [
+            0.6304347826086957,
+            0.6466165413533834
+          ],
+          "recall": 0.5755555555555555,
+          "recall_range": [
+            0.5733333333333334,
+            0.58
+          ],
+          "f1": 0.605858107024558,
+          "f1_range": [
+            0.6041666666666666,
+            0.607773851590106
+          ],
+          "auroc": 0.6886666666666666,
+          "auroc_range": [
+            0.6859333333333333,
+            0.6903555555555555
+          ],
+          "brier": 0.24501022222222224,
+          "brier_range": [
+            0.24425833333333336,
+            0.246257
+          ],
+          "ece": 0.17500000000000002,
+          "ece_range": [
+            0.17249999999999996,
+            0.17830000000000001
+          ],
+          "agree": 0.9766666666666667,
+          "usd_per_1k": 0.022366,
+          "tokens_per_item": 532.52,
+          "latency_p50_ms": 194.3,
+          "latency_p95_ms": 302.2
+        },
+        {
+          "model": "openai",
+          "run": "2026-10-18_openai_nws_warning_3044afe4",
+          "file": "runs/2026-10-18_openai_nws_warning_3044afe4/beliefs.jsonl",
+          "name": "openai gpt-6-luna",
+          "type": "noul",
+          "n": 300,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 6,
+          "accuracy": 0.71,
+          "accuracy_range": [
+            0.71,
+            0.71
+          ],
+          "precision": 0.8181818181818182,
+          "precision_range": [
+            0.8181818181818182,
+            0.8181818181818182
+          ],
+          "recall": 0.5472972972972973,
+          "recall_range": [
+            0.5472972972972973,
+            0.5472972972972973
+          ],
+          "f1": 0.6558704453441295,
+          "f1_range": [
+            0.6558704453441295,
+            0.6558704453441295
+          ],
+          "auroc": 0.8097522522522521,
+          "auroc_range": [
+            0.8097522522522522,
+            0.8097522522522522
+          ],
+          "brier": 0.2147238255033557,
+          "brier_range": [
+            0.2147238255033557,
+            0.2147238255033557
+          ],
+          "ece": 0.169496644295302,
+          "ece_range": [
+            0.16949664429530203,
+            0.16949664429530203
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.038807,
+          "tokens_per_item": 388.07,
+          "latency_p50_ms": 237.0,
+          "latency_p95_ms": 468.2
+        },
+        {
+          "model": "deepseek",
+          "run": "2026-10-18_deepseek_nws_warning_3044afe4",
+          "file": "runs/2026-10-18_deepseek_nws_warning_3044afe4/beliefs.jsonl",
+          "name": "deepseek deepseek-flash",
+          "type": "noul",
+          "n": 300,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.6366666666666667,
+          "accuracy_range": [
+            0.6333333333333333,
+            0.64
+          ],
+          "precision": 0.6237434586832178,
+          "precision_range": [
+            0.6204819277108434,
+            0.6265060240963856
+          ],
+          "recall": 0.6888888888888888,
+          "recall_range": [
+            0.6866666666666666,
+            0.6933333333333334
+          ],
+          "f1": 0.6546982787489117,
+          "f1_range": [
+            0.6518987341772152,
+            0.6582278481012659
+          ],
+          "auroc": 0.7115999999999999,
+          "auroc_range": [
+            0.7084444444444444,
+            0.7132888888888889
+          ],
+          "brier": 0.30960449950693203,
+          "brier_range": [
+            0.306902280458161,
+            0.31095869518261643
+          ],
+          "ece": 0.3073363334300114,
+          "ece_range": [
+            0.30291121780380886,
+            0.31001612836058196
+          ],
+          "agree": 0.9866666666666667,
+          "usd_per_1k": 0.068841,
+          "tokens_per_item": 229.47,
+          "latency_p50_ms": 809.4,
+          "latency_p95_ms": 1065.7
+        },
+        {
+          "model": "opendecider",
+          "run": "2026-10-18_opendecider_nws_warning_3044afe4",
+          "file": "runs/2026-10-18_opendecider_nws_warning_3044afe4/beliefs.jsonl",
+          "name": "opendecider opendecider-nano",
+          "type": "noul",
+          "n": 300,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.5833333333333334,
+          "accuracy_range": null,
+          "precision": 0.5565610859728507,
+          "precision_range": null,
+          "recall": 0.82,
+          "recall_range": null,
+          "f1": 0.6630727762803234,
+          "f1_range": null,
+          "auroc": 0.7204444444444444,
+          "auroc_range": null,
+          "brier": 0.2902624279359384,
+          "brier_range": null,
+          "ece": 0.2490916609267394,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 249.75333333333333,
+          "latency_p50_ms": 2051.7,
+          "latency_p95_ms": 3553.8
+        }
+      ],
+      "paired": [
+        {
+          "model": "openai",
+          "n": 300,
+          "delta": 0.08,
+          "ci95": [
+            0.03333333333333333,
+            0.13
+          ],
+          "only_base_right": 18,
+          "only_other_right": 42
+        },
+        {
+          "model": "deepseek",
+          "n": 300,
+          "delta": 0.0033333333333333335,
+          "ci95": [
+            -0.04666666666666667,
+            0.05333333333333334
+          ],
+          "only_base_right": 29,
+          "only_other_right": 30
+        },
+        {
+          "model": "opendecider",
+          "n": 300,
+          "delta": -0.04666666666666667,
+          "ci95": [
+            -0.10666666666666667,
+            0.016666666666666666
+          ],
+          "only_base_right": 51,
+          "only_other_right": 37
+        }
+      ],
+      "question": "warning",
+      "type": "noul",
+      "threshold": 0.5,
+      "base": "typesafe"
+    },
+    "arxiv_crosslist": {
+      "task_version": "bb401e965180",
+      "missing": [
+        "von",
+        "openjev"
+      ],
+      "runs": [
+        {
+          "model": "typesafe",
+          "run": "2026-10-18_typesafe_arxiv_crosslist_bb401e96",
+          "file": "runs/2026-10-18_typesafe_arxiv_crosslist_bb401e96/beliefs.jsonl",
+          "name": "typesafe jev-1.13.0",
+          "type": "noul",
+          "n": 300,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.6322222222222222,
+          "accuracy_range": [
+            0.6266666666666667,
+            0.6433333333333333
+          ],
+          "precision": 0.7016422730708444,
+          "precision_range": [
+            0.6938775510204082,
+            0.7171717171717171
+          ],
+          "recall": 0.45999999999999996,
+          "recall_range": [
+            0.4533333333333333,
+            0.47333333333333333
+          ],
+          "f1": 0.5556851060154596,
+          "f1_range": [
+            0.5483870967741935,
+            0.570281124497992
+          ],
+          "auroc": 0.7281185185185185,
+          "auroc_range": [
+            0.7260888888888889,
+            0.7305555555555555
+          ],
+          "brier": 0.22451200000000002,
+          "brier_range": [
+            0.2242416666666667,
+            0.22466033333333332
+          ],
+          "ece": 0.11335555555555558,
+          "ece_range": [
+            0.10129999999999999,
+            0.12260000000000004
+          ],
+          "agree": 0.9033333333333333,
+          "usd_per_1k": 0.027025900000000002,
+          "tokens_per_item": 643.4766666666667,
+          "latency_p50_ms": 196.7,
+          "latency_p95_ms": 306.5
+        },
+        {
+          "model": "openai",
+          "run": "2026-10-18_openai_arxiv_crosslist_bb401e96",
+          "file": "runs/2026-10-18_openai_arxiv_crosslist_bb401e96/beliefs.jsonl",
+          "name": "openai gpt-6-luna",
+          "type": "noul",
+          "n": 300,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.53,
+          "accuracy_range": [
+            0.53,
+            0.53
+          ],
+          "precision": 0.5154639175257731,
+          "precision_range": [
+            0.5154639175257731,
+            0.5154639175257731
+          ],
+          "recall": 1.0,
+          "recall_range": [
+            1.0,
+            1.0
+          ],
+          "f1": 0.6802721088435374,
+          "f1_range": [
+            0.6802721088435374,
+            0.6802721088435374
+          ],
+          "auroc": 0.5603555555555556,
+          "auroc_range": [
+            0.5603555555555556,
+            0.5603555555555556
+          ],
+          "brier": 0.244687,
+          "brier_range": [
+            0.244687,
+            0.244687
+          ],
+          "ece": 0.024033333333333323,
+          "ece_range": [
+            0.024033333333333323,
+            0.024033333333333323
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.04930166666666667,
+          "tokens_per_item": 493.01666666666665,
+          "latency_p50_ms": 238.3,
+          "latency_p95_ms": 436.9
+        },
+        {
+          "model": "deepseek",
+          "run": "2026-10-18_deepseek_arxiv_crosslist_bb401e96",
+          "file": "runs/2026-10-18_deepseek_arxiv_crosslist_bb401e96/beliefs.jsonl",
+          "name": "deepseek deepseek-flash",
+          "type": "noul",
+          "n": 300,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.5,
+          "accuracy_range": [
+            0.5,
+            0.5
+          ],
+          "precision": 0.0,
+          "precision_range": [
+            0.0,
+            0.0
+          ],
+          "recall": 0.0,
+          "recall_range": [
+            0.0,
+            0.0
+          ],
+          "f1": 0.0,
+          "f1_range": [
+            0.0,
+            0.0
+          ],
+          "auroc": 0.6462962962962963,
+          "auroc_range": [
+            0.6348444444444444,
+            0.6545777777777778
+          ],
+          "brier": 0.4880161575603949,
+          "brier_range": [
+            0.4871208969129709,
+            0.48906821997976474
+          ],
+          "ece": 0.4908505386998718,
+          "ece_range": [
+            0.4895127448359617,
+            0.4920561022455308
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.102425,
+          "tokens_per_item": 341.4166666666667,
+          "latency_p50_ms": 799.9,
+          "latency_p95_ms": 1051.6
+        },
+        {
+          "model": "opendecider",
+          "run": "2026-10-18_opendecider_arxiv_crosslist_bb401e96",
+          "file": "runs/2026-10-18_opendecider_arxiv_crosslist_bb401e96/beliefs.jsonl",
+          "name": "opendecider opendecider-nano",
+          "type": "noul",
+          "n": 300,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.5033333333333333,
+          "accuracy_range": null,
+          "precision": 0.5016722408026756,
+          "precision_range": null,
+          "recall": 1.0,
+          "recall_range": null,
+          "f1": 0.6681514476614698,
+          "f1_range": null,
+          "auroc": 0.5758222222222222,
+          "auroc_range": null,
+          "brier": 0.30373849326861846,
+          "brier_range": null,
+          "ece": 0.24889076689879108,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 362.32666666666665,
+          "latency_p50_ms": 1947.2,
+          "latency_p95_ms": 2407.0
+        }
+      ],
+      "paired": [
+        {
+          "model": "openai",
+          "n": 300,
+          "delta": -0.11333333333333333,
+          "ci95": [
+            -0.2,
+            -0.02666666666666667
+          ],
+          "only_base_right": 113,
+          "only_other_right": 79
+        },
+        {
+          "model": "deepseek",
+          "n": 300,
+          "delta": -0.14333333333333334,
+          "ci95": [
+            -0.20666666666666667,
+            -0.08
+          ],
+          "only_base_right": 71,
+          "only_other_right": 28
+        },
+        {
+          "model": "opendecider",
+          "n": 300,
+          "delta": -0.14,
+          "ci95": [
+            -0.22666666666666666,
+            -0.05
+          ],
+          "only_base_right": 121,
+          "only_other_right": 79
+        }
+      ],
+      "question": "crosslisted_lg",
+      "type": "noul",
+      "threshold": 0.5,
+      "base": "typesafe"
+    },
+    "nws_severity": {
+      "task_version": "c74817a9bcdf",
+      "missing": [
+        "von",
+        "opendecider",
+        "openjev"
+      ],
+      "runs": [
+        {
+          "model": "typesafe",
+          "run": "2026-10-18_typesafe_nws_severity_c74817a9",
+          "file": "runs/2026-10-18_typesafe_nws_severity_c74817a9/beliefs.jsonl",
+          "name": "typesafe jev-1.13.0",
+          "type": "score",
+          "n": 316,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.41455696202531644,
+          "accuracy_range": [
+            0.41139240506329117,
+            0.4177215189873418
+          ],
+          "within_one": 0.9240506329113924,
+          "within_one_range": [
+            0.9208860759493671,
+            0.9272151898734177
+          ],
+          "mae": 0.702246835443038,
+          "mae_range": [
+            0.7013924050632911,
+            0.703259493670886
+          ],
+          "ece": 0.3913818565400844,
+          "ece_range": [
+            0.38924050632911394,
+            0.39379746835443036
+          ],
+          "agree": 0.9873417721518988,
+          "usd_per_1k": 0.02264645569620253,
+          "tokens_per_item": 539.2056962025316,
+          "latency_p50_ms": 196.9,
+          "latency_p95_ms": 286.9
+        },
+        {
+          "model": "openai",
+          "run": "2026-10-18_openai_nws_severity_c74817a9",
+          "file": "runs/2026-10-18_openai_nws_severity_c74817a9/beliefs.jsonl",
+          "name": "openai gpt-6-luna",
+          "type": "score",
+          "n": 316,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.43987341772151894,
+          "accuracy_range": [
+            0.439873417721519,
+            0.439873417721519
+          ],
+          "within_one": 0.9367088607594937,
+          "within_one_range": [
+            0.9367088607594937,
+            0.9367088607594937
+          ],
+          "mae": 0.6230696202531645,
+          "mae_range": [
+            0.6230696202531645,
+            0.6230696202531645
+          ],
+          "ece": 0.40867088607594937,
+          "ece_range": [
+            0.40867088607594937,
+            0.40867088607594937
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.033277531645569625,
+          "tokens_per_item": 332.7753164556962,
+          "latency_p50_ms": 242.9,
+          "latency_p95_ms": 439.4
+        },
+        {
+          "model": "deepseek",
+          "run": "2026-10-18_deepseek_nws_severity_c74817a9",
+          "file": "runs/2026-10-18_deepseek_nws_severity_c74817a9/beliefs.jsonl",
+          "name": "deepseek deepseek-flash",
+          "type": "score",
+          "n": 316,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.43881856540084385,
+          "accuracy_range": [
+            0.43354430379746833,
+            0.4430379746835443
+          ],
+          "within_one": 0.9208860759493671,
+          "within_one_range": [
+            0.9113924050632911,
+            0.9272151898734177
+          ],
+          "mae": 0.6490419574139801,
+          "mae_range": [
+            0.6460018895525642,
+            0.6528535458080451
+          ],
+          "ece": 0.4326774796833914,
+          "ece_range": [
+            0.42721073193572884,
+            0.43807115798919977
+          ],
+          "agree": 0.9462025316455697,
+          "usd_per_1k": 0.07924272151898734,
+          "tokens_per_item": 264.14240506329116,
+          "latency_p50_ms": 808.6,
+          "latency_p95_ms": 1049.0
+        }
+      ],
+      "paired": [
+        {
+          "model": "openai",
+          "n": 316,
+          "delta": 0.022151898734177215,
+          "ci95": [
+            -0.00949367088607595,
+            0.056962025316455694
+          ],
+          "only_base_right": 11,
+          "only_other_right": 18
+        },
+        {
+          "model": "deepseek",
+          "n": 316,
+          "delta": 0.02531645569620253,
+          "ci95": [
+            -0.012658227848101266,
+            0.06329113924050633
+          ],
+          "only_base_right": 14,
+          "only_other_right": 22
+        }
+      ],
+      "question": "severity",
+      "type": "score",
+      "threshold": 0.5,
+      "base": "typesafe"
+    },
+    "nws_certainty": {
+      "task_version": "40ad7d8dd1aa",
+      "missing": [
+        "von",
+        "opendecider",
+        "openjev"
+      ],
+      "runs": [
+        {
+          "model": "typesafe",
+          "run": "2026-10-18_typesafe_nws_certainty_40ad7d8d",
+          "file": "runs/2026-10-18_typesafe_nws_certainty_40ad7d8d/beliefs.jsonl",
+          "name": "typesafe jev-1.13.0",
+          "type": "score",
+          "n": 300,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.49222222222222217,
+          "accuracy_range": [
+            0.4866666666666667,
+            0.49666666666666665
+          ],
+          "within_one": 0.9899999999999999,
+          "within_one_range": [
+            0.99,
+            0.99
+          ],
+          "mae": 0.5173444444444444,
+          "mae_range": [
+            0.5157333333333334,
+            0.5187999999999999
+          ],
+          "ece": 0.28987777777777773,
+          "ece_range": [
+            0.2791666666666667,
+            0.29683333333333334
+          ],
+          "agree": 0.9733333333333334,
+          "usd_per_1k": 0.0228362,
+          "tokens_per_item": 543.7133333333334,
+          "latency_p50_ms": 199.4,
+          "latency_p95_ms": 278.5
+        },
+        {
+          "model": "openai",
+          "run": "2026-10-18_openai_nws_certainty_40ad7d8d",
+          "file": "runs/2026-10-18_openai_nws_certainty_40ad7d8d/beliefs.jsonl",
+          "name": "openai gpt-6-luna",
+          "type": "score",
+          "n": 300,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.62,
+          "accuracy_range": [
+            0.62,
+            0.62
+          ],
+          "within_one": 0.98,
+          "within_one_range": [
+            0.98,
+            0.98
+          ],
+          "mae": 0.4114,
+          "mae_range": [
+            0.4114,
+            0.4114
+          ],
+          "ece": 0.13933333333333334,
+          "ece_range": [
+            0.13933333333333334,
+            0.13933333333333334
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.03343033333333334,
+          "tokens_per_item": 334.30333333333334,
+          "latency_p50_ms": 235.0,
+          "latency_p95_ms": 431.5
+        },
+        {
+          "model": "deepseek",
+          "run": "2026-10-18_deepseek_nws_certainty_40ad7d8d",
+          "file": "runs/2026-10-18_deepseek_nws_certainty_40ad7d8d/beliefs.jsonl",
+          "name": "deepseek deepseek-flash",
+          "type": "score",
+          "n": 300,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.7666666666666666,
+          "accuracy_range": [
+            0.7533333333333333,
+            0.7766666666666666
+          ],
+          "within_one": 0.9744444444444444,
+          "within_one_range": [
+            0.9733333333333334,
+            0.9766666666666667
+          ],
+          "mae": 0.32346644869261404,
+          "mae_range": [
+            0.3187814164656851,
+            0.3275933308196505
+          ],
+          "ece": 0.12088996745660918,
+          "ece_range": [
+            0.11710734891191674,
+            0.127587756628356
+          ],
+          "agree": 0.93,
+          "usd_per_1k": 0.07893700000000001,
+          "tokens_per_item": 263.12333333333333,
+          "latency_p50_ms": 824.7,
+          "latency_p95_ms": 1051.7
+        }
+      ],
+      "paired": [
+        {
+          "model": "openai",
+          "n": 300,
+          "delta": 0.13333333333333333,
+          "ci95": [
+            0.056666666666666664,
+            0.20666666666666667
+          ],
+          "only_base_right": 52,
+          "only_other_right": 92
+        },
+        {
+          "model": "deepseek",
+          "n": 300,
+          "delta": 0.2833333333333333,
+          "ci95": [
+            0.22,
+            0.3466666666666667
+          ],
+          "only_base_right": 18,
+          "only_other_right": 103
+        }
+      ],
+      "question": "certainty",
+      "type": "score",
+      "threshold": 0.5,
+      "base": "typesafe"
+    },
+    "fedreg_type": {
+      "task_version": "579948d5bc82",
+      "missing": [
+        "von",
+        "opendecider",
+        "openjev"
+      ],
+      "runs": [
+        {
+          "model": "typesafe",
+          "run": "2026-10-18_typesafe_fedreg_type_579948d5",
+          "file": "runs/2026-10-18_typesafe_fedreg_type_579948d5/beliefs.jsonl",
+          "name": "typesafe jev-1.13.0",
+          "type": "choice",
+          "n": 270,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.8185185185185185,
+          "accuracy_range": [
+            0.8185185185185185,
+            0.8185185185185185
+          ],
+          "macro_f1": 0.821995341115071,
+          "macro_f1_range": [
+            0.8217984131760293,
+            0.8220938050845917
+          ],
+          "brier": 0.2802674074074074,
+          "brier_range": [
+            0.27971777777777773,
+            0.2811296296296296
+          ],
+          "ece": 0.08650617283950617,
+          "ece_range": [
+            0.08603703703703697,
+            0.087
+          ],
+          "agree": 0.9925925925925926,
+          "usd_per_1k": 0.02189848148148148,
+          "tokens_per_item": 521.3925925925926,
+          "latency_p50_ms": 196.8,
+          "latency_p95_ms": 292.8
+        },
+        {
+          "model": "openai",
+          "run": "2026-10-18_openai_fedreg_type_579948d5",
+          "file": "runs/2026-10-18_openai_fedreg_type_579948d5/beliefs.jsonl",
+          "name": "openai gpt-6-luna",
+          "type": "choice",
+          "n": 270,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.8444444444444444,
+          "accuracy_range": [
+            0.8444444444444444,
+            0.8444444444444444
+          ],
+          "macro_f1": 0.8477272727272727,
+          "macro_f1_range": [
+            0.8477272727272727,
+            0.8477272727272727
+          ],
+          "brier": 0.27722962962962966,
+          "brier_range": [
+            0.27722962962962966,
+            0.27722962962962966
+          ],
+          "ece": 0.13151851851851845,
+          "ece_range": [
+            0.13151851851851845,
+            0.13151851851851845
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.030466666666666663,
+          "tokens_per_item": 304.6666666666667,
+          "latency_p50_ms": 229.2,
+          "latency_p95_ms": 405.8
+        },
+        {
+          "model": "deepseek",
+          "run": "2026-10-18_deepseek_fedreg_type_579948d5",
+          "file": "runs/2026-10-18_deepseek_fedreg_type_579948d5/beliefs.jsonl",
+          "name": "deepseek deepseek-flash",
+          "type": "choice",
+          "n": 270,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.8888888888888888,
+          "accuracy_range": [
+            0.8888888888888888,
+            0.8888888888888888
+          ],
+          "macro_f1": 0.8909190319973375,
+          "macro_f1_range": [
+            0.8909190319973375,
+            0.8909190319973375
+          ],
+          "brier": 0.20987143840971698,
+          "brier_range": [
+            0.20761720376511822,
+            0.21151016582853718
+          ],
+          "ece": 0.10463681204237897,
+          "ece_range": [
+            0.0978648683475787,
+            0.1115564566784487
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.06750111111111111,
+          "tokens_per_item": 225.0037037037037,
+          "latency_p50_ms": 951.7,
+          "latency_p95_ms": 1137.3
+        }
+      ],
+      "paired": [
+        {
+          "model": "openai",
+          "n": 270,
+          "delta": 0.025925925925925925,
+          "ci95": [
+            -0.011111111111111112,
+            0.06296296296296296
+          ],
+          "only_base_right": 10,
+          "only_other_right": 17
+        },
+        {
+          "model": "deepseek",
+          "n": 270,
+          "delta": 0.07037037037037037,
+          "ci95": [
+            0.037037037037037035,
+            0.10740740740740741
+          ],
+          "only_base_right": 3,
+          "only_other_right": 22
+        }
+      ],
+      "question": "type",
+      "type": "choice",
+      "threshold": 0.5,
+      "base": "typesafe"
+    },
+    "fedreg_agency": {
+      "task_version": "a7c1ede7e3f3",
+      "missing": [
+        "von",
+        "opendecider",
+        "openjev"
+      ],
+      "runs": [
+        {
+          "model": "typesafe",
+          "run": "2026-10-18_typesafe_fedreg_agency_a7c1ede7",
+          "file": "runs/2026-10-18_typesafe_fedreg_agency_a7c1ede7/beliefs.jsonl",
+          "name": "typesafe jev-1.13.0",
+          "type": "choice",
+          "n": 296,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.8795045045045046,
+          "accuracy_range": [
+            0.8783783783783784,
+            0.8817567567567568
+          ],
+          "macro_f1": 0.8783746586527214,
+          "macro_f1_range": [
+            0.8771428090002305,
+            0.8806652459241834
+          ],
+          "brier": 0.14586103603603603,
+          "brier_range": [
+            0.14539222972972973,
+            0.14646047297297296
+          ],
+          "ece": 0.039876126126126135,
+          "ece_range": [
+            0.03520270270270264,
+            0.04712837837837842
+          ],
+          "agree": 0.9763513513513513,
+          "usd_per_1k": 0.031087905405405403,
+          "tokens_per_item": 740.1925675675676,
+          "latency_p50_ms": 199.8,
+          "latency_p95_ms": 291.6
+        },
+        {
+          "model": "openai",
+          "run": "2026-10-18_openai_fedreg_agency_a7c1ede7",
+          "file": "runs/2026-10-18_openai_fedreg_agency_a7c1ede7/beliefs.jsonl",
+          "name": "openai gpt-6-luna",
+          "type": "choice",
+          "n": 296,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 33,
+          "accuracy": 0.9054054054054054,
+          "accuracy_range": [
+            0.9054054054054054,
+            0.9054054054054054
+          ],
+          "macro_f1": 0.9216609386596651,
+          "macro_f1_range": [
+            0.921660938659665,
+            0.921660938659665
+          ],
+          "brier": 0.0980680701754386,
+          "brier_range": [
+            0.0980680701754386,
+            0.0980680701754386
+          ],
+          "ece": 0.037473684210526326,
+          "ece_range": [
+            0.037473684210526326,
+            0.037473684210526326
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.045238851351351354,
+          "tokens_per_item": 452.3885135135135,
+          "latency_p50_ms": 236.4,
+          "latency_p95_ms": 427.6
+        },
+        {
+          "model": "deepseek",
+          "run": "2026-10-18_deepseek_fedreg_agency_a7c1ede7",
+          "file": "runs/2026-10-18_deepseek_fedreg_agency_a7c1ede7/beliefs.jsonl",
+          "name": "deepseek deepseek-flash",
+          "type": "choice",
+          "n": 296,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.9313063063063063,
+          "accuracy_range": [
+            0.9290540540540541,
+            0.9324324324324325
+          ],
+          "macro_f1": 0.9311064208299339,
+          "macro_f1_range": [
+            0.9286422119433528,
+            0.9323385252732244
+          ],
+          "brier": 0.11607736988409005,
+          "brier_range": [
+            0.11435685606250293,
+            0.11893051071888297
+          ],
+          "ece": 0.05303001266311717,
+          "ece_range": [
+            0.05043552347075689,
+            0.05538905474763433
+          ],
+          "agree": 0.9966216216216216,
+          "usd_per_1k": 0.1112310810810811,
+          "tokens_per_item": 370.77027027027026,
+          "latency_p50_ms": 869.0,
+          "latency_p95_ms": 1103.4
+        }
+      ],
+      "paired": [
+        {
+          "model": "openai",
+          "n": 296,
+          "delta": 0.02702702702702703,
+          "ci95": [
+            0.0,
+            0.05405405405405406
+          ],
+          "only_base_right": 5,
+          "only_other_right": 13
+        },
+        {
+          "model": "deepseek",
+          "n": 296,
+          "delta": 0.05405405405405406,
+          "ci95": [
+            0.02702702702702703,
+            0.08445945945945946
+          ],
+          "only_base_right": 2,
+          "only_other_right": 18
+        }
+      ],
+      "question": "agency",
+      "type": "choice",
+      "threshold": 0.5,
+      "base": "typesafe"
+    },
+    "arxiv_category": {
+      "task_version": "602ce96e16d6",
+      "missing": [
+        "von",
+        "opendecider",
+        "openjev"
+      ],
+      "runs": [
+        {
+          "model": "typesafe",
+          "run": "2026-10-18_typesafe_arxiv_category_602ce96e",
+          "file": "runs/2026-10-18_typesafe_arxiv_category_602ce96e/beliefs.jsonl",
+          "name": "typesafe jev-1.13.0",
+          "type": "choice",
+          "n": 600,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.9488888888888889,
+          "accuracy_range": [
+            0.9483333333333334,
+            0.95
+          ],
+          "macro_f1": 0.9486775521566764,
+          "macro_f1_range": [
+            0.9481217001752272,
+            0.9497892561195748
+          ],
+          "brier": 0.09196855555555555,
+          "brier_range": [
+            0.09137616666666666,
+            0.09248833333333334
+          ],
+          "ece": 0.02822777777777781,
+          "ece_range": [
+            0.02770000000000002,
+            0.028966666666666717
+          ],
+          "agree": 0.9983333333333333,
+          "usd_per_1k": 0.039062049999999994,
+          "tokens_per_item": 930.0466666666666,
+          "latency_p50_ms": 199.6,
+          "latency_p95_ms": 285.1
+        },
+        {
+          "model": "openai",
+          "run": "2026-10-18_openai_arxiv_category_602ce96e",
+          "file": "runs/2026-10-18_openai_arxiv_category_602ce96e/beliefs.jsonl",
+          "name": "openai gpt-6-luna",
+          "type": "choice",
+          "n": 600,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 3,
+          "accuracy": 0.9416666666666668,
+          "accuracy_range": [
+            0.9416666666666667,
+            0.9416666666666667
+          ],
+          "macro_f1": 0.9425549867941013,
+          "macro_f1_range": [
+            0.9425549867941013,
+            0.9425549867941013
+          ],
+          "brier": 0.10294190317195324,
+          "brier_range": [
+            0.10294190317195326,
+            0.10294190317195326
+          ],
+          "ece": 0.03207011686143573,
+          "ece_range": [
+            0.03207011686143573,
+            0.03207011686143573
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.06388733333333332,
+          "tokens_per_item": 638.8733333333333,
+          "latency_p50_ms": 238.0,
+          "latency_p95_ms": 429.0
+        },
+        {
+          "model": "deepseek",
+          "run": "2026-10-18_deepseek_arxiv_category_602ce96e",
+          "file": "runs/2026-10-18_deepseek_arxiv_category_602ce96e/beliefs.jsonl",
+          "name": "deepseek deepseek-flash",
+          "type": "choice",
+          "n": 600,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.9144444444444444,
+          "accuracy_range": [
+            0.9133333333333333,
+            0.9166666666666666
+          ],
+          "macro_f1": 0.9132090914314214,
+          "macro_f1_range": [
+            0.9119747142492104,
+            0.9154321561821513
+          ],
+          "brier": 0.13741852129671267,
+          "brier_range": [
+            0.13535109150224356,
+            0.13919677006030373
+          ],
+          "ece": 0.06276031228630412,
+          "ece_range": [
+            0.06018377550771333,
+            0.06426448715851028
+          ],
+          "agree": 0.995,
+          "usd_per_1k": 0.149258,
+          "tokens_per_item": 497.52666666666664,
+          "latency_p50_ms": 840.3,
+          "latency_p95_ms": 1058.8
+        }
+      ],
+      "paired": [
+        {
+          "model": "openai",
+          "n": 600,
+          "delta": -0.006666666666666667,
+          "ci95": [
+            -0.02,
+            0.006666666666666667
+          ],
+          "only_base_right": 11,
+          "only_other_right": 7
+        },
+        {
+          "model": "deepseek",
+          "n": 600,
+          "delta": -0.03166666666666667,
+          "ci95": [
+            -0.04833333333333333,
+            -0.016666666666666666
+          ],
+          "only_base_right": 21,
+          "only_other_right": 2
+        }
+      ],
+      "question": "category",
+      "type": "choice",
+      "threshold": 0.5,
+      "base": "typesafe"
+    }
+  }
+}

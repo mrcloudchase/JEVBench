@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-18_opendecider_nws_certainty_40ad7d8d",
+  "task": "nws_certainty",
+  "task_version": "40ad7d8dd1aa",
+  "model": {
+    "name": "opendecider",
+    "provider": "opendecider",
+    "model": "opendecider-nano",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "4c9d666d2b59d7a8a7f3c2695b2c2833dde19296",
+  "started": "2026-10-18T22:06:39+00:00",
+  "status": "complete",
+  "finished": "2026-10-18T22:10:00+00:00",
+  "records": 300,
+  "rows": 300,
+  "expected_rows": 300,
+  "served": [
+    "opendecider-nano"
+  ],
+  "cost_usd": 0
+}

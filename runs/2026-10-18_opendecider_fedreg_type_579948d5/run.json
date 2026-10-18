@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-18_opendecider_fedreg_type_579948d5",
+  "task": "fedreg_type",
+  "task_version": "579948d5bc82",
+  "model": {
+    "name": "opendecider",
+    "provider": "opendecider",
+    "model": "opendecider-nano",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "96d7b4fc78a2ee85d56ab8402ea623e9d503f1b6",
+  "started": "2026-10-18T22:10:00+00:00",
+  "status": "running"
+}
