@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-18_openjev_nws_severity_c74817a9",
+  "task": "nws_severity",
+  "task_version": "c74817a9bcdf",
+  "model": {
+    "name": "openjev",
+    "provider": "openjev",
+    "model": "open-jev-deberta-v3-large",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "b25959cc139be295b5bac3145618bda004128df6",
+  "started": "2026-10-18T22:40:09+00:00",
+  "status": "running"
+}
