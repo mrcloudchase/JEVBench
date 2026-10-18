@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-18_typesafe_nws_severity_c74817a9",
+  "task": "nws_severity",
+  "task_version": "c74817a9bcdf",
+  "model": {
+    "name": "typesafe",
+    "provider": "typesafe",
+    "model": "jev-1.13.0",
+    "repeats": 3,
+    "workers": 8
+  },
+  "git_commit": "91af68a7b5f9cb70fae1e3b2d6230413b0a67966",
+  "started": "2026-10-18T21:53:29+00:00",
+  "status": "complete",
+  "finished": "2026-10-18T21:53:53+00:00",
+  "records": 316,
+  "rows": 948,
+  "expected_rows": 948,
+  "served": [
+    "jev-1.13.0"
+  ],
+  "cost_usd": 0.021469
+}

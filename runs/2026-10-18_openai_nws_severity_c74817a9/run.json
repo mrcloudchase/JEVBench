@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-18_openai_nws_severity_c74817a9",
+  "task": "nws_severity",
+  "task_version": "c74817a9bcdf",
+  "model": {
+    "name": "openai",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "repeats": 3,
+    "workers": 8
+  },
+  "git_commit": "91af68a7b5f9cb70fae1e3b2d6230413b0a67966",
+  "started": "2026-10-18T21:53:43+00:00",
+  "status": "complete",
+  "finished": "2026-10-18T21:54:16+00:00",
+  "records": 316,
+  "rows": 948,
+  "expected_rows": 948,
+  "served": [
+    "gpt-6-luna"
+  ],
+  "cost_usd": 0.031547
+}

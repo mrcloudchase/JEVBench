@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-18_typesafe_fedreg_type_579948d5",
+  "task": "fedreg_type",
+  "task_version": "579948d5bc82",
+  "model": {
+    "name": "typesafe",
+    "provider": "typesafe",
+    "model": "jev-1.13.0",
+    "repeats": 3,
+    "workers": 8
+  },
+  "git_commit": "91af68a7b5f9cb70fae1e3b2d6230413b0a67966",
+  "started": "2026-10-18T21:54:17+00:00",
+  "status": "complete",
+  "finished": "2026-10-18T21:54:38+00:00",
+  "records": 270,
+  "rows": 810,
+  "expected_rows": 810,
+  "served": [
+    "jev-1.13.0"
+  ],
+  "cost_usd": 0.017738
+}

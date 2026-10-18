@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-18_openai_arxiv_category_602ce96e",
+  "task": "arxiv_category",
+  "task_version": "602ce96e16d6",
+  "model": {
+    "name": "openai",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "repeats": 3,
+    "workers": 8
+  },
+  "git_commit": "91af68a7b5f9cb70fae1e3b2d6230413b0a67966",
+  "started": "2026-10-18T21:55:41+00:00",
+  "status": "complete",
+  "finished": "2026-10-18T21:56:41+00:00",
+  "records": 600,
+  "rows": 1800,
+  "expected_rows": 1800,
+  "served": [
+    "gpt-6-luna"
+  ],
+  "cost_usd": 0.114997
+}

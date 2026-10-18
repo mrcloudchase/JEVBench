@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-18_opendecider_nws_severity_c74817a9",
+  "task": "nws_severity",
+  "task_version": "c74817a9bcdf",
+  "model": {
+    "name": "opendecider",
+    "provider": "opendecider",
+    "model": "opendecider-nano",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "91af68a7b5f9cb70fae1e3b2d6230413b0a67966",
+  "started": "2026-10-18T22:02:50+00:00",
+  "status": "running"
+}
