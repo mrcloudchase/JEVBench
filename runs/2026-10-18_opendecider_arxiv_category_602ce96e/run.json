@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-18_opendecider_arxiv_category_602ce96e",
+  "task": "arxiv_category",
+  "task_version": "602ce96e16d6",
+  "model": {
+    "name": "opendecider",
+    "provider": "opendecider",
+    "model": "opendecider-nano",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "4f85012e47e6ee806885227e43a46e92a7409462",
+  "started": "2026-10-18T22:17:01+00:00",
+  "status": "running"
+}
