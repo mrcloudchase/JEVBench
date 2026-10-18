@@ -12,5 +12,13 @@
   },
   "git_commit": "d1a3a3b033a7e402062776fad770384e14804555",
   "started": "2026-10-18T22:44:50+00:00",
-  "status": "running"
+  "status": "complete",
+  "finished": "2026-10-18T22:49:19+00:00",
+  "records": 300,
+  "rows": 300,
+  "expected_rows": 300,
+  "served": [
+    "open-jev-deberta-v3-large"
+  ],
+  "cost_usd": 0
 }
