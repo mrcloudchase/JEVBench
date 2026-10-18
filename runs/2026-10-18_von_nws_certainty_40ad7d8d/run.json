@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-18_von_nws_certainty_40ad7d8d",
+  "task": "nws_certainty",
+  "task_version": "40ad7d8dd1aa",
+  "model": {
+    "name": "von",
+    "provider": "von",
+    "model": "von-1.3",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "0f31a7daf6e0e87f34926b20f495c436f11e865e",
+  "started": "2026-10-18T23:49:33+00:00",
+  "status": "running"
+}
