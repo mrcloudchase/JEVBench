@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-18_von_nws_severity_c74817a9",
+  "task": "nws_severity",
+  "task_version": "c74817a9bcdf",
+  "model": {
+    "name": "von",
+    "provider": "von",
+    "model": "von-1.3",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "b215785b57863ade49852fa6b298ebc76057a633",
+  "started": "2026-10-18T23:45:03+00:00",
+  "status": "running"
+}
