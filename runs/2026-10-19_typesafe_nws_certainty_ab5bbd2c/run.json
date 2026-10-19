@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-19_typesafe_nws_certainty_ab5bbd2c",
+  "task": "nws_certainty",
+  "task_version": "ab5bbd2c544a",
+  "model": {
+    "name": "typesafe",
+    "provider": "typesafe",
+    "model": "jev-1.13.0",
+    "repeats": 3,
+    "workers": 8
+  },
+  "git_commit": "7a7e6555ca1b63d839ae2658ba8826ab888ab69a",
+  "started": "2026-10-19T04:52:32+00:00",
+  "status": "complete",
+  "finished": "2026-10-19T04:53:36+00:00",
+  "records": 897,
+  "rows": 2691,
+  "expected_rows": 2691,
+  "served": [
+    "jev-1.13.0"
+  ],
+  "cost_usd": 0.061147
+}

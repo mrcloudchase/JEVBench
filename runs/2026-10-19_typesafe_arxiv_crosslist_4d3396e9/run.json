@@ -11,5 +11,13 @@
   },
   "git_commit": "14aa1c2e33a8b200fd1690a2fb8ac0c8f79da5ba",
   "started": "2026-10-19T04:49:55+00:00",
-  "status": "running"
+  "status": "complete",
+  "finished": "2026-10-19T04:51:06+00:00",
+  "records": 973,
+  "rows": 2919,
+  "expected_rows": 2919,
+  "served": [
+    "jev-1.13.0"
+  ],
+  "cost_usd": 0.078888
 }

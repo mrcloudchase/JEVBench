@@ -11,5 +11,13 @@
   },
   "git_commit": "14aa1c2e33a8b200fd1690a2fb8ac0c8f79da5ba",
   "started": "2026-10-19T04:48:42+00:00",
-  "status": "running"
+  "status": "complete",
+  "finished": "2026-10-19T04:54:33+00:00",
+  "records": 1000,
+  "rows": 3000,
+  "expected_rows": 3000,
+  "served": [
+    "deepseek-flash"
+  ],
+  "cost_usd": 0.209736
 }

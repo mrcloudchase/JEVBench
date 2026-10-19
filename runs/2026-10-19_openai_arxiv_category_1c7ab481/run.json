@@ -1,0 +1,15 @@
+{
+  "id": "2026-10-19_openai_arxiv_category_1c7ab481",
+  "task": "arxiv_category",
+  "task_version": "1c7ab4815a95",
+  "model": {
+    "name": "openai",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "repeats": 3,
+    "workers": 8
+  },
+  "git_commit": "7a7e6555ca1b63d839ae2658ba8826ab888ab69a",
+  "started": "2026-10-19T04:56:30+00:00",
+  "status": "running"
+}
