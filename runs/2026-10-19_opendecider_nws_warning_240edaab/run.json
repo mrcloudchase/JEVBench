@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-19_opendecider_nws_warning_240edaab",
+  "task": "nws_warning",
+  "task_version": "240edaabdd85",
+  "model": {
+    "name": "opendecider",
+    "provider": "opendecider",
+    "model": "opendecider-nano",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "14aa1c2e33a8b200fd1690a2fb8ac0c8f79da5ba",
+  "started": "2026-10-19T04:48:42+00:00",
+  "status": "running"
+}
