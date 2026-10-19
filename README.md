@@ -71,8 +71,10 @@ The six models:
 - open-jev-deberta-v3-large
 
 The task text is committed: Federal Register and National Weather Service text is public domain, and arXiv metadata is CC0;
-see [`tasks/README.md`](tasks/README.md). No runs have been made yet: `make run` produces them, then
-`make score report` writes [`reports/public-fresh.md`](reports/).
+see [`tasks/README.md`](tasks/README.md). All 42 runs (October 18–19, 2026) are in `runs/`, and
+[`reports/public-fresh.md`](reports/public-fresh.md) has the results. Local-model latencies there are
+not comparable: Von ran alone, slowed by a server backlog, after its timeout was raised from 120s to
+600s (commit `42894db`), which changes no belief.
 
 The first experiment, on Steam and App Store reviews, was removed because those reviews carry no reuse
 grant. Its code and results are in the repository's history (commit `6385d80`).
