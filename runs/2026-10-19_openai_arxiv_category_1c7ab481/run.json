@@ -11,5 +11,13 @@
   },
   "git_commit": "7a7e6555ca1b63d839ae2658ba8826ab888ab69a",
   "started": "2026-10-19T04:56:30+00:00",
-  "status": "running"
+  "status": "complete",
+  "finished": "2026-10-19T04:58:16+00:00",
+  "records": 1109,
+  "rows": 3327,
+  "expected_rows": 3327,
+  "served": [
+    "gpt-6-luna"
+  ],
+  "cost_usd": 0.21396
 }
