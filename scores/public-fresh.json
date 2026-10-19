@@ -1,0 +1,1860 @@
+{
+  "experiment": "public-fresh",
+  "tasks": {
+    "nws_warning": {
+      "task_version": "240edaabdd85",
+      "missing": [],
+      "runs": [
+        {
+          "model": "typesafe",
+          "run": "2026-10-19_typesafe_nws_warning_240edaab",
+          "file": "runs/2026-10-19_typesafe_nws_warning_240edaab/beliefs.jsonl",
+          "name": "typesafe jev-1.13.0",
+          "type": "noul",
+          "n": 1000,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.6383333333333333,
+          "accuracy_range": [
+            0.636,
+            0.64
+          ],
+          "precision": 0.6540545931074204,
+          "precision_range": [
+            0.6511111111111111,
+            0.6569506726457399
+          ],
+          "recall": 0.5873333333333334,
+          "recall_range": [
+            0.586,
+            0.59
+          ],
+          "f1": 0.618897333926003,
+          "f1_range": [
+            0.6168421052631579,
+            0.6203995793901156
+          ],
+          "auroc": 0.694,
+          "auroc_range": [
+            0.692918,
+            0.696134
+          ],
+          "brier": 0.23855596666666667,
+          "brier_range": [
+            0.23803300000000002,
+            0.23887360000000002
+          ],
+          "ece": 0.11684333333333334,
+          "ece_range": [
+            0.11653000000000001,
+            0.11706000000000001
+          ],
+          "agree": 0.964,
+          "usd_per_1k": 0.02254028,
+          "tokens_per_item": 536.674,
+          "latency_p50_ms": 182.4,
+          "latency_p95_ms": 256.5
+        },
+        {
+          "model": "openai",
+          "run": "2026-10-19_openai_nws_warning_240edaab",
+          "file": "runs/2026-10-19_openai_nws_warning_240edaab/beliefs.jsonl",
+          "name": "openai gpt-6-luna",
+          "type": "noul",
+          "n": 1000,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 9,
+          "accuracy": 0.695,
+          "accuracy_range": [
+            0.695,
+            0.695
+          ],
+          "precision": 0.785923753665689,
+          "precision_range": [
+            0.7859237536656891,
+            0.7859237536656891
+          ],
+          "recall": 0.5392354124748491,
+          "recall_range": [
+            0.5392354124748491,
+            0.5392354124748491
+          ],
+          "f1": 0.639618138424821,
+          "f1_range": [
+            0.639618138424821,
+            0.639618138424821
+          ],
+          "auroc": 0.8168370221327969,
+          "auroc_range": [
+            0.8168370221327967,
+            0.8168370221327967
+          ],
+          "brier": 0.2224792377131394,
+          "brier_range": [
+            0.22247923771313943,
+            0.22247923771313943
+          ],
+          "ece": 0.19394182547642927,
+          "ece_range": [
+            0.19394182547642927,
+            0.19394182547642927
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.0392355,
+          "tokens_per_item": 392.355,
+          "latency_p50_ms": 239.9,
+          "latency_p95_ms": 412.8
+        },
+        {
+          "model": "deepseek",
+          "run": "2026-10-19_deepseek_nws_warning_240edaab",
+          "file": "runs/2026-10-19_deepseek_nws_warning_240edaab/beliefs.jsonl",
+          "name": "deepseek deepseek-flash",
+          "type": "noul",
+          "n": 1000,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.6766666666666667,
+          "accuracy_range": [
+            0.675,
+            0.678
+          ],
+          "precision": 0.6670879398903974,
+          "precision_range": [
+            0.665406427221172,
+            0.6685606060606061
+          ],
+          "recall": 0.7053333333333333,
+          "recall_range": [
+            0.704,
+            0.706
+          ],
+          "f1": 0.6856776062287061,
+          "f1_range": [
+            0.6841593780369292,
+            0.6867704280155643
+          ],
+          "auroc": 0.7360493333333333,
+          "auroc_range": [
+            0.73572,
+            0.736568
+          ],
+          "brier": 0.2816094933117607,
+          "brier_range": [
+            0.28035449389492884,
+            0.2824700774442787
+          ],
+          "ece": 0.2685033087337892,
+          "ece_range": [
+            0.26702125496415563,
+            0.27027800971099125
+          ],
+          "agree": 0.987,
+          "usd_per_1k": 0.069912,
+          "tokens_per_item": 233.04,
+          "latency_p50_ms": 941.0,
+          "latency_p95_ms": 1148.4
+        },
+        {
+          "model": "von",
+          "run": "2026-10-19_von_nws_warning_240edaab",
+          "file": "runs/2026-10-19_von_nws_warning_240edaab/beliefs.jsonl",
+          "name": "von von-1.3.0",
+          "type": "noul",
+          "n": 1000,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.487,
+          "accuracy_range": null,
+          "precision": 0.49341438703140833,
+          "precision_range": null,
+          "recall": 0.974,
+          "recall_range": null,
+          "f1": 0.6550100874243444,
+          "f1_range": null,
+          "auroc": 0.601138,
+          "auroc_range": null,
+          "brier": 0.32269707906,
+          "brier_range": null,
+          "ece": 0.2940568,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 255.036,
+          "latency_p50_ms": 1205.0,
+          "latency_p95_ms": 2836.7
+        },
+        {
+          "model": "opendecider",
+          "run": "2026-10-19_opendecider_nws_warning_240edaab",
+          "file": "runs/2026-10-19_opendecider_nws_warning_240edaab/beliefs.jsonl",
+          "name": "opendecider opendecider-nano",
+          "type": "noul",
+          "n": 1000,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.563,
+          "accuracy_range": null,
+          "precision": 0.5402298850574713,
+          "precision_range": null,
+          "recall": 0.846,
+          "recall_range": null,
+          "f1": 0.6593920498830865,
+          "f1_range": null,
+          "auroc": 0.727828,
+          "auroc_range": null,
+          "brier": 0.2935902647155836,
+          "brier_range": null,
+          "ece": 0.23853262598812577,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 253.648,
+          "latency_p50_ms": 1475.5,
+          "latency_p95_ms": 2694.1
+        },
+        {
+          "model": "openjev",
+          "run": "2026-10-19_openjev_nws_warning_240edaab",
+          "file": "runs/2026-10-19_openjev_nws_warning_240edaab/beliefs.jsonl",
+          "name": "openjev open-jev-deberta-v3-large",
+          "type": "noul",
+          "n": 1000,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.549,
+          "accuracy_range": null,
+          "precision": 0.5368421052631579,
+          "precision_range": null,
+          "recall": 0.714,
+          "recall_range": null,
+          "f1": 0.6128755364806867,
+          "f1_range": null,
+          "auroc": 0.662472,
+          "auroc_range": null,
+          "brier": 0.3112162506507882,
+          "brier_range": null,
+          "ece": 0.2685598112121224,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 0.0,
+          "latency_p50_ms": 1478.2,
+          "latency_p95_ms": 2205.8
+        }
+      ],
+      "paired": [
+        {
+          "model": "openai",
+          "n": 1000,
+          "delta": 0.056,
+          "ci95": [
+            0.029,
+            0.084
+          ],
+          "only_base_right": 85,
+          "only_other_right": 141
+        },
+        {
+          "model": "deepseek",
+          "n": 1000,
+          "delta": 0.039,
+          "ci95": [
+            0.014,
+            0.065
+          ],
+          "only_base_right": 70,
+          "only_other_right": 109
+        },
+        {
+          "model": "von",
+          "n": 1000,
+          "delta": -0.152,
+          "ci95": [
+            -0.196,
+            -0.106
+          ],
+          "only_base_right": 344,
+          "only_other_right": 192
+        },
+        {
+          "model": "opendecider",
+          "n": 1000,
+          "delta": -0.076,
+          "ci95": [
+            -0.111,
+            -0.039
+          ],
+          "only_base_right": 204,
+          "only_other_right": 128
+        },
+        {
+          "model": "openjev",
+          "n": 1000,
+          "delta": -0.09,
+          "ci95": [
+            -0.12,
+            -0.06
+          ],
+          "only_base_right": 160,
+          "only_other_right": 70
+        }
+      ],
+      "question": "warning",
+      "type": "noul",
+      "threshold": 0.5,
+      "base": "typesafe"
+    },
+    "arxiv_crosslist": {
+      "task_version": "4d3396e9ad74",
+      "missing": [],
+      "runs": [
+        {
+          "model": "typesafe",
+          "run": "2026-10-19_typesafe_arxiv_crosslist_4d3396e9",
+          "file": "runs/2026-10-19_typesafe_arxiv_crosslist_4d3396e9/beliefs.jsonl",
+          "name": "typesafe jev-1.13.0",
+          "type": "noul",
+          "n": 973,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.6235011990407674,
+          "accuracy_range": [
+            0.6156217882836588,
+            0.6300102774922919
+          ],
+          "precision": 0.6712411631393022,
+          "precision_range": [
+            0.6612377850162866,
+            0.6805111821086262
+          ],
+          "recall": 0.441860465116279,
+          "recall_range": [
+            0.42917547568710357,
+            0.4503171247357294
+          ],
+          "f1": 0.5329036740687904,
+          "f1_range": [
+            0.5205128205128204,
+            0.5419847328244275
+          ],
+          "auroc": 0.6898823114869627,
+          "auroc_range": [
+            0.6874862579281183,
+            0.6912177589852009
+          ],
+          "brier": 0.22666546762589931,
+          "brier_range": [
+            0.2265064748201439,
+            0.22690020554984583
+          ],
+          "ece": 0.06532031517643029,
+          "ece_range": [
+            0.06255909558067836,
+            0.06783144912641313
+          ],
+          "agree": 0.9013360739979445,
+          "usd_per_1k": 0.027025806783144916,
+          "tokens_per_item": 643.4737923946557,
+          "latency_p50_ms": 185.4,
+          "latency_p95_ms": 261.4
+        },
+        {
+          "model": "openai",
+          "run": "2026-10-19_openai_arxiv_crosslist_4d3396e9",
+          "file": "runs/2026-10-19_openai_arxiv_crosslist_4d3396e9/beliefs.jsonl",
+          "name": "openai gpt-6-luna",
+          "type": "noul",
+          "n": 973,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.5303186022610483,
+          "accuracy_range": [
+            0.5303186022610483,
+            0.5303186022610483
+          ],
+          "precision": 0.5086206896551724,
+          "precision_range": [
+            0.5086206896551724,
+            0.5086206896551724
+          ],
+          "recall": 0.9978858350951375,
+          "recall_range": [
+            0.9978858350951374,
+            0.9978858350951374
+          ],
+          "f1": 0.6738044254104211,
+          "f1_range": [
+            0.6738044254104211,
+            0.6738044254104211
+          ],
+          "auroc": 0.5570169133192389,
+          "auroc_range": [
+            0.5570169133192389,
+            0.5570169133192389
+          ],
+          "brier": 0.24256998972250768,
+          "brier_range": [
+            0.2425699897225077,
+            0.2425699897225077
+          ],
+          "ece": 0.018910585817060593,
+          "ece_range": [
+            0.018910585817060593,
+            0.018910585817060593
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.04931634121274409,
+          "tokens_per_item": 493.1634121274409,
+          "latency_p50_ms": 238.7,
+          "latency_p95_ms": 391.9
+        },
+        {
+          "model": "deepseek",
+          "run": "2026-10-19_deepseek_arxiv_crosslist_4d3396e9",
+          "file": "runs/2026-10-19_deepseek_arxiv_crosslist_4d3396e9/beliefs.jsonl",
+          "name": "deepseek deepseek-flash",
+          "type": "noul",
+          "n": 973,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.5145597807468311,
+          "accuracy_range": [
+            0.513874614594039,
+            0.5149023638232272
+          ],
+          "precision": 0.6666666666666666,
+          "precision_range": [
+            0.0,
+            1.0
+          ],
+          "recall": 0.0014094432699083862,
+          "recall_range": [
+            0.0,
+            0.0021141649048625794
+          ],
+          "f1": 0.002812939521800281,
+          "f1_range": [
+            0.0,
+            0.004219409282700422
+          ],
+          "auroc": 0.6364552501761804,
+          "auroc_range": [
+            0.6332600422832981,
+            0.6410993657505285
+          ],
+          "brier": 0.47189447397126294,
+          "brier_range": [
+            0.4716086191273189,
+            0.4723127749246619
+          ],
+          "ece": 0.47466038094055135,
+          "ece_range": [
+            0.4743551949475749,
+            0.47482629126925757
+          ],
+          "agree": 0.998972250770812,
+          "usd_per_1k": 0.10251397738951697,
+          "tokens_per_item": 341.7132579650565,
+          "latency_p50_ms": 928.0,
+          "latency_p95_ms": 1145.8
+        },
+        {
+          "model": "von",
+          "run": "2026-10-19_von_arxiv_crosslist_4d3396e9",
+          "file": "runs/2026-10-19_von_arxiv_crosslist_4d3396e9/beliefs.jsonl",
+          "name": "von von-1.3.0",
+          "type": "noul",
+          "n": 973,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.512846865364851,
+          "accuracy_range": null,
+          "precision": 0.4991652754590985,
+          "precision_range": null,
+          "recall": 0.6321353065539113,
+          "recall_range": null,
+          "f1": 0.5578358208955224,
+          "f1_range": null,
+          "auroc": 0.5441437632135306,
+          "auroc_range": null,
+          "brier": 0.24858649793422405,
+          "brier_range": null,
+          "ece": 0.025037512846865336,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 513.6310380267215,
+          "latency_p50_ms": 1899.7,
+          "latency_p95_ms": 52522.1
+        },
+        {
+          "model": "opendecider",
+          "run": "2026-10-19_opendecider_arxiv_crosslist_4d3396e9",
+          "file": "runs/2026-10-19_opendecider_arxiv_crosslist_4d3396e9/beliefs.jsonl",
+          "name": "opendecider opendecider-nano",
+          "type": "noul",
+          "n": 973,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.49023638232271327,
+          "accuracy_range": null,
+          "precision": 0.48813209494324045,
+          "precision_range": null,
+          "recall": 1.0,
+          "recall_range": null,
+          "f1": 0.6560332871012483,
+          "f1_range": null,
+          "auroc": 0.5754545454545454,
+          "auroc_range": null,
+          "brier": 0.31371084881952577,
+          "brier_range": null,
+          "ece": 0.2661380121850036,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 362.35662898252826,
+          "latency_p50_ms": 1670.4,
+          "latency_p95_ms": 2228.3
+        },
+        {
+          "model": "openjev",
+          "run": "2026-10-19_openjev_arxiv_crosslist_4d3396e9",
+          "file": "runs/2026-10-19_openjev_arxiv_crosslist_4d3396e9/beliefs.jsonl",
+          "name": "openjev open-jev-deberta-v3-large",
+          "type": "noul",
+          "n": 973,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.5077081192189106,
+          "accuracy_range": null,
+          "precision": 0.49684873949579833,
+          "precision_range": null,
+          "recall": 1.0,
+          "recall_range": null,
+          "f1": 0.663859649122807,
+          "f1_range": null,
+          "auroc": 0.5476067653276956,
+          "auroc_range": null,
+          "brier": 0.3648264448587132,
+          "brier_range": null,
+          "ece": 0.3485574076930396,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 0.0,
+          "latency_p50_ms": 1845.9,
+          "latency_p95_ms": 2159.3
+        }
+      ],
+      "paired": [
+        {
+          "model": "openai",
+          "n": 973,
+          "delta": -0.09455292908530319,
+          "ci95": [
+            -0.1459403905447071,
+            -0.047276464542651594
+          ],
+          "only_base_right": 353,
+          "only_other_right": 261
+        },
+        {
+          "model": "deepseek",
+          "n": 973,
+          "delta": -0.10996916752312436,
+          "ci95": [
+            -0.1459403905447071,
+            -0.07399794450154162
+          ],
+          "only_base_right": 210,
+          "only_other_right": 103
+        },
+        {
+          "model": "von",
+          "n": 973,
+          "delta": -0.11202466598150052,
+          "ci95": [
+            -0.15313463514902365,
+            -0.07091469681397738
+          ],
+          "only_base_right": 286,
+          "only_other_right": 177
+        },
+        {
+          "model": "opendecider",
+          "n": 973,
+          "delta": -0.13463514902363824,
+          "ci95": [
+            -0.1880781089414183,
+            -0.08633093525179857
+          ],
+          "only_base_right": 393,
+          "only_other_right": 262
+        },
+        {
+          "model": "openjev",
+          "n": 973,
+          "delta": -0.1171634121274409,
+          "ci95": [
+            -0.1695786228160329,
+            -0.06885919835560124
+          ],
+          "only_base_right": 377,
+          "only_other_right": 263
+        }
+      ],
+      "question": "crosslisted_lg",
+      "type": "noul",
+      "threshold": 0.5,
+      "base": "typesafe"
+    },
+    "nws_severity": {
+      "task_version": "62d31a53b614",
+      "missing": [],
+      "runs": [
+        {
+          "model": "typesafe",
+          "run": "2026-10-19_typesafe_nws_severity_62d31a53",
+          "file": "runs/2026-10-19_typesafe_nws_severity_62d31a53/beliefs.jsonl",
+          "name": "typesafe jev-1.13.0",
+          "type": "score",
+          "n": 916,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.40720524017467247,
+          "accuracy_range": [
+            0.40611353711790393,
+            0.40829694323144106
+          ],
+          "within_one": 0.928311499272198,
+          "within_one_range": [
+            0.9268558951965066,
+            0.9301310043668122
+          ],
+          "mae": 0.6956877729257642,
+          "mae_range": [
+            0.69485807860262,
+            0.6961244541484716
+          ],
+          "ece": 0.4028129548762736,
+          "ece_range": [
+            0.40120087336244536,
+            0.40391921397379915
+          ],
+          "agree": 0.9847161572052402,
+          "usd_per_1k": 0.02248772925764192,
+          "tokens_per_item": 535.4246724890829,
+          "latency_p50_ms": 187.8,
+          "latency_p95_ms": 262.5
+        },
+        {
+          "model": "openai",
+          "run": "2026-10-19_openai_nws_severity_62d31a53",
+          "file": "runs/2026-10-19_openai_nws_severity_62d31a53/beliefs.jsonl",
+          "name": "openai gpt-6-luna",
+          "type": "score",
+          "n": 916,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.4203056768558952,
+          "accuracy_range": [
+            0.4203056768558952,
+            0.4203056768558952
+          ],
+          "within_one": 0.9366812227074236,
+          "within_one_range": [
+            0.9366812227074236,
+            0.9366812227074236
+          ],
+          "mae": 0.6373471615720523,
+          "mae_range": [
+            0.6373471615720523,
+            0.6373471615720523
+          ],
+          "ece": 0.42520742358078606,
+          "ece_range": [
+            0.425207423580786,
+            0.425207423580786
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.032892576419213976,
+          "tokens_per_item": 328.92576419213975,
+          "latency_p50_ms": 232.7,
+          "latency_p95_ms": 341.9
+        },
+        {
+          "model": "deepseek",
+          "run": "2026-10-19_deepseek_nws_severity_62d31a53",
+          "file": "runs/2026-10-19_deepseek_nws_severity_62d31a53/beliefs.jsonl",
+          "name": "deepseek deepseek-flash",
+          "type": "score",
+          "n": 916,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.43486171761280934,
+          "accuracy_range": [
+            0.43231441048034935,
+            0.4366812227074236
+          ],
+          "within_one": 0.9352256186317321,
+          "within_one_range": [
+            0.9344978165938864,
+            0.9355895196506551
+          ],
+          "mae": 0.6440762184457088,
+          "mae_range": [
+            0.6433892703762911,
+            0.6447265578449923
+          ],
+          "ece": 0.4410217629332243,
+          "ece_range": [
+            0.4390984125883385,
+            0.44380861869066407
+          ],
+          "agree": 0.9748908296943232,
+          "usd_per_1k": 0.07806582969432314,
+          "tokens_per_item": 260.2194323144105,
+          "latency_p50_ms": 971.7,
+          "latency_p95_ms": 1147.3
+        },
+        {
+          "model": "von",
+          "run": "2026-10-19_von_nws_severity_62d31a53",
+          "file": "runs/2026-10-19_von_nws_severity_62d31a53/beliefs.jsonl",
+          "name": "von von-1.3.0",
+          "type": "score",
+          "n": 916,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.40720524017467247,
+          "accuracy_range": null,
+          "within_one": 0.8962882096069869,
+          "within_one_range": null,
+          "mae": 0.8221834061135371,
+          "mae_range": null,
+          "ece": 0.0401863537117904,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 244.9759825327511,
+          "latency_p50_ms": 1148.5,
+          "latency_p95_ms": 2727.7
+        },
+        {
+          "model": "opendecider",
+          "run": "2026-10-19_opendecider_nws_severity_62d31a53",
+          "file": "runs/2026-10-19_opendecider_nws_severity_62d31a53/beliefs.jsonl",
+          "name": "opendecider opendecider-nano",
+          "type": "score",
+          "n": 916,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.3155021834061135,
+          "accuracy_range": null,
+          "within_one": 0.851528384279476,
+          "within_one_range": null,
+          "mae": 0.9198842196883918,
+          "mae_range": null,
+          "ece": 0.182780251329903,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 249.07205240174673,
+          "latency_p50_ms": 1136.7,
+          "latency_p95_ms": 1735.9
+        },
+        {
+          "model": "openjev",
+          "run": "2026-10-19_openjev_nws_severity_62d31a53",
+          "file": "runs/2026-10-19_openjev_nws_severity_62d31a53/beliefs.jsonl",
+          "name": "openjev open-jev-deberta-v3-large",
+          "type": "score",
+          "n": 916,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.44759825327510916,
+          "accuracy_range": null,
+          "within_one": 0.9508733624454149,
+          "within_one_range": null,
+          "mae": 0.7484124737454163,
+          "mae_range": null,
+          "ece": 0.07858289823781978,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 0.0,
+          "latency_p50_ms": 1555.6,
+          "latency_p95_ms": 2093.7
+        }
+      ],
+      "paired": [
+        {
+          "model": "openai",
+          "n": 916,
+          "delta": 0.012008733624454149,
+          "ci95": [
+            -0.008733624454148471,
+            0.034934497816593885
+          ],
+          "only_base_right": 48,
+          "only_other_right": 59
+        },
+        {
+          "model": "deepseek",
+          "n": 916,
+          "delta": 0.024017467248908297,
+          "ci95": [
+            -0.001091703056768559,
+            0.04694323144104803
+          ],
+          "only_base_right": 53,
+          "only_other_right": 75
+        },
+        {
+          "model": "von",
+          "n": 916,
+          "delta": -0.001091703056768559,
+          "ci95": [
+            -0.03820960698689956,
+            0.03384279475982533
+          ],
+          "only_base_right": 132,
+          "only_other_right": 131
+        },
+        {
+          "model": "opendecider",
+          "n": 916,
+          "delta": -0.0927947598253275,
+          "ci95": [
+            -0.13209606986899564,
+            -0.05021834061135371
+          ],
+          "only_base_right": 225,
+          "only_other_right": 140
+        },
+        {
+          "model": "openjev",
+          "n": 916,
+          "delta": 0.039301310043668124,
+          "ci95": [
+            0.012008733624454149,
+            0.06550218340611354
+          ],
+          "only_base_right": 61,
+          "only_other_right": 97
+        }
+      ],
+      "question": "severity",
+      "type": "score",
+      "threshold": 0.5,
+      "base": "typesafe"
+    },
+    "nws_certainty": {
+      "task_version": "ab5bbd2c544a",
+      "missing": [],
+      "runs": [
+        {
+          "model": "typesafe",
+          "run": "2026-10-19_typesafe_nws_certainty_ab5bbd2c",
+          "file": "runs/2026-10-19_typesafe_nws_certainty_ab5bbd2c/beliefs.jsonl",
+          "name": "typesafe jev-1.13.0",
+          "type": "score",
+          "n": 897,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.5150501672240803,
+          "accuracy_range": [
+            0.5128205128205128,
+            0.5195094760312151
+          ],
+          "within_one": 0.982905982905983,
+          "within_one_range": [
+            0.9821627647714605,
+            0.9832775919732442
+          ],
+          "mae": 0.5143366778149386,
+          "mae_range": [
+            0.5136120401337793,
+            0.5151727982162765
+          ],
+          "ece": 0.25426607209215907,
+          "ece_range": [
+            0.2519732441471572,
+            0.25821627647714607
+          ],
+          "agree": 0.9565217391304348,
+          "usd_per_1k": 0.022722686733556298,
+          "tokens_per_item": 541.0144927536232,
+          "latency_p50_ms": 183.3,
+          "latency_p95_ms": 253.5
+        },
+        {
+          "model": "openai",
+          "run": "2026-10-19_openai_nws_certainty_ab5bbd2c",
+          "file": "runs/2026-10-19_openai_nws_certainty_ab5bbd2c/beliefs.jsonl",
+          "name": "openai gpt-6-luna",
+          "type": "score",
+          "n": 897,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.6198439241917503,
+          "accuracy_range": [
+            0.6198439241917503,
+            0.6198439241917503
+          ],
+          "within_one": 0.9765886287625417,
+          "within_one_range": [
+            0.9765886287625418,
+            0.9765886287625418
+          ],
+          "mae": 0.4253846153846153,
+          "mae_range": [
+            0.42538461538461536,
+            0.42538461538461536
+          ],
+          "ece": 0.13461538461538464,
+          "ece_range": [
+            0.13461538461538464,
+            0.13461538461538464
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.03317179487179488,
+          "tokens_per_item": 331.71794871794873,
+          "latency_p50_ms": 231.8,
+          "latency_p95_ms": 342.6
+        },
+        {
+          "model": "deepseek",
+          "run": "2026-10-19_deepseek_nws_certainty_ab5bbd2c",
+          "file": "runs/2026-10-19_deepseek_nws_certainty_ab5bbd2c/beliefs.jsonl",
+          "name": "deepseek deepseek-flash",
+          "type": "score",
+          "n": 897,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.7532515793385359,
+          "accuracy_range": [
+            0.750278706800446,
+            0.758082497212932
+          ],
+          "within_one": 0.9710144927536232,
+          "within_one_range": [
+            0.9698996655518395,
+            0.9721293199554069
+          ],
+          "mae": 0.3285816153246959,
+          "mae_range": [
+            0.3270846241564909,
+            0.3294103654089735
+          ],
+          "ece": 0.11776743975564503,
+          "ece_range": [
+            0.11642901396118172,
+            0.11956430114216393
+          ],
+          "agree": 0.9687848383500557,
+          "usd_per_1k": 0.07813210702341138,
+          "tokens_per_item": 260.44035674470456,
+          "latency_p50_ms": 947.2,
+          "latency_p95_ms": 1137.6
+        },
+        {
+          "model": "von",
+          "run": "2026-10-19_von_nws_certainty_ab5bbd2c",
+          "file": "runs/2026-10-19_von_nws_certainty_ab5bbd2c/beliefs.jsonl",
+          "name": "von von-1.3.0",
+          "type": "score",
+          "n": 897,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.5618729096989966,
+          "accuracy_range": null,
+          "within_one": 0.9253065774804905,
+          "within_one_range": null,
+          "mae": 0.5979375696767001,
+          "mae_range": null,
+          "ece": 0.13009754738015605,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 245.60646599777036,
+          "latency_p50_ms": 1094.0,
+          "latency_p95_ms": 2526.2
+        },
+        {
+          "model": "opendecider",
+          "run": "2026-10-19_opendecider_nws_certainty_ab5bbd2c",
+          "file": "runs/2026-10-19_opendecider_nws_certainty_ab5bbd2c/beliefs.jsonl",
+          "name": "opendecider opendecider-nano",
+          "type": "score",
+          "n": 897,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.2954292084726867,
+          "accuracy_range": null,
+          "within_one": 0.9732441471571907,
+          "within_one_range": null,
+          "mae": 0.613274767031372,
+          "mae_range": null,
+          "ece": 0.23993993692573498,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 250.6845039018952,
+          "latency_p50_ms": 1067.5,
+          "latency_p95_ms": 1592.5
+        },
+        {
+          "model": "openjev",
+          "run": "2026-10-19_openjev_nws_certainty_ab5bbd2c",
+          "file": "runs/2026-10-19_openjev_nws_certainty_ab5bbd2c/beliefs.jsonl",
+          "name": "openjev open-jev-deberta-v3-large",
+          "type": "score",
+          "n": 897,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.5239687848383501,
+          "accuracy_range": null,
+          "within_one": 0.9788182831661093,
+          "within_one_range": null,
+          "mae": 0.6315379862402594,
+          "mae_range": null,
+          "ece": 0.1539646445242989,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 0.0,
+          "latency_p50_ms": 1626.8,
+          "latency_p95_ms": 2134.1
+        }
+      ],
+      "paired": [
+        {
+          "model": "openai",
+          "n": 897,
+          "delta": 0.10702341137123746,
+          "ci95": [
+            0.06354515050167224,
+            0.14938684503901895
+          ],
+          "only_base_right": 159,
+          "only_other_right": 255
+        },
+        {
+          "model": "deepseek",
+          "n": 897,
+          "delta": 0.23745819397993312,
+          "ci95": [
+            0.20178372352285395,
+            0.2731326644370123
+          ],
+          "only_base_right": 62,
+          "only_other_right": 275
+        },
+        {
+          "model": "von",
+          "n": 897,
+          "delta": 0.04905239687848383,
+          "ci95": [
+            0.012263099219620958,
+            0.08472686733556299
+          ],
+          "only_base_right": 117,
+          "only_other_right": 161
+        },
+        {
+          "model": "opendecider",
+          "n": 897,
+          "delta": -0.21739130434782608,
+          "ci95": [
+            -0.25752508361204013,
+            -0.17837235228539577
+          ],
+          "only_base_right": 277,
+          "only_other_right": 82
+        },
+        {
+          "model": "openjev",
+          "n": 897,
+          "delta": 0.011148272017837236,
+          "ci95": [
+            -0.03121516164994426,
+            0.05351170568561873
+          ],
+          "only_base_right": 183,
+          "only_other_right": 193
+        }
+      ],
+      "question": "certainty",
+      "type": "score",
+      "threshold": 0.5,
+      "base": "typesafe"
+    },
+    "fedreg_type": {
+      "task_version": "47740c09e299",
+      "missing": [],
+      "runs": [
+        {
+          "model": "typesafe",
+          "run": "2026-10-19_typesafe_fedreg_type_47740c09",
+          "file": "runs/2026-10-19_typesafe_fedreg_type_47740c09/beliefs.jsonl",
+          "name": "typesafe jev-1.13.0",
+          "type": "choice",
+          "n": 559,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.874180083482409,
+          "accuracy_range": [
+            0.8729874776386404,
+            0.8747763864042933
+          ],
+          "macro_f1": 0.8612911629632555,
+          "macro_f1_range": [
+            0.8602226619830055,
+            0.8620649805518434
+          ],
+          "brier": 0.20631222420989861,
+          "brier_range": [
+            0.20533237924865833,
+            0.20692951699463327
+          ],
+          "ece": 0.05759689922480619,
+          "ece_range": [
+            0.05563506261180679,
+            0.05860465116279068
+          ],
+          "agree": 0.9892665474060823,
+          "usd_per_1k": 0.02187332737030411,
+          "tokens_per_item": 520.7924865831843,
+          "latency_p50_ms": 185.1,
+          "latency_p95_ms": 258.4
+        },
+        {
+          "model": "openai",
+          "run": "2026-10-19_openai_fedreg_type_47740c09",
+          "file": "runs/2026-10-19_openai_fedreg_type_47740c09/beliefs.jsonl",
+          "name": "openai gpt-6-luna",
+          "type": "choice",
+          "n": 559,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.8908765652951699,
+          "accuracy_range": [
+            0.8908765652951699,
+            0.8908765652951699
+          ],
+          "macro_f1": 0.87837402560685,
+          "macro_f1_range": [
+            0.87837402560685,
+            0.87837402560685
+          ],
+          "brier": 0.19995885509838998,
+          "brier_range": [
+            0.19995885509838998,
+            0.19995885509838998
+          ],
+          "ece": 0.09239713774597504,
+          "ece_range": [
+            0.09239713774597504,
+            0.09239713774597504
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.030449194991055455,
+          "tokens_per_item": 304.4919499105546,
+          "latency_p50_ms": 230.9,
+          "latency_p95_ms": 359.4
+        },
+        {
+          "model": "deepseek",
+          "run": "2026-10-19_deepseek_fedreg_type_47740c09",
+          "file": "runs/2026-10-19_deepseek_fedreg_type_47740c09/beliefs.jsonl",
+          "name": "deepseek deepseek-flash",
+          "type": "choice",
+          "n": 559,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.9159212880143114,
+          "accuracy_range": [
+            0.9159212880143113,
+            0.9159212880143113
+          ],
+          "macro_f1": 0.9017814540431944,
+          "macro_f1_range": [
+            0.9017814540431944,
+            0.9017814540431944
+          ],
+          "brier": 0.15804801994152096,
+          "brier_range": [
+            0.1577113810337216,
+            0.15833737841904671
+          ],
+          "ece": 0.07370203252492966,
+          "ece_range": [
+            0.07264826307013918,
+            0.07576334084896787
+          ],
+          "agree": 0.9946332737030411,
+          "usd_per_1k": 0.06753542039355992,
+          "tokens_per_item": 225.1180679785331,
+          "latency_p50_ms": 945.9,
+          "latency_p95_ms": 1155.2
+        },
+        {
+          "model": "von",
+          "run": "2026-10-19_von_fedreg_type_47740c09",
+          "file": "runs/2026-10-19_von_fedreg_type_47740c09/beliefs.jsonl",
+          "name": "von von-1.3.0",
+          "type": "choice",
+          "n": 559,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.7066189624329159,
+          "accuracy_range": null,
+          "macro_f1": 0.6668761378073119,
+          "macro_f1_range": null,
+          "brier": 0.4962418812880143,
+          "brier_range": null,
+          "ece": 0.20834114490161004,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 511.0572450805009,
+          "latency_p50_ms": 1046.6,
+          "latency_p95_ms": 23001.4
+        },
+        {
+          "model": "opendecider",
+          "run": "2026-10-19_opendecider_fedreg_type_47740c09",
+          "file": "runs/2026-10-19_opendecider_fedreg_type_47740c09/beliefs.jsonl",
+          "name": "opendecider opendecider-nano",
+          "type": "choice",
+          "n": 559,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.7030411449016101,
+          "accuracy_range": null,
+          "macro_f1": 0.6899841359468688,
+          "macro_f1_range": null,
+          "brier": 0.3994659689459733,
+          "brier_range": null,
+          "ece": 0.07658421332166532,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 217.82647584973165,
+          "latency_p50_ms": 941.6,
+          "latency_p95_ms": 1487.1
+        },
+        {
+          "model": "openjev",
+          "run": "2026-10-19_openjev_fedreg_type_47740c09",
+          "file": "runs/2026-10-19_openjev_fedreg_type_47740c09/beliefs.jsonl",
+          "name": "openjev open-jev-deberta-v3-large",
+          "type": "choice",
+          "n": 559,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.3094812164579606,
+          "accuracy_range": null,
+          "macro_f1": 0.3147352230484721,
+          "macro_f1_range": null,
+          "brier": 0.6897652705180453,
+          "brier_range": null,
+          "ece": 0.21116125551660497,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 0.0,
+          "latency_p50_ms": 1462.8,
+          "latency_p95_ms": 2004.8
+        }
+      ],
+      "paired": [
+        {
+          "model": "openai",
+          "n": 559,
+          "delta": 0.016100178890876567,
+          "ci95": [
+            -0.007155635062611807,
+            0.03756708407871199
+          ],
+          "only_base_right": 16,
+          "only_other_right": 25
+        },
+        {
+          "model": "deepseek",
+          "n": 559,
+          "delta": 0.04114490161001789,
+          "ci95": [
+            0.02146690518783542,
+            0.0626118067978533
+          ],
+          "only_base_right": 7,
+          "only_other_right": 30
+        },
+        {
+          "model": "von",
+          "n": 559,
+          "delta": -0.16815742397137745,
+          "ci95": [
+            -0.2146690518783542,
+            -0.12164579606440072
+          ],
+          "only_base_right": 139,
+          "only_other_right": 45
+        },
+        {
+          "model": "opendecider",
+          "n": 559,
+          "delta": -0.17173524150268335,
+          "ci95": [
+            -0.2110912343470483,
+            -0.13237924865831843
+          ],
+          "only_base_right": 121,
+          "only_other_right": 25
+        },
+        {
+          "model": "openjev",
+          "n": 559,
+          "delta": -0.5652951699463328,
+          "ci95": [
+            -0.6135957066189625,
+            -0.518783542039356
+          ],
+          "only_base_right": 344,
+          "only_other_right": 28
+        }
+      ],
+      "question": "type",
+      "type": "choice",
+      "threshold": 0.5,
+      "base": "typesafe"
+    },
+    "fedreg_agency": {
+      "task_version": "2a9badd7afe1",
+      "missing": [],
+      "runs": [
+        {
+          "model": "typesafe",
+          "run": "2026-10-19_typesafe_fedreg_agency_2a9badd7",
+          "file": "runs/2026-10-19_typesafe_fedreg_agency_2a9badd7/beliefs.jsonl",
+          "name": "typesafe jev-1.13.0",
+          "type": "choice",
+          "n": 600,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.8944444444444445,
+          "accuracy_range": [
+            0.8916666666666667,
+            0.8966666666666666
+          ],
+          "macro_f1": 0.8838418674870101,
+          "macro_f1_range": [
+            0.8803416200551283,
+            0.8860408024759773
+          ],
+          "brier": 0.1362235,
+          "brier_range": [
+            0.13569816666666665,
+            0.13691166666666668
+          ],
+          "ece": 0.03195555555555555,
+          "ece_range": [
+            0.03051666666666672,
+            0.03284999999999998
+          ],
+          "agree": 0.975,
+          "usd_per_1k": 0.030938633333333337,
+          "tokens_per_item": 736.635,
+          "latency_p50_ms": 182.0,
+          "latency_p95_ms": 262.5
+        },
+        {
+          "model": "openai",
+          "run": "2026-10-19_openai_fedreg_agency_2a9badd7",
+          "file": "runs/2026-10-19_openai_fedreg_agency_2a9badd7/beliefs.jsonl",
+          "name": "openai gpt-6-luna",
+          "type": "choice",
+          "n": 600,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 51,
+          "accuracy": 0.9233333333333333,
+          "accuracy_range": [
+            0.9233333333333333,
+            0.9233333333333333
+          ],
+          "macro_f1": 0.9287988675110327,
+          "macro_f1_range": [
+            0.9287988675110326,
+            0.9287988675110326
+          ],
+          "brier": 0.08479416809605489,
+          "brier_range": [
+            0.08479416809605489,
+            0.08479416809605489
+          ],
+          "ece": 0.035917667238421956,
+          "ece_range": [
+            0.035917667238421956,
+            0.035917667238421956
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.04516616666666667,
+          "tokens_per_item": 451.6616666666667,
+          "latency_p50_ms": 229.2,
+          "latency_p95_ms": 375.6
+        },
+        {
+          "model": "deepseek",
+          "run": "2026-10-19_deepseek_fedreg_agency_2a9badd7",
+          "file": "runs/2026-10-19_deepseek_fedreg_agency_2a9badd7/beliefs.jsonl",
+          "name": "deepseek deepseek-flash",
+          "type": "choice",
+          "n": 600,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.935,
+          "accuracy_range": [
+            0.935,
+            0.935
+          ],
+          "macro_f1": 0.9349955675660532,
+          "macro_f1_range": [
+            0.9349955675660533,
+            0.9349955675660533
+          ],
+          "brier": 0.11469259785042495,
+          "brier_range": [
+            0.11401143671319693,
+            0.11542896106130876
+          ],
+          "ece": 0.05504375075642142,
+          "ece_range": [
+            0.054133643849596645,
+            0.056649669375771
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.1101555,
+          "tokens_per_item": 367.185,
+          "latency_p50_ms": 964.2,
+          "latency_p95_ms": 1160.1
+        },
+        {
+          "model": "von",
+          "run": "2026-10-19_von_fedreg_agency_2a9badd7",
+          "file": "runs/2026-10-19_von_fedreg_agency_2a9badd7/beliefs.jsonl",
+          "name": "von von-1.3.0",
+          "type": "choice",
+          "n": 600,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.5716666666666667,
+          "accuracy_range": null,
+          "macro_f1": 0.5640632430699591,
+          "macro_f1_range": null,
+          "brier": 0.6562120228666667,
+          "brier_range": null,
+          "ece": 0.1933886666666666,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 725.5616666666666,
+          "latency_p50_ms": 1547.7,
+          "latency_p95_ms": 33654.4
+        },
+        {
+          "model": "opendecider",
+          "run": "2026-10-19_opendecider_fedreg_agency_2a9badd7",
+          "file": "runs/2026-10-19_opendecider_fedreg_agency_2a9badd7/beliefs.jsonl",
+          "name": "opendecider opendecider-nano",
+          "type": "choice",
+          "n": 600,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.6716666666666666,
+          "accuracy_range": null,
+          "macro_f1": 0.6240688602992248,
+          "macro_f1_range": null,
+          "brier": 0.4315379060029726,
+          "brier_range": null,
+          "ece": 0.05955824506779511,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 370.58,
+          "latency_p50_ms": 1592.3,
+          "latency_p95_ms": 2186.9
+        },
+        {
+          "model": "openjev",
+          "run": "2026-10-19_openjev_fedreg_agency_2a9badd7",
+          "file": "runs/2026-10-19_openjev_fedreg_agency_2a9badd7/beliefs.jsonl",
+          "name": "openjev open-jev-deberta-v3-large",
+          "type": "choice",
+          "n": 600,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.7333333333333333,
+          "accuracy_range": null,
+          "macro_f1": 0.6940095146266703,
+          "macro_f1_range": null,
+          "brier": 0.7571519385302519,
+          "brier_range": null,
+          "ece": 0.5420443688333034,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 0.0,
+          "latency_p50_ms": 2422.1,
+          "latency_p95_ms": 3136.0
+        }
+      ],
+      "paired": [
+        {
+          "model": "openai",
+          "n": 600,
+          "delta": 0.03166666666666667,
+          "ci95": [
+            0.011666666666666667,
+            0.05333333333333334
+          ],
+          "only_base_right": 10,
+          "only_other_right": 29
+        },
+        {
+          "model": "deepseek",
+          "n": 600,
+          "delta": 0.043333333333333335,
+          "ci95": [
+            0.023333333333333334,
+            0.06333333333333334
+          ],
+          "only_base_right": 5,
+          "only_other_right": 31
+        },
+        {
+          "model": "von",
+          "n": 600,
+          "delta": -0.32,
+          "ci95": [
+            -0.36,
+            -0.2783333333333333
+          ],
+          "only_base_right": 208,
+          "only_other_right": 16
+        },
+        {
+          "model": "opendecider",
+          "n": 600,
+          "delta": -0.22,
+          "ci95": [
+            -0.255,
+            -0.185
+          ],
+          "only_base_right": 140,
+          "only_other_right": 8
+        },
+        {
+          "model": "openjev",
+          "n": 600,
+          "delta": -0.15833333333333333,
+          "ci95": [
+            -0.19333333333333333,
+            -0.12166666666666667
+          ],
+          "only_base_right": 115,
+          "only_other_right": 20
+        }
+      ],
+      "question": "agency",
+      "type": "choice",
+      "threshold": 0.5,
+      "base": "typesafe"
+    },
+    "arxiv_category": {
+      "task_version": "1c7ab4815a95",
+      "missing": [],
+      "runs": [
+        {
+          "model": "typesafe",
+          "run": "2026-10-19_typesafe_arxiv_category_1c7ab481",
+          "file": "runs/2026-10-19_typesafe_arxiv_category_1c7ab481/beliefs.jsonl",
+          "name": "typesafe jev-1.13.0",
+          "type": "choice",
+          "n": 1109,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.953712052900511,
+          "accuracy_range": [
+            0.9531109107303878,
+            0.9540126239855726
+          ],
+          "macro_f1": 0.9504578403071653,
+          "macro_f1_range": [
+            0.9498949002579119,
+            0.9507461363347574
+          ],
+          "brier": 0.07679924857228736,
+          "brier_range": [
+            0.07669350766456266,
+            0.07690243462578901
+          ],
+          "ece": 0.02041178238653442,
+          "ece_range": [
+            0.019107303877367053,
+            0.02196573489630293
+          ],
+          "agree": 0.9981965734896303,
+          "usd_per_1k": 0.039228124436429215,
+          "tokens_per_item": 933.9990982867448,
+          "latency_p50_ms": 188.9,
+          "latency_p95_ms": 266.9
+        },
+        {
+          "model": "openai",
+          "run": "2026-10-19_openai_arxiv_category_1c7ab481",
+          "file": "runs/2026-10-19_openai_arxiv_category_1c7ab481/beliefs.jsonl",
+          "name": "openai gpt-6-luna",
+          "type": "choice",
+          "n": 1109,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 3,
+          "accuracy": 0.9449954914337241,
+          "accuracy_range": [
+            0.9449954914337241,
+            0.9449954914337241
+          ],
+          "macro_f1": 0.9449767883083483,
+          "macro_f1_range": [
+            0.9449767883083483,
+            0.9449767883083483
+          ],
+          "brier": 0.09738700361010828,
+          "brier_range": [
+            0.0973870036101083,
+            0.0973870036101083
+          ],
+          "ece": 0.028393501805054126,
+          "ece_range": [
+            0.028393501805054126,
+            0.028393501805054126
+          ],
+          "agree": 1.0,
+          "usd_per_1k": 0.06431009918845806,
+          "tokens_per_item": 643.1009918845807,
+          "latency_p50_ms": 234.6,
+          "latency_p95_ms": 398.7
+        },
+        {
+          "model": "deepseek",
+          "run": "2026-10-19_deepseek_arxiv_category_1c7ab481",
+          "file": "runs/2026-10-19_deepseek_arxiv_category_1c7ab481/beliefs.jsonl",
+          "name": "deepseek deepseek-flash",
+          "type": "choice",
+          "n": 1109,
+          "repeats": 3,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.9257589419897806,
+          "accuracy_range": [
+            0.9251577998196574,
+            0.9260595130748422
+          ],
+          "macro_f1": 0.9186132610591179,
+          "macro_f1_range": [
+            0.9180836269332214,
+            0.9190060000487664
+          ],
+          "brier": 0.12303649023170533,
+          "brier_range": [
+            0.12129593266324426,
+            0.12417421315174969
+          ],
+          "ece": 0.052981766944950694,
+          "ece_range": [
+            0.0520751758388997,
+            0.05367724224193407
+          ],
+          "agree": 0.9918845807033363,
+          "usd_per_1k": 0.15045798016230838,
+          "tokens_per_item": 501.52660054102796,
+          "latency_p50_ms": 924.4,
+          "latency_p95_ms": 1142.0
+        },
+        {
+          "model": "von",
+          "run": "2026-10-19_von_arxiv_category_1c7ab481",
+          "file": "runs/2026-10-19_von_arxiv_category_1c7ab481/beliefs.jsonl",
+          "name": "von von-1.3.0",
+          "type": "choice",
+          "n": 1109,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.5996393146979261,
+          "accuracy_range": null,
+          "macro_f1": 0.6160098836945108,
+          "macro_f1_range": null,
+          "brier": 0.6050882896753832,
+          "brier_range": null,
+          "ece": 0.20661677186654637,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 594.0414788097385,
+          "latency_p50_ms": 30623.3,
+          "latency_p95_ms": 67718.4
+        },
+        {
+          "model": "opendecider",
+          "run": "2026-10-19_opendecider_arxiv_category_1c7ab481",
+          "file": "runs/2026-10-19_opendecider_arxiv_category_1c7ab481/beliefs.jsonl",
+          "name": "opendecider opendecider-nano",
+          "type": "choice",
+          "n": 1109,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.763751127141569,
+          "accuracy_range": null,
+          "macro_f1": 0.7210914027231939,
+          "macro_f1_range": null,
+          "brier": 0.4081999865944103,
+          "brier_range": null,
+          "ece": 0.20722751203853876,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 543.9107303877367,
+          "latency_p50_ms": 2445.7,
+          "latency_p95_ms": 3411.5
+        },
+        {
+          "model": "openjev",
+          "run": "2026-10-19_openjev_arxiv_category_1c7ab481",
+          "file": "runs/2026-10-19_openjev_arxiv_category_1c7ab481/beliefs.jsonl",
+          "name": "openjev open-jev-deberta-v3-large",
+          "type": "choice",
+          "n": 1109,
+          "repeats": 1,
+          "errors": 0,
+          "refusals": 0,
+          "accuracy": 0.7493237150586114,
+          "accuracy_range": null,
+          "macro_f1": 0.7516024199348869,
+          "macro_f1_range": null,
+          "brier": 0.6855276243423054,
+          "brier_range": null,
+          "ece": 0.5148352720280077,
+          "ece_range": null,
+          "agree": null,
+          "usd_per_1k": 0.0,
+          "tokens_per_item": 0.0,
+          "latency_p50_ms": 3394.7,
+          "latency_p95_ms": 3989.2
+        }
+      ],
+      "paired": [
+        {
+          "model": "openai",
+          "n": 1109,
+          "delta": -0.008115419296663661,
+          "ci95": [
+            -0.018034265103697024,
+            0.0018034265103697023
+          ],
+          "only_base_right": 20,
+          "only_other_right": 11
+        },
+        {
+          "model": "deepseek",
+          "n": 1109,
+          "delta": -0.027051397655545536,
+          "ci95": [
+            -0.0387736699729486,
+            -0.015329125338142471
+          ],
+          "only_base_right": 37,
+          "only_other_right": 7
+        },
+        {
+          "model": "von",
+          "n": 1109,
+          "delta": -0.3534715960324617,
+          "ci95": [
+            -0.3823264201983769,
+            -0.3219116321009919
+          ],
+          "only_base_right": 404,
+          "only_other_right": 12
+        },
+        {
+          "model": "opendecider",
+          "n": 1109,
+          "delta": -0.18935978358881875,
+          "ci95": [
+            -0.2146077547339946,
+            -0.16321009918845808
+          ],
+          "only_base_right": 225,
+          "only_other_right": 15
+        },
+        {
+          "model": "openjev",
+          "n": 1109,
+          "delta": -0.2037871956717764,
+          "ci95": [
+            -0.22993688007213706,
+            -0.17944093778178538
+          ],
+          "only_base_right": 237,
+          "only_other_right": 11
+        }
+      ],
+      "question": "category",
+      "type": "choice",
+      "threshold": 0.5,
+      "base": "typesafe"
+    }
+  }
+}

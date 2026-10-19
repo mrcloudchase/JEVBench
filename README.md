@@ -77,8 +77,9 @@ The tasks were enlarged on October 19, 2026, from 2,382 records to 6,054, and th
 contained in the new ones. The 42 runs of October 18–19 are on the earlier task versions. They stay in
 `runs/` as experiment `public-fresh-v1`, which pins those versions, and
 [`reports/public-fresh-v1.md`](reports/public-fresh-v1.md) has their results
-(`make score report EXP=public-fresh-v1`). `public-fresh` itself is on the enlarged tasks and has no runs
-yet. Local-model latencies in that report are not comparable: Von ran alone, slowed
+(`make score report EXP=public-fresh-v1`). `public-fresh` itself is on the enlarged tasks: its 42 runs
+(October 19, 2026) are in `runs/`, and [`reports/public-fresh.md`](reports/public-fresh.md) has the
+results. Local-model latencies in that report are not comparable: Von ran alone, slowed
 by a server backlog, after its timeout was raised from 120s to 600s (commit `42894db`), which changes no
 belief.
 
