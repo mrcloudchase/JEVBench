@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-19_von_arxiv_category_1c7ab481",
+  "task": "arxiv_category",
+  "task_version": "1c7ab4815a95",
+  "model": {
+    "name": "von",
+    "provider": "von",
+    "model": "von-1.3",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 600
+  },
+  "git_commit": "7f001048962c7d49bf29ab7dd41b4a36a59ab8e1",
+  "started": "2026-10-19T10:53:05+00:00",
+  "status": "running"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-19_von_fedreg_type_47740c09",
+  "task": "fedreg_type",
+  "task_version": "47740c09e299",
+  "model": {
+    "name": "von",
+    "provider": "von",
+    "model": "von-1.3",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 600
+  },
+  "git_commit": "7f001048962c7d49bf29ab7dd41b4a36a59ab8e1",
+  "started": "2026-10-19T09:55:23+00:00",
+  "status": "complete",
+  "finished": "2026-10-19T10:16:19+00:00",
+  "records": 559,
+  "rows": 559,
+  "expected_rows": 559,
+  "served": [
+    "von-1.3.0"
+  ],
+  "cost_usd": 0
+}
