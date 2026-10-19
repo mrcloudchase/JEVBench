@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-19_opendecider_arxiv_category_1c7ab481",
+  "task": "arxiv_category",
+  "task_version": "1c7ab4815a95",
+  "model": {
+    "name": "opendecider",
+    "provider": "opendecider",
+    "model": "opendecider-nano",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "def4d805a3b916154c36f4071117c41ca8124a22",
+  "started": "2026-10-19T05:46:29+00:00",
+  "status": "complete",
+  "finished": "2026-10-19T06:09:44+00:00",
+  "records": 1109,
+  "rows": 1109,
+  "expected_rows": 1109,
+  "served": [
+    "opendecider-nano"
+  ],
+  "cost_usd": 0
+}

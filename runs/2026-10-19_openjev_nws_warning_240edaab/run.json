@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-19_openjev_nws_warning_240edaab",
+  "task": "nws_warning",
+  "task_version": "240edaabdd85",
+  "model": {
+    "name": "openjev",
+    "provider": "openjev",
+    "model": "open-jev-deberta-v3-large",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "def4d805a3b916154c36f4071117c41ca8124a22",
+  "started": "2026-10-19T06:09:44+00:00",
+  "status": "running"
+}
