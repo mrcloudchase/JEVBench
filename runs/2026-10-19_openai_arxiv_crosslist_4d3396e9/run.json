@@ -1,0 +1,15 @@
+{
+  "id": "2026-10-19_openai_arxiv_crosslist_4d3396e9",
+  "task": "arxiv_crosslist",
+  "task_version": "4d3396e9ad74",
+  "model": {
+    "name": "openai",
+    "provider": "openai",
+    "model": "gpt-6-luna",
+    "repeats": 3,
+    "workers": 8
+  },
+  "git_commit": "ace5dffeeac5f5201e3755da8aa84de9ebe4a30f",
+  "started": "2026-10-19T04:50:20+00:00",
+  "status": "running"
+}
