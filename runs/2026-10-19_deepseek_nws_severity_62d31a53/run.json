@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-19_deepseek_nws_severity_62d31a53",
+  "task": "nws_severity",
+  "task_version": "62d31a53b614",
+  "model": {
+    "name": "deepseek",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "repeats": 3,
+    "workers": 8
+  },
+  "git_commit": "9316c56d6fcff3f1a67273dd69a7b2b7111cdbfa",
+  "started": "2026-10-19T05:00:11+00:00",
+  "status": "complete",
+  "finished": "2026-10-19T05:05:40+00:00",
+  "records": 916,
+  "rows": 2748,
+  "expected_rows": 2748,
+  "served": [
+    "deepseek-flash"
+  ],
+  "cost_usd": 0.214525
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-19_deepseek_fedreg_type_47740c09",
+  "task": "fedreg_type",
+  "task_version": "47740c09e299",
+  "model": {
+    "name": "deepseek",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "repeats": 3,
+    "workers": 8
+  },
+  "git_commit": "9316c56d6fcff3f1a67273dd69a7b2b7111cdbfa",
+  "started": "2026-10-19T05:10:57+00:00",
+  "status": "complete",
+  "finished": "2026-10-19T05:14:14+00:00",
+  "records": 559,
+  "rows": 1677,
+  "expected_rows": 1677,
+  "served": [
+    "deepseek-flash"
+  ],
+  "cost_usd": 0.113257
+}

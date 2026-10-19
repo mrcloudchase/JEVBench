@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-19_opendecider_arxiv_crosslist_4d3396e9",
+  "task": "arxiv_crosslist",
+  "task_version": "4d3396e9ad74",
+  "model": {
+    "name": "opendecider",
+    "provider": "opendecider",
+    "model": "opendecider-nano",
+    "repeats": 1,
+    "workers": 2,
+    "timeout": 120
+  },
+  "git_commit": "9316c56d6fcff3f1a67273dd69a7b2b7111cdbfa",
+  "started": "2026-10-19T05:02:12+00:00",
+  "status": "complete",
+  "finished": "2026-10-19T05:16:02+00:00",
+  "records": 973,
+  "rows": 973,
+  "expected_rows": 973,
+  "served": [
+    "opendecider-nano"
+  ],
+  "cost_usd": 0
+}

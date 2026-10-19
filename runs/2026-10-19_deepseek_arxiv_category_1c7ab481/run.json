@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-19_deepseek_arxiv_category_1c7ab481",
+  "task": "arxiv_category",
+  "task_version": "1c7ab4815a95",
+  "model": {
+    "name": "deepseek",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "repeats": 3,
+    "workers": 8
+  },
+  "git_commit": "9316c56d6fcff3f1a67273dd69a7b2b7111cdbfa",
+  "started": "2026-10-19T05:17:49+00:00",
+  "status": "complete",
+  "finished": "2026-10-19T05:24:13+00:00",
+  "records": 1109,
+  "rows": 3327,
+  "expected_rows": 3327,
+  "served": [
+    "deepseek-flash"
+  ],
+  "cost_usd": 0.500574
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2026-10-19_deepseek_nws_certainty_ab5bbd2c",
+  "task": "nws_certainty",
+  "task_version": "ab5bbd2c544a",
+  "model": {
+    "name": "deepseek",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "repeats": 3,
+    "workers": 8
+  },
+  "git_commit": "9316c56d6fcff3f1a67273dd69a7b2b7111cdbfa",
+  "started": "2026-10-19T05:05:40+00:00",
+  "status": "complete",
+  "finished": "2026-10-19T05:10:57+00:00",
+  "records": 897,
+  "rows": 2691,
+  "expected_rows": 2691,
+  "served": [
+    "deepseek-flash"
+  ],
+  "cost_usd": 0.210254
+}
