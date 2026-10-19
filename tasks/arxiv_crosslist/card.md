@@ -8,8 +8,9 @@
 abstracts under CC0, first versions dated September 28 – October 15, 2026.
 
 **Sample:** primary categories cs.CL, cs.CV, cs.RO and cs.CR. In the window, 780 of 5,723 such papers were
-cross-listed to cs.LG. 150 cross-listed and 150 not with seed 7, split 38, 38, 37 and 37 across the four
-primary categories, so the primary category carries no clue. Each record's full category list is in the manifest.
+cross-listed to cs.LG. Up to 125 cross-listed and 125 not per primary category with seed 7: 473 cross-listed
+and 500 not, 973 papers. cs.CR had only 98 cross-listed, so its records lean slightly toward "not"; in the
+other three categories the primary category carries no clue. Each record's full category list is in the manifest.
 
 **State:** `{"title": ..., "abstract": ...}`.
 

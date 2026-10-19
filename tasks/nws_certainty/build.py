@@ -2,7 +2,7 @@
 
 The label is the alert's CAP certainty as issued by the National Weather Service: Possible < Likely <
 Observed. The evidence is the alert's description and instructions; the event name and headline are
-left out. Alerts issued October 11-18, 2026; 100 per level with seed 7.
+left out. Alerts issued October 11-18, 2026; up to 300 per level with seed 7 (Possible had 297).
 
     python -m tdm build nws_certainty
 """
@@ -15,7 +15,7 @@ from nws import balanced, build, record  # noqa: E402
 
 LEVELS = ["Possible", "Likely", "Observed"]
 rows = build(HERE, lambda alerts, rng: [record(a, i) for i, level in enumerate(LEVELS)
-                                        for a in balanced(alerts, lambda a: a["certainty"], LEVELS, 100, rng)[level]], """\
+                                        for a in balanced(alerts, lambda a: a["certainty"], LEVELS, 300, rng)[level]], """\
 # One three-level score question. The label is the alert's CAP certainty as issued by the National Weather Service.
 certainty:
   type: score

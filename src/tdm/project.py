@@ -87,6 +87,10 @@ class Project:
     def experiment(self, name: str) -> dict:
         return self._yaml("experiments", name)
 
+    def task_version(self, experiment: dict, task: str) -> str:
+        """The task version an experiment scores: pinned in its `task_versions`, or else the current one."""
+        return (experiment.get("task_versions") or {}).get(task) or self.task(task).version
+
     def task(self, name: str) -> Task:
         task = Task(name, self.root / "tasks" / name)
         if not (task.dir / "questions.yaml").exists():
@@ -107,8 +111,8 @@ class Project:
         found = [RunDir(p.parent) for p in sorted((self.root / "runs").glob("*/run.json"))]
         return [r for r in found if (task is None or r.meta["task"] == task) and (model is None or r.meta["model"]["name"] == model)]
 
-    def latest(self, task: str, model: str) -> RunDir | None:
-        """The most recent complete run of a model on the task's current version."""
-        version = self.task(task).version
+    def latest(self, task: str, model: str, version: str | None = None) -> RunDir | None:
+        """The most recent complete run of a model on a version of the task (default: the current one)."""
+        version = version or self.task(task).version
         done = [r for r in self.runs(task, model) if r.complete and r.meta["task_version"] == version]
         return max(done, key=lambda r: r.meta["started"]) if done else None

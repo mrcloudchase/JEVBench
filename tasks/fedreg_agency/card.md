@@ -9,14 +9,16 @@ department. Component agencies count as their department: the FAA as Transportat
 1 CFR 2.6, filed September 28 – October 15, 2026.
 
 **Sample:** documents with a summary of at least 200 characters, from the ten agencies with the most
-documents in the window. 30 per agency with seed 7; Defense had only 26. The set holds 200 notices, 55
-rules and 41 proposed rules.
+documents in the window. Up to 100 per agency with seed 7, and all of an agency's documents when it had
+fewer: 100 Commerce, 100 Transportation, 99 Health, 67 Homeland Security, 60 Interior, 52 Treasury,
+33 Justice, 32 EPA, 31 Labor and 26 Defense, 600 in all. The set holds 411 notices, 123 rules and 66
+proposed rules. The classes are unbalanced, so read macro-F1 beside accuracy.
 
 **State:** `{"subject": ..., "summary": ...}`. The names and acronyms of all ten agencies and their
 listed components are replaced by `[agency]` in **every** document alike, so the masking itself carries no
 clue. This covers "Department of X" and "Secretary of X", plus each document's own sub-agency. Topic
 words such as "airworthiness" or "fishery" remain: inferring the agency from them is the task.
 
-**Known issues:** the number of `[agency]` tokens varies by agency (0.9 to 4.3 per record on average),
+**Known issues:** the number of `[agency]` tokens varies by agency (0.8 to 4.2 per record on average),
 which is a weak cue. A few documents name other agencies (Education, Agriculture, state departments),
 which is ordinary context.

@@ -1,8 +1,8 @@
 """Build arxiv_crosslist: is this paper also listed in Machine Learning (cs.LG)? (noul)
 
 The label is 1 when the authors cross-listed the paper to cs.LG, from its arXiv categories. Papers have
-primary category cs.CL, cs.CV, cs.RO or cs.CR, first version dated September 28 - October 15, 2026; 150
-cross-listed and 150 not, with seed 7, drawn evenly across the four primary categories. The evidence is
+primary category cs.CL, cs.CV, cs.RO or cs.CR, first version dated September 28 - October 15, 2026;
+up to 125 cross-listed and 125 not per primary category, with seed 7 (cs.CR has only 98 cross-listed). The evidence is
 the title and abstract. Legal basis and fetching: see ../arxiv.py.
 
     python -m tdm build arxiv_crosslist
@@ -15,7 +15,7 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
 from arxiv import primaries, write  # noqa: E402
 
-PRIMARY = {"cs.CL": 38, "cs.CV": 38, "cs.RO": 37, "cs.CR": 37}     # per label: 150 cross-listed and 150 not
+PRIMARY = {"cs.CL": 125, "cs.CV": 125, "cs.RO": 125, "cs.CR": 125}     # per label, or all when fewer
 rng = random.Random(7)
 rows = []
 for category, n in PRIMARY.items():

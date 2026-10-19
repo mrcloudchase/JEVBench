@@ -1,8 +1,8 @@
 """Build arxiv_category: which arXiv category is this paper's primary one?
 
 The label is the primary category the authors chose at submission. The evidence is the title and
-abstract. New submissions (first version) dated September 28 - October 15, 2026; 50 per category with
-seed 7. Cross-listed categories are kept in the manifest for analysis.
+abstract. New submissions (first version) dated September 28 - October 15, 2026; up to 100 per category
+with seed 7 (all of econ.GN and q-bio.NC, which have fewer). Cross-listed categories are kept in the manifest.
 
 Legal basis and fetching: see ../arxiv.py (CC0 descriptive metadata; one request every 3 seconds).
 
@@ -18,7 +18,7 @@ sys.path.insert(0, str(HERE.parent))
 from arxiv import primaries, write  # noqa: E402
 
 FIRST, LAST = "2026-09-28", "2026-10-15"
-PER_CATEGORY = 50
+PER_CATEGORY = 100
 CATEGORIES = {
     "cs.CL": "Computation and Language: natural language processing, speech, language models",
     "cs.CV": "Computer Vision and Pattern Recognition: images, video, visual recognition",

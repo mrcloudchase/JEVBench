@@ -38,6 +38,9 @@ def main(argv=None):
     elif args.stage == "run":
         load_env(project.root / ".env")
         exp = project.experiment(args.experiment)
+        stale = [t for t in args.task or exp["tasks"] if project.task_version(exp, t) != project.task(t).version]
+        if stale:
+            sys.exit(f"{args.experiment} pins earlier versions of {', '.join(stale)}: it can be scored, not run")
         for task in args.task or exp["tasks"]:
             for model in args.model or exp["models"]:
                 r = execute(project, task, model, args.date).meta

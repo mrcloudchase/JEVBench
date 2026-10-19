@@ -212,13 +212,15 @@ def paired_delta(base: "ScoredRun", other: "ScoredRun", iters: int = 2000, seed:
 
 # ====================================================================== an experiment
 def score_experiment(project, name: str, threshold: float = 0.5) -> dict:
-    """Score the latest complete run of each model on each task, and write scores/<name>.json."""
+    """Score the latest complete run of each model on each task (on the version the experiment pins, or the
+    current one), and write scores/<name>.json. Only the runs are read."""
     exp = project.experiment(name)
     out = {"experiment": name, "tasks": {}}
     for task in exp["tasks"]:
-        found = [(m, project.latest(task, m)) for m in exp["models"]]
+        version = project.task_version(exp, task)
+        found = [(m, project.latest(task, m, version)) for m in exp["models"]]
         scored = [(m, r, ScoredRun(r.beliefs, None, "label", threshold)) for m, r in found if r]
-        entry = {"task_version": project.task(task).version, "missing": [m for m, r in found if not r], "runs": [], "paired": []}
+        entry = {"task_version": version, "missing": [m for m, r in found if not r], "runs": [], "paired": []}
         for model, run_dir, s in scored:
             entry["runs"].append({"model": model, "run": run_dir.dir.name, **s.summary(), "file": str(run_dir.beliefs.relative_to(project.root))})
         if scored:

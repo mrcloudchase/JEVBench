@@ -11,7 +11,7 @@
 
 **Contamination:** every alert was issued after the last evaluated model was published (September 27).
 
-**Sample:** one record per distinct description; 150 warnings and 150 others with seed 7. 32 event types.
+**Sample:** one record per distinct description; 500 warnings and 500 others with seed 7. 43 event types.
 
 **State:** `{"description": ..., "instruction": ...}` with the words warning, watch, advisory and statement
 masked as `[alert]`; the event name, headline and area are left out.

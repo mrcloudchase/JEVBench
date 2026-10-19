@@ -1,0 +1,13 @@
+# The first public-fresh sample (2,382 records), run October 18-19, 2026: the six models on the task
+# versions below. The tasks have since been enlarged (each new sample contains this one); this experiment
+# can be scored and reported from its runs, not run again.
+tasks: [nws_warning, arxiv_crosslist, nws_severity, nws_certainty, fedreg_type, fedreg_agency, arxiv_category]
+models: [typesafe, openai, deepseek, von, opendecider, openjev]
+task_versions:
+  nws_warning: 3044afe41c8e
+  arxiv_crosslist: bb401e965180
+  nws_severity: c74817a9bcdf
+  nws_certainty: 40ad7d8dd1aa
+  fedreg_type: 579948d5bc82
+  fedreg_agency: a7c1ede7e3f3
+  arxiv_category: 602ce96e16d6

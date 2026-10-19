@@ -1,5 +1,5 @@
 {
-  "experiment": "public-fresh",
+  "experiment": "public-fresh-v1",
   "tasks": {
     "nws_warning": {
       "task_version": "3044afe41c8e",

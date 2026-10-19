@@ -1,270 +1,559 @@
-{"id": "fr-2026-19888", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20328", "label": "proposed_rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20868", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20748", "label": "rule", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-21162", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20393", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20019", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20124", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20350", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20568", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20134", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-21013", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-21184", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-16", "filed": "2026-10-14"}
-{"id": "fr-2026-20455", "label": "notice", "agency": "SURFACE TRANSPORTATION BOARD", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20103", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-19881", "label": "notice", "agency": "DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20225", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-19929", "label": "rule", "agency": "DEPARTMENT OF EDUCATION", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20948", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-21054", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-19887", "label": "rule", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-19989", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20414", "label": "notice", "agency": "DEPARTMENT OF VETERANS AFFAIRS", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20520", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-21056", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20474", "label": "proposed_rule", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20943", "label": "proposed_rule", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-14", "filed": "2026-10-09"}
 {"id": "fr-2026-20494", "label": "notice", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20484", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20038", "label": "proposed_rule", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20065", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20503", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-21000", "label": "proposed_rule", "agency": "POSTAL REGULATORY COMMISSION", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-19830", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20873", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20067", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-21060", "label": "proposed_rule", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20919", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-21064", "label": "notice", "agency": "NATIONAL FOUNDATION ON THE ARTS AND THE HUMANITIES", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20955", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20735", "label": "proposed_rule", "agency": "FEDERAL DEPOSIT INSURANCE CORPORATION", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-20677", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20979", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20458", "label": "notice", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20900", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20123", "label": "proposed_rule", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-19878", "label": "rule", "agency": "SMALL BUSINESS ADMINISTRATION", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20684", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-21069", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20029", "label": "notice", "agency": "DEPARTMENT OF VETERANS AFFAIRS", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-21240", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20076", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20635", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20101", "label": "proposed_rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20941", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20622", "label": "proposed_rule", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20415", "label": "notice", "agency": "DEPARTMENT OF VETERANS AFFAIRS", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20884", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-21012", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-19825", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-21154", "label": "proposed_rule", "agency": "DEPARTMENT OF LABOR", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20543", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20175", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-21037", "label": "proposed_rule", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-19892", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20584", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-19976", "label": "notice", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20613", "label": "proposed_rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20721", "label": "proposed_rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-20119", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-21209", "label": "notice", "agency": "DEPARTMENT OF ENERGY", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20722", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-09", "filed": "2026-10-07"}
-{"id": "fr-2026-21033", "label": "notice", "agency": "POSTAL SERVICE", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20307", "label": "notice", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20317", "label": "proposed_rule", "agency": "GENERAL SERVICES ADMINISTRATION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20870", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-19891", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20212", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-20411", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-19885", "label": "notice", "agency": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20116", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20463", "label": "rule", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20177", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-21076", "label": "notice", "agency": "CONSUMER FINANCIAL PROTECTION BUREAU", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20477", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-21223", "label": "notice", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20888", "label": "proposed_rule", "agency": "COMMODITY FUTURES TRADING COMMISSION", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20372", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-21214", "label": "notice", "agency": "SMALL BUSINESS ADMINISTRATION", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20466", "label": "proposed_rule", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20687", "label": "rule", "agency": "DEPARTMENT OF EDUCATION", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20135", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-01", "filed": "2026-09-29"}
-{"id": "fr-2026-20360", "label": "proposed_rule", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-21024", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-14", "filed": "2026-10-09"}
-{"id": "fr-2026-19978", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-21221", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20885", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20325", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20435", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-06", "filed": "2026-10-02"}
-{"id": "fr-2026-20869", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20330", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-21205", "label": "proposed_rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20027", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20006", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20389", "label": "notice", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20282", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20046", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20901", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-21051", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20425", "label": "notice", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-19836", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20308", "label": "notice", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20315", "label": "proposed_rule", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20637", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-08", "filed": "2026-10-06"}
-{"id": "fr-2026-20120", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20478", "label": "notice", "agency": "FEDERAL RESERVE SYSTEM", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20335", "label": "proposed_rule", "agency": "NUCLEAR REGULATORY COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-19993", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-21211", "label": "notice", "agency": "DEPARTMENT OF ENERGY", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20818", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-13", "filed": "2026-10-08"}
-{"id": "fr-2026-20102", "label": "proposed_rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20395", "label": "notice", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20138", "label": "notice", "agency": "INTERNATIONAL TRADE COMMISSION", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20437", "label": "notice", "agency": "POSTAL REGULATORY COMMISSION", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-19971", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20650", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20087", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-21079", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20990", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20430", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20790", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-21080", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-15", "filed": "2026-10-13"}
-{"id": "fr-2026-21116", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20646", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20334", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20933", "label": "notice", "agency": "EXPORT-IMPORT BANK", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20361", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-21157", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-21192", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20202", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-19899", "label": "proposed_rule", "agency": "FEDERAL RESERVE SYSTEM", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20468", "label": "proposed_rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20701", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20522", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20169", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20725", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-20767", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-20641", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20296", "label": "proposed_rule", "agency": "CONSUMER PRODUCT SAFETY COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20426", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20349", "label": "notice", "agency": "INTERNATIONAL TRADE COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20518", "label": "notice", "agency": "DEPARTMENT OF ENERGY", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20648", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20512", "label": "rule", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20491", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20545", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20473", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-19860", "label": "proposed_rule", "agency": "FEDERAL RESERVE SYSTEM", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20306", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-19941", "label": "notice", "agency": "SMALL BUSINESS ADMINISTRATION", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20128", "label": "notice", "agency": "OFFICE OF MANAGEMENT AND BUDGET", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20531", "label": "notice", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20060", "label": "proposed_rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20902", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-21030", "label": "rule", "agency": "NUCLEAR REGULATORY COMMISSION", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20847", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20231", "label": "notice", "agency": "DEPARTMENT OF ENERGY", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-21179", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-19936", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20612", "label": "proposed_rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20925", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20363", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20469", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-21089", "label": "proposed_rule", "agency": "NATIONAL CREDIT UNION ADMINISTRATION", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20270", "label": "notice", "agency": "OFFICE OF MANAGEMENT AND BUDGET", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-20099", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20739", "label": "notice", "agency": "POSTAL REGULATORY COMMISSION", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-20464", "label": "rule", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20097", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20276", "label": "rule", "agency": "NUCLEAR REGULATORY COMMISSION", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-20277", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-20846", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20523", "label": "proposed_rule", "agency": "DEPARTMENT OF LABOR", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20272", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-20127", "label": "notice", "agency": "OFFICE OF MANAGEMENT AND BUDGET", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20386", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20392", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20111", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20247", "label": "rule", "agency": "FEDERAL RESERVE SYSTEM", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-20021", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-21026", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20964", "label": "proposed_rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20831", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20336", "label": "rule", "agency": "NUCLEAR REGULATORY COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20726", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-21058", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20611", "label": "proposed_rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-19945", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-19998", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20089", "label": "notice", "agency": "COMMITTEE FOR PURCHASE FROM PEOPLE WHO ARE BLIND OR SEVERELY DISABLED", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20262", "label": "rule", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-20039", "label": "rule", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20716", "label": "notice", "agency": "INTERNATIONAL TRADE COMMISSION", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-20338", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-05", "filed": "2026-10-01"}
-{"id": "fr-2026-20839", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-21067", "label": "proposed_rule", "agency": "FEDERAL MARITIME COMMISSION", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20497", "label": "notice", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-21077", "label": "rule", "agency": "FEDERAL LABOR RELATIONS AUTHORITY", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20345", "label": "notice", "agency": "NUCLEAR REGULATORY COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-21019", "label": "rule", "agency": "PENSION BENEFIT GUARANTY CORPORATION", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20984", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20388", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-21088", "label": "proposed_rule", "agency": "NATIONAL CREDIT UNION ADMINISTRATION", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20329", "label": "proposed_rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20993", "label": "notice", "agency": "INTERNATIONAL TRADE COMMISSION", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-19824", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20191", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-19960", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20246", "label": "rule", "agency": "FEDERAL RESERVE SYSTEM", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-19890", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20004", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-21031", "label": "proposed_rule", "agency": "NUCLEAR REGULATORY COMMISSION", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20084", "label": "proposed_rule", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20700", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-19896", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20838", "label": "notice", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20638", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20079", "label": "proposed_rule", "agency": "DEPARTMENT OF STATE", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20715", "label": "notice", "agency": "INTERNATIONAL TRADE COMMISSION", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-21087", "label": "proposed_rule", "agency": "NATIONAL CREDIT UNION ADMINISTRATION", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-21007", "label": "notice", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20387", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20131", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20525", "label": "notice", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20680", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20011", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-19970", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20495", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20532", "label": "proposed_rule", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20574", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-08", "filed": "2026-10-07"}
 {"id": "fr-2026-20014", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20974", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-21063", "label": "proposed_rule", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20096", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-19972", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20391", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20956", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20229", "label": "notice", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-19990", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20251", "label": "proposed_rule", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-20362", "label": "rule", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20460", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20386", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-19883", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-19959", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20389", "label": "notice", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20566", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-19936", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20434", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20336", "label": "rule", "agency": "NUCLEAR REGULATORY COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20684", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-19828", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-21211", "label": "notice", "agency": "DEPARTMENT OF ENERGY", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20138", "label": "notice", "agency": "INTERNATIONAL TRADE COMMISSION", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20569", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20653", "label": "notice", "agency": "COMMISSION ON CIVIL RIGHTS", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-19841", "label": "notice", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20258", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20048", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20051", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20995", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20847", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20705", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20608", "label": "notice", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20491", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-06", "filed": "2026-10-05"}
 {"id": "fr-2026-20860", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20863", "label": "proposed_rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20630", "label": "rule", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20509", "label": "proposed_rule", "agency": "FEDERAL RESERVE SYSTEM", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-19960", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20700", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20435", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-06", "filed": "2026-10-02"}
+{"id": "fr-2026-20993", "label": "notice", "agency": "INTERNATIONAL TRADE COMMISSION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20990", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21063", "label": "proposed_rule", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20415", "label": "notice", "agency": "DEPARTMENT OF VETERANS AFFAIRS", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20748", "label": "rule", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-21214", "label": "notice", "agency": "SMALL BUSINESS ADMINISTRATION", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20760", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20576", "label": "notice", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21027", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20933", "label": "notice", "agency": "EXPORT-IMPORT BANK", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20890", "label": "rule", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20691", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-19964", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20016", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20140", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19888", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20388", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-19963", "label": "rule", "agency": "NUCLEAR REGULATORY COMMISSION", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-19966", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20643", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-19933", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20372", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21170", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20613", "label": "proposed_rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20169", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20221", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-19978", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20585", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-19929", "label": "rule", "agency": "DEPARTMENT OF EDUCATION", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20649", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20532", "label": "proposed_rule", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20633", "label": "notice", "agency": "POSTAL REGULATORY COMMISSION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21221", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-19897", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20103", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20087", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20527", "label": "notice", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20448", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20637", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-08", "filed": "2026-10-06"}
+{"id": "fr-2026-20680", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20212", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20202", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20885", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20902", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20912", "label": "notice", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20823", "label": "notice", "agency": "DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20857", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-21162", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21068", "label": "notice", "agency": "POSTAL REGULATORY COMMISSION", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20004", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20634", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20984", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20436", "label": "notice", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-06", "filed": "2026-10-05"}
 {"id": "fr-2026-19889", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20689", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20840", "label": "notice", "agency": "POSTAL REGULATORY COMMISSION", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20536", "label": "notice", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20443", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20010", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20721", "label": "proposed_rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20310", "label": "notice", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-19878", "label": "rule", "agency": "SMALL BUSINESS ADMINISTRATION", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20153", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20925", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20575", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20414", "label": "notice", "agency": "DEPARTMENT OF VETERANS AFFAIRS", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20096", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20333", "label": "notice", "agency": "SUSQUEHANNA RIVER BASIN COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-19896", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-21109", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20021", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20868", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20636", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-19913", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-19945", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20272", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20884", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-13", "filed": "2026-10-09"}
 {"id": "fr-2026-19973", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20930", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-21047", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20573", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-21155", "label": "proposed_rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-19987", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20178", "label": "rule", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-21161", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20685", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-21177", "label": "notice", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20646", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20663", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20264", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20979", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20025", "label": "notice", "agency": "DEPARTMENT OF VETERANS AFFAIRS", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20843", "label": "notice", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20265", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-19911", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20554", "label": "notice", "agency": "OFFICE OF SPECIAL COUNSEL", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-19812", "label": "notice", "agency": "NUCLEAR REGULATORY COMMISSION", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20926", "label": "notice", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20666", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-08", "filed": "2026-10-06"}
+{"id": "fr-2026-20426", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20466", "label": "proposed_rule", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20523", "label": "proposed_rule", "agency": "DEPARTMENT OF LABOR", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20065", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20008", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-19850", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20955", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21160", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20496", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20442", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-21116", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20733", "label": "notice", "agency": "NUCLEAR REGULATORY COMMISSION", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20012", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20704", "label": "notice", "agency": "MILLENNIUM CHALLENGE CORPORATION", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20778", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-19993", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21121", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-19972", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20735", "label": "proposed_rule", "agency": "FEDERAL DEPOSIT INSURANCE CORPORATION", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20842", "label": "notice", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20037", "label": "rule", "agency": "FEDERAL RESERVE SYSTEM", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21016", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20761", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20024", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-19941", "label": "notice", "agency": "SMALL BUSINESS ADMINISTRATION", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21051", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-21095", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20183", "label": "notice", "agency": "DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20942", "label": "proposed_rule", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-14", "filed": "2026-10-09"}
+{"id": "fr-2026-20516", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-21089", "label": "proposed_rule", "agency": "NATIONAL CREDIT UNION ADMINISTRATION", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20076", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20648", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20943", "label": "proposed_rule", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-14", "filed": "2026-10-09"}
+{"id": "fr-2026-20362", "label": "rule", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21037", "label": "proposed_rule", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20900", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20412", "label": "notice", "agency": "DEPARTMENT OF VETERANS AFFAIRS", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20724", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20963", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20231", "label": "notice", "agency": "DEPARTMENT OF ENERGY", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-19997", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20867", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-21223", "label": "notice", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20910", "label": "notice", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20503", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20027", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21079", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20641", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20846", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20767", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-21053", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20667", "label": "notice", "agency": "SMALL BUSINESS ADMINISTRATION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20762", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20834", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20371", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21154", "label": "proposed_rule", "agency": "DEPARTMENT OF LABOR", "published": "2026-10-16", "filed": "2026-10-15"}
 {"id": "fr-2026-20078", "label": "proposed_rule", "agency": "FEDERAL TRADE COMMISSION", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20484", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20376", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21088", "label": "proposed_rule", "agency": "NATIONAL CREDIT UNION ADMINISTRATION", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20270", "label": "notice", "agency": "OFFICE OF MANAGEMENT AND BUDGET", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-19990", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20308", "label": "notice", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20447", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20111", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20009", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20392", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20828", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20385", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20493", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20155", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20739", "label": "notice", "agency": "POSTAL REGULATORY COMMISSION", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20526", "label": "notice", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20251", "label": "proposed_rule", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-21253", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20341", "label": "notice", "agency": "OFFICE OF THE UNITED STATES TRADE REPRESENTATIVE", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20311", "label": "notice", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21161", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20790", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20673", "label": "notice", "agency": "INTERNATIONAL TRADE COMMISSION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20347", "label": "notice", "agency": "CONSUMER PRODUCT SAFETY COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20894", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21047", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20005", "label": "notice", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20764", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20757", "label": "rule", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-19885", "label": "notice", "agency": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20428", "label": "notice", "agency": "NATIONAL ARCHIVES AND RECORDS ADMINISTRATION", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20276", "label": "rule", "agency": "NUCLEAR REGULATORY COMMISSION", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-21007", "label": "notice", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20716", "label": "notice", "agency": "INTERNATIONAL TRADE COMMISSION", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20317", "label": "proposed_rule", "agency": "GENERAL SERVICES ADMINISTRATION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21220", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20948", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20520", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20079", "label": "proposed_rule", "agency": "DEPARTMENT OF STATE", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20259", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-19915", "label": "notice", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20458", "label": "notice", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20116", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-21059", "label": "rule", "agency": "OFFICE OF GOVERNMENT ETHICS", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20547", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20635", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20162", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20639", "label": "notice", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20789", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20102", "label": "proposed_rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19825", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-21026", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-21189", "label": "notice", "agency": "PENSION BENEFIT GUARANTY CORPORATION", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20727", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20736", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-21177", "label": "notice", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20888", "label": "proposed_rule", "agency": "COMMODITY FUTURES TRADING COMMISSION", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20246", "label": "rule", "agency": "FEDERAL RESERVE SYSTEM", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20422", "label": "notice", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-21054", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20262", "label": "rule", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20688", "label": "notice", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20247", "label": "rule", "agency": "FEDERAL RESERVE SYSTEM", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-21033", "label": "notice", "agency": "POSTAL SERVICE", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20556", "label": "notice", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20531", "label": "notice", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-19831", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20350", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20518", "label": "notice", "agency": "DEPARTMENT OF ENERGY", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20971", "label": "notice", "agency": "FEDERAL TRADE COMMISSION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20345", "label": "notice", "agency": "NUCLEAR REGULATORY COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20970", "label": "notice", "agency": "FEDERAL TRADE COMMISSION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-19881", "label": "notice", "agency": "DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-19892", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20640", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-19887", "label": "rule", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-09-29", "filed": "2026-09-28"}
 {"id": "fr-2026-21052", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20429", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20356", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20787", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20381", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20650", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20863", "label": "proposed_rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-13", "filed": "2026-10-09"}
 {"id": "fr-2026-20324", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-19901", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-21118", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20215", "label": "notice", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20135", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-01", "filed": "2026-09-29"}
+{"id": "fr-2026-20029", "label": "notice", "agency": "DEPARTMENT OF VETERANS AFFAIRS", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20306", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20036", "label": "rule", "agency": "FEDERAL RESERVE SYSTEM", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20478", "label": "notice", "agency": "FEDERAL RESERVE SYSTEM", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20731", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20686", "label": "notice", "agency": "DEPARTMENT OF ENERGY", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20976", "label": "notice", "agency": "FEDERAL DEPOSIT INSURANCE CORPORATION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20676", "label": "notice", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21108", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20873", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20715", "label": "notice", "agency": "INTERNATIONAL TRADE COMMISSION", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20487", "label": "notice", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20380", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20456", "label": "notice", "agency": "SURFACE TRANSPORTATION BOARD", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-19899", "label": "proposed_rule", "agency": "FEDERAL RESERVE SYSTEM", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20590", "label": "notice", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20031", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20225", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20338", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-05", "filed": "2026-10-01"}
+{"id": "fr-2026-20067", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20208", "label": "notice", "agency": "INTERNATIONAL TRADE COMMISSION", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20039", "label": "rule", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20513", "label": "notice", "agency": "NATIONAL COMMISSION ON THE FUTURE OF THE NAVY", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-19976", "label": "notice", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20495", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20175", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20989", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20165", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20437", "label": "notice", "agency": "POSTAL REGULATORY COMMISSION", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20003", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21239", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-19989", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-19977", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20011", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21117", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20121", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20244", "label": "notice", "agency": "COMMITTEE FOR THE IMPLEMENTATION OF TEXTILE AGREEMENTS", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20099", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19987", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20127", "label": "notice", "agency": "OFFICE OF MANAGEMENT AND BUDGET", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20223", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20440", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20694", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20224", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20455", "label": "notice", "agency": "SURFACE TRANSPORTATION BOARD", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-19829", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20781", "label": "notice", "agency": "DEPARTMENT OF ENERGY", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-21010", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20956", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20089", "label": "notice", "agency": "COMMITTEE FOR PURCHASE FROM PEOPLE WHO ARE BLIND OR SEVERELY DISABLED", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20530", "label": "notice", "agency": "POSTAL SERVICE", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20364", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20061", "label": "notice", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20134", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20893", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20330", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20768", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20143", "label": "proposed_rule", "agency": "FEDERAL TRADE COMMISSION", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20492", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20131", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20728", "label": "notice", "agency": "JUDICIAL CONFERENCE OF THE UNITED STATES", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20512", "label": "rule", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20875", "label": "notice", "agency": "FEDERAL DEPOSIT INSURANCE CORPORATION", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20023", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20178", "label": "rule", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20522", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-21240", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21080", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-15", "filed": "2026-10-13"}
+{"id": "fr-2026-20473", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20128", "label": "notice", "agency": "OFFICE OF MANAGEMENT AND BUDGET", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20584", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20474", "label": "proposed_rule", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-21090", "label": "notice", "agency": "FARM CREDIT ADMINISTRATION", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-19836", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-21113", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20509", "label": "proposed_rule", "agency": "FEDERAL RESERVE SYSTEM", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-19912", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-21024", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-14", "filed": "2026-10-09"}
+{"id": "fr-2026-21067", "label": "proposed_rule", "agency": "FEDERAL MARITIME COMMISSION", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20104", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19824", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20898", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20113", "label": "notice", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19893", "label": "notice", "agency": "POSTAL REGULATORY COMMISSION", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20545", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20329", "label": "proposed_rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-19860", "label": "proposed_rule", "agency": "FEDERAL RESERVE SYSTEM", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20075", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21107", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20630", "label": "rule", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21167", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21104", "label": "rule", "agency": "OFFICE OF PERSONNEL MANAGEMENT", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20818", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-13", "filed": "2026-10-08"}
+{"id": "fr-2026-20632", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21123", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20726", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20233", "label": "notice", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-21012", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20098", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19890", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20816", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-21081", "label": "notice", "agency": "POSTAL SERVICE", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-21087", "label": "proposed_rule", "agency": "NATIONAL CREDIT UNION ADMINISTRATION", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20097", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20987", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20417", "label": "notice", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20006", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20460", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20357", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20944", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20529", "label": "notice", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-21106", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-21096", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20468", "label": "proposed_rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20030", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20204", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-21222", "label": "rule", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20323", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20349", "label": "notice", "agency": "INTERNATIONAL TRADE COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20277", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20007", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20930", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20335", "label": "proposed_rule", "agency": "NUCLEAR REGULATORY COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21013", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21085", "label": "notice", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20681", "label": "notice", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20327", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-19988", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20725", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20120", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19970", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20839", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20391", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20638", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20430", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20114", "label": "notice", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20568", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20441", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20393", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20560", "label": "notice", "agency": "FEDERAL MEDIATION AND CONCILIATION SERVICE", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20469", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-21115", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20394", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20612", "label": "proposed_rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21031", "label": "proposed_rule", "agency": "NUCLEAR REGULATORY COMMISSION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20219", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20485", "label": "notice", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20573", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20611", "label": "proposed_rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20234", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20060", "label": "proposed_rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20692", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20119", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20019", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20296", "label": "proposed_rule", "agency": "CONSUMER PRODUCT SAFETY COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21074", "label": "notice", "agency": "DEPARTMENT OF ENERGY", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-19965", "label": "notice", "agency": "OFFICE OF MANAGEMENT AND BUDGET", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20792", "label": "rule", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20339", "label": "notice", "agency": "NATIONAL SCIENCE FOUNDATION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20268", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20360", "label": "proposed_rule", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20543", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20374", "label": "rule", "agency": "DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20591", "label": "notice", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-19830", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20974", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20328", "label": "proposed_rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20084", "label": "proposed_rule", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20870", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20281", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-02", "filed": "2026-09-30"}
+{"id": "fr-2026-20348", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20483", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-19969", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20191", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20429", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-21155", "label": "proposed_rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20677", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21208", "label": "notice", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21056", "label": "proposed_rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20168", "label": "notice", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20951", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20139", "label": "notice", "agency": "INTERNATIONAL TRADE COMMISSION", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20177", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19971", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20379", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20497", "label": "notice", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20525", "label": "notice", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20413", "label": "notice", "agency": "DEPARTMENT OF VETERANS AFFAIRS", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20192", "label": "rule", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20701", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21030", "label": "rule", "agency": "NUCLEAR REGULATORY COMMISSION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20869", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20685", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20874", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20517", "label": "rule", "agency": "DEPARTMENT OF ENERGY", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20214", "label": "notice", "agency": "DEPARTMENT OF STATE", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20949", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20293", "label": "notice", "agency": "POSTAL REGULATORY COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20964", "label": "proposed_rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20235", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20889", "label": "rule", "agency": "SURFACE TRANSPORTATION BOARD", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-19891", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20587", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21069", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-21205", "label": "proposed_rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20932", "label": "notice", "agency": "INTERNATIONAL TRADE COMMISSION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20229", "label": "notice", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-21157", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-19946", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20831", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20941", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20683", "label": "notice", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21077", "label": "rule", "agency": "FEDERAL LABOR RELATIONS AUTHORITY", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-21209", "label": "notice", "agency": "DEPARTMENT OF ENERGY", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21179", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20425", "label": "notice", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-19848", "label": "notice", "agency": "PENSION BENEFIT GUARANTY CORPORATION", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20411", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20859", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20820", "label": "notice", "agency": "FEDERAL LABOR RELATIONS AUTHORITY", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20471", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-21078", "label": "rule", "agency": "FEDERAL LABOR RELATIONS AUTHORITY", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20395", "label": "notice", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20920", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21076", "label": "notice", "agency": "CONSUMER FINANCIAL PROTECTION BUREAU", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-19876", "label": "notice", "agency": "FARM CREDIT SYSTEM INSURANCE CORPORATION", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20477", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20026", "label": "rule", "agency": "DEPARTMENT OF THE TREASURY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-19942", "label": "notice", "agency": "SMALL BUSINESS ADMINISTRATION", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20314", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21146", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20461", "label": "rule", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20123", "label": "proposed_rule", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20848", "label": "rule", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20849", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20476", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20965", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20117", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20652", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-08", "filed": "2026-10-06"}
+{"id": "fr-2026-19999", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20660", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20861", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20769", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-21009", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-19826", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20035", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20307", "label": "notice", "agency": "SECURITIES AND EXCHANGE COMMISSION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20464", "label": "rule", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20101", "label": "proposed_rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-21197", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21036", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20367", "label": "notice", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20838", "label": "notice", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20901", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20508", "label": "notice", "agency": "DEPARTMENT OF DEFENSE", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20315", "label": "proposed_rule", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20878", "label": "notice", "agency": "SURFACE TRANSPORTATION BOARD", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-21198", "label": "notice", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20038", "label": "proposed_rule", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20919", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20463", "label": "rule", "agency": "FEDERAL COMMUNICATIONS COMMISSION", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20384", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21062", "label": "notice", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20387", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21192", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21058", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20282", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21171", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20687", "label": "rule", "agency": "DEPARTMENT OF EDUCATION", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21008", "label": "proposed_rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21060", "label": "proposed_rule", "agency": "DEPARTMENT OF JUSTICE", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-21094", "label": "notice", "agency": "FARM CREDIT ADMINISTRATION", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20622", "label": "proposed_rule", "agency": "DEPARTMENT OF AGRICULTURE", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20361", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20334", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21166", "label": "notice", "agency": "DEPARTMENT OF LABOR", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21064", "label": "notice", "agency": "NATIONAL FOUNDATION ON THE ARTS AND THE HUMANITIES", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20722", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-09", "filed": "2026-10-07"}
+{"id": "fr-2026-21019", "label": "rule", "agency": "PENSION BENEFIT GUARANTY CORPORATION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20124", "label": "proposed_rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20363", "label": "notice", "agency": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20470", "label": "notice", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-21000", "label": "proposed_rule", "agency": "POSTAL REGULATORY COMMISSION", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20057", "label": "notice", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20046", "label": "notice", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21184", "label": "rule", "agency": "DEPARTMENT OF COMMERCE", "published": "2026-10-16", "filed": "2026-10-14"}
+{"id": "fr-2026-20122", "label": "rule", "agency": "DEPARTMENT OF HOMELAND SECURITY", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20982", "label": "rule", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20053", "label": "notice", "agency": "ENVIRONMENTAL PROTECTION AGENCY", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21225", "label": "notice", "agency": "COMMISSION ON CIVIL RIGHTS", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20865", "label": "proposed_rule", "agency": "POSTAL REGULATORY COMMISSION", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20100", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19998", "label": "notice", "agency": "DEPARTMENT OF THE INTERIOR", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20325", "label": "rule", "agency": "DEPARTMENT OF TRANSPORTATION", "published": "2026-10-05", "filed": "2026-10-02"}

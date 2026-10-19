@@ -6,8 +6,8 @@ EXP ?= public-fresh
 test:     ## unit tests, offline
 	$(PY) -m pytest -q
 
-build:    ## rebuild every task from its source (same window and seeds; refetches)
-	for t in fedreg_type fedreg_agency arxiv_category; do $(PY) -m tdm build $$t; done
+build:    ## rebuild every task from its source (same window and seeds; uses tasks/.sources/ when present)
+	for b in tasks/*/build.py; do $(PY) -m tdm build $$(basename $$(dirname $$b)); done
 
 run:      ## run the experiment: new runs for anything not yet run today
 	$(PY) -m tdm run $(EXP)

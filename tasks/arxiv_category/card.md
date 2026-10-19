@@ -14,7 +14,8 @@ text. The build makes one request at a time, 3 seconds apart, as the terms ask. 
 **Window:** first versions submitted September 28 – October 15, 2026. The API had indexed submissions
 through October 15 when the task was built.
 
-**Sample:** 50 per category with seed 7, drawn from the new primary submissions in the window:
+**Sample:** up to 100 per category with seed 7 (all 59 of q-bio.NC and all 50 of econ.GN), 1,109 papers,
+drawn from the new primary submissions in the window:
 
 | Category | Primary submissions in the window |
 |---|---|
@@ -31,7 +32,7 @@ through October 15 when the task was built.
 | q-bio.NC | 59 |
 | econ.GN | 50 |
 
-242 of the 600 papers are cross-listed elsewhere. Their other categories are in `cross_lists` in the manifest.
+463 of the 1,109 papers are cross-listed elsewhere. Their other categories are in `cross_lists` in the manifest.
 
 **State:** `{"title": ..., "abstract": ...}`.
 

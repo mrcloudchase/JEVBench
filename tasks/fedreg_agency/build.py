@@ -3,7 +3,7 @@
 The label is the issuing agency named in the document's own header. The evidence is the subject and
 summary with every listed agency's and component's name and acronym masked as [agency], in every document
 alike, so the masking itself carries no clue. The ten agencies
-with the most documents in the window, filed September 28 - October 17, 2026; balanced with seed 7.
+with the most documents in the window, filed September 28 - October 17, 2026; up to 100 per agency with seed 7.
 
     python -m tdm build fedreg_agency
 """
@@ -55,7 +55,7 @@ AGENCIES = {   # label: (header name, description, names and acronyms of the age
               ["DOL", "OSHA", "Occupational Safety and Health Administration", "EBSA", "Employee Benefits Security Administration",
                "Employment and Training Administration", "ETA", "MSHA", "Mine Safety and Health Administration", "Wage and Hour Division", "WHD", "OFCCP"]),
 }
-PER_AGENCY = 30
+PER_AGENCY = 100                # or all when fewer
 GENERIC = re.compile(r"\b(Department|Secretary|Office of the Secretary) of (the )?(Transportation|Commerce|Health and Human Services|Homeland Security|"
                      r"(the )?Interior|(the )?Treasury|Defense|War|Justice|Labor)\b", re.I)
 

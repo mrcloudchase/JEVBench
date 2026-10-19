@@ -11,7 +11,7 @@
 **Contamination:** every alert was issued after the last evaluated model was published (September 27).
 
 **Sample:** one record per distinct description (an alert reissued for several zones counts once). Up to
-100 per level with seed 7: 100 Minor, 100 Moderate, 100 Severe and all 16 Extreme. 35 event types.
+300 per level with seed 7: 300 Minor, 300 Moderate, 300 Severe and all 16 Extreme, 916 in all. 44 event types.
 
 **State:** `{"description": ..., "instruction": ...}`. The event name, headline and area are left out.
 

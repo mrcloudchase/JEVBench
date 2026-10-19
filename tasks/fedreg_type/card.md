@@ -16,8 +16,9 @@ the US Government (17 U.S.C. 105). The text is committed.
 filing date is used because a document is open to public inspection from the day it is filed, and the
 last evaluated model's weights were published September 27.
 
-**Sample:** documents with a summary of at least 200 characters. 90 of each type were drawn with seed 7
-from 161 rules, 98 proposed rules and 646 notices.
+**Sample:** documents with a summary of at least 200 characters. Up to 300 of each type with seed 7, all
+of a type when fewer: all 161 rules, all 98 proposed rules and 300 of 646 notices, 559 in all, from 55
+agencies. The classes are unbalanced, so read macro-F1 beside accuracy.
 
 **State:** `{"subject": ..., "summary": ...}`. The document's ACTION line is left out. Phrases that name
 the type are replaced by `[document]`:

@@ -58,3 +58,15 @@ def test_a_task_change_needs_a_new_run(project):
     execute(project, "t", "a", "2026-01-01", Fake())
     (project.task("t").dir / "questions.yaml").write_text(yaml.safe_dump({"refund": {"type": "noul", "instructions": "Refund?"}}))
     assert project.latest("t", "a") is None
+
+
+def test_an_experiment_can_pin_an_earlier_task_version(project):
+    execute(project, "t", "a", "2026-01-01", Fake())
+    old = project.task("t").version
+    manifest = project.task("t").dir / "manifest.jsonl"
+    manifest.write_text(manifest.read_text() + "\n")                      # any change makes a new version
+    assert score_experiment(project, "e")["tasks"]["t"]["missing"] == ["a", "b"]
+    exp = project.root / "configs" / "experiments" / "e.yaml"
+    exp.write_text(yaml.safe_dump({**yaml.safe_load(exp.read_text()), "task_versions": {"t": old}}))
+    entry = score_experiment(project, "e")["tasks"]["t"]
+    assert (entry["task_version"], entry["missing"], entry["runs"][0]["accuracy"]) == (old, ["b"], 1.0)

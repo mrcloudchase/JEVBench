@@ -2,7 +2,7 @@
 
 The label is the alert's CAP severity as issued by the National Weather Service: Minor < Moderate <
 Severe < Extreme. The evidence is the alert's description and instructions; the event name and headline
-are left out. Alerts issued October 11-18, 2026; up to 100 per level with seed 7 (Extreme had only 16).
+are left out. Alerts issued October 11-18, 2026; up to 300 per level with seed 7 (Extreme had only 16).
 
     python -m tdm build nws_severity
 """
@@ -15,7 +15,7 @@ from nws import balanced, build, record  # noqa: E402
 
 LEVELS = ["Minor", "Moderate", "Severe", "Extreme"]
 rows = build(HERE, lambda alerts, rng: [record(a, i) for i, level in enumerate(LEVELS)
-                                        for a in balanced(alerts, lambda a: a["severity"], LEVELS, 100, rng)[level]], """\
+                                        for a in balanced(alerts, lambda a: a["severity"], LEVELS, 300, rng)[level]], """\
 # One four-level score question. The label is the alert's CAP severity as issued by the National Weather Service.
 severity:
   type: score

@@ -1,300 +1,973 @@
-{"id": "arxiv-2610.11945", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-08"}
-{"id": "arxiv-2610.00487", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-30"}
-{"id": "arxiv-2609.37042", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2610.14968", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-10"}
-{"id": "arxiv-2610.15628", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.CR", "cs.LG"], "published": "2026-10-11"}
-{"id": "arxiv-2610.00392", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-30"}
-{"id": "arxiv-2609.35020", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-28"}
-{"id": "arxiv-2610.06137", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-05"}
-{"id": "arxiv-2610.20881", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-14"}
-{"id": "arxiv-2609.35476", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-28"}
-{"id": "arxiv-2610.05343", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.IR"], "published": "2026-10-04"}
-{"id": "arxiv-2610.16118", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG", "cs.MM"], "published": "2026-10-12"}
-{"id": "arxiv-2610.08574", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-06"}
-{"id": "arxiv-2610.07278", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-05"}
-{"id": "arxiv-2610.00408", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-30"}
-{"id": "arxiv-2609.34514", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL", "cs.LG"], "published": "2026-09-28"}
-{"id": "arxiv-2610.04286", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-10-03"}
-{"id": "arxiv-2609.39118", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-30"}
-{"id": "arxiv-2610.09459", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-07"}
-{"id": "arxiv-2609.34363", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.MM"], "published": "2026-09-28"}
-{"id": "arxiv-2609.39639", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-30"}
-{"id": "arxiv-2610.18766", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-13"}
-{"id": "arxiv-2610.11978", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-08"}
-{"id": "arxiv-2610.18478", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-10-13"}
-{"id": "arxiv-2610.14261", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-09"}
-{"id": "arxiv-2610.07258", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CL", "cs.LG"], "published": "2026-10-05"}
-{"id": "arxiv-2609.38856", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-30"}
-{"id": "arxiv-2610.10946", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-07"}
-{"id": "arxiv-2610.22174", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-15"}
-{"id": "arxiv-2610.21208", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-15"}
-{"id": "arxiv-2609.38298", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2609.38615", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-09-29"}
-{"id": "arxiv-2609.36928", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-29"}
-{"id": "arxiv-2610.07894", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-06"}
-{"id": "arxiv-2610.01079", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-01"}
-{"id": "arxiv-2610.16212", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG", "q-bio.TO"], "published": "2026-10-12"}
-{"id": "arxiv-2609.36012", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-28"}
-{"id": "arxiv-2610.10766", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-07"}
-{"id": "arxiv-2610.12137", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-08"}
-{"id": "arxiv-2609.34182", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-09-28"}
-{"id": "arxiv-2610.04818", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-03"}
-{"id": "arxiv-2610.18543", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-13"}
-{"id": "arxiv-2610.10409", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-07"}
-{"id": "arxiv-2610.07684", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-06"}
-{"id": "arxiv-2610.02527", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-01"}
-{"id": "arxiv-2610.13502", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-09"}
-{"id": "arxiv-2609.37006", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-29"}
-{"id": "arxiv-2610.09337", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-07"}
-{"id": "arxiv-2609.37004", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
-{"id": "arxiv-2610.02472", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-01"}
-{"id": "arxiv-2609.38169", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2610.04327", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-03"}
-{"id": "arxiv-2610.11382", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-08"}
-{"id": "arxiv-2609.37824", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2610.05642", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-05"}
-{"id": "arxiv-2609.34385", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.IR", "cs.LG"], "published": "2026-09-28"}
-{"id": "arxiv-2610.15924", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG", "cs.MA"], "published": "2026-10-11"}
-{"id": "arxiv-2609.36014", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-28"}
-{"id": "arxiv-2610.14713", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-10"}
-{"id": "arxiv-2609.38934", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-09-30"}
-{"id": "arxiv-2609.36442", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-09-29"}
-{"id": "arxiv-2610.08463", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.IR", "cs.LG"], "published": "2026-10-06"}
-{"id": "arxiv-2610.07692", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-06"}
-{"id": "arxiv-2610.03829", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG", "q-bio.QM"], "published": "2026-10-02"}
-{"id": "arxiv-2610.21783", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-15"}
-{"id": "arxiv-2610.07868", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-06"}
-{"id": "arxiv-2609.37494", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-28"}
-{"id": "arxiv-2610.09940", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-10-07"}
-{"id": "arxiv-2610.10359", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-10-07"}
-{"id": "arxiv-2610.11218", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-08"}
-{"id": "arxiv-2610.08970", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-06"}
-{"id": "arxiv-2610.07591", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-06"}
-{"id": "arxiv-2610.13367", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "eess.SP"], "published": "2026-10-09"}
-{"id": "arxiv-2609.38248", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.OS"], "published": "2026-09-29"}
-{"id": "arxiv-2610.03132", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-02"}
-{"id": "arxiv-2609.39362", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-30"}
-{"id": "arxiv-2610.15555", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-11"}
-{"id": "arxiv-2610.21654", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-15"}
-{"id": "arxiv-2610.11030", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-10-08"}
-{"id": "arxiv-2610.19403", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-14"}
-{"id": "arxiv-2610.21276", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-15"}
-{"id": "arxiv-2609.37810", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-09-29"}
-{"id": "arxiv-2610.07902", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.SD"], "published": "2026-10-06"}
-{"id": "arxiv-2610.13083", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-09"}
-{"id": "arxiv-2609.39902", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-30"}
-{"id": "arxiv-2610.10283", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-10-07"}
-{"id": "arxiv-2610.00759", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-09-30"}
-{"id": "arxiv-2610.13303", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-09"}
-{"id": "arxiv-2610.03123", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-02"}
-{"id": "arxiv-2610.09488", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-07"}
-{"id": "arxiv-2610.06369", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-05"}
-{"id": "arxiv-2610.13300", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.GR", "cs.LG", "cs.RO", "cs.SD"], "published": "2026-10-09"}
-{"id": "arxiv-2610.18690", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-13"}
-{"id": "arxiv-2610.05734", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-05"}
-{"id": "arxiv-2610.13623", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL"], "published": "2026-10-09"}
-{"id": "arxiv-2610.12448", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-08"}
-{"id": "arxiv-2609.34708", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-28"}
-{"id": "arxiv-2610.05604", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-04"}
-{"id": "arxiv-2609.35372", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.NE"], "published": "2026-09-28"}
-{"id": "arxiv-2610.13740", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-09"}
-{"id": "arxiv-2609.38270", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG", "cs.MA"], "published": "2026-09-29"}
-{"id": "arxiv-2610.15294", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-11"}
-{"id": "arxiv-2610.17725", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.NI"], "published": "2026-10-13"}
-{"id": "arxiv-2610.00977", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.SE"], "published": "2026-10-01"}
-{"id": "arxiv-2610.22100", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-15"}
-{"id": "arxiv-2609.36492", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2609.35937", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.HC"], "published": "2026-09-28"}
-{"id": "arxiv-2609.37677", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2609.37605", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2609.36804", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-09-29"}
-{"id": "arxiv-2610.02486", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-01"}
-{"id": "arxiv-2609.39971", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-30"}
-{"id": "arxiv-2610.12024", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.NI"], "published": "2026-10-08"}
-{"id": "arxiv-2610.14378", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL"], "published": "2026-10-09"}
-{"id": "arxiv-2610.22178", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-10-15"}
-{"id": "arxiv-2610.12245", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-08"}
-{"id": "arxiv-2609.36303", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG", "cs.NE"], "published": "2026-09-28"}
-{"id": "arxiv-2610.09777", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-07"}
-{"id": "arxiv-2610.04771", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-03"}
-{"id": "arxiv-2610.01016", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-01"}
-{"id": "arxiv-2610.15966", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-11"}
-{"id": "arxiv-2610.05414", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-04"}
-{"id": "arxiv-2610.08773", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-06"}
-{"id": "arxiv-2610.17468", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG", "eess.SY"], "published": "2026-10-12"}
-{"id": "arxiv-2609.35768", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-28"}
-{"id": "arxiv-2610.07186", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-05"}
-{"id": "arxiv-2610.14117", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-09"}
-{"id": "arxiv-2610.00524", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-30"}
-{"id": "arxiv-2610.07025", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-04"}
-{"id": "arxiv-2610.09350", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-07"}
-{"id": "arxiv-2610.15073", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-10"}
-{"id": "arxiv-2609.34804", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-09-28"}
-{"id": "arxiv-2610.02338", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-01"}
-{"id": "arxiv-2610.04601", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-03"}
-{"id": "arxiv-2610.18826", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-10-13"}
-{"id": "arxiv-2610.11815", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-08"}
-{"id": "arxiv-2610.07125", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CL", "cs.LG"], "published": "2026-10-05"}
-{"id": "arxiv-2610.13190", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-09"}
-{"id": "arxiv-2610.10297", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-07"}
-{"id": "arxiv-2610.05369", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-04"}
-{"id": "arxiv-2609.38036", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.CY", "cs.HC"], "published": "2026-09-29"}
-{"id": "arxiv-2610.09496", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-07"}
-{"id": "arxiv-2609.40347", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-30"}
-{"id": "arxiv-2610.11275", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-08"}
-{"id": "arxiv-2610.15678", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-11"}
-{"id": "arxiv-2609.37734", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-29"}
-{"id": "arxiv-2610.02207", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.HC", "cs.LG"], "published": "2026-10-01"}
-{"id": "arxiv-2609.36707", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-29"}
-{"id": "arxiv-2609.36416", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.CV", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2610.00348", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2610.17184", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-12"}
-{"id": "arxiv-2609.37891", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2610.08637", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-06"}
-{"id": "arxiv-2609.39384", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-30"}
-{"id": "arxiv-2610.08055", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-06"}
-{"id": "arxiv-2609.37922", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-29"}
-{"id": "arxiv-2610.20840", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-14"}
-{"id": "arxiv-2609.39263", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-30"}
-{"id": "arxiv-2610.00316", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-09-29"}
-{"id": "arxiv-2610.19566", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.SE"], "published": "2026-10-14"}
-{"id": "arxiv-2610.21356", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-15"}
-{"id": "arxiv-2610.20479", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-14"}
-{"id": "arxiv-2610.07072", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-05"}
-{"id": "arxiv-2609.38253", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-29"}
-{"id": "arxiv-2610.16273", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG", "eess.AS"], "published": "2026-10-12"}
-{"id": "arxiv-2610.15846", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-11"}
-{"id": "arxiv-2609.35630", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-28"}
-{"id": "arxiv-2610.12957", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-09"}
-{"id": "arxiv-2610.11893", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-08"}
-{"id": "arxiv-2610.18948", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG", "stat.ML"], "published": "2026-10-13"}
-{"id": "arxiv-2609.34684", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-09-28"}
-{"id": "arxiv-2609.39065", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-30"}
-{"id": "arxiv-2610.20582", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-14"}
-{"id": "arxiv-2610.08571", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-10-06"}
-{"id": "arxiv-2610.20203", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-14"}
-{"id": "arxiv-2609.37882", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2610.07223", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-05"}
-{"id": "arxiv-2610.05882", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-05"}
-{"id": "arxiv-2610.20901", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-14"}
-{"id": "arxiv-2610.12133", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-08"}
-{"id": "arxiv-2609.39670", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-30"}
-{"id": "arxiv-2610.08781", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-06"}
-{"id": "arxiv-2610.17607", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-13"}
-{"id": "arxiv-2610.13373", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-09"}
-{"id": "arxiv-2610.07460", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-05"}
-{"id": "arxiv-2610.08789", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-06"}
-{"id": "arxiv-2610.20668", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL", "cs.LG"], "published": "2026-10-14"}
-{"id": "arxiv-2610.02817", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL", "cs.LG"], "published": "2026-10-02"}
-{"id": "arxiv-2610.08090", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG", "cs.NI"], "published": "2026-10-06"}
-{"id": "arxiv-2609.34666", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-28"}
-{"id": "arxiv-2610.01921", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-01"}
-{"id": "arxiv-2610.01234", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-01"}
-{"id": "arxiv-2610.06487", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.HC"], "published": "2026-10-05"}
-{"id": "arxiv-2610.22070", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-15"}
-{"id": "arxiv-2609.37599", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2610.16570", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-12"}
-{"id": "arxiv-2610.17576", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-13"}
-{"id": "arxiv-2609.38390", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-29"}
-{"id": "arxiv-2610.01263", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-01"}
-{"id": "arxiv-2610.15951", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-10-11"}
-{"id": "arxiv-2609.36957", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
-{"id": "arxiv-2610.04720", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-03"}
-{"id": "arxiv-2610.08098", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-06"}
-{"id": "arxiv-2610.19568", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-14"}
-{"id": "arxiv-2610.13853", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-09"}
-{"id": "arxiv-2610.18498", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-13"}
-{"id": "arxiv-2610.11479", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-08"}
-{"id": "arxiv-2610.08225", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-06"}
-{"id": "arxiv-2610.13605", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-09"}
-{"id": "arxiv-2610.14281", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-09"}
-{"id": "arxiv-2610.18054", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-13"}
-{"id": "arxiv-2610.12033", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.SE"], "published": "2026-10-08"}
-{"id": "arxiv-2610.10929", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-07"}
-{"id": "arxiv-2610.03771", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2610.00695", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.DC", "cs.IT", "cs.LG"], "published": "2026-09-30"}
-{"id": "arxiv-2610.04128", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL", "cs.LG"], "published": "2026-10-02"}
-{"id": "arxiv-2610.11057", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-08"}
-{"id": "arxiv-2610.02848", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG", "cs.MA"], "published": "2026-10-02"}
-{"id": "arxiv-2609.34245", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-09-28"}
-{"id": "arxiv-2610.12707", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.CV"], "published": "2026-10-08"}
-{"id": "arxiv-2609.36107", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-28"}
-{"id": "arxiv-2610.08867", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-06"}
-{"id": "arxiv-2609.37127", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-29"}
-{"id": "arxiv-2610.02456", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-01"}
-{"id": "arxiv-2610.08452", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.IR", "cs.LG"], "published": "2026-10-06"}
-{"id": "arxiv-2610.14873", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-10"}
-{"id": "arxiv-2610.04878", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.HC", "cs.LG"], "published": "2026-10-04"}
-{"id": "arxiv-2610.02567", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.GR", "cs.LG"], "published": "2026-10-01"}
-{"id": "arxiv-2610.19848", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-14"}
-{"id": "arxiv-2610.10909", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-07"}
-{"id": "arxiv-2610.14091", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-08"}
-{"id": "arxiv-2610.09863", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-07"}
-{"id": "arxiv-2610.14900", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-10"}
-{"id": "arxiv-2609.35922", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG", "cs.SD"], "published": "2026-09-28"}
-{"id": "arxiv-2609.38355", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-29"}
-{"id": "arxiv-2610.03960", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-02"}
-{"id": "arxiv-2610.05810", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-05"}
-{"id": "arxiv-2610.00354", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CE"], "published": "2026-09-30"}
-{"id": "arxiv-2610.12514", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-07"}
-{"id": "arxiv-2610.15277", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-11"}
-{"id": "arxiv-2609.37310", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2609.38427", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.CY"], "published": "2026-09-29"}
-{"id": "arxiv-2610.04543", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-03"}
-{"id": "arxiv-2609.38597", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
-{"id": "arxiv-2609.38289", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.IR", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2609.36316", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-09-28"}
-{"id": "arxiv-2609.37147", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2609.39533", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-30"}
-{"id": "arxiv-2610.06663", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-05"}
-{"id": "arxiv-2610.00899", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-01"}
-{"id": "arxiv-2610.18834", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-13"}
-{"id": "arxiv-2610.04602", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-03"}
-{"id": "arxiv-2609.34138", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-28"}
-{"id": "arxiv-2610.20516", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-14"}
-{"id": "arxiv-2610.11751", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-08"}
-{"id": "arxiv-2609.36602", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-29"}
-{"id": "arxiv-2609.37819", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CE"], "published": "2026-09-29"}
-{"id": "arxiv-2610.13071", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.SE"], "published": "2026-10-09"}
-{"id": "arxiv-2610.02364", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-01"}
-{"id": "arxiv-2609.38900", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-30"}
-{"id": "arxiv-2609.38245", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.OS"], "published": "2026-09-29"}
-{"id": "arxiv-2610.22342", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-15"}
-{"id": "arxiv-2610.00402", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-30"}
-{"id": "arxiv-2610.03329", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-02"}
-{"id": "arxiv-2610.20294", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-14"}
-{"id": "arxiv-2610.22282", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-15"}
-{"id": "arxiv-2610.12106", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-08"}
-{"id": "arxiv-2610.20397", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-14"}
-{"id": "arxiv-2610.07532", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CL"], "published": "2026-10-05"}
-{"id": "arxiv-2610.01288", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-01"}
-{"id": "arxiv-2610.02117", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.CL", "cs.LG"], "published": "2026-10-01"}
-{"id": "arxiv-2610.16817", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-12"}
-{"id": "arxiv-2610.11932", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-08"}
-{"id": "arxiv-2610.16547", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-12"}
-{"id": "arxiv-2610.00781", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-30"}
+{"id": "arxiv-2610.04636", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-03"}
+{"id": "arxiv-2610.10508", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-07"}
+{"id": "arxiv-2610.15265", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "math.CO", "math.MG"], "published": "2026-10-11"}
+{"id": "arxiv-2610.08604", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.SD"], "published": "2026-10-06"}
 {"id": "arxiv-2609.36851", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
-{"id": "arxiv-2610.02718", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-02"}
-{"id": "arxiv-2609.35608", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.CL"], "published": "2026-09-28"}
-{"id": "arxiv-2609.36414", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-29"}
-{"id": "arxiv-2609.35421", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "math.CO"], "published": "2026-09-28"}
-{"id": "arxiv-2610.14324", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-09"}
-{"id": "arxiv-2610.20606", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-14"}
-{"id": "arxiv-2610.15729", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.SE"], "published": "2026-10-11"}
-{"id": "arxiv-2610.09217", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-06"}
-{"id": "arxiv-2610.19395", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-14"}
-{"id": "arxiv-2610.17731", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-13"}
-{"id": "arxiv-2609.39542", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-30"}
-{"id": "arxiv-2610.14194", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-09"}
-{"id": "arxiv-2609.38400", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.HC", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2609.37070", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-09-29"}
-{"id": "arxiv-2609.36535", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-29"}
-{"id": "arxiv-2609.38079", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
-{"id": "arxiv-2609.39447", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-30"}
-{"id": "arxiv-2610.09791", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-07"}
+{"id": "arxiv-2609.36775", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
+{"id": "arxiv-2609.37310", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.13071", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.SE"], "published": "2026-10-09"}
+{"id": "arxiv-2610.03587", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-02"}
+{"id": "arxiv-2610.12106", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.12467", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2609.38178", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.15626", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-11"}
+{"id": "arxiv-2610.08852", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG", "eess.SY"], "published": "2026-10-03"}
+{"id": "arxiv-2609.36929", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
+{"id": "arxiv-2609.40195", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.CL"], "published": "2026-09-30"}
+{"id": "arxiv-2610.17799", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-13"}
+{"id": "arxiv-2610.11251", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.16892", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-12"}
+{"id": "arxiv-2609.36602", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-29"}
+{"id": "arxiv-2610.22249", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-15"}
+{"id": "arxiv-2610.20472", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.CY"], "published": "2026-10-14"}
+{"id": "arxiv-2610.04933", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-04"}
+{"id": "arxiv-2610.05910", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-05"}
+{"id": "arxiv-2610.11030", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.12448", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.08879", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-06"}
+{"id": "arxiv-2610.00544", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-30"}
+{"id": "arxiv-2609.38616", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2609.39118", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-30"}
+{"id": "arxiv-2610.21783", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-15"}
+{"id": "arxiv-2609.36012", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.17706", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-13"}
+{"id": "arxiv-2610.13740", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-09"}
+{"id": "arxiv-2610.09369", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.16591", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-12"}
+{"id": "arxiv-2610.17174", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG", "cs.SC"], "published": "2026-10-12"}
+{"id": "arxiv-2610.15555", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-11"}
+{"id": "arxiv-2610.06650", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-05"}
+{"id": "arxiv-2610.07984", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-06"}
+{"id": "arxiv-2610.16977", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-12"}
+{"id": "arxiv-2610.05414", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-04"}
+{"id": "arxiv-2609.35728", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-28"}
+{"id": "arxiv-2609.35047", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.11310", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.09350", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.07597", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.00899", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.18478", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-10-13"}
+{"id": "arxiv-2610.05013", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-04"}
+{"id": "arxiv-2610.06903", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2609.38578", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2610.18331", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2610.00487", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.22215", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2609.35096", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.08864", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2610.19743", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.22372", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.12957", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-09"}
+{"id": "arxiv-2610.02076", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-01"}
+{"id": "arxiv-2610.06232", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2610.16273", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG", "eess.AS"], "published": "2026-10-12"}
+{"id": "arxiv-2610.05734", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-05"}
+{"id": "arxiv-2610.08090", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG", "cs.NI"], "published": "2026-10-06"}
+{"id": "arxiv-2610.20479", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2609.38248", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.OS"], "published": "2026-09-29"}
+{"id": "arxiv-2610.06955", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-10-03"}
+{"id": "arxiv-2609.36928", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-29"}
+{"id": "arxiv-2610.01171", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-01"}
+{"id": "arxiv-2610.05411", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-04"}
+{"id": "arxiv-2610.01288", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-01"}
+{"id": "arxiv-2609.35059", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-28"}
+{"id": "arxiv-2609.39229", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.05324", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG", "eess.SY"], "published": "2026-10-04"}
+{"id": "arxiv-2610.03771", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.01746", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.02817", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.01559", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.02841", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-02"}
+{"id": "arxiv-2609.34564", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-28"}
+{"id": "arxiv-2610.15966", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-11"}
+{"id": "arxiv-2610.12427", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.CL"], "published": "2026-10-08"}
+{"id": "arxiv-2610.13695", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-09"}
+{"id": "arxiv-2610.18672", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-13"}
+{"id": "arxiv-2610.05810", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2610.22020", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.00600", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-30"}
+{"id": "arxiv-2609.37819", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CE"], "published": "2026-09-29"}
+{"id": "arxiv-2610.04073", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.08085", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-06"}
+{"id": "arxiv-2610.19607", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.11218", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.11815", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-08"}
+{"id": "arxiv-2610.03999", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-02"}
+{"id": "arxiv-2610.05369", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-04"}
+{"id": "arxiv-2610.22169", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.01893", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2609.39601", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG", "cs.RO"], "published": "2026-09-30"}
+{"id": "arxiv-2610.12695", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.OS"], "published": "2026-10-08"}
+{"id": "arxiv-2610.04674", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "quant-ph"], "published": "2026-10-03"}
+{"id": "arxiv-2610.10625", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2609.37599", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.05642", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2609.35120", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-28"}
+{"id": "arxiv-2610.20251", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.12703", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.HC", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.11893", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-08"}
+{"id": "arxiv-2610.14442", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-10"}
+{"id": "arxiv-2610.08112", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG", "eess.SY"], "published": "2026-10-06"}
+{"id": "arxiv-2610.08637", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-06"}
+{"id": "arxiv-2609.34968", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-09-28"}
+{"id": "arxiv-2609.36039", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2609.36303", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG", "cs.NE"], "published": "2026-09-28"}
+{"id": "arxiv-2610.22300", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2609.38355", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-29"}
+{"id": "arxiv-2610.02848", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG", "cs.MA"], "published": "2026-10-02"}
+{"id": "arxiv-2609.34514", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.17572", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-13"}
+{"id": "arxiv-2610.03970", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-02"}
+{"id": "arxiv-2610.07345", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.DC", "cs.LG", "cs.NI"], "published": "2026-10-05"}
+{"id": "arxiv-2609.38239", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.19568", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.03585", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.20840", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2609.37922", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-29"}
+{"id": "arxiv-2609.36956", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2610.08463", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.IR", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2609.35232", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.14406", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-09"}
+{"id": "arxiv-2610.12435", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2609.37863", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.CV"], "published": "2026-09-29"}
+{"id": "arxiv-2610.07426", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG", "eess.AS"], "published": "2026-10-05"}
+{"id": "arxiv-2609.37816", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
+{"id": "arxiv-2610.12898", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-09"}
+{"id": "arxiv-2610.01009", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-01"}
+{"id": "arxiv-2609.36454", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
+{"id": "arxiv-2610.04992", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-04"}
+{"id": "arxiv-2610.09553", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-07"}
+{"id": "arxiv-2609.38245", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.OS"], "published": "2026-09-29"}
+{"id": "arxiv-2609.35951", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.HC"], "published": "2026-09-28"}
+{"id": "arxiv-2610.18946", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2610.14513", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG", "cs.RO"], "published": "2026-10-10"}
+{"id": "arxiv-2610.02829", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.03078", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-02"}
+{"id": "arxiv-2610.19551", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-14"}
+{"id": "arxiv-2609.35738", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.04741", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-10-03"}
+{"id": "arxiv-2610.09841", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.02117", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.CL", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.11069", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-08"}
+{"id": "arxiv-2610.16952", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-12"}
+{"id": "arxiv-2609.37972", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.20668", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.13687", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG", "cs.SD"], "published": "2026-10-09"}
+{"id": "arxiv-2610.20318", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.10283", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.14936", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-10"}
+{"id": "arxiv-2609.39836", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.14427", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG", "stat.ML"], "published": "2026-10-10"}
+{"id": "arxiv-2609.39880", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.21356", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.12514", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.22221", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG", "cs.SD"], "published": "2026-10-15"}
+{"id": "arxiv-2610.12133", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.01016", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-01"}
+{"id": "arxiv-2610.12432", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG", "eess.SY"], "published": "2026-10-08"}
+{"id": "arxiv-2609.37387", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.18826", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-10-13"}
+{"id": "arxiv-2609.34708", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-28"}
+{"id": "arxiv-2609.40306", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.04026", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-02"}
+{"id": "arxiv-2609.34790", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-28"}
+{"id": "arxiv-2610.14733", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-10"}
+{"id": "arxiv-2610.07025", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-04"}
+{"id": "arxiv-2610.16522", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG", "eess.SY"], "published": "2026-10-12"}
+{"id": "arxiv-2609.36436", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
+{"id": "arxiv-2609.34297", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-28"}
+{"id": "arxiv-2610.07032", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-04"}
+{"id": "arxiv-2610.14968", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-10"}
+{"id": "arxiv-2609.34782", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.CV", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.13164", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-09"}
+{"id": "arxiv-2610.08928", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LO"], "published": "2026-10-06"}
+{"id": "arxiv-2610.10912", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.07621", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-06"}
+{"id": "arxiv-2610.05546", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-04"}
+{"id": "arxiv-2610.15537", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-11"}
+{"id": "arxiv-2609.38427", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.CY"], "published": "2026-09-29"}
+{"id": "arxiv-2609.40102", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.MA", "eess.SY"], "published": "2026-09-30"}
+{"id": "arxiv-2610.07599", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.01984", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.21915", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-15"}
+{"id": "arxiv-2609.36957", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
 {"id": "arxiv-2609.34257", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-28"}
-{"id": "arxiv-2610.16781", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-12"}
-{"id": "arxiv-2609.38637", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-09-29"}
-{"id": "arxiv-2609.38339", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2610.18616", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.IR"], "published": "2026-10-13"}
+{"id": "arxiv-2610.18585", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.SE"], "published": "2026-10-13"}
+{"id": "arxiv-2609.36416", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2609.34261", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.18766", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-13"}
+{"id": "arxiv-2610.20203", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.20582", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.05425", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.CL", "cs.LG"], "published": "2026-10-04"}
+{"id": "arxiv-2610.14957", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-10"}
+{"id": "arxiv-2609.36849", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.IR", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2609.38443", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-09-29"}
+{"id": "arxiv-2610.16251", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-12"}
+{"id": "arxiv-2609.35767", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-09-28"}
+{"id": "arxiv-2609.38899", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.13370", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-09"}
+{"id": "arxiv-2610.20999", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.07868", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-06"}
+{"id": "arxiv-2610.04319", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-03"}
+{"id": "arxiv-2609.34140", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-28"}
+{"id": "arxiv-2610.20294", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.19541", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-14"}
+{"id": "arxiv-2610.00815", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-30"}
+{"id": "arxiv-2610.01742", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-10-01"}
+{"id": "arxiv-2610.08574", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2609.38390", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-29"}
+{"id": "arxiv-2610.15073", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-10"}
+{"id": "arxiv-2610.03689", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-02"}
+{"id": "arxiv-2609.34363", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.MM"], "published": "2026-09-28"}
+{"id": "arxiv-2610.07894", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.15277", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-11"}
+{"id": "arxiv-2610.00392", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-30"}
+{"id": "arxiv-2610.20596", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-14"}
+{"id": "arxiv-2609.37042", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.12670", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.MA", "eess.SY"], "published": "2026-10-08"}
+{"id": "arxiv-2610.13190", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-09"}
+{"id": "arxiv-2610.14093", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.02373", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-01"}
+{"id": "arxiv-2610.21089", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "eess.SY"], "published": "2026-10-15"}
+{"id": "arxiv-2610.15163", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-10"}
+{"id": "arxiv-2610.01960", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-01"}
+{"id": "arxiv-2610.13578", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-10-09"}
+{"id": "arxiv-2610.11439", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.CY", "cs.IR"], "published": "2026-10-08"}
+{"id": "arxiv-2610.22342", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-15"}
+{"id": "arxiv-2610.14453", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.SE"], "published": "2026-10-10"}
+{"id": "arxiv-2610.14194", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-09"}
+{"id": "arxiv-2610.09807", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-07"}
+{"id": "arxiv-2610.11283", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2609.36492", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.02819", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-02"}
+{"id": "arxiv-2610.05331", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-04"}
+{"id": "arxiv-2610.16533", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-12"}
+{"id": "arxiv-2610.03123", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-02"}
+{"id": "arxiv-2609.37888", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.05882", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2610.09033", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.CR", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.18558", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-13"}
+{"id": "arxiv-2610.22070", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2609.39065", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-30"}
+{"id": "arxiv-2609.35608", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.CL"], "published": "2026-09-28"}
+{"id": "arxiv-2610.14261", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-09"}
+{"id": "arxiv-2609.39151", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.20367", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-14"}
+{"id": "arxiv-2610.12007", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-10-08"}
+{"id": "arxiv-2610.07723", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2609.34666", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.17462", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-12"}
+{"id": "arxiv-2610.16983", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG", "cs.SI"], "published": "2026-10-12"}
+{"id": "arxiv-2610.07820", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AR"], "published": "2026-10-06"}
+{"id": "arxiv-2610.07223", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-05"}
+{"id": "arxiv-2609.39639", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-30"}
+{"id": "arxiv-2609.35476", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-28"}
+{"id": "arxiv-2609.36599", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.15761", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-11"}
+{"id": "arxiv-2610.20607", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2609.38079", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
+{"id": "arxiv-2610.09670", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2609.35020", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-28"}
+{"id": "arxiv-2610.06401", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CL", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2610.14482", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-10"}
+{"id": "arxiv-2610.00650", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-09-30"}
+{"id": "arxiv-2609.38266", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.DC"], "published": "2026-09-29"}
+{"id": "arxiv-2610.10408", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.CG", "cs.LG", "cs.RO", "math.OC"], "published": "2026-10-07"}
+{"id": "arxiv-2610.15294", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-11"}
+{"id": "arxiv-2610.16435", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-12"}
+{"id": "arxiv-2609.40347", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2609.38381", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2609.35444", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-28"}
+{"id": "arxiv-2610.08255", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2609.38900", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-30"}
+{"id": "arxiv-2610.21042", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.IR"], "published": "2026-10-15"}
+{"id": "arxiv-2610.09488", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-07"}
+{"id": "arxiv-2610.02718", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.07558", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.08867", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-06"}
+{"id": "arxiv-2610.16622", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-12"}
+{"id": "arxiv-2610.02339", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2609.39384", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-30"}
+{"id": "arxiv-2610.12050", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.SE"], "published": "2026-10-08"}
+{"id": "arxiv-2609.37330", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.GR", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.06366", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG", "cs.SE"], "published": "2026-10-05"}
+{"id": "arxiv-2609.37882", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.09328", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2609.36426", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.00316", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2609.35627", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-28"}
+{"id": "arxiv-2609.38597", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
+{"id": "arxiv-2610.16039", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CL"], "published": "2026-10-12"}
+{"id": "arxiv-2610.15897", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-11"}
+{"id": "arxiv-2610.17534", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-13"}
+{"id": "arxiv-2610.06576", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-05"}
+{"id": "arxiv-2609.36707", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-29"}
+{"id": "arxiv-2610.18054", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2610.07613", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2609.39558", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG", "eess.SY"], "published": "2026-09-30"}
+{"id": "arxiv-2610.20524", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-14"}
+{"id": "arxiv-2610.08055", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.02626", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG", "cs.RO"], "published": "2026-10-02"}
+{"id": "arxiv-2609.39207", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-30"}
+{"id": "arxiv-2610.22174", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.01082", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-01"}
+{"id": "arxiv-2610.06617", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG", "cs.RO"], "published": "2026-10-05"}
+{"id": "arxiv-2609.37483", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.CG", "cs.DS", "math.MG"], "published": "2026-09-28"}
+{"id": "arxiv-2609.37367", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.18379", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-13"}
+{"id": "arxiv-2610.15414", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-11"}
+{"id": "arxiv-2610.08789", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.19957", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-10-14"}
+{"id": "arxiv-2610.10929", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-07"}
+{"id": "arxiv-2610.17184", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-12"}
+{"id": "arxiv-2610.18133", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-13"}
+{"id": "arxiv-2609.38155", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.CL", "cs.IR", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.07009", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-10-04"}
+{"id": "arxiv-2609.35040", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-28"}
+{"id": "arxiv-2610.06137", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-05"}
+{"id": "arxiv-2610.00781", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-30"}
+{"id": "arxiv-2610.14873", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-10"}
+{"id": "arxiv-2610.07186", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-05"}
+{"id": "arxiv-2610.02203", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.00421", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-09-30"}
+{"id": "arxiv-2609.39670", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-30"}
+{"id": "arxiv-2610.02207", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.HC", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.05879", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2610.14378", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL"], "published": "2026-10-09"}
+{"id": "arxiv-2610.20245", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.SE"], "published": "2026-10-14"}
+{"id": "arxiv-2609.38856", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-30"}
+{"id": "arxiv-2610.16449", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-10-12"}
+{"id": "arxiv-2609.37396", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-29"}
+{"id": "arxiv-2610.12033", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.SE"], "published": "2026-10-08"}
+{"id": "arxiv-2610.00759", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.07258", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CL", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2610.22184", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG", "eess.SY"], "published": "2026-10-15"}
+{"id": "arxiv-2610.10409", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-07"}
 {"id": "arxiv-2610.18247", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-13"}
+{"id": "arxiv-2610.09117", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.08858", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2609.38298", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.08970", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.19362", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.04169", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-03"}
+{"id": "arxiv-2610.05191", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-04"}
+{"id": "arxiv-2610.00327", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CL", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.20548", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.SI"], "published": "2026-10-14"}
+{"id": "arxiv-2610.03278", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-02"}
+{"id": "arxiv-2610.07780", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.12704", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2609.34065", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.CY", "cs.ET", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.01067", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-01"}
+{"id": "arxiv-2610.03799", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.11945", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.18594", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2610.02364", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-01"}
+{"id": "arxiv-2610.15729", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.SE"], "published": "2026-10-11"}
+{"id": "arxiv-2610.01807", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.18160", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-13"}
+{"id": "arxiv-2609.36153", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.17249", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG", "stat.ML"], "published": "2026-10-12"}
+{"id": "arxiv-2610.18053", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2609.35372", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.NE"], "published": "2026-09-28"}
+{"id": "arxiv-2610.19498", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.12465", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.20952", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-14"}
+{"id": "arxiv-2610.19095", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2610.01668", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-01"}
+{"id": "arxiv-2610.07056", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2609.34447", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG", "stat.ML"], "published": "2026-09-28"}
+{"id": "arxiv-2610.20993", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2609.34396", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-28"}
+{"id": "arxiv-2609.37648", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "eess.IV"], "published": "2026-09-29"}
+{"id": "arxiv-2610.17725", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.NI"], "published": "2026-10-13"}
+{"id": "arxiv-2610.03649", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.20397", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-14"}
+{"id": "arxiv-2610.06852", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-05"}
+{"id": "arxiv-2610.07511", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2609.36535", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-29"}
+{"id": "arxiv-2610.02338", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.00382", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.IT", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2609.36352", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG", "cs.RO"], "published": "2026-09-28"}
+{"id": "arxiv-2610.18948", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG", "stat.ML"], "published": "2026-10-13"}
+{"id": "arxiv-2610.08571", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2609.40085", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG", "eess.SY"], "published": "2026-09-30"}
+{"id": "arxiv-2610.09459", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.10810", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2609.36474", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.CR", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.22244", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CL", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.07243", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2610.12410", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.07887", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.CV"], "published": "2026-10-06"}
+{"id": "arxiv-2610.03014", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-02"}
+{"id": "arxiv-2609.40165", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2609.37824", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.19795", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.06056", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.CL"], "published": "2026-10-05"}
+{"id": "arxiv-2609.35449", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.04327", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-03"}
+{"id": "arxiv-2610.20280", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-14"}
+{"id": "arxiv-2610.16817", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-12"}
+{"id": "arxiv-2610.00852", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "eess.AS"], "published": "2026-10-01"}
+{"id": "arxiv-2610.20217", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.16128", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-12"}
+{"id": "arxiv-2610.19945", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-14"}
+{"id": "arxiv-2610.18637", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2610.17999", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-13"}
+{"id": "arxiv-2610.00408", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-30"}
+{"id": "arxiv-2610.06161", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-05"}
+{"id": "arxiv-2610.10992", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-07"}
+{"id": "arxiv-2609.39116", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-30"}
+{"id": "arxiv-2610.02660", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG", "cs.RO"], "published": "2026-10-02"}
+{"id": "arxiv-2610.16928", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-12"}
+{"id": "arxiv-2609.38036", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.CY", "cs.HC"], "published": "2026-09-29"}
+{"id": "arxiv-2610.08773", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.18786", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-13"}
+{"id": "arxiv-2609.38820", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-09-30"}
+{"id": "arxiv-2610.11873", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-08"}
+{"id": "arxiv-2610.09802", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2609.35630", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2609.34742", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.01592", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.10845", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.DC", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2609.36014", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-28"}
+{"id": "arxiv-2610.09940", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-10-07"}
+{"id": "arxiv-2610.11971", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG", "eess.SY"], "published": "2026-10-08"}
+{"id": "arxiv-2610.19871", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-14"}
+{"id": "arxiv-2610.01229", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-01"}
+{"id": "arxiv-2609.38270", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG", "cs.MA"], "published": "2026-09-29"}
+{"id": "arxiv-2609.40341", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-09-30"}
+{"id": "arxiv-2610.09863", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.17098", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-12"}
+{"id": "arxiv-2610.06317", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG", "stat.ML"], "published": "2026-10-05"}
+{"id": "arxiv-2609.37004", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
+{"id": "arxiv-2610.07532", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CL"], "published": "2026-10-05"}
+{"id": "arxiv-2610.11223", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.CL", "cs.LO"], "published": "2026-10-08"}
+{"id": "arxiv-2609.34456", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-28"}
+{"id": "arxiv-2610.06002", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2610.20925", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG", "eess.SY", "math.OC"], "published": "2026-10-14"}
+{"id": "arxiv-2610.05343", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.IR"], "published": "2026-10-04"}
+{"id": "arxiv-2610.13051", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.CV", "cs.LG"], "published": "2026-10-09"}
+{"id": "arxiv-2610.06327", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2610.08917", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.05418", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-10-04"}
+{"id": "arxiv-2609.38971", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.RO"], "published": "2026-09-30"}
+{"id": "arxiv-2610.02302", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.IT", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2609.39324", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2609.38289", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.IR", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.11978", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-08"}
+{"id": "arxiv-2610.17456", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-12"}
+{"id": "arxiv-2610.11086", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-08"}
+{"id": "arxiv-2610.09337", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.07489", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AR", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2609.34138", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.02472", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-01"}
+{"id": "arxiv-2610.09703", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.20901", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.07902", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.SD"], "published": "2026-10-06"}
+{"id": "arxiv-2610.20823", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG", "cs.MA"], "published": "2026-10-14"}
+{"id": "arxiv-2609.38966", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-30"}
+{"id": "arxiv-2610.09791", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-07"}
+{"id": "arxiv-2610.07684", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-06"}
+{"id": "arxiv-2610.06063", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2610.10359", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-10-07"}
+{"id": "arxiv-2610.08717", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2609.38165", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.11496", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.CR"], "published": "2026-10-08"}
+{"id": "arxiv-2610.06251", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-05"}
+{"id": "arxiv-2610.00590", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-30"}
+{"id": "arxiv-2610.17810", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-13"}
+{"id": "arxiv-2609.36107", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-28"}
+{"id": "arxiv-2610.16781", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-12"}
+{"id": "arxiv-2610.14162", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-09"}
+{"id": "arxiv-2610.02432", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.20171", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-14"}
+{"id": "arxiv-2610.05453", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.CV", "cs.LG"], "published": "2026-10-04"}
+{"id": "arxiv-2610.15431", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG", "cs.RO", "eess.SP"], "published": "2026-10-11"}
+{"id": "arxiv-2610.02486", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-01"}
+{"id": "arxiv-2610.01560", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG", "cs.SD"], "published": "2026-10-01"}
+{"id": "arxiv-2610.07019", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-04"}
+{"id": "arxiv-2610.04336", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "physics.comp-ph"], "published": "2026-10-03"}
+{"id": "arxiv-2610.19625", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.18125", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2610.01949", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.05835", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG", "cs.NI"], "published": "2026-10-05"}
+{"id": "arxiv-2610.03389", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.12734", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.04489", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-03"}
+{"id": "arxiv-2610.04396", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AR", "cs.DC", "cs.LG"], "published": "2026-10-03"}
+{"id": "arxiv-2610.16212", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG", "q-bio.TO"], "published": "2026-10-12"}
+{"id": "arxiv-2610.10179", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.15951", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-10-11"}
+{"id": "arxiv-2610.04771", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-03"}
+{"id": "arxiv-2610.20859", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.09943", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2609.35596", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CL"], "published": "2026-09-28"}
+{"id": "arxiv-2610.04104", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.04128", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.09777", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-07"}
+{"id": "arxiv-2610.12386", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-10-08"}
+{"id": "arxiv-2610.04074", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-02"}
+{"id": "arxiv-2610.07072", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2610.09690", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2609.39322", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-30"}
+{"id": "arxiv-2609.40091", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-09-30"}
+{"id": "arxiv-2610.11160", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.CV", "cs.LG", "cs.MM"], "published": "2026-10-08"}
+{"id": "arxiv-2610.14117", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-09"}
+{"id": "arxiv-2610.14350", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-10-09"}
+{"id": "arxiv-2610.03829", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG", "q-bio.QM"], "published": "2026-10-02"}
+{"id": "arxiv-2610.17089", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-10-12"}
+{"id": "arxiv-2609.39704", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-09-30"}
+{"id": "arxiv-2609.37070", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.05007", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "eess.SP"], "published": "2026-10-04"}
+{"id": "arxiv-2610.08590", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "eess.SP"], "published": "2026-10-06"}
+{"id": "arxiv-2609.35421", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "math.CO"], "published": "2026-09-28"}
+{"id": "arxiv-2610.17526", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-10-13"}
+{"id": "arxiv-2610.18391", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AR", "cs.DC"], "published": "2026-10-13"}
+{"id": "arxiv-2610.14900", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-10"}
+{"id": "arxiv-2610.10766", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2609.39827", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2609.34182", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-09-28"}
+{"id": "arxiv-2609.38339", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2610.04095", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.15165", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-10"}
+{"id": "arxiv-2610.00368", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-09-30"}
+{"id": "arxiv-2610.13086", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-09"}
+{"id": "arxiv-2610.14281", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-09"}
+{"id": "arxiv-2610.05674", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-10-05"}
+{"id": "arxiv-2610.17731", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-13"}
+{"id": "arxiv-2610.09451", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-07"}
+{"id": "arxiv-2610.08208", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-06"}
+{"id": "arxiv-2609.36414", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-29"}
+{"id": "arxiv-2610.07125", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CL", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2609.34684", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.21719", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2609.37177", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.CG", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.13853", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-09"}
+{"id": "arxiv-2610.11513", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "quant-ph"], "published": "2026-10-08"}
+{"id": "arxiv-2610.12837", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-09"}
+{"id": "arxiv-2610.21561", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.14423", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-10"}
+{"id": "arxiv-2610.01102", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG", "cs.MA"], "published": "2026-10-01"}
+{"id": "arxiv-2610.01702", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-01"}
+{"id": "arxiv-2610.11057", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.00354", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CE"], "published": "2026-09-30"}
+{"id": "arxiv-2610.02665", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.01605", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG", "cs.LO"], "published": "2026-10-01"}
+{"id": "arxiv-2610.08541", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-10-06"}
+{"id": "arxiv-2610.10306", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-07"}
+{"id": "arxiv-2609.34716", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-28"}
+{"id": "arxiv-2610.08341", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.02201", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2609.39184", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG", "physics.med-ph"], "published": "2026-09-30"}
+{"id": "arxiv-2610.22146", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-15"}
+{"id": "arxiv-2610.13373", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-09"}
+{"id": "arxiv-2610.08533", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG", "cs.SD"], "published": "2026-10-06"}
+{"id": "arxiv-2610.08098", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.10465", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "eess.SY"], "published": "2026-10-07"}
+{"id": "arxiv-2610.18835", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.GR", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2610.17685", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2609.40295", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2609.39884", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2609.38169", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.17576", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2609.39178", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CR", "cs.CV"], "published": "2026-09-30"}
+{"id": "arxiv-2610.01263", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-01"}
+{"id": "arxiv-2610.09163", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-06"}
+{"id": "arxiv-2609.39710", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.DL"], "published": "2026-09-30"}
+{"id": "arxiv-2610.04238", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-03"}
+{"id": "arxiv-2610.18321", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-13"}
+{"id": "arxiv-2610.15563", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-11"}
+{"id": "arxiv-2610.18868", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.CV", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2610.11467", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-08"}
+{"id": "arxiv-2609.39263", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.12987", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG", "stat.ML"], "published": "2026-10-09"}
+{"id": "arxiv-2610.20516", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.16118", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG", "cs.MM"], "published": "2026-10-12"}
+{"id": "arxiv-2609.34484", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.08119", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-06"}
+{"id": "arxiv-2609.38028", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.09981", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL"], "published": "2026-10-07"}
+{"id": "arxiv-2610.06603", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-05"}
+{"id": "arxiv-2610.04156", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2609.34085", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.CV", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.04504", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL"], "published": "2026-10-03"}
+{"id": "arxiv-2609.36952", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2610.03470", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-02"}
+{"id": "arxiv-2610.09274", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.17593", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2610.02877", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-02"}
+{"id": "arxiv-2609.37218", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2610.20634", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-30"}
+{"id": "arxiv-2610.13628", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.HC", "cs.LG"], "published": "2026-10-09"}
+{"id": "arxiv-2610.00812", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.04536", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-03"}
+{"id": "arxiv-2610.07371", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "eess.SY"], "published": "2026-10-05"}
+{"id": "arxiv-2610.18834", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-13"}
+{"id": "arxiv-2609.36893", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-29"}
+{"id": "arxiv-2610.08452", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.IR", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.03650", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.07772", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-06"}
+{"id": "arxiv-2610.09363", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.15098", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-10"}
+{"id": "arxiv-2610.20627", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG", "cs.RO"], "published": "2026-09-28"}
+{"id": "arxiv-2610.11019", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.06487", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.HC"], "published": "2026-10-05"}
+{"id": "arxiv-2610.02765", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2609.34563", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.CL", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.13345", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-09"}
+{"id": "arxiv-2610.14564", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-10"}
+{"id": "arxiv-2610.11932", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-08"}
+{"id": "arxiv-2610.21739", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.03498", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-10-02"}
+{"id": "arxiv-2610.07982", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-06"}
+{"id": "arxiv-2610.01234", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-01"}
+{"id": "arxiv-2609.39362", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-30"}
+{"id": "arxiv-2610.18457", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2610.09111", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.02456", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-01"}
+{"id": "arxiv-2610.06782", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-05"}
+{"id": "arxiv-2610.19566", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.SE"], "published": "2026-10-14"}
+{"id": "arxiv-2610.13605", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-09"}
+{"id": "arxiv-2609.35932", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.17468", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG", "eess.SY"], "published": "2026-10-12"}
+{"id": "arxiv-2610.08406", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-06"}
+{"id": "arxiv-2610.04878", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.HC", "cs.LG"], "published": "2026-10-04"}
+{"id": "arxiv-2609.38389", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL"], "published": "2026-09-29"}
+{"id": "arxiv-2610.12245", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-08"}
+{"id": "arxiv-2610.00402", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-30"}
+{"id": "arxiv-2610.13502", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-09"}
+{"id": "arxiv-2610.16173", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-12"}
+{"id": "arxiv-2610.14040", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.IT"], "published": "2026-10-02"}
+{"id": "arxiv-2610.11501", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-08"}
+{"id": "arxiv-2609.35434", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.SE"], "published": "2026-09-28"}
+{"id": "arxiv-2610.10238", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-07"}
+{"id": "arxiv-2609.34804", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.22091", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.12458", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-08"}
+{"id": "arxiv-2610.15390", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.CV", "cs.LG"], "published": "2026-10-11"}
+{"id": "arxiv-2609.37848", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.15756", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-11"}
+{"id": "arxiv-2610.10133", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-07"}
+{"id": "arxiv-2609.37891", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.00851", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.21208", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.13651", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-09"}
+{"id": "arxiv-2610.19403", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-14"}
+{"id": "arxiv-2610.05583", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-04"}
+{"id": "arxiv-2610.04805", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-10-03"}
+{"id": "arxiv-2610.07089", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2610.10297", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.14606", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-10"}
+{"id": "arxiv-2610.08339", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-06"}
+{"id": "arxiv-2609.36734", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-29"}
+{"id": "arxiv-2610.07278", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-05"}
+{"id": "arxiv-2610.20881", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.07822", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-06"}
 {"id": "arxiv-2610.20651", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.GR"], "published": "2026-10-12"}
+{"id": "arxiv-2610.05819", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2609.39179", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-30"}
+{"id": "arxiv-2610.04767", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-03"}
+{"id": "arxiv-2610.21633", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.06121", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-05"}
+{"id": "arxiv-2610.00348", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.06290", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG", "cs.MA"], "published": "2026-10-05"}
+{"id": "arxiv-2610.17555", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-13"}
+{"id": "arxiv-2610.07639", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.SE"], "published": "2026-10-06"}
+{"id": "arxiv-2610.04240", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-03"}
+{"id": "arxiv-2610.06235", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2610.19044", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-10-13"}
+{"id": "arxiv-2610.11382", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.08448", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-06"}
+{"id": "arxiv-2610.15030", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-10"}
+{"id": "arxiv-2610.03827", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG", "q-bio.NC"], "published": "2026-10-02"}
+{"id": "arxiv-2609.34245", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2609.37677", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.21515", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-15"}
+{"id": "arxiv-2610.16872", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-12"}
+{"id": "arxiv-2609.37659", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.13623", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL"], "published": "2026-10-09"}
+{"id": "arxiv-2610.04009", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2609.38274", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG", "cs.MA"], "published": "2026-09-29"}
+{"id": "arxiv-2610.18829", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.CL", "cs.MM"], "published": "2026-10-13"}
+{"id": "arxiv-2609.34518", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-28"}
+{"id": "arxiv-2610.06011", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-05"}
+{"id": "arxiv-2610.00315", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.06648", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2609.39635", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2609.35922", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG", "cs.SD"], "published": "2026-09-28"}
+{"id": "arxiv-2609.38109", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2609.39120", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-30"}
+{"id": "arxiv-2610.11430", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.05095", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-04"}
+{"id": "arxiv-2610.19993", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.RO"], "published": "2026-10-14"}
+{"id": "arxiv-2610.18690", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2610.04720", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-03"}
+{"id": "arxiv-2610.02869", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-02"}
+{"id": "arxiv-2610.15305", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-11"}
+{"id": "arxiv-2610.02435", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-01"}
+{"id": "arxiv-2610.14324", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-09"}
+{"id": "arxiv-2610.13027", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-09"}
+{"id": "arxiv-2610.17457", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-12"}
+{"id": "arxiv-2610.04609", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-03"}
+{"id": "arxiv-2609.35544", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.19766", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.15077", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-10"}
+{"id": "arxiv-2610.09552", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.22196", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-15"}
+{"id": "arxiv-2610.21276", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-15"}
+{"id": "arxiv-2610.09498", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.00926", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.15678", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-11"}
+{"id": "arxiv-2610.01079", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-01"}
+{"id": "arxiv-2610.04913", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-04"}
+{"id": "arxiv-2610.17607", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-13"}
+{"id": "arxiv-2610.17591", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.RO"], "published": "2026-10-13"}
+{"id": "arxiv-2610.13300", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.GR", "cs.LG", "cs.RO", "cs.SD"], "published": "2026-10-09"}
+{"id": "arxiv-2610.03625", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.DB", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.03615", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-02"}
+{"id": "arxiv-2610.16814", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-12"}
+{"id": "arxiv-2610.15846", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-11"}
+{"id": "arxiv-2610.13303", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-09"}
+{"id": "arxiv-2610.22282", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-15"}
+{"id": "arxiv-2610.14019", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-29"}
+{"id": "arxiv-2610.03516", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.17252", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-12"}
+{"id": "arxiv-2610.04912", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.DC", "cs.LG"], "published": "2026-10-04"}
+{"id": "arxiv-2610.07083", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-05"}
+{"id": "arxiv-2610.22285", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.HC", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2609.39542", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.21434", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.01921", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-01"}
+{"id": "arxiv-2610.22100", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.04818", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-03"}
+{"id": "arxiv-2610.03567", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-02"}
+{"id": "arxiv-2610.03960", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.12747", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2609.39533", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.02323", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-10-01"}
+{"id": "arxiv-2609.38225", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-09-28"}
+{"id": "arxiv-2610.13242", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-09"}
+{"id": "arxiv-2610.06324", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2610.18611", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-13"}
+{"id": "arxiv-2609.37071", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
+{"id": "arxiv-2609.36331", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.12948", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-09"}
+{"id": "arxiv-2610.08703", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-06"}
+{"id": "arxiv-2609.37147", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.18741", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-13"}
+{"id": "arxiv-2609.38519", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.01064", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.DB", "cs.IR"], "published": "2026-10-01"}
+{"id": "arxiv-2609.38477", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2609.35591", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-28"}
+{"id": "arxiv-2610.12024", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.NI"], "published": "2026-10-08"}
+{"id": "arxiv-2609.37810", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2610.13367", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "eess.SP"], "published": "2026-10-09"}
+{"id": "arxiv-2610.17326", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-12"}
+{"id": "arxiv-2609.38246", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2610.04543", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-03"}
+{"id": "arxiv-2610.09496", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.07460", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-05"}
+{"id": "arxiv-2610.00977", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.SE"], "published": "2026-10-01"}
+{"id": "arxiv-2610.09697", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-07"}
+{"id": "arxiv-2610.02142", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-01"}
+{"id": "arxiv-2610.06584", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-05"}
+{"id": "arxiv-2609.39047", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2609.37494", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2609.36373", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-28"}
+{"id": "arxiv-2610.19579", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-14"}
+{"id": "arxiv-2609.36862", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.IR", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2609.36442", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2609.37807", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.05076", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-04"}
+{"id": "arxiv-2610.19971", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-14"}
+{"id": "arxiv-2610.16587", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-12"}
+{"id": "arxiv-2610.00695", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.DC", "cs.IT", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2609.37784", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2609.37082", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-29"}
+{"id": "arxiv-2609.37127", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-29"}
+{"id": "arxiv-2610.18696", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-13"}
+{"id": "arxiv-2610.15725", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-11"}
+{"id": "arxiv-2610.10946", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.01427", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-01"}
+{"id": "arxiv-2610.13177", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-09"}
+{"id": "arxiv-2610.21383", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.14082", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-10-08"}
+{"id": "arxiv-2610.05880", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-05"}
+{"id": "arxiv-2610.10934", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.11275", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2609.34152", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-28"}
+{"id": "arxiv-2610.09695", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV"], "published": "2026-10-07"}
+{"id": "arxiv-2610.20253", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "eess.AS"], "published": "2026-10-14"}
+{"id": "arxiv-2610.20796", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.04391", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-03"}
+{"id": "arxiv-2610.16570", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-12"}
+{"id": "arxiv-2609.38543", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2609.39584", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.18724", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.HC", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2609.38615", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2610.19848", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-14"}
+{"id": "arxiv-2610.20509", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2609.36779", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.GR"], "published": "2026-09-29"}
+{"id": "arxiv-2610.12707", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.CV"], "published": "2026-10-08"}
+{"id": "arxiv-2610.07594", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.01258", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-01"}
+{"id": "arxiv-2610.03132", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.18508", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2610.17327", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-12"}
+{"id": "arxiv-2610.05755", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "eess.SY"], "published": "2026-10-05"}
+{"id": "arxiv-2610.01260", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.HC", "cs.LG", "eess.SY"], "published": "2026-10-01"}
+{"id": "arxiv-2610.07591", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.15924", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG", "cs.MA"], "published": "2026-10-11"}
+{"id": "arxiv-2610.15237", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-11"}
+{"id": "arxiv-2610.05861", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-05"}
+{"id": "arxiv-2610.08225", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-06"}
+{"id": "arxiv-2610.03329", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2609.39971", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.19896", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-14"}
+{"id": "arxiv-2609.37734", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-29"}
+{"id": "arxiv-2609.34385", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.IR", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2609.39902", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-30"}
+{"id": "arxiv-2610.13672", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-09"}
+{"id": "arxiv-2610.18543", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2610.11810", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-08"}
+{"id": "arxiv-2610.21990", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-15"}
+{"id": "arxiv-2610.14018", "label": 0, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2610.10758", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2609.34963", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-28"}
+{"id": "arxiv-2609.37006", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-29"}
+{"id": "arxiv-2610.01768", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2609.36241", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-28"}
+{"id": "arxiv-2610.14091", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.04956", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.DC"], "published": "2026-10-04"}
+{"id": "arxiv-2609.38530", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.10990", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.07692", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-06"}
+{"id": "arxiv-2609.38278", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
+{"id": "arxiv-2610.10617", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG", "cs.SE"], "published": "2026-10-07"}
+{"id": "arxiv-2609.37879", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2609.36804", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2610.18386", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-13"}
+{"id": "arxiv-2610.08678", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.09444", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-07"}
+{"id": "arxiv-2609.36145", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-28"}
+{"id": "arxiv-2610.06369", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2609.37655", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
+{"id": "arxiv-2610.18862", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2609.39645", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.09684", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-07"}
+{"id": "arxiv-2610.19436", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.02527", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.01938", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-01"}
+{"id": "arxiv-2609.38400", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.HC", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.11586", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-08"}
+{"id": "arxiv-2610.09858", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.01959", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.17552", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-13"}
+{"id": "arxiv-2609.39687", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.11163", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-08"}
+{"id": "arxiv-2610.11751", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-08"}
+{"id": "arxiv-2610.19395", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-14"}
+{"id": "arxiv-2610.05994", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-10-05"}
+{"id": "arxiv-2610.07722", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-06"}
+{"id": "arxiv-2610.04286", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.LG"], "published": "2026-10-03"}
+{"id": "arxiv-2610.05413", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-04"}
+{"id": "arxiv-2610.18507", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-13"}
+{"id": "arxiv-2610.00524", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.21244", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.12338", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.20427", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-14"}
+{"id": "arxiv-2610.17466", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-12"}
+{"id": "arxiv-2610.12602", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-08"}
+{"id": "arxiv-2610.11306", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-08"}
+{"id": "arxiv-2610.16735", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-12"}
+{"id": "arxiv-2610.05608", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG", "cs.MM"], "published": "2026-10-04"}
+{"id": "arxiv-2609.37605", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.11270", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.IR", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.11314", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-08"}
+{"id": "arxiv-2609.39072", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG", "cs.MM"], "published": "2026-09-30"}
+{"id": "arxiv-2610.19654", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.CY", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2609.36971", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-09-29"}
+{"id": "arxiv-2610.10343", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-07"}
+{"id": "arxiv-2610.15772", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-11"}
+{"id": "arxiv-2610.15544", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-11"}
+{"id": "arxiv-2610.05918", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-05"}
+{"id": "arxiv-2609.37582", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2609.39385", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.05779", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.MM"], "published": "2026-10-05"}
+{"id": "arxiv-2610.16957", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-12"}
+{"id": "arxiv-2610.22178", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.CV", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.02811", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-02"}
+{"id": "arxiv-2610.08123", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG", "eess.SY"], "published": "2026-10-06"}
+{"id": "arxiv-2610.11302", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-08"}
+{"id": "arxiv-2610.22209", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.03825", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.02148", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-01"}
+{"id": "arxiv-2610.02051", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-01"}
+{"id": "arxiv-2610.09817", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.LO", "cs.SE"], "published": "2026-10-07"}
+{"id": "arxiv-2610.20754", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AR"], "published": "2026-10-14"}
+{"id": "arxiv-2609.38930", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG", "stat.ML"], "published": "2026-09-30"}
+{"id": "arxiv-2610.01393", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-01"}
+{"id": "arxiv-2610.19264", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-10-13"}
+{"id": "arxiv-2609.38253", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2610.06663", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-05"}
+{"id": "arxiv-2610.07282", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.DC"], "published": "2026-10-05"}
+{"id": "arxiv-2610.19323", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2609.36218", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.ET", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2609.39447", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2610.07870", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-06"}
+{"id": "arxiv-2610.04601", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-03"}
+{"id": "arxiv-2610.02943", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-02"}
+{"id": "arxiv-2609.38249", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-09-29"}
+{"id": "arxiv-2610.05604", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-04"}
+{"id": "arxiv-2610.08851", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-03"}
+{"id": "arxiv-2610.04066", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.14767", "label": 0, "primary": "cs.CR", "categories": ["cs.CR"], "published": "2026-10-10"}
+{"id": "arxiv-2610.21654", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-15"}
+{"id": "arxiv-2610.12137", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2609.38976", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-30"}
+{"id": "arxiv-2610.11843", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "stat.ME"], "published": "2026-10-08"}
+{"id": "arxiv-2610.01634", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-01"}
+{"id": "arxiv-2610.08105", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-06"}
+{"id": "arxiv-2609.36435", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-29"}
+{"id": "arxiv-2609.36316", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.10909", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-07"}
+{"id": "arxiv-2610.09217", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-10-06"}
+{"id": "arxiv-2609.38934", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-09-30"}
+{"id": "arxiv-2609.36134", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AR", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.14270", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-10-09"}
+{"id": "arxiv-2610.16458", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.CL", "cs.LG"], "published": "2026-10-12"}
+{"id": "arxiv-2610.03562", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AR"], "published": "2026-10-02"}
+{"id": "arxiv-2610.11479", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-10-08"}
+{"id": "arxiv-2610.21151", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CL"], "published": "2026-10-15"}
+{"id": "arxiv-2610.14238", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-09"}
+{"id": "arxiv-2610.18867", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-13"}
+{"id": "arxiv-2610.20606", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.19268", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.CY", "cs.ET", "cs.HC"], "published": "2026-10-13"}
+{"id": "arxiv-2609.38637", "label": 0, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI"], "published": "2026-09-29"}
+{"id": "arxiv-2610.14713", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-10"}
+{"id": "arxiv-2610.15628", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.CR", "cs.LG"], "published": "2026-10-11"}
+{"id": "arxiv-2610.13083", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.LG"], "published": "2026-10-09"}
+{"id": "arxiv-2610.03124", "label": 1, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.CL", "cs.CY", "cs.LG"], "published": "2026-10-02"}
+{"id": "arxiv-2610.04602", "label": 0, "primary": "cs.CV", "categories": ["cs.CV"], "published": "2026-10-03"}
+{"id": "arxiv-2610.18498", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-13"}
+{"id": "arxiv-2610.12939", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-09"}
+{"id": "arxiv-2609.34414", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-09-28"}
+{"id": "arxiv-2610.18697", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.CV", "cs.LG"], "published": "2026-10-13"}
+{"id": "arxiv-2609.36348", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.18694", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.LG", "cs.MM"], "published": "2026-10-13"}
+{"id": "arxiv-2610.12795", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AR"], "published": "2026-10-08"}
+{"id": "arxiv-2610.08781", "label": 0, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI"], "published": "2026-10-06"}
+{"id": "arxiv-2610.08464", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.RO"], "published": "2026-10-06"}
+{"id": "arxiv-2609.35937", "label": 0, "primary": "cs.CR", "categories": ["cs.CR", "cs.AI", "cs.HC"], "published": "2026-09-28"}
+{"id": "arxiv-2609.35768", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-09-28"}
+{"id": "arxiv-2610.16547", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.LG"], "published": "2026-10-12"}
+{"id": "arxiv-2610.19628", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.LG"], "published": "2026-10-14"}
+{"id": "arxiv-2610.00694", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG", "stat.ML"], "published": "2026-09-30"}
+{"id": "arxiv-2610.18881", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-01"}
+{"id": "arxiv-2610.00621", "label": 0, "primary": "cs.CL", "categories": ["cs.CL"], "published": "2026-09-30"}
+{"id": "arxiv-2609.37359", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.CV", "cs.LG"], "published": "2026-09-29"}
+{"id": "arxiv-2610.08183", "label": 1, "primary": "cs.RO", "categories": ["cs.RO", "cs.AI", "cs.LG"], "published": "2026-10-06"}
+{"id": "arxiv-2610.22019", "label": 1, "primary": "cs.CL", "categories": ["cs.CL", "cs.AI", "cs.LG"], "published": "2026-10-15"}
+{"id": "arxiv-2610.13943", "label": 0, "primary": "cs.RO", "categories": ["cs.RO"], "published": "2026-10-09"}
+{"id": "arxiv-2610.02567", "label": 1, "primary": "cs.CV", "categories": ["cs.CV", "cs.AI", "cs.GR", "cs.LG"], "published": "2026-10-01"}

@@ -3,7 +3,7 @@
 The label is the section the Office of the Federal Register published it in, which follows the issuing
 agency's own designation. The evidence is the subject and summary; the ACTION line and phrases that name
 the document type ("final rule", "proposed rulemaking", "this notice") are masked as [document].
-Documents filed September 28 - October 17, 2026; balanced across the three types with seed 7.
+Documents filed September 28 - October 17, 2026; up to 300 of each type with seed 7, all of a type when fewer.
 
     python -m tdm build fedreg_type
 """
@@ -17,7 +17,7 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
 from federal_register import documents, mask  # noqa: E402
 
-PER_TYPE = 90
+PER_TYPE = 300                  # or all when fewer: there are 161 rules and 98 proposed rules
 TYPE_WORDS = ["proposed regulations", "proposed regulation", "final regulations", "final regulation", "temporary regulations",
               "proposed amendments", "proposed amendment", "final amendments", "final amendment", "interim final rule", "direct final rule", "final rule", "final rules", "proposed rule", "proposed rules",
               "notice of proposed rulemaking", "advance notice of proposed rulemaking", "proposed rulemaking", "rulemaking",

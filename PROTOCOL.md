@@ -22,6 +22,12 @@ Built by `tasks/<task>/build.py` and frozen by `manifest.jsonl`.
 *Amended October 18, 2026: the review tasks were replaced by Federal Register and arXiv tasks under the
 inclusion rule; no runs of the new tasks existed when this was written.*
 
+*Amended October 19, 2026, after the first `public-fresh` results were read: every task was enlarged to
+up to a fixed number of records per class (all of a class with fewer), with the same windows, filters,
+masking and seeds, so each new sample contains the earlier one. The caps were set from the pool sizes
+alone, to bring each task near 1,000 records where its classes allow. Results on the earlier samples stay
+reported under their task versions.*
+
 ## Models
 
 One config per model in `configs/models/`, with the model pinned (`jev-1.13.0`, not `jev-latest`).

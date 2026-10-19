@@ -1,296 +1,600 @@
-{"id": "fr-2026-19822", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-19825", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-21222", "label": "interior", "kind": "Rule", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20098", "label": "transportation", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20377", "label": "commerce", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20627", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20981", "label": "health", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-21151", "label": "health", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20837", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20551", "label": "commerce", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20574", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20060", "label": "environment", "kind": "Proposed Rule", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20943", "label": "justice", "kind": "Proposed Rule", "published": "2026-10-14", "filed": "2026-10-09"}
-{"id": "fr-2026-20516", "label": "transportation", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20003", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20683", "label": "treasury", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-19831", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20102", "label": "environment", "kind": "Proposed Rule", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20006", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-21140", "label": "commerce", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20002", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20053", "label": "environment", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20522", "label": "homeland_security", "kind": "Rule", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20611", "label": "environment", "kind": "Proposed Rule", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20688", "label": "justice", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20569", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-19828", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-21109", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-21185", "label": "treasury", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-19841", "label": "justice", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-21123", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20930", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20992", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20843", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20096", "label": "environment", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-21063", "label": "justice", "kind": "Proposed Rule", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-21155", "label": "environment", "kind": "Proposed Rule", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-19921", "label": "health", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20842", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20380", "label": "commerce", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-21166", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20494", "label": "treasury", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20963", "label": "transportation", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20364", "label": "health", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20899", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20835", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20232", "label": "treasury", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-19924", "label": "homeland_security", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20944", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20496", "label": "transportation", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20635", "label": "environment", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-19833", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20068", "label": "health", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20357", "label": "health", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20576", "label": "treasury", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20170", "label": "homeland_security", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20646", "label": "labor", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-21026", "label": "defense", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20909", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-21208", "label": "treasury", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20141", "label": "health", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-29"}
-{"id": "fr-2026-20469", "label": "treasury", "kind": "Rule", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20641", "label": "environment", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20768", "label": "health", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-20436", "label": "environment", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20573", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20643", "label": "defense", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-19913", "label": "health", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20155", "label": "commerce", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20529", "label": "justice", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20722", "label": "transportation", "kind": "Rule", "published": "2026-10-09", "filed": "2026-10-07"}
-{"id": "fr-2026-21198", "label": "justice", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20902", "label": "homeland_security", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-19837", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-19898", "label": "homeland_security", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20946", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20570", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20430", "label": "treasury", "kind": "Proposed Rule", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-19853", "label": "homeland_security", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-19890", "label": "transportation", "kind": "Proposed Rule", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20634", "label": "environment", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-21042", "label": "commerce", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-21181", "label": "transportation", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20225", "label": "homeland_security", "kind": "Rule", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-20169", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20164", "label": "commerce", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20526", "label": "treasury", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-21044", "label": "commerce", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20777", "label": "commerce", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-20952", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20462", "label": "justice", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-21120", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-21253", "label": "treasury", "kind": "Rule", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20647", "label": "commerce", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20589", "label": "transportation", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
 {"id": "fr-2026-21116", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-19823", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-19928", "label": "interior", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20571", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-21193", "label": "justice", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-21060", "label": "justice", "kind": "Proposed Rule", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-21079", "label": "defense", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20329", "label": "health", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20219", "label": "environment", "kind": "Rule", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-20684", "label": "health", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20916", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20839", "label": "treasury", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20491", "label": "homeland_security", "kind": "Proposed Rule", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20084", "label": "justice", "kind": "Proposed Rule", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20948", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20032", "label": "treasury", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-21161", "label": "homeland_security", "kind": "Rule", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20910", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-21139", "label": "commerce", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20251", "label": "interior", "kind": "Proposed Rule", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-21220", "label": "defense", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-21163", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20508", "label": "defense", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20731", "label": "health", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-20757", "label": "justice", "kind": "Rule", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-20008", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-21113", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20113", "label": "justice", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20956", "label": "homeland_security", "kind": "Rule", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20534", "label": "justice", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20004", "label": "health", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20417", "label": "treasury", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20845", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20764", "label": "health", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-21164", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20425", "label": "treasury", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20097", "label": "environment", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20893", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-19892", "label": "transportation", "kind": "Proposed Rule", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20023", "label": "commerce", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20324", "label": "homeland_security", "kind": "Rule", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20483", "label": "transportation", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20849", "label": "environment", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20982", "label": "environment", "kind": "Rule", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20328", "label": "commerce", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20215", "label": "treasury", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-19832", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-21157", "label": "homeland_security", "kind": "Rule", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20724", "label": "defense", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-20075", "label": "health", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20024", "label": "commerce", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20677", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-19995", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21228", "label": "transportation", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-19912", "label": "health", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20447", "label": "treasury", "kind": "Rule", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-21205", "label": "commerce", "kind": "Proposed Rule", "published": "2026-10-16", "filed": "2026-10-15"}
 {"id": "fr-2026-20101", "label": "environment", "kind": "Proposed Rule", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20838", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20528", "label": "transportation", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-19987", "label": "transportation", "kind": "Proposed Rule", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20092", "label": "defense", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20046", "label": "transportation", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-19937", "label": "health", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20171", "label": "homeland_security", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-21221", "label": "defense", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20785", "label": "defense", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20007", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20443", "label": "health", "kind": "Rule", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20965", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20757", "label": "justice", "kind": "Rule", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-19926", "label": "homeland_security", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20727", "label": "health", "kind": "Rule", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20526", "label": "treasury", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-21111", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20688", "label": "justice", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
 {"id": "fr-2026-20069", "label": "defense", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20947", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20372", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20912", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-21150", "label": "health", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-21229", "label": "justice", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20612", "label": "environment", "kind": "Proposed Rule", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-19976", "label": "environment", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20264", "label": "treasury", "kind": "Rule", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-20185", "label": "homeland_security", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20721", "label": "health", "kind": "Proposed Rule", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-19850", "label": "health", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-19966", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20468", "label": "environment", "kind": "Proposed Rule", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20114", "label": "justice", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-21197", "label": "health", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20122", "label": "homeland_security", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20661", "label": "health", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-19925", "label": "homeland_security", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20925", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20638", "label": "environment", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20650", "label": "homeland_security", "kind": "Proposed Rule", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20531", "label": "justice", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20994", "label": "treasury", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20536", "label": "justice", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20492", "label": "transportation", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20898", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20476", "label": "transportation", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-19961", "label": "transportation", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-19898", "label": "homeland_security", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20995", "label": "transportation", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20166", "label": "commerce", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19931", "label": "commerce", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21212", "label": "treasury", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20031", "label": "commerce", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21171", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20495", "label": "transportation", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20060", "label": "environment", "kind": "Proposed Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20116", "label": "transportation", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-21051", "label": "environment", "kind": "Rule", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-19989", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20191", "label": "environment", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
 {"id": "fr-2026-20087", "label": "homeland_security", "kind": "Proposed Rule", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20523", "label": "labor", "kind": "Proposed Rule", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20566", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-21017", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20913", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20950", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20386", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-21170", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-21117", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20964", "label": "environment", "kind": "Proposed Rule", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20831", "label": "treasury", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-21169", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20955", "label": "homeland_security", "kind": "Rule", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20705", "label": "health", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-19933", "label": "interior", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20175", "label": "defense", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-21239", "label": "commerce", "kind": "Rule", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-21096", "label": "transportation", "kind": "Rule", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20000", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20556", "label": "justice", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20174", "label": "defense", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-21165", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20229", "label": "homeland_security", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-20748", "label": "justice", "kind": "Rule", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-20926", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-19835", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20057", "label": "environment", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-19906", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20532", "label": "justice", "kind": "Proposed Rule", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-19891", "label": "transportation", "kind": "Rule", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20568", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-19826", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20344", "label": "health", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-21013", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-21114", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20376", "label": "commerce", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20640", "label": "environment", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20942", "label": "justice", "kind": "Proposed Rule", "published": "2026-10-14", "filed": "2026-10-09"}
-{"id": "fr-2026-20228", "label": "homeland_security", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-01"}
-{"id": "fr-2026-20846", "label": "environment", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20131", "label": "health", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20315", "label": "interior", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
-{"id": "fr-2026-20172", "label": "defense", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-19886", "label": "health", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-21154", "label": "labor", "kind": "Proposed Rule", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-21167", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-19930", "label": "commerce", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20162", "label": "commerce", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
 {"id": "fr-2026-20816", "label": "commerce", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20389", "label": "environment", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20010", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-19977", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21142", "label": "health", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-14"}
+{"id": "fr-2026-20825", "label": "health", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20092", "label": "defense", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20422", "label": "homeland_security", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20516", "label": "transportation", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20839", "label": "treasury", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-19903", "label": "health", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20053", "label": "environment", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-19992", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-19924", "label": "homeland_security", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-19829", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20916", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20281", "label": "health", "kind": "Rule", "published": "2026-10-02", "filed": "2026-09-30"}
+{"id": "fr-2026-19901", "label": "commerce", "kind": "Rule", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20910", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21106", "label": "commerce", "kind": "Rule", "published": "2026-10-15", "filed": "2026-10-14"}
 {"id": "fr-2026-19830", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-19888", "label": "treasury", "kind": "Proposed Rule", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20934", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20363", "label": "health", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-19946", "label": "health", "kind": "Rule", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20084", "label": "justice", "kind": "Proposed Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20845", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-19988", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20229", "label": "homeland_security", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20899", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21118", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21229", "label": "justice", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20265", "label": "health", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20650", "label": "homeland_security", "kind": "Proposed Rule", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20637", "label": "commerce", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-06"}
+{"id": "fr-2026-20334", "label": "health", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21096", "label": "transportation", "kind": "Rule", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20982", "label": "environment", "kind": "Rule", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-19968", "label": "health", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20872", "label": "commerce", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20612", "label": "environment", "kind": "Proposed Rule", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20514", "label": "transportation", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20460", "label": "health", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20984", "label": "health", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20951", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20119", "label": "transportation", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-21018", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-19833", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20379", "label": "commerce", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20834", "label": "transportation", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20051", "label": "transportation", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20833", "label": "health", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20097", "label": "environment", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-21221", "label": "defense", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20913", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20930", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20860", "label": "commerce", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20726", "label": "health", "kind": "Rule", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20649", "label": "transportation", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-19835", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20224", "label": "homeland_security", "kind": "Rule", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20870", "label": "commerce", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20737", "label": "treasury", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20338", "label": "commerce", "kind": "Rule", "published": "2026-10-05", "filed": "2026-10-01"}
+{"id": "fr-2026-21151", "label": "health", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20981", "label": "health", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21010", "label": "transportation", "kind": "Rule", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20389", "label": "environment", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20442", "label": "health", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20163", "label": "commerce", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20016", "label": "homeland_security", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20329", "label": "health", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20019", "label": "commerce", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-19990", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-19891", "label": "transportation", "kind": "Rule", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20014", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20692", "label": "commerce", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21085", "label": "treasury", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20529", "label": "justice", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20846", "label": "environment", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20938", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-09"}
+{"id": "fr-2026-19904", "label": "commerce", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20628", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20574", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21112", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-19993", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20949", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21110", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21079", "label": "defense", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20411", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20588", "label": "transportation", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20417", "label": "treasury", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20869", "label": "transportation", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20323", "label": "transportation", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20000", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20536", "label": "justice", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20722", "label": "transportation", "kind": "Rule", "published": "2026-10-09", "filed": "2026-10-07"}
+{"id": "fr-2026-21117", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21024", "label": "homeland_security", "kind": "Rule", "published": "2026-10-14", "filed": "2026-10-09"}
+{"id": "fr-2026-20040", "label": "treasury", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20292", "label": "interior", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20575", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-19925", "label": "homeland_security", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-19999", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20121", "label": "homeland_security", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19998", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-19996", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20508", "label": "defense", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20721", "label": "health", "kind": "Proposed Rule", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-19976", "label": "environment", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20698", "label": "commerce", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20006", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20572", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20724", "label": "defense", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-21107", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20989", "label": "health", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21108", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20664", "label": "transportation", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-06"}
+{"id": "fr-2026-20837", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-19962", "label": "transportation", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21146", "label": "homeland_security", "kind": "Rule", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20233", "label": "homeland_security", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20185", "label": "homeland_security", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-21197", "label": "health", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20576", "label": "treasury", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21063", "label": "justice", "kind": "Proposed Rule", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-21220", "label": "defense", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20012", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
 {"id": "fr-2026-21159", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
 {"id": "fr-2026-20035", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-19836", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-19969", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20987", "label": "transportation", "kind": "Rule", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20489", "label": "commerce", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20767", "label": "interior", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-20021", "label": "treasury", "kind": "Proposed Rule", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20018", "label": "health", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20277", "label": "treasury", "kind": "Proposed Rule", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-21025", "label": "defense", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20050", "label": "treasury", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-19903", "label": "health", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20265", "label": "health", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-20234", "label": "commerce", "kind": "Rule", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-20009", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-21192", "label": "transportation", "kind": "Rule", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20861", "label": "commerce", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20429", "label": "treasury", "kind": "Proposed Rule", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20790", "label": "treasury", "kind": "Proposed Rule", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-21212", "label": "treasury", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20515", "label": "transportation", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20951", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20123", "label": "interior", "kind": "Proposed Rule", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-21051", "label": "environment", "kind": "Rule", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20162", "label": "commerce", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20945", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20191", "label": "environment", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-20856", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-21024", "label": "homeland_security", "kind": "Rule", "published": "2026-10-14", "filed": "2026-10-09"}
-{"id": "fr-2026-20223", "label": "homeland_security", "kind": "Rule", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-19995", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-19834", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-20024", "label": "commerce", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-21112", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-21052", "label": "environment", "kind": "Rule", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20689", "label": "commerce", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-21171", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-20872", "label": "commerce", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-20736", "label": "environment", "kind": "Rule", "published": "2026-10-09", "filed": "2026-10-08"}
-{"id": "fr-2026-20259", "label": "commerce", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-20844", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
-{"id": "fr-2026-21095", "label": "transportation", "kind": "Rule", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20892", "label": "interior", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-21072", "label": "commerce", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20306", "label": "transportation", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
 {"id": "fr-2026-20608", "label": "environment", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20001", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-21213", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
-{"id": "fr-2026-21010", "label": "transportation", "kind": "Rule", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20209", "label": "transportation", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
-{"id": "fr-2026-21062", "label": "justice", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
-{"id": "fr-2026-20173", "label": "defense", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
-{"id": "fr-2026-19930", "label": "commerce", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
-{"id": "fr-2026-20949", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
-{"id": "fr-2026-20460", "label": "health", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
-{"id": "fr-2026-20495", "label": "transportation", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
-{"id": "fr-2026-20391", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21036", "label": "health", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20483", "label": "transportation", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20779", "label": "commerce", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-19971", "label": "transportation", "kind": "Proposed Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20264", "label": "treasury", "kind": "Rule", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20440", "label": "health", "kind": "Rule", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-21155", "label": "environment", "kind": "Proposed Rule", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20785", "label": "defense", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20225", "label": "homeland_security", "kind": "Rule", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20122", "label": "homeland_security", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20115", "label": "justice", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20531", "label": "justice", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-19890", "label": "transportation", "kind": "Proposed Rule", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20527", "label": "homeland_security", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20867", "label": "health", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-21012", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20523", "label": "labor", "kind": "Proposed Rule", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20392", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20061", "label": "treasury", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20497", "label": "homeland_security", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-21240", "label": "homeland_security", "kind": "Proposed Rule", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21109", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20520", "label": "homeland_security", "kind": "Rule", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20748", "label": "justice", "kind": "Rule", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20430", "label": "treasury", "kind": "Proposed Rule", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20635", "label": "environment", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20427", "label": "health", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-21060", "label": "justice", "kind": "Proposed Rule", "published": "2026-10-15", "filed": "2026-10-14"}
 {"id": "fr-2026-20694", "label": "commerce", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
-{"id": "fr-2026-20186", "label": "homeland_security", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20171", "label": "homeland_security", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20543", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-19986", "label": "transportation", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21084", "label": "health", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-21157", "label": "homeland_security", "kind": "Rule", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20926", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
 {"id": "fr-2026-20076", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19967", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21208", "label": "treasury", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20222", "label": "commerce", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20378", "label": "commerce", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20032", "label": "treasury", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20202", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20718", "label": "transportation", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-19836", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20491", "label": "homeland_security", "kind": "Proposed Rule", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20050", "label": "treasury", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20484", "label": "commerce", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20585", "label": "transportation", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20897", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20943", "label": "justice", "kind": "Proposed Rule", "published": "2026-10-14", "filed": "2026-10-09"}
+{"id": "fr-2026-20919", "label": "health", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20534", "label": "justice", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20391", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20160", "label": "commerce", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20914", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21167", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20912", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21120", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-19973", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20221", "label": "transportation", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20528", "label": "transportation", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20950", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20911", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20896", "label": "interior", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20021", "label": "treasury", "kind": "Proposed Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20627", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20434", "label": "health", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20123", "label": "interior", "kind": "Proposed Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20361", "label": "health", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20522", "label": "homeland_security", "kind": "Rule", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20228", "label": "homeland_security", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-01"}
+{"id": "fr-2026-21160", "label": "homeland_security", "kind": "Rule", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20830", "label": "commerce", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-19928", "label": "interior", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20063", "label": "health", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20720", "label": "health", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20963", "label": "transportation", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-19964", "label": "transportation", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-19921", "label": "health", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20493", "label": "commerce", "kind": "Rule", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-19832", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20701", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20007", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21009", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20100", "label": "transportation", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19913", "label": "health", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-21162", "label": "homeland_security", "kind": "Rule", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20458", "label": "homeland_security", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-21139", "label": "commerce", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20613", "label": "health", "kind": "Proposed Rule", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20259", "label": "commerce", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20587", "label": "transportation", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20636", "label": "environment", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20693", "label": "commerce", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21166", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21052", "label": "environment", "kind": "Rule", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20004", "label": "health", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20294", "label": "commerce", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20212", "label": "health", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20187", "label": "homeland_security", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-21062", "label": "justice", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20817", "label": "health", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20085", "label": "health", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20877", "label": "commerce", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20941", "label": "homeland_security", "kind": "Proposed Rule", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20551", "label": "commerce", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20674", "label": "commerce", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21185", "label": "treasury", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20838", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20477", "label": "homeland_security", "kind": "Rule", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20666", "label": "transportation", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-06"}
+{"id": "fr-2026-20124", "label": "homeland_security", "kind": "Proposed Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20386", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20935", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20494", "label": "treasury", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20429", "label": "treasury", "kind": "Proposed Rule", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20380", "label": "commerce", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20573", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20861", "label": "commerce", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-21186", "label": "health", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20314", "label": "health", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20892", "label": "interior", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20232", "label": "treasury", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20908", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20646", "label": "labor", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20763", "label": "interior", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20532", "label": "justice", "kind": "Proposed Rule", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20496", "label": "transportation", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20902", "label": "homeland_security", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20425", "label": "treasury", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-19994", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21015", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20002", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20134", "label": "health", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-21055", "label": "justice", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20481", "label": "commerce", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20828", "label": "transportation", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20355", "label": "transportation", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-19871", "label": "transportation", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-21193", "label": "justice", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20917", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21140", "label": "commerce", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20964", "label": "environment", "kind": "Proposed Rule", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20125", "label": "commerce", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19831", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20001", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20155", "label": "commerce", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20915", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-19857", "label": "homeland_security", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-19892", "label": "transportation", "kind": "Proposed Rule", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-21195", "label": "health", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21058", "label": "transportation", "kind": "Rule", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20151", "label": "health", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20186", "label": "homeland_security", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20348", "label": "health", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21054", "label": "transportation", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20634", "label": "environment", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20377", "label": "commerce", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20680", "label": "transportation", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21053", "label": "homeland_security", "kind": "Rule", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20364", "label": "health", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-19911", "label": "health", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20866", "label": "homeland_security", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20731", "label": "health", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20210", "label": "transportation", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20638", "label": "environment", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21154", "label": "labor", "kind": "Proposed Rule", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20170", "label": "homeland_security", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20663", "label": "health", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20018", "label": "health", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
 {"id": "fr-2026-19827", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20555", "label": "interior", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20515", "label": "transportation", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20549", "label": "commerce", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20141", "label": "health", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-29"}
+{"id": "fr-2026-20661", "label": "health", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20632", "label": "homeland_security", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20469", "label": "treasury", "kind": "Rule", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20568", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20994", "label": "treasury", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20884", "label": "homeland_security", "kind": "Proposed Rule", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20219", "label": "environment", "kind": "Rule", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20898", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20909", "label": "homeland_security", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-19834", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20065", "label": "health", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-21177", "label": "homeland_security", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20117", "label": "transportation", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-21056", "label": "treasury", "kind": "Proposed Rule", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20468", "label": "environment", "kind": "Proposed Rule", "published": "2026-10-06", "filed": "2026-10-05"}
 {"id": "fr-2026-19824", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
-{"id": "fr-2026-21168", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-19936", "label": "health", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21163", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20944", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20695", "label": "commerce", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20948", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-19828", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-21169", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20008", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21080", "label": "commerce", "kind": "Rule", "published": "2026-10-15", "filed": "2026-10-13"}
 {"id": "fr-2026-20979", "label": "health", "kind": "Rule", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20098", "label": "transportation", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20689", "label": "commerce", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-19959", "label": "health", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20697", "label": "commerce", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20876", "label": "commerce", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20204", "label": "interior", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20470", "label": "commerce", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-19933", "label": "interior", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20111", "label": "health", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19997", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20426", "label": "transportation", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20358", "label": "transportation", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20164", "label": "commerce", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20099", "label": "transportation", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20385", "label": "health", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21213", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20768", "label": "health", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-19966", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20161", "label": "commerce", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20732", "label": "health", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-21044", "label": "commerce", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-19991", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20843", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-19849", "label": "health", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-21239", "label": "commerce", "kind": "Rule", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20312", "label": "transportation", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20991", "label": "transportation", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21119", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20179", "label": "transportation", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20947", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20835", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-19945", "label": "homeland_security", "kind": "Rule", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20441", "label": "health", "kind": "Rule", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20352", "label": "health", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20925", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20023", "label": "commerce", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20901", "label": "homeland_security", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20641", "label": "environment", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20356", "label": "commerce", "kind": "Rule", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21199", "label": "homeland_security", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20567", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20172", "label": "defense", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-21038", "label": "commerce", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20691", "label": "commerce", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20177", "label": "commerce", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20699", "label": "commerce", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20357", "label": "health", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20448", "label": "health", "kind": "Rule", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20844", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20048", "label": "transportation", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21253", "label": "treasury", "kind": "Rule", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21025", "label": "defense", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20556", "label": "justice", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20277", "label": "treasury", "kind": "Proposed Rule", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20367", "label": "homeland_security", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20103", "label": "transportation", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-21165", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20223", "label": "homeland_security", "kind": "Rule", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20893", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20611", "label": "environment", "kind": "Proposed Rule", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20569", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20209", "label": "transportation", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20784", "label": "transportation", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-07"}
+{"id": "fr-2026-19825", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20489", "label": "commerce", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20762", "label": "health", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20765", "label": "health", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20856", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-19853", "label": "homeland_security", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20251", "label": "interior", "kind": "Proposed Rule", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-21121", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21123", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20371", "label": "treasury", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-21122", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20154", "label": "commerce", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-21113", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-19897", "label": "transportation", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20736", "label": "environment", "kind": "Rule", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20848", "label": "health", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-19850", "label": "health", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20057", "label": "environment", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20777", "label": "commerce", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20113", "label": "justice", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20956", "label": "homeland_security", "kind": "Rule", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20140", "label": "commerce", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19896", "label": "homeland_security", "kind": "Rule", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20683", "label": "treasury", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-19987", "label": "transportation", "kind": "Proposed Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20325", "label": "transportation", "kind": "Rule", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20273", "label": "commerce", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-21181", "label": "transportation", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20790", "label": "treasury", "kind": "Proposed Rule", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20920", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21114", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20344", "label": "health", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20256", "label": "commerce", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20524", "label": "transportation", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20955", "label": "homeland_security", "kind": "Rule", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20215", "label": "treasury", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20940", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20102", "label": "environment", "kind": "Proposed Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20859", "label": "transportation", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20482", "label": "commerce", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-21017", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20435", "label": "commerce", "kind": "Rule", "published": "2026-10-06", "filed": "2026-10-02"}
+{"id": "fr-2026-20315", "label": "interior", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20525", "label": "treasury", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20476", "label": "transportation", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20660", "label": "homeland_security", "kind": "Proposed Rule", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20376", "label": "commerce", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20027", "label": "treasury", "kind": "Proposed Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20175", "label": "defense", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20640", "label": "environment", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20009", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20235", "label": "commerce", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20570", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20282", "label": "commerce", "kind": "Notice", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20492", "label": "transportation", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-21138", "label": "commerce", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20831", "label": "treasury", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20350", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20874", "label": "commerce", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20268", "label": "commerce", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20547", "label": "commerce", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20131", "label": "health", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20393", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20571", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21043", "label": "commerce", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20705", "label": "health", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20685", "label": "health", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20545", "label": "homeland_security", "kind": "Proposed Rule", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-20067", "label": "health", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20952", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21095", "label": "transportation", "kind": "Rule", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20885", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-19837", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20684", "label": "health", "kind": "Rule", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20503", "label": "health", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-19888", "label": "treasury", "kind": "Proposed Rule", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20475", "label": "treasury", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-19883", "label": "health", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20328", "label": "commerce", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20566", "label": "interior", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20992", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20104", "label": "health", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19932", "label": "commerce", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-21222", "label": "interior", "kind": "Rule", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21125", "label": "health", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20041", "label": "commerce", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20207", "label": "transportation", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20639", "label": "environment", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20068", "label": "health", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-19886", "label": "health", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-21115", "label": "interior", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21164", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21105", "label": "treasury", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20942", "label": "justice", "kind": "Proposed Rule", "published": "2026-10-14", "filed": "2026-10-09"}
 {"id": "fr-2026-19889", "label": "environment", "kind": "Rule", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20026", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20766", "label": "health", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20169", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20643", "label": "defense", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-19906", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-21161", "label": "homeland_security", "kind": "Rule", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21150", "label": "health", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21013", "label": "commerce", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21170", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20395", "label": "treasury", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-19978", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20990", "label": "health", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21198", "label": "justice", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20891", "label": "health", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-19822", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20764", "label": "health", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-21042", "label": "commerce", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20546", "label": "health", "kind": "Notice", "published": "2026-10-07", "filed": "2026-10-06"}
+{"id": "fr-2026-21026", "label": "defense", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20648", "label": "transportation", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20945", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20046", "label": "transportation", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-19826", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20324", "label": "homeland_security", "kind": "Rule", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20725", "label": "health", "kind": "Rule", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20900", "label": "homeland_security", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20272", "label": "commerce", "kind": "Notice", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-20760", "label": "transportation", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20075", "label": "health", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20847", "label": "transportation", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20758", "label": "health", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20173", "label": "defense", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-21179", "label": "transportation", "kind": "Rule", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20767", "label": "interior", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20842", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20047", "label": "treasury", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20769", "label": "health", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-19937", "label": "health", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20644", "label": "health", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20730", "label": "health", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20818", "label": "transportation", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-08"}
+{"id": "fr-2026-20142", "label": "health", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-29"}
+{"id": "fr-2026-20946", "label": "defense", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20387", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-20436", "label": "environment", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20394", "label": "transportation", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}
+{"id": "fr-2026-20849", "label": "environment", "kind": "Rule", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20114", "label": "justice", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20974", "label": "transportation", "kind": "Rule", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21069", "label": "treasury", "kind": "Rule", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20987", "label": "transportation", "kind": "Rule", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20980", "label": "health", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20174", "label": "defense", "kind": "Notice", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-20960", "label": "health", "kind": "Notice", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-20096", "label": "environment", "kind": "Rule", "published": "2026-10-01", "filed": "2026-09-30"}
+{"id": "fr-2026-21192", "label": "transportation", "kind": "Rule", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-21008", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-14", "filed": "2026-10-13"}
+{"id": "fr-2026-21168", "label": "labor", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20011", "label": "treasury", "kind": "Rule", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20003", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20234", "label": "commerce", "kind": "Rule", "published": "2026-10-02", "filed": "2026-10-01"}
+{"id": "fr-2026-19969", "label": "interior", "kind": "Notice", "published": "2026-09-30", "filed": "2026-09-29"}
+{"id": "fr-2026-20690", "label": "commerce", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-20787", "label": "transportation", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-20734", "label": "transportation", "kind": "Notice", "published": "2026-10-09", "filed": "2026-10-08"}
+{"id": "fr-2026-20584", "label": "transportation", "kind": "Notice", "published": "2026-10-08", "filed": "2026-10-07"}
+{"id": "fr-2026-21027", "label": "health", "kind": "Notice", "published": "2026-10-15", "filed": "2026-10-14"}
+{"id": "fr-2026-20372", "label": "transportation", "kind": "Proposed Rule", "published": "2026-10-05", "filed": "2026-10-02"}
+{"id": "fr-2026-19823", "label": "labor", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-19841", "label": "justice", "kind": "Notice", "published": "2026-09-29", "filed": "2026-09-28"}
+{"id": "fr-2026-20836", "label": "justice", "kind": "Notice", "published": "2026-10-13", "filed": "2026-10-09"}
+{"id": "fr-2026-21178", "label": "commerce", "kind": "Notice", "published": "2026-10-16", "filed": "2026-10-15"}
+{"id": "fr-2026-20462", "label": "justice", "kind": "Notice", "published": "2026-10-06", "filed": "2026-10-05"}

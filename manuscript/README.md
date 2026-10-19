@@ -16,11 +16,11 @@ can have seen in training. (The decision-rule experiments are in the repository'
 | 4 Tasks | post-release collection under written reuse grants; labels from the sources themselves (agency designations, authors' categories, Weather Service classifications); masking; data cards; contamination table | [`tasks/`](../tasks) |
 | 5 Protocol | models, repeats, metrics, paired comparisons | [`PROTOCOL.md`](../PROTOCOL.md) |
 | 6 Results | accuracy, ranking, calibration, consistency, refusals, cost and latency | [`reports/`](../reports) |
-| 7 Limitations | sample size; no box (image) questions; two tasks per text type except choice; one collection window; non-deterministic hosted models | — |
+| 7 Limitations | sample size (559 to 1,109 records per task; 16 Extreme alerts); unbalanced classes in four tasks; no box (image) questions; two tasks per text type except choice; one collection window; non-deterministic hosted models | — |
 
 ## Open before submission
 
 - **The name.** "JevBench" is taken three times, and "Jev" is TypeSafe's product name.
-- **More and broader data.** More tasks, more records and more domains, collected under licenses that allow redistribution. Most belief papers stop at accuracy; ours needs enough data for calibration and consistency claims.
+- **More and broader data.** The tasks were enlarged to 6,054 records on October 19, 2026, as far as the windows allow. More would need later collection (the small classes grow only with time) and more domains. Most belief papers stop at accuracy; ours needs enough data for calibration and consistency claims.
 - **Consistency tests.** Option order, label renaming and wording perturbations: the audit's least-covered checklist items.
 - **References.** Verify every one marked unverified in `related_work/`.

@@ -10,7 +10,8 @@
 
 **Contamination:** every alert was issued after the last evaluated model was published (September 27).
 
-**Sample:** one record per distinct description; 100 per level with seed 7. 34 event types.
+**Sample:** one record per distinct description; up to 300 per level with seed 7: all 297 Possible,
+300 Likely and 300 Observed, 897 in all. 38 event types.
 
 **State:** `{"description": ..., "instruction": ...}`. The event name, headline and area are left out.
 
